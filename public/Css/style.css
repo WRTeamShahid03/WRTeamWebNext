@@ -2860,9 +2860,9 @@ hr {
     align-items: center;
 }
 
-.active {
+/* .active {
     color: #2E71FE !important;
-}
+} */
 
 .dropdown-toggle::after {
     border: none !important;
@@ -3774,6 +3774,11 @@ footer .footerContainer .flinks {
 
 #team .teamSlider .page-link:focus {
     box-shadow: none;
+}
+
+#team .teamSlider .active>.page-link, .page-link.active {
+    z-index: 3;
+    background-color: var(--primary-color) !important;
 }
 
 
