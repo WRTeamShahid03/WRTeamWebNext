@@ -1,0 +1,5203 @@
+@media only screen and (max-width: 1750px) {
+    .divider .common_btn {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .divider {
+        position: relative;
+    }
+}
+
+@media only screen and (min-width:1850px) and (max-width: 3000px) {
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        width: 518px !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1650px) {
+
+    .divider {
+        height: 160px;
+    }
+
+    .divider .row-cols-4>* {
+        flex: 0 0 auto;
+        width: 15%;
+    }
+
+    .divider .common_btn {
+        width: 210px;
+        top: 30px;
+        margin-bottom: 48px;
+        margin-right: 28px;
+    }
+
+    .divider .price {
+        margin-left: 12%;
+    }
+
+    /* Divider ends */
+
+
+    #banner2 .banner2Cont {
+        background-size: 100% 100%;
+    }
+
+    /* Banner2 ends */
+
+
+    #payments .paygetwaysLogo {
+        gap: 4%;
+    }
+
+    #payments .payImages img {
+        margin-left: 40px;
+    }
+
+    /* PaymentGetways ends  */
+
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        border-radius: 70px;
+        height: 650px;
+        width: auto;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+
+    #bannerSect #lapBanner {
+        margin-right: 12%;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 710px;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 620px;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: 0;
+    }
+
+    /* Banner ends  */
+
+
+    #getCode .getCodeContainer {
+        padding: 0 70px;
+        padding-left: 104px;
+    }
+
+    #getCode .card .card-title {
+        font: normal normal bold 26px/34px Poppins;
+    }
+
+    #getCode .card .card-text {
+        font: 26px/34px Poppins;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* GetCode ends */
+
+
+    #buyNow .button {
+        width: 300px;
+        height: 106px;
+    }
+
+    #cards .card .card-img-top {
+        width: 15vw;
+    }
+
+    /* Cards ends */
+
+
+    #morePro .cardsContainer {
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+
+    #morePro .leftCards {
+        margin-left: 0;
+    }
+
+    #morePro .card1 {
+        width: 45vw;
+    }
+
+    #morePro .miniCard .card-img-top {
+        left: 6px;
+        width: fit-content;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 39px;
+        left: 26px;
+        width: 92%;
+    }
+
+    #morePro .miniCard {
+        width: 22vw;
+    }
+
+    #morePro .rightCardImg {
+        width: 45vw;
+    }
+
+    #morePro .miniCardsCont .hoverBtn,
+    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
+        left: 22%;
+        top: 22vh;
+    }
+
+    /* MorePro ends  */
+
+
+    /* Home Page responsive  */
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #couter,
+    #solution,
+    #services,
+    #tech,
+    #workChain,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision{
+        overflow: hidden;
+    }
+
+    #homeHeroSect .heroContainer,
+    #aboutUs .aboutWrapper,
+    #winner .winnerWrapper,
+    #counter {
+        /* margin: 0 40px; */
+        margin-top: 50px;
+    }
+
+    /* Homehero ends  */
+
+
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 90px;
+        margin-left: 100px;
+    }
+
+    /* aboutUs ends  */
+
+    #solutions h3 {
+        width: 43%;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 80px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        display: flex;
+        flex-direction: row;
+        margin: 0 -50px;
+    }
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 0px 40px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 300px;
+        height: 315px;
+        padding: 30px 15px;
+    }
+
+    /* services ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 292px;
+    }
+
+    /* Home Page ends  */
+
+
+    #knowMore .knowMoreLeftDiv .business {
+        position: absolute;
+        top: 259px;
+        left: 383px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background: #212121 0% 0% no-repeat padding-box;
+        border: 10px solid #FFFFFF;
+        border-radius: 20px;
+        color: white;
+        padding: 25px 18px;
+        width: 403px;
+        height: 274px;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 182px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+    }
+
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 86%;
+    }
+
+    #team .teamDeatails {
+        margin-top: 326px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 306px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 52%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .divider {
+        height: 160px;
+    }
+
+    .divider .row-cols-4>* {
+        flex: 0 0 auto;
+        width: 15%;
+    }
+
+    .divider .common_btn {
+        width: 150px;
+        top: 30px;
+        margin-bottom: 48px;
+        margin-right: 54px;
+    }
+
+    .divider .price {
+        margin-left: 14%;
+    }
+
+    /* Divider ends */
+
+
+    #banner2 .banner2Cont {
+        background-size: 100% 100%;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 36%;
+    }
+
+    /* Banner2 ends */
+
+
+    #payments .paygetwaysLogo {
+        gap: 12%;
+    }
+
+    #payments .payImages img {
+        width: 210px;
+        margin-left: 40px;
+    }
+
+    /* PaymentGetways ends  */
+
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 36px/56px Poppins;
+        animation-duration: 0.7s;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        letter-spacing: 0.7px;
+        color: #2D3745;
+        opacity: 1;
+        font: var(--unnamed-font-style-normal) normal medium 35px/53px var(--unnamed-font-family-poppins);
+        font-size: 20px;
+    }
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        border-radius: 70px;
+        height: 650px;
+        width: auto;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+
+    #otherFea .featuresWrapper {
+        gap: 5%;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    /* OtherFea ends  */
+
+
+    #bannerSect #lapBanner {
+        margin-right: 12%;
+    }
+
+    #bannerSect .phoneBanner {
+        display: none;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: 0;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 710px;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 620px;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 200px;
+    }
+
+    /* Banner ends  */
+
+    #getCode .getCodeContainer {
+        padding: 0 70px;
+        padding-left: 104px;
+    }
+
+    #getCode .card .card-title {
+        font: normal normal bold 21px/34px Poppins;
+    }
+
+    #getCode .card .card-text {
+        font: 21px/34px Poppins;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* GetCode ends */
+
+
+    #buyNow .button {
+        width: 260px;
+        height: 100px;
+    }
+
+    #cards .card .card-img-top {
+        width: 14vw;
+    }
+
+    /* Cards ends  */
+
+
+    #morePro .cardsContainer {
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+    #morePro .card1 {
+        width: 45vw;
+    }
+
+    #morePro .miniCard .card-img-top {
+        left: 0px;
+        width: 20vw;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 39px;
+        left: 26px;
+        width: 92%;
+    }
+
+    #morePro .miniCard {
+        width: 22vw;
+    }
+
+    #morePro .rightCardImg {
+        width: 45vw;
+    }
+
+    #morePro .miniCardsCont .hoverBtn,
+    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
+        left: 20%;
+        top: 22vh;
+    }
+
+    #morePro .card1 .cardBtn,
+    #morePro .card1 .card-title {
+        font: normal normal normal 28px/25px Poppins;
+    }
+
+    #morePro .card1 .card-text {
+        font: normal normal bold 35px/40px Poppins;
+    }
+
+    #morePro .card .hoverBtn {
+        left: 28%;
+    }
+
+    #morePro .sale_rating span,
+    #morePro .sale_rating .rating h3 {
+        font: 24px/30px Poppins;
+    }
+
+    #morePro .sale_rating .stars {
+        size: 26px;
+    }
+
+    #morePro .miniCard .sale_rating span,
+    #morePro .miniCard .sale_rating .rating h3 {
+        font: 12px/14px Poppins;
+    }
+
+    #morePro .miniCard .sale_rating .stars {
+        font-size: 14px;
+    }
+
+    #morePro .card .hoverBtn {
+        left: 18%;
+    }
+
+    /* MorePro ends  */
+
+    /* Home Page responsive  */
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #couter,
+    #solution,
+    #services,
+    #workChain,
+    #tech,
+    #testimonials,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision,
+    #values{
+        overflow: hidden;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 90px;
+        margin-left: 100px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
+        width: 260px;
+        height: 260px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience {
+        align-items: center;
+        justify-content: center;
+        padding: 22px 10px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience .experNum {
+        font-size: 60px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience span:nth-child(3) {
+        font: normal normal 600 18px/29px Montserrat;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    .homeCommon_btn {
+        padding: 12px;
+        width: fit-content;
+    }
+
+    /* aboutUs ends  */
+
+    #winner .winnerWrapper .winnRightDiv {
+        position: relative;
+        left: 34px;
+        top: 50px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerTeamImg {
+        width: 82%;
+    }
+
+    #winner .winnerWrapper #winnText {
+        font: normal normal 800 80px/117px Poppins;
+        right: -134px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg img {
+        width: 75%;
+    }
+
+    /* winner ends  */
+
+    #solutions h3 {
+        width: 50%;
+    }
+
+    #solutions p {
+        width: 76vw;
+    }
+
+    #solutions .productsCardsWrapper {
+        padding: 64px 0px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .solu_product_img {
+        width: 24vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 50px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 0px 30px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 255px;
+        height: 345px;
+        padding: 30px 15px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 100%;
+    }
+
+    /* services ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 222px;
+    }
+
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 290px;
+    }
+
+    .getInTouch .homeCommon_btn {
+        padding: 12px 18px;
+    }
+
+    /* Home page ends  */
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row,
+    #values .row {
+        gap: 150px 0;
+    }
+
+    #knowMore .row .col-lg-6,
+    #mission .row .col-lg-6,
+    #vision .row .col-lg-6 ,
+    #values .row .col-lg-6{
+        width: 75%;
+
+    }
+
+    #knowMore .knowMoreLeftDiv .business {
+        left: unset;
+        right: -235px;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 135%;
+        padding-left: 0;
+    }
+
+    /* knowMore ends  */
+
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv  .valuesLeftImg img{
+        margin-left: 292px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 222px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 412px;
+    }
+
+    #vision .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    #team .teamDeatails {
+        margin-top: 386px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 346px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 61%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    #heroSect .bannerContainer {
+        padding: 0 64px;
+    }
+
+    #heroSect .para1 {
+        width: 50%;
+    }
+
+    #heroSect .detail {
+        width: 80%;
+    }
+
+    #heroSect .common_btn {
+        width: 14vw;
+        font-size: 16px;
+    }
+
+    /* HeroSect ends */
+
+
+    .divider {
+        height: 160px;
+    }
+
+    .divider .row-cols-4>* {
+        flex: 0 0 auto;
+        width: 15%;
+    }
+
+    .divider .common_btn {
+        width: 150px;
+        top: 30px;
+        margin-bottom: 48px;
+        margin-right: 54px;
+    }
+
+    .divider .price {
+        margin-left: 14%;
+    }
+
+    .divider::before {
+        width: 221px;
+        clip-path: circle(62% at -10% 74%);
+    }
+
+    .divider::after {
+        width: 189px;
+        clip-path: circle(90% at 110% 2%);
+    }
+
+    /* Divider ends */
+
+
+    #banner2 .banner2Cont {
+        background-size: 100% 100%;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 46%;
+        margin-left: 38px;
+    }
+
+    /* Banner2 ends */
+
+
+    #payments .paygetwaysLogo {
+        gap: 12%;
+    }
+
+    #payments .payImages img {
+        width: 170px;
+        margin-left: 40px;
+    }
+
+    /* PaymentGetways ends  */
+
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 36px/50px Poppins;
+        animation-duration: 0.7s;
+        width: 400px;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        letter-spacing: 0.7px;
+        color: #2D3745;
+        opacity: 1;
+        font: var(--unnamed-font-style-normal) normal medium 35px/53px var(--unnamed-font-family-poppins);
+        font-size: 20px;
+    }
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        border-radius: 70px;
+        height: 650px;
+        width: auto;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+
+    #otherFea .featuresWrapper {
+        gap: 5%;
+        padding: 0 28px;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        height: 710px;
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .feaList2 .listWrapper img {
+        height: 58px;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .feaList2 span {
+        font: normal normal 600 18px/32px Poppins;
+    }
+
+    #otherFea .listWrapper:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    /* OtherFea ends  */
+
+
+    #bannerSect {
+        margin-top: 120px;
+    }
+
+
+    #bannerSect .phoneHoverImgs {
+        right: 0;
+    }
+
+    #bannerSect .container .box .body .imgContainer img {
+        position: absolute;
+        top: -42%;
+        left: 28px;
+        width: 88%;
+        height: 180%;
+        object-fit: cover;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 610px;
+        width: auto;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 586px;
+        width: auto;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 200px;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 30px/40px Poppins;
+    }
+
+    /* Banner ends  */
+
+
+    #getCode .getCodeContainer {
+        padding: 0 70px;
+        padding-left: 72px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0;
+    }
+
+    #getCode .card-img-top {
+        height: 100px;
+        width: 100px;
+        mix-blend-mode: darken;
+        color: white;
+    }
+
+    #getCode .card {
+        width: 20vw;
+        box-shadow: none;
+    }
+
+    #getCode .card:hover {
+        background-color: transparent;
+    }
+
+    #getCode .card .card-title {
+        font: normal normal bold 17px/34px Poppins;
+        margin-top: -48px;
+    }
+
+    #getCode .card .card-text {
+        font: 18px/34px Poppins;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* GetCode ends */
+
+
+    #buyNow .buyNowCont p {
+        font: 30px/46px Poppins;
+        width: 48%;
+        text-align: center;
+    }
+
+    #buyNow .button {
+        width: 260px;
+        height: 100px;
+    }
+
+    /* BuyNow ends  */
+
+
+    #cards .buyNowCont .row {
+        gap: 12px;
+    }
+
+    #cards .card .card-img-top {
+        width: 15vw;
+    }
+
+    /* Cards ends  */
+
+    /* Home Page  */
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #couter,
+    #solution,
+    #services,
+    #tech,
+    #workChain,
+    #testimonials,
+    .getInTouch,
+    #knowMore,
+    #mission,
+    #vision ,
+    #values{
+        overflow: hidden;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv,
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        padding: 70px 0px 50px 0;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard1 {
+        top: 224px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard2 {
+        top: 50px;
+        left: 50%;
+    }
+
+    @keyframes float2 {
+        0% {
+            left: 50%
+        }
+
+        50% {
+            left: 48%
+        }
+
+        100% {
+            left: 52%
+        }
+    }
+
+    /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper .row,
+    #winner .winnerWrapper .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper #wrTeam {
+        left: -150px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv {
+        position: relative;
+        left: 112px;
+    }
+
+    #aboutUs .aboutWrapper .col-lg-6,
+    #winner .winnerWrapper .col-lg-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 0px;
+        left: 0px;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    /* aboutUs ends  */
+
+    #winner .winnerWrapper .winnRightDiv {
+        left: 262px;
+    }
+
+    #winner .winnerWrapper #winnText {
+        top: 70%;
+        right: -132px;
+    }
+
+    /* winner ends  */
+
+    #counter .countWrapper {
+        padding: 44px 0px;
+    }
+
+    /* counter ends  */
+
+
+    #solutions h3 {
+        width: 62%;
+    }
+
+    #solutions p {
+        width: 85vw;
+    }
+
+    #solutions .productsCardsWrapper {
+        padding: 64px 0px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .solu_product_img {
+        width: 24vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 50px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        gap: 5px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProText {
+        font: normal normal bold 30px/56px Montserrat;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 0px 16px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 220px;
+        height: 370px;
+        padding: 30px 15px;
+    }
+
+    #services .serviesWrapper .servrightDiv {
+        padding-left: 18px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 106%;
+    }
+
+    /* services ends  */
+    #workChain .worklowerRow .row .col-lg-3 {
+        width: 50%;
+    }
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 0px;
+    }
+
+    #workChain .workBottDiv .workCardsWrapper {
+        background: transparent !important;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        width: 100%;
+    }
+
+    .getInTouch .homeCommon_btn {
+        padding: 12px;
+    }
+
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 342px;
+    }
+
+    /* Home page ends  */
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row ,
+    #values .row{
+        gap: 150px 0;
+    }
+
+    #knowMore .row .col-lg-6,
+    #mission .row .col-lg-6,
+    #vision .row .col-lg-6 ,
+    #values .row .col-lg-6{
+        width: 75%;
+
+    }
+
+    #knowMore .knowMoreLeftDiv .business {
+        left: unset;
+        right: -235px;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionLeftDiv ,
+    #values .valuesLeftDiv{
+        width: 135%;
+        padding-left: 0;
+    }
+
+    /* knowMore ends  */
+
+
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        margin-left: 250px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 192px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 412px;
+    }
+
+    #vision .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    #team .teamDeatails {
+        margin-top: 316px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 276px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    #heroSect .bannerContainer {
+        padding: 0 0px;
+    }
+
+    #heroSect .para1 {
+        width: 72%;
+    }
+
+    #heroSect .para2 {
+        width: 65%;
+    }
+
+    #heroSect .detail {
+        width: 100%;
+    }
+
+    #heroSect .buttons {
+        gap: 0 8px;
+    }
+
+    #heroSect .common_btn {
+        width: 17vw;
+        font-size: 16px;
+    }
+
+    /* HeroSect ends */
+
+
+    .divider {
+        height: 38vh;
+    }
+
+    .divider .row {
+        gap: 22px 20px;
+        flex-wrap: wrap;
+    }
+
+    .divider .col {
+        margin-top: 24px;
+    }
+
+    .divider::before {
+        width: 221px;
+        clip-path: circle(36% at -5% 94%);
+    }
+
+    .divider::after {
+        width: 189px;
+        clip-path: circle(40% at 110% 2%);
+    }
+
+    .divider .row-cols-4>* {
+        width: 45% !important;
+    }
+
+    .divider .common_btn {
+        height: 46px;
+        width: 110px;
+        top: 30px;
+        right: 64px;
+        margin-bottom: 100px;
+    }
+
+    /* Divider ends */
+
+
+    #banner2 .banner2Cont {
+        background-size: cover;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 70%;
+        margin-left: 116px;
+    }
+
+    /* Banner2 ends  */
+
+
+    #payments .paygetwaysLogo {
+        gap: 12%;
+    }
+
+    #payments .payImages {
+
+        margin: 0;
+    }
+
+    #payments .payImages img {
+        width: 120px;
+        margin-left: 40px;
+    }
+
+    /* PaymentGetways ends  */
+
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        height: 600px;
+        width: auto;
+        border-radius: 60px;
+        margin-left: 16px;
+    }
+
+    #topFea .feaImg2 img {
+        margin-right: 12px;
+    }
+
+
+    #topFea .feaHeadlines {
+        padding-left: 8vw;
+        width: 100%;
+    }
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 38px/46px Poppins;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 22px/32px Poppins;
+    }
+
+    #topFea .feaImg2 .feaHeadlines {
+        /* padding-right: 10vw; */
+        padding-left: 100px;
+    }
+
+    #topFea .feaImg2 {
+        overflow: hidden !important;
+        bottom: 110px;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+    #otherFea .featuresWrapper {
+        gap: 5%;
+        padding: 0 28px;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .feaList2 {
+        gap: 0%;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        height: 610px;
+    }
+
+    #otherFea .feaList1 .listWrapper,
+    .feaList2 .listWrapper {
+        gap: 10px;
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .feaList2 .listWrapper img {
+        height: 58px;
+    }
+
+    #otherFea .listWrapper:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .feaList2 span {
+        font: normal normal 600 18px/25px Poppins;
+    }
+
+    /* OtherFea ends  */
+
+    #bannerSect {
+        margin-top: 100px;
+    }
+
+    #bannerSect #lapBanner {
+        display: none !important;
+    }
+
+    #bannerSect .phoneBanner {
+        margin-bottom: 82%;
+        display: block;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: -44px;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 510px;
+        width: auto;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 372px;
+        width: auto;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 180px;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 28px/36px Poppins;
+    }
+
+    /* Banner ends  */
+
+    #getCode .getCodeContainer {
+        padding: 0 70px;
+        padding-left: 72px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0;
+    }
+
+    #getCode .card-img-top {
+        height: 100px;
+        width: 100px;
+        mix-blend-mode: darken;
+        color: white;
+    }
+
+    #getCode .card {
+        margin-top: 0;
+        width: 24vw;
+        box-shadow: none;
+    }
+
+    #getCode .card:hover {
+        background-color: transparent;
+    }
+
+    #getCode .card .card-title {
+        font: normal normal bold 15px/34px Poppins;
+        margin-top: -48px;
+    }
+
+    #getCode .card .card-text {
+        font: 15px/22px Poppins;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* getCode ends  */
+
+    #buyNow .button {
+        width: 260px !important;
+        height: 100px !important;
+    }
+
+    #cards .buyNowCont {
+        padding: 0 65px;
+        display: flex;
+    }
+
+    #cards .buyNowCont .row {
+        flex-wrap: wrap;
+        gap: 16px 12px;
+        ;
+    }
+
+    #cards .card .card-img-top {
+        width: 25vw;
+    }
+
+    /* cards ends  */
+
+    /* Home Page  */
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #couter,
+    #solution,
+    #services,
+    #tech,
+    #workChain,
+    #testimonials,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision,
+    #values{
+        overflow: hidden;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv,
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        padding: 70px 0 0 0;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard2 {
+        top: 36px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard3 {
+        bottom: 18%;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        right: 60px;
+    }
+
+    /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper #wrTeam {
+        font: normal normal 800 84px/117px Poppins;
+    }
+
+    #aboutUs .aboutWrapper .row,
+    #winner .winnerWrapper .row {
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv {
+        position: relative;
+        left: 80px;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 0px;
+        left: 0;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
+        width: 260px;
+        height: 260px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience {
+        align-items: center;
+        justify-content: center;
+        padding: 22px 10px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience .experNum {
+        font-size: 60px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience span:nth-child(3) {
+        font: normal normal 600 18px/29px Montserrat;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    /* aboutUs ends  */
+
+
+    #winner .winnerWrapper .winnRightDiv {
+        left: 80px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerTeamImg {
+        width: 78%;
+    }
+
+    #winner .winnerWrapper #winnText {
+        top: 70%;
+        right: -140px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg {
+        left: -90px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg img {
+        width: 78%;
+    }
+
+    /* winner ends  */
+
+    #counter .countWrapper {
+        justify-content: flex-end;
+        padding: 50px 42px;
+    }
+
+    #counter .countWrapper .countCard {
+        justify-content: flex-start;
+    }
+
+    /* counter ends  */
+
+    #solutions h3 {
+        width: 78%;
+    }
+
+    #solutions p {
+        width: 95vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 0px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .webProImg {
+        height: 390px;
+        width: 72%;
+    }
+
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 30px 40px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 305px;
+        height: 318px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 100%;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCardDown {
+        margin-top: 0px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard:hover {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        color: black !important;
+    }
+
+    #services .servCard:hover span,
+    #services .servCard:hover h4 {
+        color: #212121 !important;
+    }
+
+    #services .servCard:hover .servText {
+        color: #545A68 !important;
+    }
+
+    /* services ends  */
+
+    #tech .techWrapper .techContent .techHeadlines {
+        width: 100%;
+    }
+
+    #tech .techWrapper {
+        padding: 40px 0;
+    }
+
+    /* tech ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 0px;
+    }
+
+    #workChain .workBottDiv .workCardsWrapper {
+        background: transparent !important;
+    }
+
+    /* workChain ends  */
+
+    .getInTouch .getTouchText {
+        padding: 30px 42px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        width: 100%;
+    }
+
+    .getInTouch .getTouchBtn {
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 320px;
+    }
+
+    /* Home Page ends  */
+
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg  img,
+    #values .valuesRightDiv .valuesLeftImg img{
+        width: 90%;
+    }
+
+
+    #knowMore .knowMoreLeftDiv .business {
+        top: 248px;
+        left: 314px;
+        padding: 25px 18px;
+        width: 403px;
+        height: 274px;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 182px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+    }
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row,
+    #values .row {
+        gap: 150px 0;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionRightDiv ,
+    #values .valuesRightDiv{
+        padding-left: 0;
+    }
+
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 107%;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 112px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+        right: 20px;
+    }
+
+
+    /* knowMore ends  */
+
+
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        margin-left: 84px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 34px;
+        top: 144px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 412px;
+    }
+
+    #vision .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    #team .teamDeatails {
+        margin-top: 366px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 326px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+
+    #heroSect .bannerContainer {
+        padding: 0 64px;
+    }
+
+    #heroSect .para1 {
+        width: 90%;
+    }
+
+    #heroSect .para2 {
+        width: 82%;
+    }
+
+    #heroSect .detail {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #heroSect .buttons {
+        justify-content: center;
+        gap: 0 15px;
+    }
+
+    #heroSect .buttons .common_btn {
+        width: 186px;
+        height: 66px;
+    }
+
+    /* HeroSect ends */
+
+
+    .divider {
+        height: 26vh;
+        font-size: 16px;
+    }
+
+    .divider .row {
+        gap: 22px 20px;
+        flex-wrap: wrap;
+    }
+
+    .divider .col {
+        margin-top: 24px;
+    }
+
+    .divider::before {
+        width: 221px;
+        clip-path: circle(28% at -5% 94%);
+    }
+
+    .divider::after {
+        width: 189px;
+        clip-path: circle(34% at 110% 2%);
+    }
+
+    .divider .row-cols-4>* {
+        width: 45% !important;
+    }
+
+    .divider .common_btn {
+        height: 46px;
+        width: 98px;
+        top: 30px;
+        right: 30px;
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+
+    .divider span {
+        font-size: 20px !important;
+    }
+
+    /* Divider ends */
+
+
+    #banner2 .banner2Cont {
+        background-size: cover;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 70%;
+        margin-left: 116px;
+    }
+
+    /* Banner2 ends  */
+
+    #payments .payImages {
+        height: fit-content;
+    }
+
+    #payments .paygetwaysLogo {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0px;
+        margin: auto;
+        margin-bottom: 38px;
+        width: 100%;
+    }
+
+    #payments .payImages img {
+        width: 180px;
+        margin-left: 0;
+    }
+
+    #payments .paygetwaysLogo .image-container:hover .hoverImg2 {
+        visibility: visible;
+        transform: translateY(0);
+
+    }
+
+    #payments .paygetwaysLogo .image-container:hover .hoverImg1 {
+        visibility: hidden;
+        transform: translateY(0);
+
+    }
+
+    /* PaymentGetways ends  */
+
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        height: 450px;
+        width: auto;
+        border-radius: 40px;
+        margin-left: 16px;
+    }
+
+    #topFea .feaImg2 img {
+        margin-right: 12px;
+    }
+
+    #topFea .feaHeadlines {
+        padding-left: 8vw;
+        width: 100%;
+        align-items: center;
+    }
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 28px/46px Poppins;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 18px/40px Poppins;
+        margin-top: 0;
+    }
+
+    #topFea .feaImg2 .feaHeadlines {
+        /* padding-right: 10vw; */
+        padding-left: 38px;
+    }
+
+    #topFea .feaImg2 {
+        overflow: hidden !important;
+        bottom: 32px;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+    #otherFea .featuresWrapper {
+        gap: 54px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList {
+        gap: 0%;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        height: 550px;
+        display: none;
+    }
+
+    #otherFea .feaList1 .listWrapper,
+    .phoneFeaList .listWrapper {
+        gap: 10px;
+        align-items: center;
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .phoneFeaList .listWrapper img {
+        height: 58px;
+    }
+
+    #otherFea .listWrapper:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList span {
+        font: normal normal 600 18px/25px Poppins;
+    }
+
+    /* OtherFea ends  */
+
+    #bannerSect {
+        margin-top: 100px;
+        overflow: hidden;
+    }
+
+    #bannerSect #lapBanner {
+        display: none !important;
+    }
+
+    #bannerSect .phoneBanner {
+        margin-bottom: 82%;
+        display: block;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: -44px;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 390px;
+        width: auto;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 324px;
+        width: auto;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 180px;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 22px/32px Poppins;
+    }
+
+    /* Banner ends  */
+
+    #getCode {
+        margin-top: 50px !important;
+    }
+
+    #getCode .getCodeContainer {
+        padding: 0 70px;
+        padding-left: 72px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0;
+    }
+
+    #getCode .card-img-top {
+        height: 100px;
+        width: 100px;
+        mix-blend-mode: darken;
+        color: white;
+    }
+
+    #getCode .card {
+        margin-top: 0;
+        width: 30vw;
+        box-shadow: none;
+    }
+
+    #getCode .card:hover {
+        background-color: transparent;
+    }
+
+    #getCode .card .card-title {
+        font: normal normal bold 15px/34px Poppins;
+        margin-top: -10px;
+    }
+
+    #getCode .card .card-text {
+        font: 15px/22px Poppins;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* GetCode ends  */
+
+    #buyNow .button {
+        width: 220px !important;
+        height: 76px !important;
+    }
+
+    #cards .buyNowCont {
+        padding: 0 65px;
+        display: flex;
+    }
+
+    #cards .buyNowCont .row {
+        flex-wrap: wrap;
+        gap: 16px 12px;
+        ;
+    }
+
+    #cards .card .card-img-top {
+        width: 30vw;
+    }
+
+    /* cards ends  */
+
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #couter,
+    #solution,
+    #services,
+    #tech,
+    #workChain,
+    #testimonials,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision,
+    #values,
+    #team{
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv,
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        padding: 70px 0 0 0;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard2 {
+        top: 36px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard3 {
+        bottom: 18%;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        right: 60px;
+    }
+
+    /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper #wrTeam {
+        font: normal normal 800 74px/117px Poppins;
+        transform: rotate(0);
+        left: 0px;
+        top: -23px;
+    }
+
+    #aboutUs .aboutWrapper .row,
+    #winner .winnerWrapper .row {
+        gap: 124px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv {
+        position: relative;
+        left: 0px;
+        top: 70px;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 0px;
+        left: 0;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg img {
+        width: 92%;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
+        width: 230px;
+        height: 210px;
+        left: 294px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience {
+        align-items: center;
+        justify-content: center;
+        padding: 22px 10px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience .experNum {
+        font-size: 50px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience span:nth-child(3) {
+        font: normal normal 600 12px/29px Montserrat;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    /* aboutUs ends  */
+    #winner .winnerWrapper .winnRightDiv {
+        left: 36px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerTeamImg {
+        width: 96%;
+    }
+
+    #winner .winnerWrapper #winnText {
+        top: 52%;
+        right: 0px;
+        transform: rotate(0);
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg {
+        left: -54px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg img {
+        width: 72%;
+    }
+
+    #winner .winnerWrapper .winnLeftDiv {
+        padding-right: 0px;
+    }
+
+    /* winner ends  */
+
+    #counter .countWrapper {
+        padding: 50px 42px;
+    }
+
+    #counter .countWrapper .row .col-sm-12 {
+        width: 50%;
+    }
+
+    /* counter ends  */
+
+    #solutions .productsCardsWrapper {
+        padding: 64px 7px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .solu_product_img {
+        width: 50vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 50px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        gap: 5px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProText {
+        font: normal normal bold 30px/56px Montserrat;
+    }
+
+    #solutions h3 {
+        width: 87%;
+    }
+
+    #solutions p {
+        width: 95vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 7px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .webProImg {
+        height: 390px;
+        width: 80%;
+    }
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 20px 40px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 232px;
+        height: 348px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 100%;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .hoverArrSpan {
+        margin-top: 14px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCardDown {
+        margin-top: 0px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard:hover {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        color: black !important;
+    }
+
+    #services .servCard:hover span,
+    #services .servCard:hover h4 {
+        color: #212121 !important;
+    }
+
+    #services .servCard:hover .servText {
+        color: #545A68 !important;
+    }
+
+    /* services ends  */
+
+    #tech .techWrapper .techContent .techHeadlines {
+        width: 100%;
+    }
+
+    #tech .techWrapper {
+        padding: 40px 0;
+    }
+
+    /* tech ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 0px;
+    }
+
+    #workChain .workBottDiv .workCardsWrapper {
+        background: transparent !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse {
+        flex-direction: column;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard:hover img {
+        filter: brightness(36%) invert(8%) saturate() contrast(96%) sepia(8%) grayscale(3%) !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workTitle {
+        margin-top: 0;
+    }
+
+    /* workChain ends  */
+    .getInTouch ,#counter{
+        width: 96%;
+    }
+
+    .getInTouch .getTouchText {
+        padding: 30px 42px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        width: 100%;
+    }
+
+    .getInTouch .getTouchBtn {
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 320px;
+    }
+
+    /* Home Page ends  */
+
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        width: 89%;
+    }
+
+
+    #knowMore .knowMoreLeftDiv .business {
+        top: 248px;
+        left: 314px;
+        padding: 25px 18px;
+        width: 403px;
+        height: 274px;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 182px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+    }
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row ,
+    #values .row{
+        gap: 150px 0;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionRightDiv ,
+    #values .valuesRightDiv{
+        padding-left: 0;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 48px;
+        width: 146px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 36px;
+        right: 20px;
+        width: 26px;
+    }
+
+    #knowMore .knowMoreLeftDiv .business {
+        top: 186px;
+        left: 207px;
+        padding: 24px 18px;
+        height: 230px;
+        width: 346px;
+        gap: 5px;
+    }
+
+    #knowMore .knowMoreLeftDiv .business .businessNum {
+        font: normal normal 800 36px/61px Montserrat;
+    }
+
+    #knowMore .knowMoreLeftDiv .business .businessText {
+        font: 600 30px/61px Montserrat;
+    }
+
+
+    /* knowMore ends  */
+
+
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
+        margin-left: 52px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 16px;
+        top: 112px;
+        width: 26px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 126px;
+        width: 146px;
+    }
+
+    #vision .row,
+    #values .row {
+        flex-direction: column-reverse;
+    }
+
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 100%;
+    }
+    .swiper-slide {
+        justify-content: center;
+        align-items: center;
+    }
+    #team .card {
+        width: 350px;
+    }
+
+    #team .teamDeatails {
+        margin-top: 388px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 346px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 100%;
+    }
+
+    .breadcrum {
+        background-color: #2E71FE14;
+        height: 332px;
+        margin-top: -132px;
+    }
+
+    .breadcrum .pageName {
+        font: normal normal 200 15px/64px Montserrat;
+        color: #2D3745;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 574px) {
+    /*  */
+
+    #heroSect .bannerContainer {
+        padding: 0 30px;
+    }
+
+    #heroSect .para1 {
+        width: 100%;
+    }
+
+    #heroSect .para2 {
+        width: 100%;
+    }
+
+    #heroSect .detail {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #heroSect .detail h3 {
+        margin-left: 0px;
+    }
+
+    #heroSect .buttons {
+        justify-content: center;
+    }
+
+    #heroSect .buttons .common_btn {
+        width: 186px;
+        height: 66px;
+    }
+
+    /* HeroSect ends */
+
+    .divider {
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .divider .row {
+        gap: 22px 20px;
+        flex-wrap: wrap;
+    }
+
+    .divider .col {
+        margin-top: 24px;
+    }
+
+    .divider::before {
+        width: 221px;
+        clip-path: circle(28% at -5% 94%);
+    }
+
+    .divider::after {
+        width: 189px;
+        clip-path: circle(34% at 110% 2%);
+    }
+
+    .divider .row-cols-4>* {
+        width: 45% !important;
+    }
+
+    .divider .common_btn {
+        height: 46px;
+        width: 98px;
+        top: 30px;
+        left: 22px;
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+
+    .divider span {
+        font-size: 18px !important;
+    }
+
+    /* Divider ends */
+
+    #banner2 .banner2Cont {
+        background-size: cover;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #banner2 .banner2Cont .whyEbro h2 {
+        font-size: 34px !important;
+
+    }
+
+    #banner2 .banner2Cont .whyEbro p {
+        font-size: 20px !important;
+
+    }
+
+    /* Banner2 ends  */
+
+
+    #topFea .feaImg,
+    .feaImg2 {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        border-bottom: 4px solid #707070;
+        border-style: dotted;
+    }
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        height: 450px;
+        width: auto;
+        border-radius: 40px;
+        margin-left: 16px;
+        margin: 16px 0;
+    }
+
+    #topFea .feaImg2 img {
+        margin-right: 12px;
+    }
+
+    #topFea .feaHeadlines {
+        padding-left: 8vw;
+        width: 100%;
+        align-items: center;
+        border-bottom: none;
+    }
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 28px/46px Poppins;
+        margin-top: 20px;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 18px/40px Poppins;
+        margin-top: 0;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 18px/28px Poppins;
+        margin-top: 0px;
+        width: 60%;
+    }
+
+    #topFea .feaImg2 .feaHeadlines {
+        /* padding-right: 10vw; */
+        padding-left: 38px;
+    }
+
+    #topFea .feaImg2 {
+        overflow: hidden !important;
+        bottom: 0px;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+
+    #otherFea {
+        margin-top: 30px;
+    }
+
+    #otherFea .featuresWrapper {
+        gap: 54px 0;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList {
+        gap: 0%;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        height: 550px;
+    }
+
+    #otherFea .feaList1 .listWrapper,
+    .phoneFeaList .listWrapper {
+        gap: 10px;
+        align-items: center;
+    }
+
+    #otherFea .listWrapper:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .phoneFeaList .listWrapper img {
+        height: 58px;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList span {
+        font: normal normal 600 18px/25px Poppins;
+    }
+
+    /* OtherFea ends  */
+
+    #bannerSect {
+        height: 100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+
+    #bannerSect #lapBanner {
+        display: none !important;
+    }
+
+    #bannerSect .phoneBanner {
+        display: block !important;
+        margin-left: 18%;
+    }
+
+
+
+    #bannerSect .bannerCont {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #bannerSect .bannerImg {
+        width: 70%;
+        position: relative;
+        margin-bottom: 20px;
+        left: 30px;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: 0;
+        display: contents;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 300px;
+        width: auto;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 255px;
+        width: auto;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 150px;
+        margin-right: 16%;
+    }
+
+    #bannerSect .bannerHeadlines {
+        align-items: center;
+        width: 58%;
+        margin-top: 20px;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 22px/32px Poppins;
+        width: 92vw;
+    }
+
+    #bannerSect .bannerHeadlines p {
+        margin-top: 40px;
+        margin-left: -30px;
+        width: 86vw;
+    }
+
+    /* Banner ends  */
+
+    #getCode {
+        margin-top: 10px !important;
+    }
+
+
+    #getCode .getCodeContainer {
+        padding: 0 0px;
+        padding-left: 30px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0%;
+    }
+
+    #getCode .getCodeContainer .row .col {
+        flex: 0 0 auto;
+        width: 45% !important;
+    }
+
+    #getCode .getCodeContainer .row .col .card {
+        width: 40vw;
+        background-color: #fff;
+    }
+
+    #getCode .card-img-top {
+        height: 60px;
+        width: 60px;
+    }
+
+    #getCode .card .card-title,
+    #getCode .card .card-text {
+        font: normal normal bold 16px/22px Poppins;
+    }
+
+    #getCode .card .card-text {
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* getCode ends  */
+
+    #cards .buyNowCont {
+        padding: 0 65px;
+        display: flex;
+    }
+
+    #cards .buyNowCont .row {
+        flex-wrap: wrap;
+        gap: 16px 12px;
+        ;
+    }
+
+    #cards .card .card-img-top {
+        width: 28vw;
+    }
+
+    /* cards ends  */
+
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #counter,
+    #solutions,
+    #services,
+    #tech,
+    #workChain,
+    #testimonials,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision,
+    #values{
+        overflow: hidden;
+        margin-top: 40px;
+    }
+
+    #homeHeroSect .heroContainer .heroContContent {
+        padding: 0px;
+        padding-left: 14px;
+    }
+
+    #homeHeroSect .heroContainer .heroContContent .row {
+        gap: 55px;
+    }
+
+    #homeHeroSect .heroContainer {
+        margin-top: 0;
+    }
+
+    #homeHeroSect .heroContainer {
+        border-radius: 20px 20px 17% 20px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv,
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        padding: 30px 0 0 0;
+    }
+
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard1,
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard2,
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard3 {
+        display: none;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        width: 100%;
+        right: unset;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv img {
+        width: 100%;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv .followDiv {
+        margin-top: 30px;
+    }
+
+    /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper #wrTeam {
+        font: normal normal 800 60px/117px Poppins;
+        transform: rotate(0);
+        left: 0px;
+        top: -23px;
+    }
+
+    #aboutUs .aboutWrapper .row,
+    #winner .winnerWrapper .row {
+        gap: 124px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv {
+        position: relative;
+        left: 0px;
+        top: 70px;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 0px;
+        left: 0;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg img {
+        width: 92%;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
+        width: 174px;
+        height: 174px;
+        left: 0px;
+        top: 130px;
+        margin-left: 56%;
+    }
+
+    @keyframes experience {
+        0% {
+            top: 130px;
+        }
+
+        50% {
+            top: 126px;
+        }
+
+        100% {
+            top: 134px;
+        }
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience {
+        align-items: center;
+        justify-content: center;
+        padding: 22px 2px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience .experNum {
+        font-size: 36px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience span:nth-child(3) {
+        font: normal normal 600 8px/29px Montserrat;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    .common_span,
+    #homeHeroSect .heroContainer .heroCont-leftDiv .mcWinner {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv #herocont_headline,
+    #aboutUs .aboutWrapper .aboutRightDiv h2,
+    #winner .winnerWrapper .winnLeftDiv h2,
+    #solutions h3,
+    #services .serviesWrapper .servrightDiv h3,
+    #workChain .workUpperDiv .workHealines,
+    #tech .techWrapper .techContent h4,
+    #testimonials .testiUpperDiv .testiHeadline,
+    .getInTouch .getTouchText .getTouchDesc,
+    .comman_Headlines {
+        font: normal normal 800 26px/40px Montserrat;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv p,
+    #aboutUs .aboutWrapper .aboutRightDiv p,
+    #winner .winnerWrapper .winnLeftDiv p,
+    #solutions p,
+    #services .serviesWrapper .servrightDiv p,
+    #tech .techWrapper .techContent p,
+    .comman_para {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+
+    .homeCommon_btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* aboutUs ends  */
+
+    #winner .winnerWrapper .winnLeftDiv {
+        padding-right: 0px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv {
+        left: 36px;
+        top: -26px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerTeamImg {
+        width: 90%;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg {
+        left: -40px;
+        top: 110px;
+    }
+
+    @keyframes trophyMove {
+        0% {
+            top: 110px
+        }
+
+        50% {
+            top: 106px
+        }
+
+        100% {
+            top: 114px
+        }
+
+    }
+
+    #winner .winnerWrapper #winnText {
+        top: 589px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg img {
+        width: 56%;
+    }
+
+    /* winner ends  */
+
+    #counter {
+        width: 92%;
+    }
+
+    #counter .countWrapper {
+        padding: 44px 20px;
+    }
+
+    #counter .countWrapper .countCard {
+        justify-content: flex-start;
+    }
+
+    /* counter ends  */
+
+    #solutions .productsCardsWrapper {
+        padding: 64px 12px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .solu_product_img {
+        width: 50vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 50px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        gap: 5px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProText {
+        font: normal normal bold 22px/30px Montserrat;
+    }
+
+    .hoverArrSpan {
+        font-size: 14px;
+    }
+
+    #solutions h3 {
+        width: 87%;
+    }
+
+    #solutions p {
+        width: 95vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 12px;
+    }
+
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 10px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 183px;
+        height: 286px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 100%;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .hoverArrSpan {
+        margin-top: 14px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .servHeadline {
+        margin-top: 30px;
+        font: normal normal bold 18px/26px Montserrat;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .servText {
+        margin-top: 6px;
+        font: normal normal 600 12px/26px Montserrat;
+    }
+
+    #services .serviesWrapper .servleftDiv .servImg {
+        padding: 18px 12px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servImg img {
+        width: 32px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCardDown {
+        margin-top: 0px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard:hover {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        color: black !important;
+    }
+
+    #services .servCard:hover span,
+    #services .servCard:hover h4 {
+        color: #212121 !important;
+    }
+
+    #services .servCard:hover .servText {
+        color: #545A68 !important;
+    }
+
+    /* services ends  */
+
+    #tech .techWrapper .techContent .techHeadlines {
+        width: 100%;
+    }
+
+    #tech .techWrapper {
+        padding: 40px 12px;
+    }
+
+    /* tech ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 0px;
+    }
+
+    #workChain .workBottDiv .workCardsWrapper {
+        background: transparent !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse {
+        flex-direction: column;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard:hover img {
+        filter: brightness(36%) invert(8%) saturate() contrast(96%) sepia(8%) grayscale(3%) !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workTitle {
+        margin-top: 0;
+    }
+
+    #workChain .workBottDiv {
+        margin-top: -105px;
+    }
+
+    /* workChain ends  */
+
+    .getInTouch {
+        width: 95% !important;
+    }
+
+    .getInTouch .getTouchText {
+        padding: 30px 15px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        width: 100%;
+    }
+
+    .getInTouch .getTouchBtn {
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        font: normal normal 600 24px/30px Montserrat;
+        width: 100%;
+    }
+
+    .getInTouch .getTouchText .getTouchTitle {
+        font: normal normal 600 19px/29px Montserrat;
+    }
+
+    #testimonials .testSlider .testiSwiper {
+        margin-top: -90px;
+    }
+
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 238px;
+    }
+
+    /* Home Page ends  */
+
+    #knowMore .knowMoreLeftDiv .knowMoreImg img ,
+    #mission .missionLeftDiv .missionImg img ,
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        width: 89%;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 182px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+    }
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row ,
+    #values .row{
+        gap: 90px 0;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionRightDiv 
+    #values .valuesRightDiv{
+        padding-left: 0;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 54px;
+        width: 120px;
+        bottom: -40px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 56px;
+        right: 6px;
+        width: 24px;
+    }
+
+    #knowMore .knowMoreLeftDiv .business {
+        display: none;
+    }
+
+
+    /* knowMore ends  */
+
+
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        margin-left: 38px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 4px;
+        top: 66px;
+        width: 24px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 126px;
+        width: 120px;
+        bottom: -34px;
+    }
+
+    #vision .row ,
+    #values .row{
+        flex-direction: column-reverse;
+    }
+
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 100%;
+    }
+
+    .valuesList span {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+    #values {
+        padding: 50px 0;
+    }
+    .swiper-slide {
+        justify-content: center;
+        align-items: center;
+    }
+    #team .card {
+        width: 350px;
+    }
+
+    #team .teamDeatails {
+        margin-top: 388px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 346px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 100%;
+    }
+
+    .breadcrum {
+        background-color: #2E71FE14;
+        height: 302px;
+        margin-top: -155px;
+    }
+
+    .breadcrum .pageName {
+        font: normal normal 200 15px/64px Montserrat;
+        color: #2D3745;
+    }
+
+}
+
+@media only screen and (max-width: 399px) {
+
+    #heroSect {
+        background-size: cover;
+        padding-bottom: 60px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    #heroSect .para1 {
+        width: fit-content;
+    }
+
+    #heroSect .para2 {
+        width: fit-content;
+    }
+
+    #heroSect .detail {
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+
+    #heroSect .detail h3 {
+        margin-left: 0px;
+    }
+
+    #heroSect .bannerContainer {
+        align-items: center;
+    }
+
+    #heroSect .buttons {
+        flex-wrap: wrap;
+        gap: 0 30px;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+
+    #heroSect .buttons button {
+        height: 90px;
+    }
+
+    #heroSect .common_btn {
+        width: 36%;
+        font-size: 17px;
+    }
+
+    /* HeroSect ends */
+
+    .divider {
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .divider .row {
+        gap: 22px 20px;
+        flex-wrap: wrap;
+    }
+
+    .divider .col {
+        margin-top: 4px;
+    }
+
+    .divider::before {
+        width: 221px;
+        clip-path: circle(22% at -5% 94%);
+    }
+
+    .divider::after {
+        width: 189px;
+        clip-path: circle(22% at 110% 2%);
+    }
+
+    .divider .row-cols-4>* {
+        width: 45% !important;
+    }
+
+    .divider .common_btn {
+        height: 46px;
+        width: 110px;
+        top: 30px;
+        right: 0;
+        margin-bottom: 48px;
+    }
+
+    /* Divider ends */
+
+    #banner2 .banner2Cont {
+        background-size: cover;
+    }
+
+    #banner2 .banner2Cont .whyEbro {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #banner2 .banner2Cont .whyEbro h2 {
+        font-size: 30px !important;
+
+    }
+
+    #banner2 .banner2Cont .whyEbro p {
+        font-size: 18px !important;
+
+    }
+
+    /* Banner2 ends  */
+
+    #topFea .feaImg img {
+        margin-top: 0px;
+    }
+
+    #topFea .feaImg,
+    .feaImg2 {
+        display: flex;
+        flex-direction: column;
+        border: 0;
+        border-bottom: 4px solid #707070;
+        border-style: dotted;
+    }
+
+    #topFea .feaImg img,
+    .feaImg2 img {
+        height: 340px;
+        width: auto;
+        border-radius: 34px;
+        margin-left: 16px;
+        margin: 16px 0;
+        margin-top: 40px;
+    }
+
+    #topFea .feaImg2 img {
+        margin-top: 5px;
+        margin-right: 12px;
+    }
+
+    #topFea .feaHeadlines {
+        padding-left: 8vw;
+        width: 100%;
+        align-items: center;
+        border: none;
+    }
+
+    #topFea .feaHeadlines h2,
+    .feaHeadlines2 h2 {
+        font: normal normal 600 22px/76px Poppins;
+        margin-top: 20px;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 14px/40px Poppins;
+        margin-top: 0;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 18px/28px Poppins;
+        margin-top: 0px;
+        width: 60%;
+    }
+
+    #topFea .feaImg2 .feaHeadlines {
+        /* padding-right: 10vw; */
+        padding-left: 38px;
+    }
+
+    #topFea .feaImg2 {
+        overflow: hidden !important;
+        bottom: 0px;
+    }
+
+    #topFea .fisrtLastFea {
+        margin-left: 0px;
+    }
+
+    /* TopFea ends  */
+
+    #otherFea {
+        margin-top: 30px;
+    }
+
+    #otherFea .featuresWrapper {
+        gap: 54px 0;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #otherFea img {
+        width: auto;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList {
+        gap: 0%;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        height: 450px;
+    }
+
+    #otherFea .feaList1 .listWrapper,
+    .phoneFeaList .listWrapper {
+        gap: 10px;
+        align-items: center;
+    }
+
+    #otherFea .listWrapper:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .phoneFeaList .listWrapper img {
+        height: 58px;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    .phoneFeaList span {
+        font: normal normal 600 18px/25px Poppins;
+    }
+
+    /* OtherFea ends  */
+
+
+    #bannerSect {
+        height: 100%;
+        overflow: hidden;
+        margin-top: 80px;
+    }
+
+    #bannerSect #lapBanner {
+        display: none !important;
+    }
+
+    #bannerSect .phoneBanner {
+        display: block !important;
+        margin-left: 18%;
+    }
+
+
+
+    #bannerSect .bannerCont {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #bannerSect .bannerImg {
+        width: 70%;
+        position: relative;
+        bottom: 50px;
+        left: 30px;
+    }
+
+    #bannerSect .phoneHoverImgs {
+        right: 0;
+        display: contents;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 250px;
+        width: auto;
+    }
+
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 222px;
+        position: relative;
+        width: auto;
+        right: 30px;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 125px;
+        margin-right: 16%;
+    }
+
+    #bannerSect .bannerHeadlines {
+        align-items: center;
+        width: 58%;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 22px/32px Poppins;
+        width: 92vw;
+    }
+
+    #bannerSect .bannerHeadlines p {
+        width: 84vw;
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+
+    /* Banner ends  */
+
+
+    #getCode .getCodeContainer {
+        padding: 0 0px;
+        padding-left: 30px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0%;
+    }
+
+    #getCode .getCodeContainer .row .col {
+        flex: 0 0 auto;
+        width: 45% !important;
+    }
+
+    #getCode .getCodeContainer .row .col .card {
+        width: 42vw;
+        background-color: transparent;
+        margin-top: 0;
+    }
+
+    #getCode .card-img-top {
+        height: 60px;
+        width: 60px;
+    }
+
+    #getCode .card .card-title,
+    #getCode .card .card-text {
+        font: normal normal bold 11px/18px Poppins;
+    }
+
+    #getCode .card .card-text {
+        font-weight: 100;
+        opacity: 0.5;
+    }
+
+    /* GetCode ends  */
+
+    #cards .buyNowCont {
+        padding: 0 30px;
+        display: flex;
+    }
+
+    #cards .buyNowCont .row {
+        flex-wrap: wrap;
+        gap: 16px 0px;
+        ;
+    }
+
+    #cards .card .card-img-top {
+        width: 34vw;
+    }
+
+
+    /* Cards ends  */
+
+
+    #morePro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #morePro .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px 0;
+    }
+
+    #morePro .leftCards,
+    #morePro .rightCards {
+        margin-left: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px 0;
+    }
+
+    #morePro .leftCards .miniCardsCont,
+    #morePro .rightCards .miniCardsCont {
+        flex-wrap: wrap;
+        width: min-content;
+        gap: 60px 0;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 30px;
+        left: 0px;
+        height: 167px;
+        border-radius: 22px;
+        margin-bottom: -68px;
+    }
+
+    #morePro .leftCards .card1 .hoverBtn {
+        left: 22%;
+        top: 22vh;
+        font: 15px/23px Poppins;
+        width: 171px;
+        height: 40px;
+    }
+
+    #morePro .miniCard .card-img-top,
+    #morePro .card1 .card-img-top {
+        left: 0px;
+        width: fit-content;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 39px;
+        left: 16px;
+        width: 92%;
+    }
+
+    #morePro .miniCard,
+    #morePro .card1 {
+        width: fit-content;
+    }
+
+    #morePro .card1 .card-title,
+    #morePro .card1 .card-text {
+        margin-top: 20px;
+        font: 14px/21px Poppins;
+    }
+
+    #morePro .card1 .cardBtn {
+        margin-top: 50px;
+        background: #DEF5F9 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        font: normal normal normal 13px/20px Poppins;
+        color: #1BB3CE;
+        outline: none;
+        border: none;
+        padding: 0 12px;
+        transition: all 0.8s ease-out;
+        transition-delay: 0.2s;
+    }
+
+
+    #morePro .rightCardImg {
+        width: 305px;
+        height: 60vh;
+    }
+
+    #morePro .miniCardsCont .hoverBtn,
+    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
+        left: 22%;
+        top: 22vh;
+    }
+
+    #morePro .miniCard .sale_rating span,
+    #morePro .miniCard .sale_rating .rating h3,
+    #morePro .card1 .sale_rating span,
+    #morePro .card1 .sale_rating .rating h3 {
+        font: 12px/14px Poppins;
+    }
+
+    #morePro .miniCard .sale_rating .stars,
+    #morePro .card1 .sale_rating .stars {
+        font-size: 14px !important;
+    }
+
+    /* MorePro ends  */
+
+    .navLogo img {
+        width: 170px;
+        height: 50px;
+    }
+
+
+    #homeHeroSect,
+    #aboutUs,
+    #winner,
+    #counter,
+    #solution,
+    #services,
+    #tech,
+    #workChain,
+    #testimonials,
+    .getInTouch ,
+    #knowMore,
+    #mission,
+    #vision,
+    #values,
+    #team{
+        overflow: hidden;
+        margin-top: 40px;
+    }
+
+    #homeHeroSect .heroContainer .heroContContent {
+        padding: 0px;
+        padding-left: 14px;
+    }
+
+    #homeHeroSect .heroContainer {
+        border-radius: 20px 20px 17% 20px;
+    }
+
+    #homeHeroSect .heroContainer .heroContContent .row {
+        gap: 55px;
+    }
+
+    #homeHeroSect .heroContainer {
+        margin-top: 0;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv,
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        padding: 30px 0 0 0;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard1,
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard2,
+    #homeHeroSect .heroContainer .heroCont-rightDiv .floatingCard3 {
+        display: none;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv {
+        width: 100%;
+        right: unset;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-rightDiv img {
+        width: 100%;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv .followDiv {
+        margin-top: 30px;
+    }
+
+    /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper #wrTeam {
+        font: normal normal 800 50px/117px Poppins;
+        transform: rotate(0);
+        left: 0px;
+        top: -23px;
+    }
+
+    #aboutUs .aboutWrapper .row {
+        gap: 124px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv {
+        position: relative;
+        left: 0px;
+        top: 70px;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv {
+        padding-right: 0px;
+        left: 0;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg img {
+        width: 92%;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
+        width: 142px;
+        height: 160px;
+        left: 0px;
+        top: 60px;
+        margin-left: 54%;
+    }
+
+    @keyframes experience {
+        0% {
+            top: 60px;
+        }
+
+        50% {
+            top: 56px;
+        }
+
+        100% {
+            top: 64px;
+        }
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience {
+        align-items: center;
+        justify-content: center;
+        padding: 8px 2px;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience .experNum {
+        font-size: 30px;
+        margin: 12px 0;
+    }
+
+    #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg .experience span:nth-child(3) {
+        font: normal normal 600 4px/29px Montserrat;
+    }
+
+    #aboutUs .aboutWrapper .aboutRightDiv .discover {
+        margin-top: 30px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv .mcWinner,
+    .common_span {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv #herocont_headline,
+    #aboutUs .aboutWrapper .aboutRightDiv h2,
+    #winner .winnerWrapper .winnLeftDiv h2,
+    #solutions h3,
+    #services .serviesWrapper .servrightDiv h3,
+    #workChain .workUpperDiv .workHealines,
+    #tech .techWrapper .techContent h4,
+    #testimonials .testiUpperDiv .testiHeadline,
+    .comman_Headlines {
+        font: normal normal 800 26px/40px Montserrat;
+    }
+
+    #homeHeroSect .heroContainer .heroCont-leftDiv p,
+    #aboutUs .aboutWrapper .aboutRightDiv p,
+    #winner .winnerWrapper .winnLeftDiv p,
+    #solutions p,
+    #services .serviesWrapper .servrightDiv p,
+    #tech .techWrapper .techContent p,
+    .comman_para {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+
+    .homeCommon_btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* aboutUs ends  */
+
+    #winner .winnerWrapper .winnLeftDiv {
+        padding-right: 0px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv {
+        left: 26px;
+        top: 98px;
+        padding-bottom: 110px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerTeamImg {
+        width: 90%;
+    }
+
+    #winner .winnerWrapper #winnText {
+        top: 65%;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg {
+        left: -40px;
+        top: 80px;
+    }
+
+    @keyframes trophyMove {
+        0% {
+            top: 80px
+        }
+
+        50% {
+            top: 76px
+        }
+
+        100% {
+            top: 84px
+        }
+
+    }
+
+    #winner .winnerWrapper .winnRightDiv .winnerSmImg img {
+        width: 50%;
+    }
+
+    #winner .winnerWrapper .winnLeftDiv .homeCommon_btn {
+        margin-top: 20px;
+    }
+
+    /* winner ends  */
+
+    #counter {
+        width: 92%;
+    }
+
+    #counter .countWrapper {
+        padding: 44px 20px;
+    }
+
+    #counter .countWrapper .countCard {
+        justify-content: flex-start;
+    }
+
+    #counter .countWrapper .countCard .fcardImg img {
+        width: 100%;
+    }
+
+    #counter .countWrapper .countCard .fcardImg {
+        width: 26%;
+    }
+
+    #counter .countWrapper .countCard .countContent {
+        gap: 0px;
+    }
+
+    #counter .countWrapper .countCard .countContent .countNum {
+        font: normal normal 600 24px/44px Montserrat;
+    }
+
+    #counter .countWrapper .countCard .countContent .countText {
+        font: normal normal 600 14px/22px Montserrat;
+    }
+
+    /* counter ends  */
+
+    #solutions .soluHeadlines {
+        padding-top: 140px;
+    }
+
+    #solutions .productsCardsWrapper {
+        padding: 64px 12px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .solu_product_img {
+        width: 50vw;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 50px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent {
+        gap: 5px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProText {
+        font: normal normal bold 15px/22px Montserrat;
+    }
+
+    .hoverArrSpan {
+        font-size: 13px;
+        margin-left: -4px;
+    }
+
+    #solutions h3 {
+        width: 100%;
+        padding-left: 12px;
+        text-align: start;
+    }
+
+    #solutions p {
+        width: 98%;
+        text-align: start;
+        padding-left: 12px;
+    }
+
+    #solutions .productsCardsWrapper .mobCards2 {
+        padding-left: 12px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProIcon {
+        padding: 10px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProIcon img {
+        width: 30px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro {
+        gap: 18px;
+    }
+
+    /* solutions ends  */
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 5px 2px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard {
+        width: 147px;
+        height: 262px;
+    }
+
+    #services .serviesWrapper .servrightDiv h3 {
+        width: 100%;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .hoverArrSpan {
+        margin-top: 12px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .servHeadline {
+        margin-top: 30px;
+        font: normal normal bold 15px/20px Montserrat;
+    }
+
+    #services .serviesWrapper .servleftDiv .servContent .servText {
+        margin-top: 6px;
+        font: normal normal 600 10px/18px Montserrat;
+    }
+
+    #services .serviesWrapper .servleftDiv .servImg {
+        padding: 18px 12px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servImg img {
+        width: 32px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCardDown {
+        margin-top: 0px;
+    }
+
+    #services .serviesWrapper .servleftDiv .servCard:hover {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        color: black !important;
+    }
+
+    #services .servCard:hover span,
+    #services .servCard:hover h4 {
+        color: #212121 !important;
+    }
+
+    #services .servCard:hover .servText {
+        color: #545A68 !important;
+    }
+
+    /* services ends  */
+
+    #tech .techWrapper .techContent .techHeadlines {
+        width: 100%;
+    }
+
+    /* tech ends  */
+
+    #workChain .workUpperDiv .workHealines {
+        padding: 0px 0px;
+    }
+
+    #tech .techWrapper {
+        padding: 40px 12px;
+    }
+
+    #workChain .workBottDiv .workCardsWrapper {
+        background: transparent !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse {
+        flex-direction: column;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard .workNumb {
+        top: 26px !important;
+    }
+
+    #workChain .workBottDiv .workCard:hover img {
+        filter: brightness(36%) invert(8%) saturate() contrast(96%) sepia(8%) grayscale(3%) !important;
+    }
+
+    #workChain .workBottDiv .workCardReverse .workTitle {
+        margin-top: 0;
+    }
+
+    #workChain .workBottDiv {
+        margin-top: -105px;
+    }
+
+    /* workChain ends  */
+
+    .getInTouch {
+        width: 95% !important;
+    }
+
+    .getInTouch .getTouchText {
+        padding: 30px 15px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        width: 100%;
+    }
+
+    .getInTouch .getTouchBtn {
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .getInTouch .getTouchText .getTouchDesc {
+        font: normal normal 600 20px/30px Montserrat;
+        width: 100%;
+    }
+
+    .getInTouch .getTouchText .getTouchTitle {
+        font: normal normal 600 16px/29px Montserrat;
+    }
+
+    .getInTouch .homeCommon_btn {
+        font: normal normal 600 14px/19px Montserrat;
+        padding: 10px;
+    }
+
+    #testimonials .testSlider .testiSwiper {
+        margin-top: -90px;
+    }
+
+    /* Home Page ends  */
+
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        width: 89%;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 182px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 52px;
+    }
+
+    #knowMore .row,
+    #mission .row,
+    #vision .row ,
+    #values .row{
+        gap: 70px 0;
+    }
+
+    #knowMore .knowMoreRightDiv,
+    #mission .missionRightDiv,
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        padding-left: 0;
+    }
+
+    #knowMore .knowMoreLeftDiv .trianglePattern,
+    #mission .missionLeftDiv .trianglePattern {
+        left: 60px;
+        width: 100px;
+        bottom: -28px;
+    }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        top: 42px;
+        right: 6px;
+        width: 20px;
+    }
+
+    #knowMore .knowMoreLeftDiv .business {
+        display: none;
+    }
+
+    /* knowMore ends  */
+
+
+    #vision .visionRightDiv .visionLeftImg img ,
+    #values .valuesRightDiv .valuesLeftImg img{
+        margin-left: 32px;
+    }
+
+    #vision .visionRightDiv .dotsPattern2,
+    #values .valuesRightDiv .dotsPattern2 {
+        left: 4px;
+        top: 50px;
+        width: 20px;
+    }
+
+    #vision .visionRightDiv .trianglePattern2,
+    #values .valuesRightDiv .trianglePattern2 {
+        left: 126px;
+        width: 100px;
+        bottom: -26px;
+    }
+
+    #vision .row,
+    #values .row{
+        flex-direction: column-reverse;
+    }
+
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
+        width: 100%;
+    }
+    .valuesList span {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+    #values {
+        padding: 30px 0;
+    }
+
+    .swiper-slide {
+        justify-content: center;
+        align-items: center;
+    }
+    #team .card {
+        width: 92%;
+    }
+
+    #team .teamDeatails {
+        margin-top: 326px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 300px !important;
+    }
+
+    #team .comman_Headlines {
+        width: 100%;
+    }
+
+    .breadcrum {
+        background-color: #2E71FE14;
+        height: 300px;
+        margin-top: -155px;
+    }
+
+    .breadcrum .pageName {
+        font: normal normal 200 15px/64px Montserrat;
+        color: #2D3745;
+    }
+}
+
+
+/* Payments // */
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font: normal normal 600 22px/40px Poppins !important;
+    }
+
+    #payments .payImages {
+        height: fit-content;
+    }
+
+    #payments .paygetwaysLogo {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0 40px;
+    }
+
+    #payments .payImages img {
+        width: 120px;
+        margin-left: 0;
+    }
+
+    #payments .paygetwaysLogo .image-container:hover .hoverImg2 {
+        visibility: visible;
+        transform: translateY(0);
+
+    }
+
+    #payments .paygetwaysLogo .image-container:hover .hoverImg1 {
+        visibility: hidden;
+        transform: translateY(0);
+
+    }
+
+}
+
+@media only screen and (min-width: 464px) and (max-width: 577px) {
+
+    #payments .payImages img {
+        width: 160px;
+        margin-left: 0;
+    }
+}
+
+
+/* BuyNow // */
+@media only screen and (min-width: 575px) and (max-width: 991px) {
+
+    #buyNow .button {
+        width: 150px;
+        font-size: 20px;
+        height: 60px;
+    }
+
+    #buyNow .button::before {
+        background: #FF7730;
+    }
+
+    #buyNow .buyNowCont p {
+        font: 26px/46px Poppins;
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 574px) {
+
+    #buyNow .button {
+        width: 150px;
+        font-size: 20px;
+        height: 60px;
+    }
+
+    #buyNow .buyNowCont p {
+        font: 22px/32px Poppins;
+        width: 90%;
+        text-align: center;
+    }
+
+    #buyNow .button::before {
+        background: #FF7730;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+    #buyNow .buyNowCont {
+        height: 270px;
+        gap: 40px;
+    }
+}
+
+
+/* MorePro //  */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #morePro .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 70px 0;
+    }
+
+    #morePro .leftCards {
+        margin-left: 0;
+    }
+
+    #morePro .card1 {
+        width: 100%;
+    }
+
+    #morePro .miniCard .card-img-top {
+        left: 0px;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 39px;
+        left: 26px;
+        width: 92%;
+    }
+
+    #morePro .miniCard {
+        width: 100%;
+    }
+
+
+    #morePro .rightCardImg {
+        width: 100%;
+    }
+
+    #morePro .miniCardsCont .hoverBtn,
+    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
+        left: 26%;
+        top: 22vh;
+    }
+
+    #morePro .card1 .cardBtn,
+    #morePro .card1 .card-title {
+        font: normal normal normal 28px/25px Poppins;
+    }
+
+    #morePro .card1 .card-text {
+        font: normal normal bold 35px/40px Poppins;
+    }
+
+    #morePro .card .hoverBtn {
+        left: 30%;
+    }
+
+
+    #morePro .sale_rating span,
+    #morePro .sale_rating .rating h3 {
+        font: 24px/30px Poppins;
+    }
+
+    #morePro .sale_rating .stars {
+        size: 26px;
+    }
+
+    #morePro .miniCard .sale_rating span,
+    #morePro .miniCard .sale_rating .rating h3 {
+        font: 12px/14px Poppins;
+    }
+
+    #morePro .miniCard .sale_rating .stars {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+
+    #morePro {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #morePro .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 70px 0;
+    }
+
+    #morePro .leftCards,
+    #morePro .rightCards {
+        margin-left: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px 0px;
+    }
+
+    #morePro .card1 {
+        width: fit-content;
+    }
+
+    #morePro .leftCards .miniCardsCont,
+    #morePro .rightCards .miniCardsCont {
+        flex-wrap: wrap;
+        width: min-content;
+        gap: 60px 0;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 30px;
+        left: 0px;
+        width: 329px;
+        height: 167px;
+        border-radius: 22px;
+        margin-bottom: -68px;
+    }
+
+    #morePro .leftCards .card1 .hoverBtn {
+        left: 26%;
+        top: 22vh;
+        font: 15px/23px Poppins;
+        width: 171px;
+        height: 40px;
+    }
+
+    #morePro .miniCard .card-img-top {
+        left: 0px;
+    }
+
+    #morePro .card1 .card-img-top {
+        bottom: 39px;
+        left: 16px;
+        width: 92%;
+    }
+
+    #morePro .miniCard,
+    #morePro .card1 {
+        width: 100%;
+    }
+
+    #morePro .card1 .card-title,
+    #morePro .card1 .card-text {
+        margin-top: 20px;
+        font: 14px/21px Poppins;
+    }
+
+    #morePro .card1 .cardBtn {
+        margin-top: 50px;
+        background: #DEF5F9 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        opacity: 1;
+        font: normal normal normal 13px/20px Poppins;
+        color: #1BB3CE;
+        outline: none;
+        border: none;
+        padding: 0 12px;
+        transition: all 0.8s ease-out;
+        transition-delay: 0.2s;
+    }
+
+
+    #morePro .rightCardImg {
+        width: 360px;
+        height: 60vh;
+    }
+
+    #morePro .miniCardsCont .hoverBtn,
+    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
+        left: 26%;
+        top: 22vh;
+    }
+
+    #morePro .miniCard .sale_rating span,
+    #morePro .miniCard .sale_rating .rating h3,
+    #morePro .card1 .sale_rating span,
+    #morePro .card1 .sale_rating .rating h3 {
+        font: 12px/14px Poppins;
+    }
+
+    #morePro .miniCard .sale_rating .stars,
+    #morePro .card1 .sale_rating .stars {
+        font-size: 14px !important;
+    }
+}
+
+/* bannerSect  */
+@media only screen and (min-width: 280px) and (max-width: 399px) {
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 22px/32px Poppins;
+        width: 90vw;
+    }
+
+    #bannerSect .bannerHeadlines p {
+        width: 90vw;
+        margin-top: 40px;
+        margin-left: -2px;
+    }
+
+
+}
+
+@media only screen and (min-width: 280px) and (max-width: 574px) {
+
+    #heroSect .detail h3 {
+        margin-left: 0px;
+    }
+
+    #heroSect .detail .detail1,
+    #heroSect .detail .detail2 {
+        width: 100%;
+    }
+
+    #heroSect .buttons .common_btn {
+        width: 38vw;
+        height: 66px;
+        font-size: 15px;
+    }
+
+    #heroSect .buttons .common_btn:hover {
+        font-size: 15px;
+    }
+
+
+    #heroSect .buttons {
+        gap: 0 12px;
+    }
+
+    #topFea .feaHeadlines p,
+    .feaHeadlines2 p {
+        font: 16px/24px Poppins;
+        margin-top: -10px;
+        width: 100%;
+    }
+
+    #topFea .feaImg2 {
+        width: 100%;
+    }
+
+    #bannerSect .bannerHeadlines h2 {
+        font: normal normal 800 22px/32px Poppins;
+        width: 90vw;
+    }
+
+    #bannerSect .bannerHeadlines p {
+        width: 90vw;
+        margin-top: 10px;
+        margin-left: -2px;
+    }
+
+    #bannerSect .bannerBtn {
+        margin-top: -40px;
+    }
+
+    #getCode h2 {
+        text-align: center;
+        font: normal normal bold 30px/72px Poppins;
+    }
+
+}
+
+/* Divider  */
+@media only screen and (min-width: 575px) and (max-width: 830px) {
+    .divider .common_btn {
+        height: 46px;
+        width: 24% !important;
+    }
+}
+
+/* getCode */
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+
+    #getCode .getCodeContainer {
+        padding: 0 0px;
+        padding-left: 30px;
+    }
+
+    #getCode .getCodeContainer .row {
+        gap: 0%;
+    }
+
+    #getCode .getCodeContainer .row .col {
+        flex: 0 0 auto;
+        width: 45% !important;
+    }
+
+    #getCode .getCodeContainer .row .col .card {
+        width: 42vw;
+        background-color: transparent;
+        margin-top: 0;
+    }
+
+    #getCode .card-img-top {
+        height: 60px;
+        width: 60px;
+    }
+
+    #getCode .card .card-title,
+    #getCode .card .card-text {
+        font: normal normal bold 11px/18px Poppins;
+    }
+
+    #getCode .card .card-text {
+        font-weight: 100;
+        opacity: 0.5;
+    }
+}
+
+/* All Mix */
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+    .is-sticky {
+        background-color: #fff !important;
+    }
+
+    #payments .payImages {
+        margin: 0;
+        margin-top: -14px;
+    }
+
+    #heroSect .logo {
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    #topFea,
+    #buyNow,
+    #cards,
+    #morePro,
+    #banner2,
+    #payments,
+    .mainBuynow,
+    #bannerSect,
+    .divider {
+        margin-top: 40px !important;
+    }
+
+    .divider .form-select {
+        background-color: white !important;
+        box-shadow: none !important;
+        font-size: 16px;
+    }
+
+    #getCode {
+        margin-top: -50%;
+    }
+
+    #getCode .card {
+        gap: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: none !important;
+        box-shadow: none !important;
+    }
+
+    #otherFea .featuresWrapper .phoneImg img {
+        display: none;
+    }
+
+    #otherFea .feaList1 .listWrapper,
+    .phoneFeaList .listWrapper {
+        height: 46px;
+    }
+
+    #otherFea .viewMore {
+        display: block !important;
+        text-align: center;
+        text-decoration: underline;
+        transition: 0.5s;
+    }
+
+    #otherFea .feaList2 {
+        display: none !important;
+    }
+
+    #otherFea .featuresWrapper {
+        gap: 5px 0;
+    }
+
+    #otherFea .feaList1 .listWrapper {
+        gap: 10px 26px;
+    }
+
+    #otherFea .featuresWrapper .feaList1,
+    #otherFea .featuresWrapper .phoneFeaList {
+        gap: 18px 0;
+    }
+
+    #otherFea .featuresWrapper .phoneFeaList .listWrapper {
+        margin: 18px 0;
+    }
+
+    #otherFea .feaList1 .listWrapper img,
+    .phoneFeaList .listWrapper img {
+        height: 58px !important;
+        width: auto;
+    }
+
+    #otherFea hr {
+        display: none;
+    }
+
+    .secondCont-topFea {
+        margin-top: 0;
+    }
+
+    .mainBuynow {
+        width: 150px;
+        font-size: 20px;
+        height: 60px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #morePro .rightCardImg .common_btn,
+    #morePro .rightCardImg .common_btn:hover {
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    #banner2 .banner2Cont {
+        height: auto;
+    }
+
+    #bannerSect {
+        z-index: 20;
+    }
+
+    #otherFea .featuresWrapper {
+        margin-top: 0px;
+    }
+
+    #otherFea .feaList1 {
+        display: none !important;
+    }
+
+    #otherFea .phoneFeaList {
+        display: inline-block;
+        max-height: 52vh;
+        overflow: hidden;
+        transition: max-height 1s !important;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+
+    .hoverArrSpan {
+        font-size: 11px;
+        margin-left: -4px;
+    }
+
+    #heroSect .logo img {
+        width: 280px;
+        height: 85px;
+        vertical-align: bottom;
+    }
+
+    #bannerSect .bannerBtn img {
+        width: 94px;
+        margin-right: 10%;
+    }
+
+    #bannerSect .bannerImg .phone1,
+    .phoneHover2 {
+        height: 205px;
+        width: auto;
+    }
+
+    #bannerSect .bannerImg .phone2,
+    .phoneHover1 {
+        height: 180px;
+        width: auto;
+    }
+
+    .navLogo img {
+        width: 190px;
+        height: 35px;
+    }
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    #homeHeroSect .heroContainer .arrow {
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 444px) {
+    #winner .winnerWrapper #winnText {
+        top: 589px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+}
+
+
+@media only screen and (min-width: 448px) and (max-width: 532px) {
+    #winner .winnerWrapper #winnText {
+        top: 550px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+}
+
+@media only screen and (min-width: 533px) and (max-width: 560px) {
+    #winner .winnerWrapper #winnText {
+        top: 526px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+}
+
+@media only screen and (min-width: 561px) and (max-width: 575px) {
+    #winner .winnerWrapper #winnText {
+        top: 498px;
+        right: 30px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 343px) {
+    #winner .winnerWrapper #winnText {
+        top: 728px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+
+    #team .teamDeatails {
+        margin-top: 326px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 300px !important;
+    }
+}
+
+@media only screen and (min-width: 344px) and (max-width: 374px) {
+    #winner .winnerWrapper #winnText {
+        top: 672px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 5px 40px;
+    }
+
+    #team .teamDeatails {
+        margin-top: 370px;
+    }
+    #team .card:hover .teamDeatails {
+        margin-top: 340px !important;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 399px) {
+    #winner .winnerWrapper #winnText {
+        top: 640px;
+        right: 15px;
+        transform: rotate(0);
+        font: normal normal 800 60px/117px Poppins;
+    }
+
+    #services .serviesWrapper .servleftDiv {
+        gap: 5px 40px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1650px) {
+    #winner .winnerWrapper .winnLeftDiv {
+        padding-right: 180px;
+    }
+
+    #winner .winnerWrapper .winnRightDiv {
+        left: -14px;
+    }
+
+    #winner .winnerWrapper #winnText {
+        right: -146px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1850px) {
+    .swiper-button-prev {
+        padding: 0;
+        left: -43px;
+        bottom: 40%;
+    }
+
+    .swiper-button-next {
+        padding: 0;
+        right: -43px;
+        bottom: 40%;
+    }
+
+    .swiper-button-prev svg,
+    .swiper-button-next svg {
+        width: 34px;
+    }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 238px;
+    }
+
+    #testimonials .testSlider .swiperCard .testiDesc span,
+    #testimonials .testSlider .swiperCard .testiFoot span:nth-child(2) {
+        font: normal normal 600 13px/28px Montserrat;
+    }
+
+    #testimonials .testSlider .swiperCard .testiFoot span:nth-child(1) {
+        font: normal normal 600 18px/29px Montserrat;
+    }
+}
+
+
+@media only screen and (max-width: 399px) {
+    #testimonials .testSlider .swiperCard .card-body {
+        padding-bottom: 20px;
+        height: 274px;
+    }
+
+    #testimonials .testSlider .swiperCard .testiDesc span,
+    #testimonials .testSlider .swiperCard .testiFoot span:nth-child(2) {
+        font: normal normal 600 13px/28px Montserrat;
+    }
+
+    #testimonials .testSlider .swiperCard .testiFoot span:nth-child(1) {
+        font: normal normal 600 18px/29px Montserrat;
+    }
+}
