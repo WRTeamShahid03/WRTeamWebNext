@@ -2845,7 +2845,7 @@ hr {
 .nav-link {
     margin: 0 14px;
     font: normal normal 600 16px/19px Montserrat;
-    color: #283042;
+    color: #283042 !important;
 }
 
 .nav-link:hover,
