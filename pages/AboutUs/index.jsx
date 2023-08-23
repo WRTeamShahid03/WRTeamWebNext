@@ -357,11 +357,6 @@ const index = () => {
 
                 <div className="navigation-buttons">
 
-
-                  {/* <div className="Teamswiper-button-prev" onClick={() => handlePageChange(currentPage - 1)} >
-                    <span><FaAngleLeft color='white' /></span>
-                  </div> */}
-
                   <ReactPaginate
                     pageCount={3}
                     pageRangeDisplayed={3}
@@ -379,10 +374,6 @@ const index = () => {
                     nextLinkClassName="page-link"
                     pageLinkClassName="page-link"
                   />
-
-                  {/* <div className="Teamswiper-button-next" onClick={() => handlePageChange(currentPage + 1)}>
-                    <span><FaAngleRight color='white' /></span>
-                  </div> */}
 
                 </div>
               </div>
