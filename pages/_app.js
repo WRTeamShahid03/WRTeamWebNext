@@ -1,15 +1,14 @@
 "use client"
 import React, { useEffect } from 'react'
-
-
+import "../public/Css/style.css"
+import "../public/Css/responsive.css"
+import 'bootstrap/dist/css/bootstrap.css'
 import Head from 'next/head'
 import Header from '@/Components/Header/Header'
 import Footer from '@/Components/Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import 'bootstrap/dist/css/bootstrap.css'
-import "../public/Css/style.css"
-import "../public/Css/responsive.css"
+
 
 function MyApp({ Component, pageProps, data }) {
 
