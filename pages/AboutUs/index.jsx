@@ -141,7 +141,7 @@ const index = () => {
                 </div>
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' />
+              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
               <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -199,7 +199,7 @@ const index = () => {
 
                 </div>
 
-                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
                 <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
 
               </div>
@@ -220,7 +220,7 @@ const index = () => {
                 <img src={ourMission.src} alt="" />
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' />
+              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
               <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -284,7 +284,7 @@ const index = () => {
                 </div>
 
 
-                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' data-aos="fade-left" data-aos-duration="2000"  data-aos-delay="50"/>
                 <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
               </div>
             </div>

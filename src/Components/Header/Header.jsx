@@ -20,43 +20,54 @@ import Link from 'next/link';
 const Header = () => {
 
   const [show, setShow] = useState(false);
+  const [menuOpen1, setMenuOpen1] = useState(false);
+  const [menuOpen2, setMenuOpen2] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
   const [headerTop, setHeaderTop] = useState(0);
-    const [scroll, setScroll] = useState(0);
+  const [scroll, setScroll] = useState(0);
 
 
-    useEffect(() => {
+  useEffect(() => {
 
-        const nav = typeof document !== 'undefined' && document.querySelector(".nav");
-        setHeaderTop(nav.offsetTop);
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    const nav = typeof document !== 'undefined' && document.querySelector(".nav");
+    setHeaderTop(nav.offsetTop);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleScroll = () => {
     setScroll(window.scrollY);
-};
+  };
 
- 
+  const handlers1 = {
+    onMouseEnter: () => setMenuOpen1(true),
+    onMouseLeave: () => setMenuOpen1(false),
+  };
+  const handlers2 = {
+    onMouseEnter: () => setMenuOpen2(true),
+    onMouseLeave: () => setMenuOpen2(false),
+  };
+
+
 
   return (
     <>
 
       <Navbar expand="lg" id="header" className={`nav ${scroll > headerTop ? "sticky " : ""}`}>
         <div className='container'>
-         
-          
+
+
           <div id="leftSide">
             <div className="navLogo">
-             <Navbar.Brand href="/">  <img src={navLogo.src} alt="navLogo" /> </Navbar.Brand>
+              <Navbar.Brand href="/">  <img src={navLogo.src} alt="navLogo" /> </Navbar.Brand>
             </div>
           </div>
-          
+
           <span onClick={handleShow} id='hamburg'><GiHamburgerMenu size={36} /></span>
 
           <Navbar.Collapse id="basic-navbar-nav">
@@ -65,28 +76,32 @@ const Header = () => {
 
               <Nav.Link href='/AboutUs'> About Us </Nav.Link>
 
-              <Dropdown title="Services" id="basic-nav-dropdown">
-               <Dropdown.Toggle id="dropdown-basic">
-                    <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
-                  </Dropdown.Toggle>
-                  <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" className='navItem1'> Web Products</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1" className='navItem2'>App Products</Dropdown.Item>
-                  </Dropdown.Menu>
+              <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
+                onMouseLeave={handlers1.onMouseLeave}
+                show={menuOpen1}>
+                <Dropdown.Toggle id="dropdown-basic">
+                  <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1" className='navItem1'> Web Products</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" className='navItem2'>App Products</Dropdown.Item>
+                </Dropdown.Menu>
               </Dropdown>
 
 
 
-              <Dropdown title="Services" id="basic-nav-dropdown">
-               <Dropdown.Toggle id="dropdown-basic">
-                    <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
-                  </Dropdown.Toggle>
-                  <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1" className='navItem3'> Web Development</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1" className='navItem4'>App Development</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1" className='navItem5'> UI/UX Design Service</Dropdown.Item>
-                    <Dropdown.Item href="#/action-1" className='navItem6'> Digital Marketing Service</Dropdown.Item>
-                  </Dropdown.Menu>
+              <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers2.onMouseEnter}
+                onMouseLeave={handlers2.onMouseLeave}
+                show={menuOpen2}>
+                <Dropdown.Toggle id="dropdown-basic">
+                  <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1" className='navItem3'> Web Development</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" className='navItem4'>App Development</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" className='navItem5'> UI/UX Design Service</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1" className='navItem6'> Digital Marketing Service</Dropdown.Item>
+                </Dropdown.Menu>
               </Dropdown>
 
               <Nav.Link href="#blogs">Blogs</Nav.Link>
@@ -94,18 +109,18 @@ const Header = () => {
               <Nav.Link href="#about us">Career</Nav.Link>
 
               <div className="contactNum">
-              <span id='callIcon'><IoIosCall size={28}/></span>
-              <div className="number">
-                <span>Hot Line Numbae</span>
-                <span>+91 12345 67890</span>
-              </div>
+                <span id='callIcon'><IoIosCall size={28} /></span>
+                <div className="number">
+                  <span>Hot Line Numbae</span>
+                  <span>+91 12345 67890</span>
+                </div>
               </div>
 
               <div id="rightSide">
-                
-              <button className="homeCommon_btn"> Hire Us </button>
-            
-            </div>
+
+                <button className="homeCommon_btn"> Hire Us </button>
+
+              </div>
             </Nav>
 
           </Navbar.Collapse>
@@ -155,18 +170,18 @@ const Header = () => {
           </NavDropdown>
 
           <div className="contactNum">
-              <span id='callIcon'><IoIosCall size={28}/></span>
-              <div className="number">
-                <span>Hot Line Numbae</span>
-                <span>+91 12345 67890</span>
-              </div>
-              </div>
-
-              <div id="rightSide">
-                
-              <button className="homeCommon_btn">Hire Us</button>
-            
+            <span id='callIcon'><IoIosCall size={28} /></span>
+            <div className="number">
+              <span>Hot Line Numbae</span>
+              <span>+91 12345 67890</span>
             </div>
+          </div>
+
+          <div id="rightSide">
+
+            <button className="homeCommon_btn">Hire Us</button>
+
+          </div>
 
         </Offcanvas.Body>
       </Offcanvas>

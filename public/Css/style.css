@@ -3877,3 +3877,29 @@ footer .footerContainer .flinks {
     left: 92%;
     width: 2px;
 }
+
+/* AboutPage Animations   */
+
+#knowMore .knowMoreLeftDiv .dotsPattern{
+    animation: knowMoreDotts 3s ease-in-out 1s infinite alternate-reverse forwards;
+    transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+
+
+@keyframes knowMoreDotts {
+    0% {
+        top: 12%;
+    }
+
+    50% {
+        top: 8%;
+    }
+
+    100% {
+        top: 16%;
+    }
+
+
+}
