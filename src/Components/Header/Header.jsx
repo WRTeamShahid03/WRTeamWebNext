@@ -162,7 +162,7 @@ const Header = () => {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link href="#link">Blogs</Nav.Link>
+          <Nav.Link href="/Blogs">Blogs</Nav.Link>
           <NavDropdown title="About us" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
               Career
