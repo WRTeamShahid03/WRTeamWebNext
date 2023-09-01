@@ -76,7 +76,7 @@ const Header = () => {
 
               <Nav.Link href='/AboutUs'> About Us </Nav.Link>
 
-              <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
+              <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
                 onMouseLeave={handlers1.onMouseLeave}
                 show={menuOpen1}>
                 <Dropdown.Toggle id="dropdown-basic">
@@ -104,7 +104,7 @@ const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
 
-              <Nav.Link href="#blogs">Blogs</Nav.Link>
+              <Nav.Link href="/Blogs">Blogs</Nav.Link>
 
               <Nav.Link href="#about us">Career</Nav.Link>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
 
-const Breadcrum = ({title,contentOne,contentTwo}) => {
+const Breadcrum = ({title,blueText,contentOne,contentTwo}) => {
     return (
         <div className='breadcrum'>
             <div className="lines">
@@ -12,7 +12,7 @@ const Breadcrum = ({title,contentOne,contentTwo}) => {
                 <span className='line5'></span>
             </div>
             <div className="container breadcrumContent">
-                <h1>About <span>Us</span></h1>
+                <h1>{title} <span>{blueText}</span></h1>
                 <span className='pageName'>
                     <span>{contentOne} </span>
                     <span> <AiOutlineDoubleRight size={20} /> </span>

@@ -180,10 +180,10 @@
     #services,
     #tech,
     #workChain,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
-    #vision{
+    #vision {
         overflow: hidden;
     }
 
@@ -275,12 +275,27 @@
     #team .teamDeatails {
         margin-top: 326px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 306px !important;
     }
 
     #team .comman_Headlines {
         width: 52%;
+    }
+
+    /* team ends  */
+
+    #category .card-title {
+        font: normal normal 700 20px/34px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 30px;
     }
 
 
@@ -515,11 +530,11 @@
     #workChain,
     #tech,
     #testimonials,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
     #vision,
-    #values{
+    #values {
         overflow: hidden;
     }
 
@@ -658,8 +673,8 @@
 
     #knowMore .row .col-lg-6,
     #mission .row .col-lg-6,
-    #vision .row .col-lg-6 ,
-    #values .row .col-lg-6{
+    #vision .row .col-lg-6,
+    #values .row .col-lg-6 {
         width: 75%;
 
     }
@@ -679,8 +694,8 @@
 
     /* knowMore ends  */
 
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv  .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 292px;
     }
 
@@ -702,12 +717,48 @@
     #team .teamDeatails {
         margin-top: 386px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 346px !important;
     }
 
     #team .comman_Headlines {
         width: 61%;
+    }
+
+    /* team ends  */
+
+
+    #category .card-title {
+        font: normal normal 700 17px/34px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 50px;
+    }
+
+    #category .cateBox .boxDetails span {
+        font: 14px/24px Montserrat;
+    }
+
+    #category .boxHeadline {
+        font: normal normal 600 26px/37px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails {
+        align-items: center;
+    }
+
+    #category .recentBlogs .boxDetails .rbImg {
+        height: 90px;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        top: 122px;
     }
 
 }
@@ -970,8 +1021,8 @@
     .getInTouch,
     #knowMore,
     #mission,
-    #vision ,
-    #values{
+    #vision,
+    #values {
         overflow: hidden;
     }
 
@@ -1150,15 +1201,15 @@
 
     #knowMore .row,
     #mission .row,
-    #vision .row ,
-    #values .row{
+    #vision .row,
+    #values .row {
         gap: 150px 0;
     }
 
     #knowMore .row .col-lg-6,
     #mission .row .col-lg-6,
-    #vision .row .col-lg-6 ,
-    #values .row .col-lg-6{
+    #vision .row .col-lg-6,
+    #values .row .col-lg-6 {
         width: 75%;
 
     }
@@ -1170,8 +1221,8 @@
 
     #knowMore .knowMoreRightDiv,
     #mission .missionRightDiv,
-    #vision .visionLeftDiv ,
-    #values .valuesLeftDiv{
+    #vision .visionLeftDiv,
+    #values .valuesLeftDiv {
         width: 135%;
         padding-left: 0;
     }
@@ -1179,8 +1230,8 @@
     /* knowMore ends  */
 
 
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 250px;
     }
 
@@ -1202,12 +1253,46 @@
     #team .teamDeatails {
         margin-top: 316px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 276px !important;
     }
 
     #team .comman_Headlines {
         width: 100%;
+    }
+
+    /* team ends  */
+
+    #category .row .col-lg-8,
+    #category .row .col-lg-4 {
+        width: 100%;
+    }
+
+    #category .card-title {
+        font: normal normal 700 22px/34px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 5px;
+    }
+
+    #category .cateBox,
+    #category .recentBlogs,
+    #category .tags {
+        margin-top: 30px;
+    }
+
+    #category .cateBox .boxDetails span {
+        font: 18px/24px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent {
+        justify-content: space-around;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        width: 88%;
     }
 }
 
@@ -1503,11 +1588,11 @@
     #tech,
     #workChain,
     #testimonials,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
     #vision,
-    #values{
+    #values {
         overflow: hidden;
     }
 
@@ -1722,8 +1807,8 @@
 
     #knowMore .knowMoreLeftDiv .knowMoreImg img,
     #mission .missionLeftDiv .missionImg img,
-    #vision .visionRightDiv .visionLeftImg  img,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         width: 90%;
     }
 
@@ -1755,8 +1840,8 @@
 
     #knowMore .knowMoreRightDiv,
     #mission .missionRightDiv,
-    #vision .visionRightDiv ,
-    #values .valuesRightDiv{
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
         padding-left: 0;
     }
 
@@ -1780,8 +1865,8 @@
     /* knowMore ends  */
 
 
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 84px;
     }
 
@@ -1804,12 +1889,53 @@
     #team .teamDeatails {
         margin-top: 366px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 326px !important;
     }
 
     #team .comman_Headlines {
         width: 100%;
+    }
+
+    /* team ends  */
+
+    #category .card {
+        height: 64vh;
+    }
+
+    #category .cateBadge {
+        padding: 6px;
+    }
+
+    #category .card-title {
+        font: normal normal 700 16px/26px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 40px;
+    }
+
+    #category .cateBox,
+    #category .recentBlogs,
+    #category .tags {
+        margin-top: 30px;
+    }
+
+    #category .cateBox .boxDetails span {
+        font: 18px/24px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent {
+        justify-content: space-around;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        width: 88%;
+    }
+
+    #category .card-text {
+        font-size: 15px;
     }
 
 
@@ -2140,12 +2266,12 @@
     #tech,
     #workChain,
     #testimonials,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
     #vision,
     #values,
-    #team{
+    #team {
         overflow: hidden;
         margin-top: 60px;
     }
@@ -2392,7 +2518,8 @@
     }
 
     /* workChain ends  */
-    .getInTouch ,#counter{
+    .getInTouch,
+    #counter {
         width: 96%;
     }
 
@@ -2418,8 +2545,8 @@
 
     #knowMore .knowMoreLeftDiv .knowMoreImg img,
     #mission .missionLeftDiv .missionImg img,
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         width: 89%;
     }
 
@@ -2444,15 +2571,15 @@
 
     #knowMore .row,
     #mission .row,
-    #vision .row ,
-    #values .row{
+    #vision .row,
+    #values .row {
         gap: 150px 0;
     }
 
     #knowMore .knowMoreRightDiv,
     #mission .missionRightDiv,
-    #vision .visionRightDiv ,
-    #values .valuesRightDiv{
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
         padding-left: 0;
     }
 
@@ -2517,10 +2644,12 @@
     #values .valuesLeftDiv {
         width: 100%;
     }
+
     .swiper-slide {
         justify-content: center;
         align-items: center;
     }
+
     #team .card {
         width: 350px;
     }
@@ -2528,6 +2657,7 @@
     #team .teamDeatails {
         margin-top: 388px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 346px !important;
     }
@@ -2545,6 +2675,35 @@
     .breadcrum .pageName {
         font: normal normal 200 15px/64px Montserrat;
         color: #2D3745;
+    }
+
+     /* team ends  */
+
+     #category .card {
+        height: 76vh;
+    }
+
+    #category .cateBadge {
+        padding: 10px;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 0px;
+        display: block;
+    }
+
+    #category .cateBox,
+    #category .recentBlogs,
+    #category .tags {
+        margin-top: 30px;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent {
+        justify-content: space-around;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        width: 88%;
     }
 }
 
@@ -2901,11 +3060,11 @@
     #tech,
     #workChain,
     #testimonials,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
     #vision,
-    #values{
+    #values {
         overflow: hidden;
         margin-top: 40px;
     }
@@ -3297,10 +3456,10 @@
 
     /* Home Page ends  */
 
-    #knowMore .knowMoreLeftDiv .knowMoreImg img ,
-    #mission .missionLeftDiv .missionImg img ,
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         width: 89%;
     }
 
@@ -3316,15 +3475,14 @@
 
     #knowMore .row,
     #mission .row,
-    #vision .row ,
-    #values .row{
+    #vision .row,
+    #values .row {
         gap: 90px 0;
     }
 
     #knowMore .knowMoreRightDiv,
     #mission .missionRightDiv,
-    #vision .visionRightDiv 
-    #values .valuesRightDiv{
+    #vision .visionRightDiv #values .valuesRightDiv {
         padding-left: 0;
     }
 
@@ -3350,8 +3508,8 @@
     /* knowMore ends  */
 
 
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 38px;
     }
 
@@ -3369,8 +3527,8 @@
         bottom: -34px;
     }
 
-    #vision .row ,
-    #values .row{
+    #vision .row,
+    #values .row {
         flex-direction: column-reverse;
     }
 
@@ -3382,13 +3540,16 @@
     .valuesList span {
         font: normal normal 600 13px/26px Montserrat;
     }
+
     #values {
         padding: 50px 0;
     }
+
     .swiper-slide {
         justify-content: center;
         align-items: center;
     }
+
     #team .card {
         width: 350px;
     }
@@ -3396,6 +3557,7 @@
     #team .teamDeatails {
         margin-top: 388px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 346px !important;
     }
@@ -3413,6 +3575,47 @@
     .breadcrum .pageName {
         font: normal normal 200 15px/64px Montserrat;
         color: #2D3745;
+    }
+
+     /* team ends  */
+
+     #category .card {
+        height: 64vh;
+    }
+
+    #category .cateBadge {
+        padding: 6px;
+    }
+
+    #category .card-title {
+        font: normal normal 700 16px/26px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 40px;
+        display: block;
+    }
+
+    #category .cateBox,
+    #category .recentBlogs,
+    #category .tags {
+        margin-top: 30px;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 12px/26px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent {
+        justify-content: space-around;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        width: 88%;
+    }
+
+    #category .card-text {
+        font-size: 15px;
     }
 
 }
@@ -3899,12 +4102,12 @@
     #tech,
     #workChain,
     #testimonials,
-    .getInTouch ,
+    .getInTouch,
     #knowMore,
     #mission,
     #vision,
     #values,
-    #team{
+    #team {
         overflow: hidden;
         margin-top: 40px;
     }
@@ -4339,8 +4542,8 @@
 
     #knowMore .knowMoreLeftDiv .knowMoreImg img,
     #mission .missionLeftDiv .missionImg img,
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         width: 89%;
     }
 
@@ -4356,8 +4559,8 @@
 
     #knowMore .row,
     #mission .row,
-    #vision .row ,
-    #values .row{
+    #vision .row,
+    #values .row {
         gap: 70px 0;
     }
 
@@ -4389,8 +4592,8 @@
     /* knowMore ends  */
 
 
-    #vision .visionRightDiv .visionLeftImg img ,
-    #values .valuesRightDiv .valuesLeftImg img{
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 32px;
     }
 
@@ -4409,7 +4612,7 @@
     }
 
     #vision .row,
-    #values .row{
+    #values .row {
         flex-direction: column-reverse;
     }
 
@@ -4417,9 +4620,11 @@
     #values .valuesLeftDiv {
         width: 100%;
     }
+
     .valuesList span {
         font: normal normal 600 13px/26px Montserrat;
     }
+
     #values {
         padding: 30px 0;
     }
@@ -4428,6 +4633,7 @@
         justify-content: center;
         align-items: center;
     }
+
     #team .card {
         width: 92%;
     }
@@ -4435,6 +4641,7 @@
     #team .teamDeatails {
         margin-top: 326px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 300px !important;
     }
@@ -4452,6 +4659,51 @@
     .breadcrum .pageName {
         font: normal normal 200 15px/64px Montserrat;
         color: #2D3745;
+    }
+
+    /* team ends  */
+
+    #category .card {
+        height: 64vh;
+    }
+
+    #category .cateBadge {
+        padding: 6px;
+    }
+
+    #category .card-title {
+        font: normal normal 700 14px/26px Montserrat;
+    }
+
+    #category .blogComman_btn {
+        margin-top: 40px;
+        display: block;
+    }
+
+    #category .cateBox,
+    #category .recentBlogs,
+    #category .tags {
+        margin-top: 30px;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 12px/16px Montserrat;
+    }
+
+    #category .recentBlogs .boxDetails .recentBoxContent {
+        justify-content: space-around;
+    }
+
+    #category .recentBlogs .boxDetails :first-child::before {
+        width: 64%;
+    }
+
+    #category .card-text {
+        font-size: 15px;
+        height: 140px;
+    }
+    #category .boxHeadline {
+        font: normal normal 600 26px/37px Montserrat;
     }
 }
 
@@ -5095,6 +5347,7 @@
     #team .teamDeatails {
         margin-top: 326px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 300px !important;
     }
@@ -5115,6 +5368,7 @@
     #team .teamDeatails {
         margin-top: 370px;
     }
+
     #team .card:hover .teamDeatails {
         margin-top: 340px !important;
     }

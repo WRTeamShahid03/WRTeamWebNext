@@ -1,5 +1,5 @@
 import Breadcrum from '@/Components/Breadcrum'
-import { React, useCallback, useRef, useState } from 'react'
+import { React, useRef, useState } from 'react'
 import { BsCheckCircle } from 'react-icons/bs'
 import Counter from '../../src/Components/Counter'
 import WorkChain from '@/Components/WorkChain'
@@ -123,7 +123,7 @@ const index = () => {
 
   return (
     <div className='aboutUs'>
-      <Breadcrum title="About Us" contentOne="Home" contentTwo="About Us" />
+      <Breadcrum title="About" blueText="Us" contentOne="Home" contentTwo="About Us" />
 
       <section id='knowMore' className='container'>
         <div className="row">

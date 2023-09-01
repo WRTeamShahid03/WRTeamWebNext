@@ -125,10 +125,6 @@ const Home = () => {
 
     ]
 
-   
-
-    
-
     return (
         <>
             <section id='homeHeroSect' className='container'>
