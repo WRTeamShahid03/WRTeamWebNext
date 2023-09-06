@@ -25,6 +25,7 @@ import blog6 from '../../src/Asset/Images/Blog_6.png'
 import dateIcon from '../../src/Asset/Icons/ic_date.png'
 import GetInTouch from '@/Components/GetInTouch';
 import BlogsSideBoxes from '@/Components/BlogsSideBoxes';
+import Link from 'next/link';
 
 const index = () => {
 
@@ -158,6 +159,7 @@ const index = () => {
                     return <>
 
                       <SwiperSlide key={index}>
+                        <Link href="/blogs-details"> 
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
                           <img src={ele.img.src} className="card-img-top" alt="teamImg" />
@@ -175,6 +177,7 @@ const index = () => {
                             </div>
                           </div>
                         </div>
+                        </Link>
 
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
@@ -242,7 +245,7 @@ const index = () => {
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-4">
-            
+
             <BlogsSideBoxes/>
 
           </div>

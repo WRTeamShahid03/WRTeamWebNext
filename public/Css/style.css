@@ -3933,6 +3933,10 @@ footer .footerContainer .flinks {
     margin-top: 100px;
 }
 
+.cateSideBoxes {
+    margin-top: 0px !important;
+}
+
 #category .card-title,
 #category .card-text {
     color: #212121;
@@ -3960,7 +3964,8 @@ footer .footerContainer .flinks {
     margin-right: 4px;
 }
 
-#category .cateBadge {
+#category .cateBadge,
+#blogDetails .cateBadge {
     background-color: var(--primary-color);
     color: white;
     position: absolute;
@@ -3978,7 +3983,8 @@ footer .footerContainer .flinks {
     height: 100%;
 }
 
-#category .cateDate {
+#category .cateDate,
+.blogDate {
     font: 14px/24px Montserrat;
     color: #545A68;
     display: flex;
@@ -4016,8 +4022,9 @@ footer .footerContainer .flinks {
     padding: 20px;
     position: relative;
 }
+
 #category .recentBlogs,
-#category .tags{
+#category .tags {
     margin-top: 30px;
 }
 
@@ -4104,14 +4111,288 @@ footer .footerContainer .flinks {
     letter-spacing: 0px;
     color: #212121;
 }
+
 #category .tags .boxHeadline {
     display: block;
     margin-bottom: 26px;
 }
 
-#category .tags .common_span{
+#category .tags .common_span {
     margin-top: 15px;
     margin-left: 12px;
     display: inline-block;
     padding: 6px;
+}
+
+/* category ends  */
+
+
+#blogDetails {
+    margin-top: 100px;
+}
+
+#blogDetails .blogDetailContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#blogDetails .upperDiv .blogDate {
+    margin-top: -12px;
+}
+
+#blogDetails .upperDiv .blogHeadline {
+    margin-top: 12px;
+}
+
+#blogDetails .upperDiv .blogImg {
+    position: relative;
+}
+
+#blogDetails .upperDiv .blogImg img {
+    margin-top: 18px;
+    width: 100%;
+}
+
+#blogDetails .blogImg .cateBadge {
+    margin-top: 34px;
+}
+
+#blogDetails .blogContentWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#blogDetails .blogDetailContent .title {
+    margin-top: 12px;
+    font: normal normal bold 18px/32px Montserrat;
+    color: #212121;
+}
+
+#blogDetails .blogDetailContent .desc {
+    /* margin-top: 12px; */
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+}
+
+#blogDetails .middleDiv {
+    margin-top: 40px;
+}
+
+#blogDetails .bottomDiv {
+    margin-top: 40px;
+}
+
+#blogDetails .bottomDiv .tagDiv {
+    border-top: 1.5px solid #2830423b;
+    border-bottom: 1.5px solid #2830423b;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blogDetails .bottomDiv .tagDiv span:first-child {
+    font: normal normal bold 18px/32px Montserrat;
+    color: #283042;
+}
+
+#blogDetails .bottomDiv .tagDiv .common_span {
+    margin: 0 12px;
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons span {
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons .facebook:hover {
+    color: rgba(11, 100, 235, 0.838);
+
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons .twitter:hover {
+    color: black;
+
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons .pintrest:hover {
+    color: red;
+
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons .linkedin svg {
+    border-radius: 30px;
+}
+
+#blogDetails .bottomDiv .tagDiv .tagIcons .linkedin:hover {
+    color: rgb(2, 183, 255);
+}
+
+
+#blogDetails .bottomDiv .previousBlogs {
+    margin-top: 40px;
+}
+
+#blogDetails .bottomDiv .previousBlogs .prevNextHeadDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 26px #28304214;
+    border-radius: 8px;
+    padding: 12px 22px;
+}
+
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails .rbImg {
+    width: auto;
+    height: 100px;
+}
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:first-child {
+    font: 14px/24px Montserrat;
+    color: #545A68;
+}
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:first-child img {
+    padding-bottom: 4px;
+}
+
+#blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+    font: normal normal 600 18px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #212121;
+}
+
+#blogDetails .previousBlogs .boxHeadline {
+    font: normal normal bold 18px/32px Montserrat;
+    color: #283042;
+    display: flex;
+}
+
+#blogDetails .boxWrapper {
+    display: flex;
+    gap: 40px;
+}
+
+#blogDetails .bottomDiv .commentBox {
+    margin-top: 50px;
+}
+
+#blogDetails .bottomDiv .commentBox .boxHeadline,
+#blogDetails .bottomDiv .leaveReplyBox .boxHeadline {
+    font: normal normal bold 30px/37px Montserrat;
+    color: #212121;
+}
+
+
+#blogDetails .bottomDiv .commentBox .commentWrapper {
+    border-bottom: 1px solid #a9a9a9bf;
+    padding-bottom: 60px;
+}
+
+
+#blogDetails .bottomDiv .commentBox .commentCard {
+    margin-top: 32px;
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+#blogDetails .bottomDiv .commentBox .commentCard .userContent {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#blogDetails .bottomDiv .commentBox .commentCard .userContent .userName {
+    font: normal normal bold 18px/32px Montserrat;
+    color: #283042;
+}
+
+#blogDetails .bottomDiv .commentBox .commentCard .userContent .userComment {
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+}
+
+#blogDetails .bottomDiv .commentBox .commentCard .userContent .rbDate {
+    display: flex;
+    gap: 0px 12px;
+    align-items: center;
+}
+
+#blogDetails .blogDate {
+    margin-top: 0;
+}
+
+#blogDetails .bottomDiv .commentBox .commentCard .userContent .replyBtn {
+    font: normal normal 100 16px/32px Montserrat;
+    color: #283042;
+    cursor: pointer;
+}
+
+#blogDetails .bottomDiv .homeCommon_btn {
+    background-color: #283042;
+    margin-top: 20px;
+}
+
+#blogDetails .bottomDiv .homeCommon_btn::after {
+    background-color: var(--primary-color);
+}
+
+#blogDetails .bottomDiv .commentBox .subCommentCard {
+    margin-left: 116px;
+}
+
+#blogDetails .bottomDiv .commentBox textarea {
+    padding-bottom: 60px;
+
+}
+
+#blogDetails .bottomDiv .leaveReplyBox {
+    margin-top: 40px;
+}
+
+#blogDetails .bottomDiv .leaveReplyBox .leaveInput {
+    margin-top: 30px;
+}
+
+#blogDetails .bottomDiv .leaveInputColor {
+    font: normal normal 100 14px/32px Montserrat;
+    color: #283042C2;
+    background: #FAFAFA !important;
+    border: 0.5px solid #545a6869;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+#blogDetails .bottomDiv .leaveReplyBox .leaveInput .leaveCheckBox {
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+    margin-left: 12px;
+}
+
+#blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
+    margin-left: -22px;
 }
