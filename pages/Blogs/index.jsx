@@ -159,7 +159,7 @@ const index = () => {
                     return <>
 
                       <SwiperSlide key={index}>
-                        <Link href="/blogs-details"> 
+                       
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
                           <img src={ele.img.src} className="card-img-top" alt="teamImg" />
@@ -173,11 +173,12 @@ const index = () => {
                               {ele.title.length>50? ele.title.slice(0,55) + "" + "...": ele.title}</p>
                               <p className='card-text'>{ele.text}</p>
 
-                              <button className='blogComman_btn'>Read More <BsArrowRightCircle style={{ paddingBottom: "2px" }} /> </button>
+                              <Link href="/blogs-details">  <button className='blogComman_btn'>Read More <BsArrowRightCircle style={{ paddingBottom: "2px" }} /> </button> </Link>
                             </div>
+                            
                           </div>
                         </div>
-                        </Link>
+                        
 
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>

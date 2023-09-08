@@ -4180,6 +4180,11 @@ footer .footerContainer .flinks {
     margin-top: 40px;
 }
 
+#blogDetails .middleDiv .middleDivImg{
+    width: 100%;
+}
+
+
 #blogDetails .bottomDiv {
     margin-top: 40px;
 }
@@ -4250,6 +4255,7 @@ footer .footerContainer .flinks {
 #blogDetails .bottomDiv .previousBlogs .boxDetails {
     display: flex;
     gap: 12px;
+    align-items: center;
     margin-top: 20px;
     position: relative;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -4281,7 +4287,6 @@ footer .footerContainer .flinks {
 
 #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
     font: normal normal 600 18px/26px Montserrat;
-    letter-spacing: 0px;
     color: #212121;
 }
 

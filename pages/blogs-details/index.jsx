@@ -104,11 +104,11 @@ const index = () => {
 
                             <div className="row">
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <img src={blog.src} alt="" />
+                                    <img src={blog.src} alt="" className='middleDivImg'/>
                                 </div>
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <img src={blog1.src} alt="" />
+                                    <img src={blog1.src} alt="" className='middleDivImg'/>
                                 </div>
 
                             </div>

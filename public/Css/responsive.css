@@ -298,6 +298,12 @@
         margin-top: 30px;
     }
 
+    /* category ends  */
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 17px/26px Montserrat;
+    }
+
 
 }
 
@@ -759,6 +765,16 @@
 
     #category .recentBlogs .boxDetails :first-child::before {
         top: 122px;
+    }
+
+    /* category ends  */
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails {
+        padding: 12px 10px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 14px/26px Montserrat;
     }
 
 }
@@ -1265,7 +1281,9 @@
     /* team ends  */
 
     #category .row .col-lg-8,
-    #category .row .col-lg-4 {
+    #category .row .col-lg-4,
+    #blogDetails .row .col-lg-8,
+    #blogDetails .row .col-lg-4 {
         width: 100%;
     }
 
@@ -1293,6 +1311,14 @@
 
     #category .recentBlogs .boxDetails :first-child::before {
         width: 88%;
+    }
+
+    /* category ends  */
+
+
+    .breadcrum {
+        height: 330px;
+        margin-top: -142px;
     }
 }
 
@@ -1938,6 +1964,20 @@
         font-size: 15px;
     }
 
+    /* category ends  */
+
+    .breadcrum {
+        height: 330px;
+        margin-top: -142px;
+    }
+
+    #blogDetails .middleDiv .row {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 13px/26px Montserrat;
+    }
 
 
 }
@@ -2271,7 +2311,8 @@
     #mission,
     #vision,
     #values,
-    #team {
+    #team,
+    #blogDetails {
         overflow: hidden;
         margin-top: 60px;
     }
@@ -2520,7 +2561,7 @@
     /* workChain ends  */
     .getInTouch,
     #counter {
-        width: 96%;
+        width: 96% !important;
     }
 
     .getInTouch .getTouchText {
@@ -2668,8 +2709,8 @@
 
     .breadcrum {
         background-color: #2E71FE14;
-        height: 332px;
-        margin-top: -132px;
+        height: 292px;
+        margin-top: -172px;
     }
 
     .breadcrum .pageName {
@@ -2677,9 +2718,9 @@
         color: #2D3745;
     }
 
-     /* team ends  */
+    /* team ends  */
 
-     /* #category .card {
+    /* #category .card {
         height: 76vh;
     } */
 
@@ -2703,7 +2744,49 @@
     }
 
     #category .recentBlogs .boxDetails :first-child::before {
-        width: 88%;
+        width: 80%;
+    }
+
+    #blogDetails .upperDiv .blogDate {
+        margin-top: 0px;
+    }
+
+    #blogDetails .middleDiv .row {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 13px/26px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .tagDiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+    }
+
+    #blogDetails .bottomDiv .common_span {
+        padding: 8px;
+        font: normal normal 600 14px/19px Montserrat;
+    }
+
+    #blogDetails .boxWrapper {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .prevNextHeadDiv span:last-child {
+        position: absolute;
+        margin-top: 422px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
+        padding: 12px;
     }
 }
 
@@ -3064,7 +3147,8 @@
     #knowMore,
     #mission,
     #vision,
-    #values {
+    #values,
+    #blogDetails {
         overflow: hidden;
         margin-top: 40px;
     }
@@ -3567,9 +3651,8 @@
     }
 
     .breadcrum {
-        background-color: #2E71FE14;
-        height: 302px;
-        margin-top: -155px;
+        height: 292px;
+        margin-top: -172px;
     }
 
     .breadcrum .pageName {
@@ -3577,8 +3660,8 @@
         color: #2D3745;
     }
 
-     /* team ends  */
-/* 
+    /* team ends  */
+    /* 
      #category .card {
         height: 64vh;
     } */
@@ -3611,11 +3694,77 @@
     }
 
     #category .recentBlogs .boxDetails :first-child::before {
-        width: 88%;
+        width: 70%;
     }
 
     #category .card-text {
         font-size: 15px;
+    }
+
+    /* category ends  */
+
+    #blogDetails .upperDiv .blogDate {
+        margin-top: 0px;
+    }
+
+    #blogDetails .middleDiv .row {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 14px/26px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .tagDiv {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+    }
+
+    #blogDetails .bottomDiv .common_span {
+        padding: 8px;
+        font: normal normal 600 12px/19px Montserrat;
+    }
+
+    #blogDetails .boxWrapper {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .prevNextHeadDiv span:last-child {
+        position: absolute;
+        margin-top: 422px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
+        padding: 12px;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard img:first-child {
+        width: 70px;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard .blogDate img {
+        width: auto;
+    }
+
+    #blogDetails .bottomDiv .commentBox .boxHeadline,
+    #blogDetails .bottomDiv .leaveReplyBox .boxHeadline {
+        font: normal normal bold 24px/37px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .commentBox .subCommentCard {
+        margin-left: 30px;
+    }
+
+    #blogDetails .blogImg .cateBadge {
+        margin-top: 28px;
+        padding: 4px;
     }
 
 }
@@ -4651,9 +4800,8 @@
     }
 
     .breadcrum {
-        background-color: #2E71FE14;
-        height: 300px;
-        margin-top: -155px;
+        height: 280px;
+        margin-top: -178px;
     }
 
     .breadcrum .pageName {
@@ -4702,9 +4850,106 @@
         font-size: 15px;
         height: 140px;
     }
+
     #category .boxHeadline {
         font: normal normal 600 26px/37px Montserrat;
     }
+
+    /* category ends  */
+
+    #blogDetails .upperDiv .blogDate {
+        margin-top: 0px;
+    }
+
+    #blogDetails .middleDiv .row {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
+        font: normal normal 600 12px/26px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:first-child {
+        font: 12px/24px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails .rbImg {
+        height: 80px;
+    }
+
+    #blogDetails .bottomDiv .tagDiv {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 22px;
+    }
+
+    #blogDetails .bottomDiv .common_span {
+        padding: 8px;
+        font: normal normal 600 12px/19px Montserrat;
+        display: block;
+    }
+
+    #blogDetails .boxWrapper {
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .prevNextHeadDiv span:last-child {
+        position: absolute;
+        margin-top: 390px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput {
+        gap: 20px;
+    }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
+        padding: 12px;
+    }
+    #blogDetails .bottomDiv .commentBox .commentWrapper {
+        padding-bottom: 20px;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard {
+        gap: 12px;
+        align-items: baseline;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard img:first-child {
+        width: 50px;
+    }
+    #blogDetails .bottomDiv .commentBox .commentCard .userContent {
+        gap: 5px;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard .blogDate img {
+        width: auto;
+    }
+
+    #blogDetails .bottomDiv .commentBox .boxHeadline,
+    #blogDetails .bottomDiv .leaveReplyBox .boxHeadline {
+        font: normal normal bold 22px/37px Montserrat;
+    }
+
+    #blogDetails .bottomDiv .commentBox .subCommentCard {
+        margin-left: 6px;
+    }
+
+    #blogDetails .blogImg .cateBadge {
+        margin-top: 28px;
+        padding: 2px 4px;
+        font-size: 14px;
+    }
+
+    #blogDetails .bottomDiv .previousBlogs .boxDetails {
+        padding: 4px;
+    }
+
+    #blogDetails .bottomDiv .commentBox .commentCard .userContent .userComment {
+        font: 14px/24px Montserrat;
+    }
+
 }
 
 
