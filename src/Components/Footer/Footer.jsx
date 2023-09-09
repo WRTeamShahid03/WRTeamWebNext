@@ -11,16 +11,26 @@ import { DiEnvato } from "react-icons/di";
 import { AiOutlineMail } from "react-icons/ai";
 
 import navLogo from '../../Asset/navLogo.svg'
+import GetInTouch from "../GetInTouch";
+import { useRouter } from "next/router";
 // import Image from 'next/image';
 // import { BiRightArrow } from 'react-icons/bi';
 
 const Footer = () => {
 
+   const router = useRouter()
+   const { pathname } = router;
+
+   // Check if the current route contains "contact-us"
+   const isContactUsPage = pathname.includes("contact-us");
+   console.log(isContactUsPage)
+
    return (
       <>
          <footer id='footer'>
+         {!isContactUsPage && <GetInTouch />}
 
-            <div className="container footerContainer">
+            <div className={`container footerContainer  ${isContactUsPage ? "footerTopPad " : ""}`}>
                <div className="row">
                   <div className="col-sm-12 col-md-6 col-lg-2">
                      <div className="cont logoCont">

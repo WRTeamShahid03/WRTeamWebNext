@@ -72,9 +72,9 @@ const Header = () => {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Link href="/">Home</Link>
 
-              <Nav.Link href='/AboutUs'> About Us </Nav.Link>
+              <Link href='/AboutUs'> About Us </Link>
 
               <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
                 onMouseLeave={handlers1.onMouseLeave}
@@ -104,10 +104,11 @@ const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
 
-              <Nav.Link href="/Blogs">Blogs</Nav.Link>
+              <Link href="/Blogs">Blogs</Link>
 
-              <Nav.Link href="#about us">Career</Nav.Link>
+              <Link href="#about us">Career</Link>
 
+              <Link href="/contact-us/" style={{ textDecoration: "none" }}  > 
               <div className="contactNum">
                 <span id='callIcon'><IoIosCall size={28} /></span>
                 <div className="number">
@@ -115,6 +116,7 @@ const Header = () => {
                   <span>+91 12345 67890</span>
                 </div>
               </div>
+              </Link>
 
               <div id="rightSide">
 
@@ -137,8 +139,8 @@ const Header = () => {
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/AboutUs">About Us</Nav.Link>
+          <Link href="/">Home</Link>
+          <Link href="/AboutUs">About Us</Link>
 
           <NavDropdown title="Products" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
@@ -162,7 +164,7 @@ const Header = () => {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link href="/Blogs">Blogs</Nav.Link>
+          <Link href="/Blogs">Blogs</Link>
           <NavDropdown title="About us" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
               Career

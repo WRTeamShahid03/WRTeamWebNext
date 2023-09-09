@@ -8,6 +8,10 @@
     .divider {
         position: relative;
     }
+
+    .footerTopPad{
+        padding-top: 120px;
+    }
 }
 
 @media only screen and (min-width:1850px) and (max-width: 3000px) {
@@ -776,6 +780,11 @@
     #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
         font: normal normal 600 14px/26px Montserrat;
     }
+    /* blogDetails ends  */
+
+    #contactForm .formDiv {
+        padding: 26px 55px;
+    }
 
 }
 
@@ -1319,6 +1328,12 @@
     .breadcrum {
         height: 330px;
         margin-top: -142px;
+    }
+
+     /* blogDetails ends  */
+    
+     #contactForm .formDiv {
+        padding: 26px 55px;
     }
 }
 
@@ -1977,6 +1992,20 @@
 
     #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
         font: normal normal 600 13px/26px Montserrat;
+    }
+
+     /* blogDetails ends  */
+    
+     #contactForm .formDiv {
+        padding: 26px 20px;
+    }
+
+    #contactForm .contactCards{
+        gap: 30px;
+    }
+
+    #contactForm .blueBg ,#contactForm .socialDiv {
+        border-radius: 16px 16px 0px 0px;
     }
 
 
@@ -4257,6 +4286,7 @@
     #vision,
     #values,
     #team ,
+    #blogs,
     #blogDetails{
         overflow: hidden;
         margin-top: 40px;

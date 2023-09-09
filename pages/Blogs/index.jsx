@@ -255,8 +255,6 @@ const index = () => {
 
       </section>
 
-      <GetInTouch/>
-
     </>
   )
 }

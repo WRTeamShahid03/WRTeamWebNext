@@ -327,8 +327,6 @@ const index = () => {
                     </div>
                 </div>
             </section >
-
-            <GetInTouch />
         </>
     )
 }
