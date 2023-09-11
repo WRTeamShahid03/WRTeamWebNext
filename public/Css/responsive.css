@@ -4343,7 +4343,10 @@
     #values,
     #team ,
     #blogs,
-    #blogDetails{
+    #blogDetails,
+    #contactUs,
+    #contactForm,
+    #map{
         overflow: hidden;
         margin-top: 40px;
     }
