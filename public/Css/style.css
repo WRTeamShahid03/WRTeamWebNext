@@ -3250,12 +3250,6 @@ footer .footerContainer .row {
 }
 
 
-@media only screen and (max-width: 1850px) {
-    footer {
-        overflow: hidden;
-    }
-}
-
 @media only screen and (min-width: 1200px) {
     footer .footerContainer .row .col-lg-2 {
         width: 20%;
@@ -3291,6 +3285,14 @@ footer .footerContainer .row {
     .copyRight {
         flex-direction: column;
         text-align: center;
+    }
+}
+@media only screen and (max-width: 1399px) {
+    footer{
+        margin-top: 120px;
+    }
+    .footerTopPad{
+        padding-top: 40px;
     }
 }
 
