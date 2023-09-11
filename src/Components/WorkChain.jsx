@@ -64,7 +64,7 @@ const WorkChain = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="workUpperDiv">
                                 <h4 className='common_span'> Our Work<span> Chain</span></h4>
-                                <span className='workHealines' data-aos="fade-right" data-aos-duration="1000">From Concept to Creation <span>Simplifying Your Project Journey</span></span>
+                                <span className='workHeadlines' data-aos="fade-right" data-aos-duration="1000">From Concept to Creation <span>Simplifying Your Project Journey</span></span>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-12">

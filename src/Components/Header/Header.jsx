@@ -1,11 +1,8 @@
 // import '../../../public/Css/header.css'
 import { useEffect, useState } from 'react';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { FaSearch } from "react-icons/fa";
-import { BsFillPersonFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Dropdown from 'react-bootstrap/Dropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -72,9 +69,9 @@ const Header = () => {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link href="/">Home</Link>
+              <Link className="nav-link" href="/"> Home</Link>
 
-              <Link href='/AboutUs'> About Us </Link>
+              <Link className='nav-link' href='/AboutUs'> About Us </Link>
 
               <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
                 onMouseLeave={handlers1.onMouseLeave}
@@ -104,23 +101,23 @@ const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
 
-              <Link href="/Blogs">Blogs</Link>
+              <Link className="nav-link" href="/Blogs">Blogs</Link>
 
-              <Link href="#about us">Career</Link>
+              <Link className="nav-link" href="#about us">Career</Link>
 
-              <Link href="/contact-us/" style={{ textDecoration: "none" }}  > 
-              <div className="contactNum">
-                <span id='callIcon'><IoIosCall size={28} /></span>
-                <div className="number">
-                  <span>Hot Line Numbae</span>
-                  <span>+91 12345 67890</span>
+              <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
+                <div className="contactNum">
+                  <span id='callIcon'><IoIosCall size={28} /></span>
+                  <div className="number">
+                    <span>Hot Line Numbae</span>
+                    <span>+91 12345 67890</span>
+                  </div>
                 </div>
-              </div>
               </Link>
 
               <div id="rightSide">
 
-                <button className="homeCommon_btn"> Hire Us </button>
+                <Link href="/hire-us"> <button className="homeCommon_btn"> Hire Us </button> </Link>
 
               </div>
             </Nav>
@@ -139,8 +136,8 @@ const Header = () => {
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Link href="/">Home</Link>
-          <Link href="/AboutUs">About Us</Link>
+          <Link className="nav-link" href="/">Home</Link>
+          <Link className="nav-link" href="/AboutUs">About Us</Link>
 
           <NavDropdown title="Products" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
@@ -164,26 +161,26 @@ const Header = () => {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Link href="/Blogs">Blogs</Link>
+          <Link className="nav-link" href="/Blogs">Blogs</Link>
           <NavDropdown title="About us" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.2">
               Career
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Link href="/contact-us/" style={{ textDecoration: "none" }}  > 
-              <div className="contactNum">
-                <span id='callIcon'><IoIosCall size={28} /></span>
-                <div className="number">
-                  <span>Hot Line Numbae</span>
-                  <span>+91 12345 67890</span>
-                </div>
+          <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
+            <div className="contactNum">
+              <span id='callIcon'><IoIosCall size={28} /></span>
+              <div className="number">
+                <span>Hot Line Numbae</span>
+                <span>+91 12345 67890</span>
               </div>
-              </Link>
+            </div>
+          </Link>
 
           <div id="rightSide">
 
-            <button className="homeCommon_btn">Hire Us</button>
+          <Link href="/hire-us"> <button className="homeCommon_btn"> Hire Us </button> </Link>
 
           </div>
 

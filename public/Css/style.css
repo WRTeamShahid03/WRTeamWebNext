@@ -2454,19 +2454,25 @@ hr {
 }
 
 #workChain .workUpperDiv,
-#team .teamUpperDiv {
+#team .teamUpperDiv,
+#whyHireUs .hireUpperDiv,
+#hireUs .hireUpperDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-#workChain .workUpperDiv .common_span {
+#workChain .workUpperDiv .common_span,
+#whyHireUs .common_span,
+#hireUs .common_span {
     display: inline-block;
     font-size: 16px;
 }
 
-#workChain .workUpperDiv .workHealines {
+#workChain .workUpperDiv .workHeadlines,
+#whyHireUs .hireHeadlines,
+#hireUs .hireHeadlines {
     font: normal normal 800 36px/52px Montserrat;
     color: #212121;
     margin-top: 30px;
@@ -2474,7 +2480,9 @@ hr {
     text-align: center;
 }
 
-#workChain .workUpperDiv .workHealines span {
+#workChain .workUpperDiv .workHeadlines span,
+#whyHireUs .hireHeadlines span,
+#hireUs .hireHeadlines span {
     color: var(--primary-color);
 }
 
@@ -2846,6 +2854,7 @@ hr {
     margin: 0 14px;
     font: normal normal 600 16px/19px Montserrat;
     color: #283042 !important;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-link:hover,
@@ -2860,9 +2869,11 @@ hr {
     align-items: center;
 }
 
-/* .active {
+.nav-active {
     color: #2E71FE !important;
-} */
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
 
 .dropdown-toggle::after {
     border: none !important;
@@ -3287,11 +3298,13 @@ footer .footerContainer .row {
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 1399px) {
-    footer{
+    footer {
         margin-top: 120px;
     }
-    .footerTopPad{
+
+    .footerTopPad {
         padding-top: 40px;
     }
 }
@@ -4361,13 +4374,15 @@ footer .footerContainer .flinks {
 }
 
 #blogDetails .bottomDiv .homeCommon_btn,
-#contactForm .homeCommon_btn {
+#contactForm .homeCommon_btn,
+#hireUs .homeCommon_btn {
     background-color: #283042;
     margin-top: 20px;
 }
 
 #blogDetails .bottomDiv .homeCommon_btn::after,
-#contactForm .homeCommon_btn::after {
+#contactForm .homeCommon_btn::after ,
+#hireUs .homeCommon_btn::after{
     background-color: var(--primary-color);
 }
 
@@ -4507,7 +4522,7 @@ footer .footerContainer .flinks {
 
 }
 
-#contactForm .socialDiv .logo{
+#contactForm .socialDiv .logo {
     max-width: 248px;
 }
 
@@ -4546,16 +4561,149 @@ footer .footerContainer .flinks {
 }
 
 #contactForm input,
-#contactForm textarea {
+#contactForm textarea ,
+#hireUs input,
+#hireUs textarea{
     box-shadow: none;
 }
 
-#contactForm textarea {
-    height: 100%;
-}
 
 #map {
     margin-top: 100px;
     border: 1px solid #707070b3;
     border-radius: 16px;
+}
+
+/* .contactUs ends  */
+
+#whyHireUs {
+    background-color: #ffffff;
+}
+
+#whyHireUs .container,
+#hireUs .container {
+    padding: 100px 0px;
+    padding-bottom: 20px;
+}
+
+#whyHireUs .whyHireCards {
+    margin-top: 50px;
+}
+
+#whyHireUs .whyHireCards .card {
+    border: none;
+    padding: 50px 30px;
+}
+
+#whyHireUs .whyHireCards .card .card1Img {
+    width: 100%;
+}
+
+#whyHireUs .whyHireCards .card .card1Title {
+    font: normal normal bold 24px/29px Montserrat;
+    color: #283042;
+    text-align: center;
+}
+
+#whyHireUs .whyHireCards .card .card1Text {
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+    text-align: center;
+}
+
+#hireUs {
+    background-color: #2E71FE14;
+}
+
+#hireUs .hireHeadlines {
+    padding: 0px;
+}
+
+#hireUs .hireLowerDiv {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    margin: 30px 150px;
+    padding: 60px 50px;
+}
+
+#hireUs .hireLowerDiv .hireLowerDivHeadline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hireUs .hireLowerDiv .hireLowerDivHeadline span {
+    font: normal normal 100 16px/32px Montserrat;
+    color: #545A68;
+    text-align: center;
+    padding: 0px 204px;
+}
+
+#hireUs .hireLowerDiv .hireUsCardWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+#hireUs .hireLowerDiv .hireUsCard {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 8px 26px #28304214;
+    border-radius: 8px;
+    width: 293px;
+    gap: 12px;
+}
+
+#hireUs .hireLowerDiv .hireUsCard img {
+    width: 60px;
+}
+#hireUs .hireLowerDiv .hireUsCard .title {
+    font: normal normal 600 18px/22px Montserrat;
+    color: #212121;
+}
+
+
+#hireUs .hireLowerDiv .hireUsCard .flutter {
+    padding: 12px;
+    background: #3AC1F229;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .react {
+    padding: 12px;
+    background: #34BEEA29;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .vue {
+    padding: 12px;
+    background: #45AB6F29;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .node {
+    padding: 12px;
+    background: #84B92B29;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .laravel {
+    padding: 12px;
+    background: #E71D1F29;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .android {
+    padding: 12px;
+    background: #84B92B29;
+    border-radius: 8px;
+}
+#hireUs .hireLowerDiv .hireUsCard .ios {
+    padding: 12px;
+    background: #28304229;
+    border-radius: 8px;
+}
+
+
+#hireUs select{
+    box-shadow: none;
+    color: #595c5f;
 }

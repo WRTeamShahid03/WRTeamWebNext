@@ -41,7 +41,6 @@ import laravel from '../../Asset/Icons/Laravel.svg'
 import android from '../../Asset/Icons/Android.svg'
 import ios from '../../Asset/Icons/iOS.svg'
 import heroLine from '../../Asset/Images/Hero_Line.png'
-import getTouch from '../../Asset/Images/getTouch.png'
 
 
 // import required modules
