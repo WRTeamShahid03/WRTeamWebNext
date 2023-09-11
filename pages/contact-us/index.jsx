@@ -114,12 +114,12 @@ const index = () => {
                                 <div className="formDiv">
                                     <span className='formHeading'>Have something to ask or share? or just want to say HI!</span>
 
-                                    <div className="mb-3 row mt-5">
-                                    <div className="col-sm-12 col-md-6 col-lg-6">
+                                    <div className="mb-3 row">
+                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-5">
                                         <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
                                     </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6">
+                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email"></input>
                                     </div>
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">

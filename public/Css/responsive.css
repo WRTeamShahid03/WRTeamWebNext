@@ -2000,12 +2000,16 @@
         padding: 26px 20px;
     }
 
-    #contactForm .contactCards{
+    #contactUs .contactCards{
         gap: 30px;
     }
 
     #contactForm .blueBg ,#contactForm .socialDiv {
         border-radius: 16px 16px 0px 0px;
+    }
+
+    #contactForm .blueBg {
+        height: 400px;
     }
 
 
@@ -2816,6 +2820,28 @@
 
     #blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
         padding: 12px;
+    }
+
+    /* blogDetails ends  */
+    
+    #contactForm .formDiv {
+        padding: 26px 20px;
+    }
+
+    #contactUs .contactCards{
+        gap: 30px;
+    }
+
+    #contactForm .blueBg ,#contactForm .socialDiv {
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    #contactForm .blueBg {
+        height: 400px;
+    }
+
+    #contactForm .formDiv .formHeading {
+        font: normal normal bold 26px/38px Montserrat;
     }
 }
 
@@ -3794,6 +3820,36 @@
     #blogDetails .blogImg .cateBadge {
         margin-top: 28px;
         padding: 4px;
+    }
+
+    /* blogDetails ends  */
+    
+    #contactForm .formDiv {
+        padding: 26px 20px;
+    }
+
+    #contactUs .contactCards{
+        gap: 30px;
+    }
+
+    #contactForm .blueBg ,#contactForm .socialDiv {
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    #contactForm .blueBg {
+        height: 400px;
+    }
+
+    #contactForm .formDiv .formHeading {
+        font: normal normal bold 26px/38px Montserrat;
+    }
+
+    #contactForm .row {
+        margin: 0;
+    }
+
+    #map{
+        width: 94%;
     }
 
 }
@@ -4982,6 +5038,36 @@
 
     #blogDetails .bottomDiv .commentBox .commentCard .userContent .userComment {
         font: 14px/24px Montserrat;
+    }
+
+    /* blogDetails ends  */
+    
+    #contactForm .formDiv {
+        padding: 26px 20px;
+    }
+
+    #contactUs .contactCards{
+        gap: 30px;
+    }
+
+    #contactForm .blueBg ,#contactForm .socialDiv {
+        border-radius: 16px 16px 0px 0px;
+    }
+
+    #contactForm .blueBg {
+        height: 400px;
+    }
+
+    #contactForm .formDiv .formHeading {
+        font: normal normal bold 26px/38px Montserrat;
+    }
+
+    #contactForm .row {
+        margin: 0;
+    }
+
+    #map{
+        width: 94%;
     }
 
 }
