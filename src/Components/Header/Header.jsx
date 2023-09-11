@@ -171,13 +171,15 @@ const Header = () => {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <div className="contactNum">
-            <span id='callIcon'><IoIosCall size={28} /></span>
-            <div className="number">
-              <span>Hot Line Numbae</span>
-              <span>+91 12345 67890</span>
-            </div>
-          </div>
+          <Link href="/contact-us/" style={{ textDecoration: "none" }}  > 
+              <div className="contactNum">
+                <span id='callIcon'><IoIosCall size={28} /></span>
+                <div className="number">
+                  <span>Hot Line Numbae</span>
+                  <span>+91 12345 67890</span>
+                </div>
+              </div>
+              </Link>
 
           <div id="rightSide">
 
