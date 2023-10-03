@@ -13,6 +13,11 @@ import laravel from '../../src/Asset/Icons/Laravel.svg'
 import android from '../../src/Asset/Icons/Android.svg'
 import ios from '../../src/Asset/Icons/iOS.svg'
 
+import creativity from '../../src/Asset/Images/Creativity.png'
+import trust from '../../src/Asset/Images/Trust.png'
+import quality from '../../src/Asset/Images/Quality.png'
+import teamWork from '../../src/Asset/Images/Team Work.png'
+
 const index = () => {
 
     const CardData = [
@@ -41,6 +46,33 @@ const index = () => {
             desc: "Our track record reflects our commitment to exceed expectations.",
         },
     ]
+
+    const Card2Data = [
+        {
+            id: 0,
+            img: creativity,
+            title: "Creativity",
+            desc: "Creativity directly related to Revolutionize your Great Idea to Big Thing! Thinking creatively opens up the possibilities.",
+        },
+        {
+            id: 1,
+            img: trust,
+            title: "Trust",
+            desc: "Trust is not only related to giving a 100% refund policy, it's all about an effort to make it happen.",
+        },
+        {
+            id: 2,
+            img: quality,
+            title: "Quality",
+            desc: "Quality is the only thing that team is not ready to compromise with that, We believe delivering in high quality.",
+        },
+        {
+            id: 3,
+            img: teamWork,
+            title: "Team Work",
+            desc: "Our creative team is our power. WRTeam means we work together to bring real value through our projects.",
+        },
+    ]
     return (
         <>
             <Breadcrum title="Hire" blueText="Us" contentOne="Home" contentTwo="Hire Us" />
@@ -59,14 +91,16 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
 
                             <div className="row whyHireCards">
+
+                                <span></span>
                                 {
                                     CardData.map((e) => {
                                         return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
-                                            <div class="card">
-                                                <span className='contactCardSpan'> <img class="card-img-top" src={e.img.src} alt="Card image cap" className='card1Img' /> </span>
-                                                <div class="card-body ">
-                                                    <h5 class="card-title card1Title">{e.title}</h5>
-                                                    <p class="card-text card1Text">{e.desc}</p>
+                                            <div className="card">
+                                                <span className='contactCardSpan'> <img className="card-img-top card1Img" src={e.img.src} alt="Card image cap" /> </span>
+                                                <div className="card-body ">
+                                                    <h5 className="card-title card1Title">{e.title}</h5>
+                                                    <p className="card-text card1Text">{e.desc}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -149,7 +183,7 @@ const index = () => {
                                                 </div>
 
                                                 <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                    <select class="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                                                    <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
                                                         <option selected>Your Budget</option>
                                                         <option value="1">One</option>
                                                         <option value="2">Two</option>
@@ -177,22 +211,32 @@ const index = () => {
 
             <section id='success'>
                 <div className="container">
-                <div className="row">
+                    <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="hireUpperDiv">
-                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="1000">4 Steps to <span>Success</span> With <span>WRTeam</span></span>
+                                <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">4 Steps to <span>Success</span> With <span>WRTeam</span></span>
                             </div>
                         </div>
 
-                        <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className="col-sm-12 col-md-12 col-lg-12 lowerDiv">
 
-                            <div className="row whyHireCards">
+                                <span className='cardsdot'></span>
+                            <div className="row successCards">
                                 {
-                                    CardData.map((e) => {
-                                        return 
+                                    Card2Data.map((e) => {
+                                        return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
+                                            <div className="card">
+                                                <span className=''> <img className="card-img-top" src={e.img.src} alt="Card image cap" /> </span>
+                                                <div className="card-body ">
+                                                    <h5 className="card-title">{e.title}</h5>
+                                                    <p className="card-text">{e.desc}</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     })
                                 }
                             </div>
+                            <span className='cardsdot2'></span>
                         </div>
                     </div>
                 </div>

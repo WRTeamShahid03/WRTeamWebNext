@@ -20,7 +20,7 @@
 
 
 
-@media only screen and (min-width: 1400px) and (max-width: 1650px) {
+@media only screen and (min-width: 1400px) and (max-width: 1850px) {
 
     .divider {
         height: 160px;
@@ -234,9 +234,10 @@
 
     /* services ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 292px;
     }
+
 
     /* Home Page ends  */
 
@@ -304,6 +305,35 @@
         font: normal normal 600 17px/26px Montserrat;
     }
 
+    /* blogDetails ends  */
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines {
+        padding: 0px 150px;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #success .lowerDiv::before {
+        width: 96.5%;
+    }
+
+    .emipreHeadlines .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
+        padding: 24px 260px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: 88px;
+    }
 
 }
 
@@ -544,6 +574,15 @@
         overflow: hidden;
     }
 
+    #knowMore,
+    #mission,
+    #values,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow {
+        margin-top: 66px;
+    }
+
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 90px;
         margin-left: 100px;
@@ -655,7 +694,7 @@
 
     /* services ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 222px;
     }
 
@@ -700,6 +739,10 @@
 
     /* knowMore ends  */
 
+    #values {
+        padding: 60px 0;
+    }
+
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
         margin-left: 292px;
@@ -720,6 +763,10 @@
         flex-direction: column-reverse;
     }
 
+    #team .teamWrapper {
+        padding: 40px 0;
+    }
+
     #team .teamDeatails {
         margin-top: 386px;
     }
@@ -730,6 +777,11 @@
 
     #team .comman_Headlines {
         width: 61%;
+    }
+
+    #team .teamSlider .pagination,
+    #category .pagination {
+        padding-bottom: 50px;
     }
 
     /* team ends  */
@@ -776,10 +828,63 @@
     #blogDetails .bottomDiv .previousBlogs .boxDetails .recentBoxContent span:last-child {
         font: normal normal 600 14px/26px Montserrat;
     }
+
+    #blogDetails .bottomDiv .leaveReplyBox .leaveInput .leaveCheckBox {
+        margin-bottom: 40px;
+    }
+
     /* blogDetails ends  */
 
     #contactForm .formDiv {
         padding: 26px 55px;
+    }
+
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines {
+        padding: 0px 150px;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 30px 100px;
+    }
+
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #success .lowerDiv::before {
+        width: 96%;
+    }
+
+    /* hireUs ends  */
+
+    #empire .commonHeadlines {
+        padding: 0px;
+    }
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px 200px;
+    }
+
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
+        padding: 24px 200px;
+    }
+
+    #wrTeamWork .wrTeamLeftDiv {
+        padding-right: 60px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: 88px;
     }
 
 }
@@ -1047,6 +1152,15 @@
         overflow: hidden;
     }
 
+    #knowMore,
+    #mission,
+    #values,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow {
+        margin-top: 66px;
+    }
+
     #homeHeroSect .heroContainer .heroCont-leftDiv,
     #homeHeroSect .heroContainer .heroCont-rightDiv {
         padding: 70px 0px 50px 0;
@@ -1197,7 +1311,7 @@
         width: 50%;
     }
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
 
@@ -1216,6 +1330,10 @@
     #testimonials .testSlider .swiperCard .card-body {
         padding-bottom: 20px;
         height: 342px;
+    }
+
+    #testimonials .testSlider .swiperCard {
+        margin-top: 60px;
     }
 
     /* Home page ends  */
@@ -1250,6 +1368,9 @@
 
     /* knowMore ends  */
 
+    #values {
+        padding: 40px 0;
+    }
 
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
@@ -1275,6 +1396,10 @@
         margin-top: 316px;
     }
 
+    #team .teamWrapper {
+        padding: 30px 0;
+    }
+
     #team .card:hover .teamDeatails {
         margin-top: 276px !important;
     }
@@ -1284,6 +1409,10 @@
     }
 
     /* team ends  */
+
+    #category {
+        margin-top: 50px;
+    }
 
     #category .row .col-lg-8,
     #category .row .col-lg-4,
@@ -1304,6 +1433,7 @@
     #category .recentBlogs,
     #category .tags {
         margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     #category .cateBox .boxDetails span {
@@ -1326,10 +1456,74 @@
         margin-top: -142px;
     }
 
-     /* blogDetails ends  */
-    
-     #contactForm .formDiv {
+    /* blogDetails ends  */
+    #contactUs {
+        margin-top: 60px;
+    }
+
+    #contactForm .formDiv {
         padding: 26px 55px;
+    }
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines {
+        padding: 0px 140px;
+    }
+
+    #success .lowerDiv::before {
+        width: 95%;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 30px;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Title {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 50px 0px;
+    }
+
+    /* HireUs ends  */
+
+    #empire .commonHeadlines {
+        padding: 0px;
+    }  
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px;
+    }
+
+    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+        padding: 24px 50px;
+    }
+
+    #wrTeamWork .wrTeamLeftDiv {
+        padding-right: 60px;
+    }
+
+    #wrTeamWork .wrTeamRightDiv {
+        top: 90px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: 88px;
+    }
+
+    #jobOpening .jobCards .card-title {
+        font: normal normal bold 20px/34px Montserrat;
     }
 }
 
@@ -1633,6 +1827,15 @@
         overflow: hidden;
     }
 
+    #knowMore,
+    #mission,
+    #values ,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow{
+        margin-top: 50px;
+    }
+
     #homeHeroSect .heroContainer .heroCont-leftDiv,
     #homeHeroSect .heroContainer .heroCont-rightDiv {
         padding: 70px 0 0 0;
@@ -1812,7 +2015,7 @@
 
     /* tech ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
 
@@ -1838,6 +2041,10 @@
     #testimonials .testSlider .swiperCard .card-body {
         padding-bottom: 20px;
         height: 320px;
+    }
+
+    #testimonials {
+        margin-top: 40px;
     }
 
     /* Home Page ends  */
@@ -1901,6 +2108,10 @@
 
     /* knowMore ends  */
 
+    #values {
+        padding: 40px 0;
+    }
+
 
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
@@ -1927,6 +2138,10 @@
         margin-top: 366px;
     }
 
+    #team .teamWrapper {
+        padding: 30px 0;
+    }
+
     #team .card:hover .teamDeatails {
         margin-top: 326px !important;
     }
@@ -1940,6 +2155,10 @@
     /* #category .card {
         height: 64vh;
     } */
+
+    #category {
+        margin-top: 50px;
+    }
 
     #category .cateBadge {
         padding: 6px;
@@ -1957,6 +2176,7 @@
     #category .recentBlogs,
     #category .tags {
         margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     #category .cateBox .boxDetails span {
@@ -1990,22 +2210,102 @@
         font: normal normal 600 13px/26px Montserrat;
     }
 
-     /* blogDetails ends  */
-    
-     #contactForm .formDiv {
+    /* blogDetails ends  */
+
+    #contactForm .formDiv {
         padding: 26px 20px;
     }
 
-    #contactUs .contactCards{
+    #contactUs,
+    #map {
+        margin-top: 60px;
+    }
+
+    #contactUs .contactCards {
         gap: 30px;
     }
 
-    #contactForm .blueBg ,#contactForm .socialDiv {
+    #contactForm .blueBg,
+    #contactForm .socialDiv {
         border-radius: 16px 16px 0px 0px;
     }
 
     #contactForm .blueBg {
         height: 400px;
+    }
+
+    /* contactForm ends  */
+
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines {
+        padding: 0px;
+    }
+
+    #success .lowerDiv::before,
+    #success .cardsdot,
+    #success .cardsdot2 {
+        display: none;
+    }
+
+    #success .successCards {
+        margin-top: 40px;
+        gap: 20px 0px;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 30px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard {
+        width: 266px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: start;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 50px 0px;
+    }
+
+
+    /* HireUs ends  */
+
+    #empire .commonHeadlines {
+        padding: 0px;
+    }  
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px;
+    }
+
+    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+        padding: 24px 0px;
+    }
+
+    #wrTeamWork .wrTeamRightDiv {
+        margin-top: 40px;
+        width: 80%;
+        left: 140px;
+    }
+
+    #jobOpening .jobCards .card {
+        padding: 30px 35px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: 88px;
+    }
+
+    #jobOpening .jobCards .card-title {
+        font: normal normal bold 20px/34px Montserrat;
     }
 
 
@@ -2341,10 +2641,14 @@
     #vision,
     #values,
     #team,
-    #blogDetails {
+    #blogDetails,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow {
         overflow: hidden;
         margin-top: 60px;
     }
+
 
     #homeHeroSect .heroContainer .heroCont-leftDiv,
     #homeHeroSect .heroContainer .heroCont-rightDiv {
@@ -2559,7 +2863,7 @@
 
     /* tech ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
 
@@ -2609,6 +2913,10 @@
     #testimonials .testSlider .swiperCard .card-body {
         padding-bottom: 20px;
         height: 320px;
+    }
+
+    #testimonials .testSlider .swiperCard {
+        margin-top: 70px;
     }
 
     /* Home Page ends  */
@@ -2686,6 +2994,10 @@
 
     /* knowMore ends  */
 
+    #values {
+        padding: 40px 0px;
+    }
+
 
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
@@ -2753,6 +3065,10 @@
         height: 76vh;
     } */
 
+    #category {
+        margin-top: 50px;
+    }
+
     #category .cateBadge {
         padding: 10px;
     }
@@ -2766,6 +3082,7 @@
     #category .recentBlogs,
     #category .tags {
         margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     #category .recentBlogs .boxDetails .recentBoxContent {
@@ -2819,16 +3136,23 @@
     }
 
     /* blogDetails ends  */
-    
+
+    #contactUs,
+    #map {
+        margin-top: 60px;
+    }
+
+
     #contactForm .formDiv {
         padding: 26px 20px;
     }
 
-    #contactUs .contactCards{
+    #contactUs .contactCards {
         gap: 30px;
     }
 
-    #contactForm .blueBg ,#contactForm .socialDiv {
+    #contactForm .blueBg,
+    #contactForm .socialDiv {
         border-radius: 16px 16px 0px 0px;
     }
 
@@ -2838,6 +3162,106 @@
 
     #contactForm .formDiv .formHeading {
         font: normal normal bold 26px/38px Montserrat;
+    }
+
+    /* contactForm ends  */
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 40px 0px;
+    }
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines,
+    #hireUs .hireHeadlines {
+        padding: 0px 20px;
+        font: normal normal 800 26px/42px Montserrat;
+    }
+
+    #success .lowerDiv::before,
+    #success .cardsdot,
+    #success .cardsdot2 {
+        display: none;
+    }
+
+    #success .successCards {
+        margin-top: 40px;
+        gap: 20px 0px;
+    }
+
+    #whyHireUs .whyHireCards .card {
+        padding: 20px 30px;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Img {
+        width: auto;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Text,
+    #success .successCards .card .card-text {
+        padding: 0 120px;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 30px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard {
+        width: 196px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: start;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 50px 0px;
+    }
+
+    #success ,#wrTeamWork {
+        padding: 40px 0px;
+    }
+
+    /* HireUs ends  */
+
+    #empire .commonHeadlines {
+        padding: 0px;
+    }  
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+        padding: 24px 0px;
+    }
+
+    #wrTeamWork{
+        padding-bottom: 80px;
+    }
+
+    #wrTeamWork .wrTeamRightDiv {
+        margin-top: 40px;
+        width: 80%;
+        left: 106px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: max-content;
+    }
+
+    #jobOpening .jobCards .card-title {
+        font: normal normal bold 20px/34px Montserrat;
+    }
+    #applyNow .wrapper {
+        padding: 0 40px;
     }
 }
 
@@ -3199,7 +3623,11 @@
     #mission,
     #vision,
     #values,
-    #blogDetails {
+    #blogDetails ,
+    #empire ,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow {
         overflow: hidden;
         margin-top: 40px;
     }
@@ -3520,7 +3948,7 @@
 
     /* tech ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
 
@@ -3717,6 +4145,10 @@
         height: 64vh;
     } */
 
+    #category {
+        margin-top: 50px;
+    }
+
     #category .cateBadge {
         padding: 6px;
     }
@@ -3734,6 +4166,7 @@
     #category .recentBlogs,
     #category .tags {
         margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
@@ -3819,16 +4252,22 @@
     }
 
     /* blogDetails ends  */
-    
+
+    #contactUs,
+    #map {
+        margin-top: 50px;
+    }
+
     #contactForm .formDiv {
         padding: 26px 20px;
     }
 
-    #contactUs .contactCards{
+    #contactUs .contactCards {
         gap: 30px;
     }
 
-    #contactForm .blueBg ,#contactForm .socialDiv {
+    #contactForm .blueBg,
+    #contactForm .socialDiv {
         border-radius: 16px 16px 0px 0px;
     }
 
@@ -3844,8 +4283,139 @@
         margin: 0;
     }
 
-    #map{
+    #map {
         width: 94%;
+    }
+
+    /* contactForm ends  */
+
+    #whyHireUs,
+    #hireUs,
+    #success {
+        overflow: hidden;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 30px 0px;
+    }
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines,
+    #hireUs .hireHeadlines {
+        margin-top: 12px;
+        padding: 0px 3px;
+        font: normal normal 800 20px/42px Montserrat;
+    }
+
+    #success .lowerDiv::before,
+    #success .cardsdot,
+    #success .cardsdot2 {
+        display: none;
+    }
+
+    #success .successCards {
+        margin-top: 20px;
+        gap: 20px 0px;
+    }
+
+    #success .successCards .card img {
+        width: 110px;
+    }
+
+    #whyHireUs .whyHireCards .card {
+        padding: 12px 30px;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Title {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 12px;
+        padding: 20px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard {
+        width: 100%;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard img {
+        width: 46px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: start;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 50px 0px;
+    }
+
+    #success {
+        padding: 0px;
+        padding-bottom: 40px;
+    }
+     /* HireUs ends  */
+
+     #empire .commonHeadlines {
+        padding: 0px;
+        font-size: 26px;
+    }  
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+        padding: 24px 0px;
+        font-size: 14px;
+    }
+
+    #wrTeamWork{
+        padding: 30px;
+        padding-bottom: 80px;
+    }
+
+    #wrTeamWork .wrTeamRightDiv {
+        margin-top: 40px;
+        width: 100%;
+        left: 30px;
+    }
+    #wrTeamWork .wrTeamRightDiv .dotsPattern {
+        width: 20px;
+        left: -40px;
+    }
+    #wrTeamWork .trianglePattern2 {
+        left: 50px;
+        width: 130px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: max-content;
+    }
+
+    #jobOpening .jobCards .card-title {
+        font: normal normal bold 20px/34px Montserrat;
+    }
+    #applyNow .wrapper {
+        padding: 0 16px;
+    }
+    #applyNow .commonPara {
+        margin-top: 0px;
     }
 
 }
@@ -4337,14 +4907,18 @@
     #mission,
     #vision,
     #values,
-    #team ,
+    #team,
     #blogs,
     #blogDetails,
     #contactUs,
     #contactForm,
-    #map{
+    #map,
+    #empire ,
+    #wrTeamWork,
+    #jobOpening,
+    #applyNow {
         overflow: hidden;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     #homeHeroSect .heroContainer .heroContContent {
@@ -4700,7 +5274,7 @@
 
     /* tech ends  */
 
-    #workChain .workUpperDiv .workHealines {
+    #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
 
@@ -4901,6 +5475,10 @@
         height: 76vh;
     } */
 
+    #category {
+        margin-top: 30px;
+    }
+
     #category .cateBadge {
         padding: 6px;
     }
@@ -4918,6 +5496,7 @@
     #category .recentBlogs,
     #category .tags {
         margin-top: 30px;
+        margin-bottom: 50px;
     }
 
     #category .recentBlogs .boxDetails .recentBoxContent span:last-child {
@@ -4969,6 +5548,7 @@
         align-items: start;
         gap: 22px;
     }
+
     #blogDetails .bottomDiv .tagDiv .common_span {
         margin: 12px;
     }
@@ -4996,6 +5576,7 @@
     #blogDetails .bottomDiv .leaveReplyBox .leaveInput .homeCommon_btn {
         padding: 12px;
     }
+
     #blogDetails .bottomDiv .commentBox .commentWrapper {
         padding-bottom: 20px;
     }
@@ -5008,6 +5589,7 @@
     #blogDetails .bottomDiv .commentBox .commentCard img:first-child {
         width: 50px;
     }
+
     #blogDetails .bottomDiv .commentBox .commentCard .userContent {
         gap: 5px;
     }
@@ -5040,16 +5622,22 @@
     }
 
     /* blogDetails ends  */
-    
+
+    #contactUs,
+    #map {
+        margin-top: 50px;
+    }
+
     #contactForm .formDiv {
         padding: 26px 20px;
     }
 
-    #contactUs .contactCards{
+    #contactUs .contactCards {
         gap: 30px;
     }
 
-    #contactForm .blueBg ,#contactForm .socialDiv {
+    #contactForm .blueBg,
+    #contactForm .socialDiv {
         border-radius: 16px 16px 0px 0px;
     }
 
@@ -5065,10 +5653,154 @@
         margin: 0px -2px;
     }
 
-    #map{
+    #map {
         width: 94%;
     }
 
+    /* contactForm ends  */
+
+    #whyHireUs,
+    #hireUs,
+    #success {
+        overflow: hidden;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 30px 0px;
+    }
+
+    #success .commonHeadlines,
+    #whyHireUs .hireHeadlines,
+    #hireUs .hireHeadlines {
+        margin-top: 12px;
+        padding: 0px 3px;
+        font: normal normal 800 18px/32px Montserrat;
+    }
+
+    #success .lowerDiv::before,
+    #success .cardsdot,
+    #success .cardsdot2 {
+        display: none;
+    }
+
+    #success .successCards {
+        margin-top: 20px;
+        gap: 20px 0px;
+    }
+
+    #success .successCards .card img {
+        width: 110px;
+    }
+
+    #whyHireUs .whyHireCards {
+        margin-top: 12px;
+    }
+
+    #whyHireUs .whyHireCards .card {
+        padding: 12px 30px;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Title {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #whyHireUs .whyHireCards .card .card1Img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    #hireUs .hireLowerDiv {
+        margin: 12px;
+        padding: 20px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard {
+        width: 100%;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCard img {
+        width: 46px;
+    }
+
+    #hireUs .hireLowerDiv .hireUsCardWrapper {
+        align-items: center;
+        justify-content: start;
+    }
+
+    #hireUs .hireLowerDiv .hireLowerDivHeadline span {
+        padding: 0px;
+        font-size: 14px;
+    }
+
+    #whyHireUs .container,
+    #hireUs .container {
+        padding: 30px 0px;
+    }
+
+    #success {
+        padding: 0px;
+        padding-bottom: 40px;
+    }
+    /* HireUs ends  */
+
+    #empire .commonHeadlines {
+        padding: 0px;
+        font-size: 26px;
+        margin-top: 6px;
+    }  
+    #jobOpening .jobCards .card {
+        padding: 16px 50px;
+        margin-top: -18px;
+    }
+
+    #jobOpening .jobHeadlines .commonHeadlines {
+        padding: 0px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+        padding: 24px 0px;
+        font-size: 14px;
+    }
+
+    #wrTeamWork{
+        padding: 20px 0px;
+        padding-bottom: 80px;
+    }
+
+    #wrTeamWork .wrTeamRightDiv {
+        margin-top: 40px;
+        width: 90%;
+        left: 34px;
+    }
+    #wrTeamWork .wrTeamRightDiv .dotsPattern {
+        width: 20px;
+        left: -30px;
+    }
+    #wrTeamWork .trianglePattern2 {
+        left: 50px;
+        width: 130px;
+    }
+
+    #jobOpening .jobCards .card .cardBody {
+        height: max-content;
+    }
+
+    #jobOpening .jobCards .card-title {
+        font: normal normal bold 20px/34px Montserrat;
+    }
+    #applyNow .wrapper {
+        padding: 0 10px;
+    }
+    #applyNow .commonPara {
+        margin-top: 0px;
+    }
+    #applyNow .applyHeadlines {
+        margin-top: -18px;
+    }
 }
 
 

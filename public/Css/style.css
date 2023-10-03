@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #F5F5F5 !important;
+    background-color: #fff !important;
     overflow-x: hidden;
 }
 
@@ -2472,7 +2472,8 @@ hr {
 
 #workChain .workUpperDiv .workHeadlines,
 #whyHireUs .hireHeadlines,
-#hireUs .hireHeadlines {
+#hireUs .hireHeadlines,
+.commonHeadlines {
     font: normal normal 800 36px/52px Montserrat;
     color: #212121;
     margin-top: 30px;
@@ -2482,7 +2483,8 @@ hr {
 
 #workChain .workUpperDiv .workHeadlines span,
 #whyHireUs .hireHeadlines span,
-#hireUs .hireHeadlines span {
+#hireUs .hireHeadlines span,
+.commonHeadlines span {
     color: var(--primary-color);
 }
 
@@ -2664,7 +2666,7 @@ hr {
 }
 
 #testimonials .testSlider .testiSwiper {
-    padding-bottom: 70px;
+    padding-bottom: 112px;
 }
 
 #testimonials .testSlider .swiperCard:hover {
@@ -2724,12 +2726,12 @@ hr {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 54px;
     }
 }
 
 /* testimonials ends  */
 
-/* testimonials ends  */
 
 
 .getInTouch {
@@ -2847,10 +2849,10 @@ hr {
 
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
-    margin-left: 124px;
 }
 
 .nav-link {
+    width: max-content !important;
     margin: 0 14px;
     font: normal normal 600 16px/19px Montserrat;
     color: #283042 !important;
@@ -2867,6 +2869,7 @@ hr {
 
 .navbar-expand-lg .navbar-nav {
     align-items: center;
+    margin-left: 36px;
 }
 
 .nav-active {
@@ -2881,21 +2884,20 @@ hr {
 }
 
 #leftSide {
-    margin-left: 140px;
-    margin-right: 308px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: start;
 }
 
 #centerSide {
     margin-right: 16%;
 }
 
-.navLogo img {
-    position: absolute;
-    top: 26px;
-    left: 165px;
+/* .navLogo img {
     width: 249px;
     height: 42px;
-}
+} */
 
 .navIcons {
     display: flex;
@@ -3067,6 +3069,9 @@ hr {
     display: flex;
     gap: 10px;
     margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
 }
 
 .contactNum #callIcon {
@@ -3092,12 +3097,14 @@ hr {
 }
 
 #header #rightSide {
-    position: relative;
-    left: 6%;
+    /* position: relative;
+    left: 6%; */
+    margin-left: 14px;
+    width: 140px;
 }
 
 #header #rightSide .homeCommon_btn {
-    padding: 12px 30px;
+    width: 120px;
     background-color: #283042;
     font: normal normal 600 16px/19px Montserrat;
     letter-spacing: 0px;
@@ -3111,7 +3118,6 @@ hr {
 
 #header #rightSide .homeCommon_btn:hover {
     color: white;
-
 }
 
 #header #rightSide .homeCommon_btn:after {
@@ -3140,32 +3146,72 @@ hr {
 }
 
 
-@media only screen and (min-width: 1400px) and (max-width: 1660px) {
+@media only screen and (min-width: 1400px) and (max-width: 1659px) {
 
-    #header .button {
-        margin-left: 6px;
-    }
+    /* #header .button {
+     margin-left: 6px;
+    }  */
 
-    #header #rightSide {
-        left: 4%;
-    }
-
-    #leftSide {
-        margin-left: -68px;
-        margin-right: 310px;
-    }
-
-    .navLogo img {
-        left: 42px;
+    #header {
+        overflow: hidden;
     }
 
     .navbar-expand-lg .navbar-nav {
-        margin-left: 54px;
+        margin-left: -184px;
+        /* overflow: hid; */
     }
 
-    #searchInput {
-        right: 9vw;
+    /* #header #rightSide {
+        left: 4%;
+    } */
+
+    /* #leftSide {
+        margin-left: -68px;
+        margin-right: 310px;
+    } */
+
+    /* .navLogo img {
+        left: 42px;
+    } */
+
+    /* .navbar-expand-lg .navbar-nav {
+        margin-left: 54px;
+    } */
+
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1860px) {
+
+    /* #header .button {
+     margin-left: 6px;
+    }  */
+
+    #header {
+        overflow: hidden;
     }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 36px;
+        /* overflow: hid; */
+    }
+
+    /* #header #rightSide {
+        left: 4%;
+    } */
+
+    /* #leftSide {
+        margin-left: -68px;
+        margin-right: 310px;
+    } */
+
+    /* .navLogo img {
+        left: 42px;
+    } */
+
+    /* .navbar-expand-lg .navbar-nav {
+        margin-left: 54px;
+    } */
+
 }
 
 
@@ -3174,7 +3220,7 @@ hr {
     #header {
         position: sticky;
         top: 0;
-        z-index: 15;
+        z-index: 99;
     }
 
     .navLogo img {
@@ -3857,7 +3903,7 @@ footer .footerContainer .flinks {
 
 .breadcrum .line5::before {
     top: 0%;
-    left: 92%;
+    left: 93%;
     animation-delay: 3s;
     width: 2px;
 }
@@ -3916,14 +3962,21 @@ footer .footerContainer .flinks {
 }
 
 .breadcrum .line5::after {
-    left: 92%;
+    left: 93%;
     width: 2px;
 }
 
 /* AboutPage Animations   */
 
-#knowMore .knowMoreLeftDiv .dotsPattern {
+#knowMore .knowMoreLeftDiv .dotsPattern,
+#mission .missionLeftDiv .dotsPattern {
     animation: knowMoreDotts 3s ease-in-out 1s infinite alternate-reverse forwards;
+    transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#vision .visionRightDiv .dotsPattern2,
+#values .valuesRightDiv .dotsPattern2 {
+    animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
     transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -3940,6 +3993,21 @@ footer .footerContainer .flinks {
         top: 16%;
     }
 
+
+}
+
+@keyframes visionDotts {
+    0% {
+        top: 34%;
+    }
+
+    50% {
+        top: 18%;
+    }
+
+    100% {
+        top: 38%;
+    }
 
 }
 
@@ -4381,8 +4449,8 @@ footer .footerContainer .flinks {
 }
 
 #blogDetails .bottomDiv .homeCommon_btn::after,
-#contactForm .homeCommon_btn::after ,
-#hireUs .homeCommon_btn::after{
+#contactForm .homeCommon_btn::after,
+#hireUs .homeCommon_btn::after {
     background-color: var(--primary-color);
 }
 
@@ -4561,9 +4629,9 @@ footer .footerContainer .flinks {
 }
 
 #contactForm input,
-#contactForm textarea ,
+#contactForm textarea,
 #hireUs input,
-#hireUs textarea{
+#hireUs textarea {
     box-shadow: none;
 }
 
@@ -4593,6 +4661,7 @@ footer .footerContainer .flinks {
 #whyHireUs .whyHireCards .card {
     border: none;
     padding: 50px 30px;
+    align-items: center;
 }
 
 #whyHireUs .whyHireCards .card .card1Img {
@@ -4610,6 +4679,7 @@ footer .footerContainer .flinks {
     color: #545A68;
     text-align: center;
 }
+/* whyHireUs ends  */
 
 #hireUs {
     background-color: #2E71FE14;
@@ -4660,6 +4730,7 @@ footer .footerContainer .flinks {
 #hireUs .hireLowerDiv .hireUsCard img {
     width: 60px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .title {
     font: normal normal 600 18px/22px Montserrat;
     color: #212121;
@@ -4671,31 +4742,37 @@ footer .footerContainer .flinks {
     background: #3AC1F229;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .react {
     padding: 12px;
     background: #34BEEA29;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .vue {
     padding: 12px;
     background: #45AB6F29;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .node {
     padding: 12px;
     background: #84B92B29;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .laravel {
     padding: 12px;
     background: #E71D1F29;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .android {
     padding: 12px;
     background: #84B92B29;
     border-radius: 8px;
 }
+
 #hireUs .hireLowerDiv .hireUsCard .ios {
     padding: 12px;
     background: #28304229;
@@ -4703,7 +4780,348 @@ footer .footerContainer .flinks {
 }
 
 
-#hireUs select{
+
+#hireUs select,#applyNow select {
     box-shadow: none;
     color: #595c5f;
 }
+/* hireUs ends  */
+
+#success {
+    padding: 60px 0px;
+}
+
+#success .lowerDiv {
+    position: relative;
+}
+
+#success .lowerDiv::before {
+    content: "";
+    position: absolute;
+    top: 137px;
+    width: 97%;
+    left: 30px;
+    height: 2px;
+    border: 0px;
+    border-bottom: thin #006eeb75;
+    border-style: dashed;
+    z-index: 13;
+}
+
+#success .cardsdot,
+#success .cardsdot2 {
+    padding: 4px;
+    border: 4px solid var(--primary-color);
+    border-radius: 50px;
+    width: 12px;
+    position: absolute;
+    top: 130px;
+    z-index: 15;
+}
+
+#success .cardsdot2 {
+    right: 1px;
+}
+
+#success .successCards {
+    margin-top: 70px;
+}
+
+#success .card {
+    border: none;
+    background: none;
+    z-index: 14;
+}
+
+#success .successCards .card {
+    align-items: center;
+    text-align: center;
+}
+
+#success .successCards .card img {
+    width: 130px;
+}
+
+#success .successCards .card .card-title {
+    font: normal normal bold 24px/29px Montserrat;
+    color: var(--primary-color);
+}
+
+#success .successCards .card .card-text {
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+}
+
+/* success ends  */
+
+#empire {
+    margin-top: 60px;
+}
+
+
+.emipreHeadlines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.emipreHeadlines .commonPara,
+#jobOpening .commonPara,
+#applyNow .commonPara {
+    text-align: center;
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+    padding: 24px 336px;
+}
+
+/* empire ends  */
+
+#wrTeamWork {
+    margin-top: 100px;
+    background-color: #2E71FE14;
+    padding: 98px 0px;
+}
+
+#wrTeamWork .wrTeamLeftDiv .workList .list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+#wrTeamWork .wrTeamLeftDiv .workList {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#wrTeamWork .wrTeamLeftDiv .workList .list span:first-child {
+    background-color: var(--primary-color);
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+}
+
+#wrTeamWork .wrTeamRightDiv {
+    position: relative;
+}
+
+#wrTeamWork .wrTeamRightDiv .rightDivImg img{
+    width: 100%;
+}
+
+#wrTeamWork .wrTeamRightDiv .trianglePattern {
+    position: absolute;
+}
+
+#wrTeamWork .wrTeamRightDiv .dotsPattern {
+    position: absolute;
+    top: 30%;
+    left: -70px;
+    animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
+}
+
+#wrTeamWork .trianglePattern2 {
+    position: absolute;
+    left: 122px;
+    bottom: -50px;
+    transform: rotate(180deg);
+}
+/* wrTeamWork ends   */
+
+#jobOpening {
+    margin-top: 100px;
+}
+
+#jobOpening .jobHeadlines,
+#applyNow .applyHeadlines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#jobOpening .jobHeadlines .commonHeadlines {
+    padding: 0px 280px;
+}
+
+#jobOpening .jobCards {
+    margin-top: 20px;
+    gap: 30px 0px;
+}
+
+#jobOpening .jobCards .card {
+    justify-content: start;
+    align-items: start;
+    padding: 30px 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #545A684D;
+    border-radius: 16px;
+}
+
+#jobOpening .jobCards .card .cardBody{
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+}
+
+#jobOpening .jobCards .card-title {
+    font: normal normal bold 24px/34px Montserrat;
+    color: #212121;
+    position: relative;
+}
+
+#jobOpening .jobCards .card-title::before {
+    content: '';
+    background-color: var(--primary-color);
+    padding: 6px;
+    border-radius: 50px;
+    position: absolute;
+    left: -22px;
+    top: 11px;
+}
+
+#jobOpening .jobCards .card-text {
+    font: normal normal medium 16px/32px Montserrat;
+    color: #545A68;
+}
+
+#jobOpening .jobCards .applyBtn {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: var(--primary-color);
+    padding: 14px 35px;
+    margin-top: 40px;
+    font: normal normal 600 16px Montserrat;
+    display: block;
+    transition: all 0.3s;
+}
+
+#jobOpening .jobCards a {
+    text-decoration: none;
+}
+
+#jobOpening .jobCards .applyBtn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0px 20px 36px #2e71ef5c;
+}
+
+/* jobOpening ends  */
+
+#applyNow {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#applyNow .wrapper {
+    padding: 40px;
+    background: #2E71FE14 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+}
+
+#applyNow .commonPara {
+    margin-top: 20px;
+    padding: 0px 426px;
+}
+
+.mailHR {
+    font: normal normal 600 16px/32px Montserrat;
+    color: #212121;
+}
+
+#applyNow .formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#applyNow .formDiv label {
+    font: 200 14px Montserrat;
+    color: #212121;
+    margin-bottom: 5px;
+}
+
+#applyNow .item .item-content {
+    padding: 30px 0px;
+}
+
+#applyNow .image-upload {
+    width: 100%;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    background: #f8f8f9;
+    color: #666;
+    overflow: hidden;
+}
+
+#applyNow .filePlaceholder {
+    margin-top: 20px;
+    color: #545A6880;
+    padding-bottom: 20px;
+}
+
+#applyNow .fileName {
+    font: 200 14px Montserrat;
+    color: #212121;
+    margin-top: 20px;
+    margin-bottom: -20px
+}
+
+
+#applyNow .item-wrapper form img {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    width: auto;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+
+#applyNow .image-upload img {
+    height: 100% !important;
+    width: auto !important;
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+#applyNow .image-upload svg {
+    margin-top: 16px;
+}
+
+#applyNow .item-wrapper .homeCommon_btn {
+    display: block;
+    margin: auto;
+    margin-top: -24px;
+}
+
+
+#applyNow .image-upload input {
+    cursor: pointer;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#applyNow .item-wrapper input {
+    height: 43px;
+    line-height: 43px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* applyNow ends  */
