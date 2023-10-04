@@ -169,7 +169,10 @@ const index = () => {
 
                                 </div>
 
-                                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' data-aos="fade-left" data-aos-duration="2000" data-aos-delay="50" />
+                                <div data-aos="fade-left" data-aos-duration="2000">
+
+                                    <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                                </div>
                                 <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
                             </div>
                         </div>
@@ -193,8 +196,8 @@ const index = () => {
                                     return <div className="col-sm-12 col-md-6 col-lg-4" key={e.id}>
                                         <div className="card" data-aos="fade-up" data-aos-duration="2000">
                                             <div className="cardBody">
-                                            <span className='card-title'>{e.title}</span>
-                                            <span className='card-text'>{e.text}</span>
+                                                <span className='card-title'>{e.title}</span>
+                                                <span className='card-text'>{e.text}</span>
                                             </div>
                                             <Link href='...'> <span className='applyBtn'>Apply Now < BsArrowRightCircle /> </span></Link>
                                         </div>
@@ -262,14 +265,14 @@ const index = () => {
                                     </div>
                                     <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
                                         <div className="item">
-                                        {selectedFile ?<p className='fileName'>Uploaded File: {selectedFile.name}</p>:<p className='fileName'>Upload File</p>}
+                                            {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
                                             <form data-validation="true" action="#" method="post" encType="multipart/form-data">
                                                 <div className="item-inner">
                                                     <div className="item-content">
                                                         <div className="image-upload">
                                                             {selectedFile ? (
                                                                 <div className="img-uploaded">
-                                                                    <img src={fileDataUrl} alt="" />                                                                  
+                                                                    <img src={fileDataUrl} alt="" />
                                                                 </div>
                                                             ) : (
                                                                 <label style={{ cursor: "pointer" }} htmlFor="file_upload">
@@ -296,9 +299,9 @@ const index = () => {
                                                     </div>
                                                 </div>
                                             </form>
-                                            
+
                                         </div>
-                                    <button className='homeCommon_btn'>Submit</button>
+                                        <button className='homeCommon_btn'>Submit</button>
                                     </div>
 
 

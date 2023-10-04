@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { GiHamburgerMenu } from "react-icons/gi";
 import Dropdown from 'react-bootstrap/Dropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -53,8 +52,8 @@ const Header = () => {
   return (
     <>
 
-        <Navbar expand="lg" id="header" className={`nav ${scroll > headerTop ? "sticky " : ""}`}>
-      <div className='container'>
+      <Navbar expand="lg" id="header" className={`nav ${scroll > headerTop ? "sticky " : ""}`}>
+        <div className='container'>
 
           <div className="row">
             <div className="col-sm-5 col-md-5 col-lg-5">
@@ -78,11 +77,15 @@ const Header = () => {
                       <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="#/action-1" className='navItem1'> Web Products</Dropdown.Item>
-                      <Dropdown.Item href="#/action-1" className='navItem2'>App Products</Dropdown.Item>
+                      <Dropdown.Item className='navItem1'>
+                        <Link href="/products/web-products">Web Products</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item className='navItem2'>
+                        <Link href="/products/app-products">App Products</Link>
+                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
-                  
+
                   <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers2.onMouseEnter}
                     onMouseLeave={handlers2.onMouseLeave}
                     show={menuOpen2}>
@@ -90,10 +93,19 @@ const Header = () => {
                       <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                      <Dropdown.Item href="#/action-1" className='navItem3'> Web Development</Dropdown.Item>
-                      <Dropdown.Item href="#/action-1" className='navItem4'>App Development</Dropdown.Item>
-                      <Dropdown.Item href="#/action-1" className='navItem5'> UI/UX Design Service</Dropdown.Item>
-                      <Dropdown.Item href="#/action-1" className='navItem6'> Digital Marketing Service</Dropdown.Item>
+                      <Dropdown.Item className='navItem3'>
+                        <Link href="/services/web-development">Web Development</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item className='navItem4'>
+                        <Link href="/services/app-development">App Development</Link>
+                      </Dropdown.Item>
+                      <Dropdown.Item className='navItem5'>
+                        <Link href="/services/ui-ux-design">UI/UX Design Service</Link>
+
+                      </Dropdown.Item>
+                      <Dropdown.Item className='navItem6'>
+                        <Link href="/services/digital-marketing">Digital Marketing Service</Link>
+                      </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
 
@@ -122,8 +134,8 @@ const Header = () => {
             </div>
           </div>
           <span onClick={handleShow} id='hamburg'><GiHamburgerMenu size={36} /></span>
-      </div>
-        </Navbar>
+        </div>
+      </Navbar>
 
       <Offcanvas show={show} onHide={handleClose} placement='end'
         scroll={true}
@@ -132,53 +144,70 @@ const Header = () => {
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Link className="nav-link" href="/">Home</Link>
-          <Link className="nav-link" href="/AboutUs">About Us</Link>
+          <Nav className="me-auto">
+            <Link className="nav-link" href="/"> Home</Link>
 
-          <NavDropdown title="Products" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.2">
-              Web Products
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              App Products
-            </NavDropdown.Item>
-          </NavDropdown>
+            <Link className='nav-link' href='/about-us'> About Us </Link>
 
-          <NavDropdown title="Services" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              App Development
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
-              UI/UX Design Service
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">
-              Digital Marketing Service
-            </NavDropdown.Item>
-          </NavDropdown>
+            <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
+              onMouseLeave={handlers1.onMouseLeave}
+              show={menuOpen1}>
+              <Dropdown.Toggle id="dropdown-basic">
+                <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item className='navItem1'>
+                  <Link href="/products/web-products">Web Products</Link>
+                </Dropdown.Item>
+                <Dropdown.Item className='navItem2'>
+                  <Link href="/products/app-products">App Products</Link>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
 
-          <Link className="nav-link" href="/Blogs">Blogs</Link>
-          <NavDropdown title="About us" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/career">
-              Career
-            </NavDropdown.Item>
-          </NavDropdown>
+            <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers2.onMouseEnter}
+              onMouseLeave={handlers2.onMouseLeave}
+              show={menuOpen2}>
+              <Dropdown.Toggle id="dropdown-basic">
+                <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
+                <Dropdown.Item className='navItem3'>
+                  <Link href="/services/web-development">Web Development</Link>
+                </Dropdown.Item>
+                <Dropdown.Item className='navItem4'>
+                  <Link href="/services/app-development">App Development</Link>
+                </Dropdown.Item>
+                <Dropdown.Item className='navItem5'>
+                  <Link href="/services/ui-ux-design">UI/UX Design Service</Link>
 
-          <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
-            <div className="contactNum">
-              <span id='callIcon'><IoIosCall size={28} /></span>
-              <div className="number">
-                <span>Hot Line Numbae</span>
-                <span>+91 12345 67890</span>
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-1" className='navItem6'>
+                  <Link href="/services/digital-marketing">Digital Marketing Service</Link>
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+
+            <Link className="nav-link" href="/blogs">Blogs</Link>
+
+            <Link className="nav-link" href="/career">Career</Link>
+
+            <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
+              <div className="contactNum">
+                <span id='callIcon'><IoIosCall size={28} /></span>
+                <div className="number">
+                  <span>Hot Line Numbae</span>
+                  <span>+91 12345 67890</span>
+                </div>
               </div>
+            </Link>
+
+            <div id="rightSide">
+
+              <Link href="/hire-us"> <button className="homeCommon_btn"> Hire Us </button> </Link>
+
             </div>
-          </Link>
-
-          <div id="rightSide">
-
-            <Link href="/hire-us"> <button className="homeCommon_btn"> Hire Us </button> </Link>
-
-          </div>
+          </Nav>
 
         </Offcanvas.Body>
       </Offcanvas>

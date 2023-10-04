@@ -119,7 +119,7 @@ const index = () => {
     sliderRef.current.swiper.slideTo(selectedPage);
     setCurrentPage(selectedPage);
   };
-  
+
 
   return (
     <>
@@ -141,7 +141,7 @@ const index = () => {
                 </div>
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
+              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000" data-aos-delay="50" />
               <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -199,7 +199,11 @@ const index = () => {
 
                 </div>
 
-                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
+                <div data-aos="fade-left" data-aos-duration="2000">
+
+                  <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                </div>
+
                 <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
 
               </div>
@@ -220,7 +224,7 @@ const index = () => {
                 <img src={ourMission.src} alt="" />
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="50"/>
+              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="2000" data-aos-delay="50" />
               <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -283,8 +287,9 @@ const index = () => {
 
                 </div>
 
-
-                <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' data-aos="fade-left" data-aos-duration="2000"  data-aos-delay="50"/>
+                <div data-aos="fade-left" data-aos-duration="2000">
+                  <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                </div>
                 <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
               </div>
             </div>
@@ -366,8 +371,8 @@ const index = () => {
                     containerClassName="pagination"
                     activeClassName="active"
                     pageClassName="page-item"
-                    previousLabel={<FaAngleLeft color="white" size={22}/>}
-                    nextLabel={<FaAngleRight color="white" size={22}/>}
+                    previousLabel={<FaAngleLeft color="white" size={22} />}
+                    nextLabel={<FaAngleRight color="white" size={22} />}
                     previousClassName="page-item"
                     nextClassName="page-item"
                     previousLinkClassName="page-link"

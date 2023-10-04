@@ -18,6 +18,33 @@
     }
 }
 
+/* For Breadcrum  */
+
+@media only screen and (max-width: 575px) {
+
+    #header {
+        height: 70px;
+    }
+
+    #hamburg svg{
+        width: 32px;
+    }
+
+    .navLogo img {
+        width: 170px !important;
+        height: 35px;
+    }
+    .breadcrum .lines{
+        display: none;
+    }
+    .breadcrum .breadcrumContent {
+        top: 180px;
+    }
+    .breadcrum h1 {
+        margin-bottom: -10px;
+    }
+}
+
 
 
 @media only screen and (min-width: 1400px) and (max-width: 1850px) {
@@ -333,6 +360,12 @@
 
     #jobOpening .jobCards .card .cardBody {
         height: 88px;
+    }
+
+    /* career ends  */
+
+    #webPro .cardsWrapper .card .card-title {
+        height: 80px;
     }
 
 }
@@ -885,6 +918,25 @@
 
     #jobOpening .jobCards .card .cardBody {
         height: 88px;
+    }
+
+    /* career ends  */
+
+    #webPro {
+        padding-bottom: 56px;
+    }
+
+    #webPro .cardsWrapper .card .card-title {
+        height: 76px;
+    }
+
+    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #webPro .cardsWrapper .col-lg-3 {
+        flex: 0 0 auto;
+        width: 33.33%;
     }
 
 }
@@ -1500,13 +1552,15 @@
 
     #empire .commonHeadlines {
         padding: 0px;
-    }  
+    }
 
     #jobOpening .jobHeadlines .commonHeadlines {
         padding: 0px;
     }
 
-    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
         padding: 24px 50px;
     }
 
@@ -1524,6 +1578,25 @@
 
     #jobOpening .jobCards .card-title {
         font: normal normal bold 20px/34px Montserrat;
+    }
+
+    /* career ends  */
+
+    #webPro {
+        padding-bottom: 56px;
+    }
+
+    #webPro .cardsWrapper .card .card-title {
+        height: 76px;
+    }
+
+    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #webPro .cardsWrapper .col-lg-3 {
+        flex: 0 0 auto;
+        width: 33.33%;
     }
 }
 
@@ -1829,10 +1902,10 @@
 
     #knowMore,
     #mission,
-    #values ,
+    #values,
     #wrTeamWork,
     #jobOpening,
-    #applyNow{
+    #applyNow {
         margin-top: 50px;
     }
 
@@ -2280,13 +2353,15 @@
 
     #empire .commonHeadlines {
         padding: 0px;
-    }  
+    }
 
     #jobOpening .jobHeadlines .commonHeadlines {
         padding: 0px;
     }
 
-    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
         padding: 24px 0px;
     }
 
@@ -2308,6 +2383,20 @@
         font: normal normal bold 20px/34px Montserrat;
     }
 
+    /* career ends  */
+
+    #webPro {
+        margin-top: 40px;
+        padding-bottom: 56px;
+    }
+
+    #webPro .cardsWrapper .card .card-title {
+        height: 76px;
+    }
+
+    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+        font: normal normal bold 20px/29px Montserrat;
+    }
 
 }
 
@@ -3224,7 +3313,8 @@
         padding: 50px 0px;
     }
 
-    #success ,#wrTeamWork {
+    #success,
+    #wrTeamWork {
         padding: 40px 0px;
     }
 
@@ -3232,18 +3322,20 @@
 
     #empire .commonHeadlines {
         padding: 0px;
-    }  
+    }
 
     #jobOpening .jobHeadlines .commonHeadlines {
         padding: 0px;
         font-size: 30px;
     }
 
-    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
         padding: 24px 0px;
     }
 
-    #wrTeamWork{
+    #wrTeamWork {
         padding-bottom: 80px;
     }
 
@@ -3260,8 +3352,32 @@
     #jobOpening .jobCards .card-title {
         font: normal normal bold 20px/34px Montserrat;
     }
+
     #applyNow .wrapper {
         padding: 0 40px;
+    }
+
+    /* career ends  */
+
+    #webPro {
+        margin-top: 40px;
+        padding-bottom: 56px;
+    }
+
+    #webPro .webProHeadingDiv {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    #webPro .sortBy{
+        margin-top: 12px;
+    }
+
+    #webPro .sortBy span {
+        left: 2px;
+    }
+    #webPro .sortBy select{
+        margin-left: 66px;
     }
 }
 
@@ -3623,8 +3739,8 @@
     #mission,
     #vision,
     #values,
-    #blogDetails ,
-    #empire ,
+    #blogDetails,
+    #empire,
     #wrTeamWork,
     #jobOpening,
     #applyNow {
@@ -4368,24 +4484,27 @@
         padding: 0px;
         padding-bottom: 40px;
     }
-     /* HireUs ends  */
 
-     #empire .commonHeadlines {
+    /* HireUs ends  */
+
+    #empire .commonHeadlines {
         padding: 0px;
         font-size: 26px;
-    }  
+    }
 
     #jobOpening .jobHeadlines .commonHeadlines {
         padding: 0px;
         font-size: 30px;
     }
 
-    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
         padding: 24px 0px;
         font-size: 14px;
     }
 
-    #wrTeamWork{
+    #wrTeamWork {
         padding: 30px;
         padding-bottom: 80px;
     }
@@ -4395,10 +4514,12 @@
         width: 100%;
         left: 30px;
     }
+
     #wrTeamWork .wrTeamRightDiv .dotsPattern {
         width: 20px;
         left: -40px;
     }
+
     #wrTeamWork .trianglePattern2 {
         left: 50px;
         width: 130px;
@@ -4411,11 +4532,36 @@
     #jobOpening .jobCards .card-title {
         font: normal normal bold 20px/34px Montserrat;
     }
+
     #applyNow .wrapper {
         padding: 0 16px;
     }
+
     #applyNow .commonPara {
         margin-top: 0px;
+    }
+
+     /* career ends  */
+
+     #webPro {
+        margin-top: 40px;
+        padding-bottom: 56px;
+    }
+
+    #webPro .webProHeadingDiv {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    #webPro .sortBy{
+        margin-top: 12px;
+    }
+
+    #webPro .sortBy span {
+        left: 2px;
+    }
+    #webPro .sortBy select{
+        margin-left: 66px;
     }
 
 }
@@ -4913,7 +5059,7 @@
     #contactUs,
     #contactForm,
     #map,
-    #empire ,
+    #empire,
     #wrTeamWork,
     #jobOpening,
     #applyNow {
@@ -5743,13 +5889,15 @@
         padding: 0px;
         padding-bottom: 40px;
     }
+
     /* HireUs ends  */
 
     #empire .commonHeadlines {
         padding: 0px;
         font-size: 26px;
         margin-top: 6px;
-    }  
+    }
+
     #jobOpening .jobCards .card {
         padding: 16px 50px;
         margin-top: -18px;
@@ -5761,12 +5909,14 @@
         line-height: 38px;
     }
 
-    #empire .commonPara, #jobOpening .commonPara, #applyNow .commonPara {
+    #empire .commonPara,
+    #jobOpening .commonPara,
+    #applyNow .commonPara {
         padding: 24px 0px;
         font-size: 14px;
     }
 
-    #wrTeamWork{
+    #wrTeamWork {
         padding: 20px 0px;
         padding-bottom: 80px;
     }
@@ -5776,10 +5926,12 @@
         width: 90%;
         left: 34px;
     }
+
     #wrTeamWork .wrTeamRightDiv .dotsPattern {
         width: 20px;
         left: -30px;
     }
+
     #wrTeamWork .trianglePattern2 {
         left: 50px;
         width: 130px;
@@ -5792,15 +5944,45 @@
     #jobOpening .jobCards .card-title {
         font: normal normal bold 20px/34px Montserrat;
     }
+
     #applyNow .wrapper {
         padding: 0 10px;
     }
+
     #applyNow .commonPara {
         margin-top: 0px;
     }
+
     #applyNow .applyHeadlines {
         margin-top: -18px;
     }
+
+    /* career ends  */
+
+    #webPro {
+        margin-top: 30px;
+        padding-bottom: 56px;
+    }
+
+    #webPro .webProHeadingDiv {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    #webPro .sortBy{
+        margin-top: 12px;
+    }
+
+    #webPro .sortBy span {
+        left: 2px;
+    }
+    #webPro .sortBy select{
+        margin-left: 66px;
+    }
+    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
 }
 
 
