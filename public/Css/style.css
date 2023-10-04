@@ -5313,7 +5313,9 @@ footer .footerContainer .flinks {
     padding-top: 80px;
 }
 
-#development .comman_Headlines {
+#development .comman_Headlines,
+#benefits .comman_Headlines,
+#process .comman_Headlines {
     padding-right: 114px;
 }
 
@@ -5325,6 +5327,7 @@ footer .footerContainer .flinks {
     margin-top: 100px;
     background-color: #2E71FE14;
     padding: 60px 0px;
+    padding-bottom: 90px;
 }
 
 #backend .backendHeadings {
@@ -5345,18 +5348,91 @@ footer .footerContainer .flinks {
     height: 444px;
 }
 
-#backend .leftDivContent .shapesDiv img {
-    position: absolute;
+#backend .leftDivContent .leftDivshapes img,
+#backend .rightDivContent .rightDivshapes img {
     width: 35px;
+    position: absolute;
+    z-index: -1;
+}
+
+#backend .leftDivContent .leftDivshapes .crossShape {
+    width: 35px;
+    left: -10%;
+    top: 30%;
+    animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
+}
+
+#backend .leftDivContent .leftDivshapes .dottsShape {
+    width: 110px;
+    left: -10%;
+    bottom: -8%;
+    animation: dotts 6s ease-in-out 1s infinite alternate-reverse forwards;
+}
+
+#backend .rightDivContent .rightDivshapes .circleShape {
+    width: 110px;
+    right: -5%;
+    top: -9%;
+    animation: circle 6s ease-in-out 1s infinite alternate-reverse forwards;
+}
+
+#backend .rightDivContent .rightDivshapes .triangleShape {
+    width: 40px;
+    right: 10%;
+    bottom: -15%;
+    animation: triangel 6s ease-in-out 1s infinite alternate-reverse forwards;
+}
+
+@keyframes circle {
+    0% {
+        top: 6%;
+    }
+
+    50% {
+        right: -5%;
+    }
+
+    100% {
+        right: 0%;
+    }
+}
+
+@keyframes dotts {
+    0% {
+        left: -10%;
+    }
+
+    50% {
+        left: 2%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes triangel {
+    0% {
+        right: 14%;
+    }
+
+    50% {
+        right: 8%;
+    }
+
+    100% {
+        right: 22%;
+    }
 }
 
 /*  */
 
-#backend .contentWrapper{
+#backend .contentWrapper {
     padding: 0;
 }
 
 #backend .rightDivContent {
+    position: relative;
     background-color: #FFFFFF;
     padding: 100px;
     border-radius: 0px 16px 16px 0px;
@@ -5366,3 +5442,85 @@ footer .footerContainer .flinks {
     font: normal normal bold 30px/37px Montserrat;
     color: #212121;
 }
+
+#benefits {
+    margin-top: 100px;
+}
+
+#benefits .benefitsPara {
+    margin-top: 56px;
+}
+
+#benefits .benefitsCards .card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #545A684D;
+    border-radius: 16px;
+    padding: 18px;
+    gap: 36px 0px;
+}
+
+#benefits .benefitsCards {
+    margin-top: 30px;
+}
+
+#benefits .benefitsCards .card .card-body {
+    padding: 0px;
+}
+
+#benefits .benefitsCards .card .card-img-top {
+    width: 100px;
+    height: 100px;
+    background: #176BF1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 26px #176BF15C;
+    border-radius: 8px;
+
+}
+
+#benefits .benefitsCards .card .card-title {
+    font: normal normal bold 24px/34px Montserrat;
+    color: #212121;
+    height: 66px;
+}
+
+#process {
+    margin-top: 100px;
+}
+
+#process .upperDivLeftContent {
+    background: #EDEDED 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    height: 510px;
+}
+
+#process .upperDivRightContent .processCardWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px 0px;
+    margin-top: 20px;
+}
+
+#process .upperDivRightContent .processCard {
+    display: flex;
+    align-items: center;
+    gap: 0px 12px;
+}
+
+#process .upperDivRightContent .processCard .cardIcon {
+    width: 93px;
+    height: 88px;
+    
+    background: #176BF1 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+#process .upperDivRightContent .processCard .cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2px 0px;
+}
+
+#process .upperDivRightContent .processCard .cardContent .title {
+    font: normal normal bold 24px/29px Montserrat;
+    color: #212121;
+}
+
