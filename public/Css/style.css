@@ -2788,7 +2788,7 @@ hr {
 
 .getInTouch .homeCommon_btn:hover {
     color: #2E71FE;
-
+    box-shadow: 0px 8px 26px #FFFFFF5C;
 }
 
 .getInTouch .homeCommon_btn:after {
@@ -3148,6 +3148,7 @@ hr {
 #header #rightSide .homeCommon_btn:after {
     content: "";
     background-color: #2E71FE;
+    box-shadow: 0px 0px 60px #545A681A;
     position: absolute;
     z-index: -1;
     left: -20%;
@@ -4047,25 +4048,30 @@ footer .footerContainer .flinks {
 }
 
 #category .card-title,
-#category .card-text {
+#category .card-text,
+#recentBlogs .recentBlogsCards .card .card-title,
+#recentBlogs .recentBlogsCards .card .card-text {
     color: #212121;
 
 }
 
-#category .card-title {
+#category .card-title,
+#recentBlogs .recentBlogsCards .card .card-title {
     font: normal normal 700 24px/34px Montserrat;
     color: #212121;
     margin-top: 12px;
 }
 
-#category .card-text {
-    font: 16px/24px;
+#category .card-text,
+#recentBlogs .recentBlogsCards .card .card-text {
+    font: 16px/24px Montserrat;
     color: #545A68;
     font-weight: 300 !important;
     height: 100px;
 }
 
-#category .card {
+#category .card,
+#recentBlogs .recentBlogsCards .card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.5px solid #51535892;
     border-radius: 16px;
@@ -4074,7 +4080,8 @@ footer .footerContainer .flinks {
 }
 
 #category .cateBadge,
-#blogDetails .cateBadge {
+#blogDetails .cateBadge,
+#recentBlogs .recentBlogsCards .cateBadge {
     background-color: var(--primary-color);
     color: white;
     position: absolute;
@@ -4087,13 +4094,15 @@ footer .footerContainer .flinks {
     margin-left: 14px;
 }
 
-#category .card-img-top {
+#category .card-img-top,
+#recentBlogs .recentBlogsCards .card .card-img-top {
     width: 100%;
     height: 100%;
 }
 
 #category .cateDate,
-.blogDate {
+.blogDate,
+#recentBlogs .recentBlogsCards .cateDate {
     font: 14px/24px Montserrat;
     color: #545A68;
     display: flex;
@@ -4103,11 +4112,13 @@ footer .footerContainer .flinks {
     margin-top: 12px;
 }
 
-#category .cateDetails {
+#category .cateDetails,
+#recentBlogs .recentBlogsCards .cateDetails {
     padding: 14px;
 }
 
-#category .blogComman_btn {
+#category .blogComman_btn,
+#recentBlogs .recentBlogsCards .blogComman_btn {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.5px solid #51535892;
     border-radius: 8px;
@@ -4117,7 +4128,8 @@ footer .footerContainer .flinks {
     transition: all 0.3s;
 }
 
-#category .blogComman_btn:hover {
+#category .blogComman_btn:hover,
+#recentBlogs .recentBlogsCards .blogComman_btn:hover {
     background-color: var(--primary-color);
     color: white;
     box-shadow: 0px 8px 26px #2E71FE42;
@@ -5310,17 +5322,19 @@ footer .footerContainer .flinks {
 }
 
 #development .deveLeftDiv {
-    padding-top: 80px;
+    padding-top: 130px;
 }
 
 #development .comman_Headlines,
 #benefits .comman_Headlines,
-#process .comman_Headlines {
+#process .comman_Headlines,
+#build .comman_Headlines {
     padding-right: 114px;
 }
 
 #development .comman_para {
     margin-top: 20px;
+    padding-right: 90px;
 }
 
 #backend {
@@ -5457,6 +5471,14 @@ footer .footerContainer .flinks {
     border-radius: 16px;
     padding: 18px;
     gap: 36px 0px;
+    transition: all 0.3s ease-out;
+}
+
+#benefits .benefitsCards .card:hover {
+    border: 2px solid #ffffff4d;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: -16px 16px 46px #2830421F;
+    transition: all 0.3s ease-out;
 }
 
 #benefits .benefitsCards {
@@ -5469,11 +5491,16 @@ footer .footerContainer .flinks {
 
 #benefits .benefitsCards .card .card-img-top {
     width: 100px;
-    height: 100px;
+    line-height: 100px;
     background: #176BF1 0% 0% no-repeat padding-box;
     box-shadow: 0px 8px 26px #176BF15C;
     border-radius: 8px;
+    text-align: center;
+}
 
+#benefits .benefitsCards .card .card-img-top img{
+    filter: brightness(5%) invert(100%);
+    width: 66px;
 }
 
 #benefits .benefitsCards .card .card-title {
@@ -5486,13 +5513,7 @@ footer .footerContainer .flinks {
     margin-top: 100px;
 }
 
-#process .upperDivLeftContent {
-    background: #EDEDED 0% 0% no-repeat padding-box;
-    border-radius: 16px;
-    height: 510px;
-}
-
-#process .upperDivRightContent .processCardWrapper{
+#process .upperDivRightContent .processCardWrapper {
     display: flex;
     flex-direction: column;
     gap: 12px 0px;
@@ -5508,9 +5529,13 @@ footer .footerContainer .flinks {
 #process .upperDivRightContent .processCard .cardIcon {
     width: 93px;
     height: 88px;
-    
     background: #176BF1 0% 0% no-repeat padding-box;
     border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#process .upperDivRightContent .processCard:hover .cardIcon {
+    background: #283042 0% 0% no-repeat padding-box;
 }
 
 #process .upperDivRightContent .processCard .cardContent {
@@ -5522,5 +5547,140 @@ footer .footerContainer .flinks {
 #process .upperDivRightContent .processCard .cardContent .title {
     font: normal normal bold 24px/29px Montserrat;
     color: #212121;
+}
+
+#process .lowerDivWrapper {
+    margin-top: 186px;
+    background-size: cover;
+    position: relative;
+}
+
+#process .lowerDivWrapper .arrowImg img {
+    position: absolute;
+    top: -200px;
+    left: 50px;
+    width: 50%;
+}
+
+#build {
+    margin-top: 100px;
+    position: relative;
+}
+
+#build .bgDiv {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background: rgb(2 0 16 / 61%) url('../../src/Asset/Images/contactFormBg.png');
+    position: relative;
+    z-index: -1;
+}
+
+#build .bgDiv .blueBg {
+    background: #0071ff 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+#build .buildWrapper {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px #2830421F;
+    border-radius: 16px;
+    padding: 50px;
+    margin-top: -270px;
+}
+
+#build .buildWrapper .leftDiv {
+    border-right: 0.5px solid lightgray;
+    padding-top: 160px;
+}
+
+#build .buildWrapper .rightDiv {
+    padding: 85px;
+    padding-right: 0;
+}
+
+#build .buildWrapper .rightDiv .buildCardsWrapper {
+    gap: 50px 0px;
+}
+
+#build .buildWrapper .rightDiv .card {
+    border: none;
+    gap: 40px 0px;
+    transition: all 0.3s;
+}
+
+#build .buildWrapper .rightDiv .card .buildCardIcon {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 26px #176BF15C;
+}
+
+#build .buildWrapper .rightDiv .card .buildCardIcon img{
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#build .buildWrapper .rightDiv .card .buildCardIcon .buildIcon2{
+    display: none;
+}
+
+
+#build .buildWrapper .rightDiv .card:hover .buildIcon1 {
+    display: none;
+    transition: all 0.3s;
+}
+#build .buildWrapper .rightDiv .card:hover .buildIcon2 {
+    display: block;
+    transition: all 0.3s;
+}
+
+#build .buildWrapper .rightDiv .card span:last-child {
+    font: normal normal 600 18px/22px Montserrat;
+    color: #212121;
+}
+
+#webDevContact {
+    margin-top: 200px;
+}
+
+#webDevContact .getInTouch .getTouchDesc {
+    font: normal normal bold 36px/50px Montserrat;
+}
+
+#webDevContact .getInTouch .word svg {
+    width: 50% !important;
+    transform: none !important;
+}
+
+
+#webDevContact .getInTouch .homeCommon_btn {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#recentBlogs .recentBlogsCards {
+    margin-top: 30px;
+    padding-bottom: 35px;
+}
+
+.commonBorderDiv {
+    position: relative;
+}
+
+.commonBorderDiv::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: -4px;
+    width: 96%;
+    height: 96%;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    z-index: -1;
+    transform: rotate(185deg);
 }
 
