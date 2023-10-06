@@ -1,165 +1,93 @@
-import React, { Component } from 'react';
-import { Expo, TweenMax } from 'gsap'; // Import TweenMax from gsap
-import WheelIndicator from 'wheel-indicator'; // Import WheelIndicator
+import React, { useEffect } from 'react';
+import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs'
 
-import blog1 from '../../../src/Asset/Images/Blog_1.png'
-import blog2 from '../../../src/Asset/Images/Blog_2.png'
-import blog3 from '../../../src/Asset/Images/Blog_3.png'
+const Slider = () => {
 
-class NewSilder extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            currSl: 0,
-            divNum: 0,
-            animInProgress: false,
-        };
-    }
+    useEffect(() => {
 
-    componentDidMount() {
-        this.initSlider();
-    }
+    const upBtn = document.querySelector('.up-button');
+    const downBtn = document.querySelector('.down-button');
+    const container = document.querySelector('.sliderWrapper');
+    const siderbar = document.querySelector('.sidebar');
+    const mainSlide = document.querySelector('.main-slide');
+    const slidesCount = mainSlide.querySelectorAll('div').length;
 
-    initSlider() {
-        const slideHeight = this.getSlideHeight();
-        const divNum = document.querySelectorAll('#MsMmSlider > div').length;
-        this.setState({
-            divNum,
-            slideHeight,
-        });
-        const indicator = new WheelIndicator({
-            elem: document.querySelector('#MsMmSlider'),
-            callback: (e) => this.scrollMe(e.direction),
-        });
-        indicator.getOption('preventMouse');
-    }
+    let activeSlideIndex = 0;
 
-    getSlideHeight() {
-        if (document.querySelector('#preview')) {
-            return document.querySelector('#items').clientHeight;
+    // siderbar.style.top = `-${(slidesCount - 1) * 100}vh`;
+
+    upBtn.addEventListener('click', () => {
+        changesSlide('up');
+    })
+
+    downBtn.addEventListener('click', () => {
+        changesSlide('down');
+    })
+
+    function changesSlide(direction) {
+        if (direction === 'up') {
+            activeSlideIndex++;
+            if (activeSlideIndex === slidesCount) {
+                activeSlideIndex = 0;
+            }
+        } else if (direction === 'down') {
+            activeSlideIndex--;
+            if (activeSlideIndex < 0) {
+                activeSlideIndex = slidesCount - 1
+            }
         }
-        return document.querySelector('#MsMmSlider').clientHeight;
+
+        // const height = container.clientHeight;
+        const height = 500;
+
+        mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`
+
+        siderbar.style.transform = `translateY(${activeSlideIndex * height}px)`
     }
 
-    scrollMe(direction) {
-        if (this.state.animInProgress) {
-            return;
-        }
-        let newScrollTop = this.state.currSl * this.state.slideHeight;
-        let newAltScrollTop = this.state.slideHeight - (this.state.currSl + 1) * this.state.slideHeight;
+    }, [])
 
-        if (direction === 'down' && this.state.currSl < this.state.divNum - 1) {
-            this.setState(
-                {
-                    animInProgress: true,
-                    currSl: this.state.currSl + 1,
-                },
-                () => {
-                    newScrollTop = this.state.currSl * this.state.slideHeight;
-                    newAltScrollTop = this.state.slideHeight - (this.state.currSl + 1) * this.state.slideHeight;
-                    const percent = (100 / (this.state.divNum - 1)) * this.state.currSl;
-                    const colorCible = this.getCurrentSlideColor(this.state.currSl + 1);
-                    TweenMax.to(document.querySelectorAll('#Indic > *'), 0.6, {
-                        height: `${percent}%`,
-                        backgroundColor: colorCible,
-                        ease: Expo.easeOut,
-                    });
-
-                    const indicElement = document.querySelector('#Indic > * > *');
-                    if (indicElement) {
-                        indicElement.innerHTML = `${this.state.currSl + 1} &ndash; ${this.state.divNum}`;
-                        indicElement.style.color = colorCible;
-                    } else {
-                        console.error("Indic element not found in the DOM.");
-                    }
-
-                    TweenMax.to(document.querySelectorAll('.col:nth-child(1) > div'), 0.6, {
-                        scrollTo: { x: 0, y: newScrollTop },
-                        ease: Expo.easeOut,
-                    });
-                    TweenMax.to(document.querySelectorAll('.col:nth-child(2) > div'), 0.6, {
-                        scrollTo: { x: 0, y: newAltScrollTop },
-                        ease: Expo.easeOut,
-                        onComplete: () => {
-                            this.setState({ animInProgress: false });
-                        },
-                    });
-                }
-            );
-        } else if (direction === 'up' && this.state.currSl > 0) {
-            this.setState(
-                {
-                    animInProgress: true,
-                    currSl: this.state.currSl - 1,
-                },
-                () => {
-                    newScrollTop = this.state.currSl * this.state.slideHeight;
-                    newAltScrollTop = this.state.slideHeight - (this.state.currSl + 1) * this.state.slideHeight;
-                    const percent = (100 / (this.state.divNum - 1)) * this.state.currSl;
-                    const colorCible = this.getCurrentSlideColor(this.state.currSl + 1);
-                    TweenMax.to(document.querySelectorAll('#Indic > *'), 0.6, {
-                        height: `${percent}%`,
-                        backgroundColor: colorCible,
-                        ease: Expo.easeOut,
-                    });
-
-                    const indicElement = document.querySelector('#Indic > * > *');
-                    if (indicElement) {
-                        indicElement.innerHTML = `${this.state.currSl + 1} &ndash; ${this.state.divNum}`;
-                        indicElement.style.color = colorCible;
-                    } else {
-                        console.error("Indic element not found in the DOM.");
-                    }
-
-                    TweenMax.to(document.querySelectorAll('.col:nth-child(1) > div'), 0.6, {
-                        scrollTo: { x: 0, y: newScrollTop },
-                        ease: Expo.easeOut,
-                    });
-                    TweenMax.to(document.querySelectorAll('.col:nth-child(2) > div'), 0.6, {
-                        scrollTo: { x: 0, y: newAltScrollTop },
-                        ease: Expo.easeOut,
-                        onComplete: () => {
-                            this.setState({ animInProgress: false });
-                        },
-                    });
-                }
-            );
-        }
-    }
-
-    getCurrentSlideColor(slideNumber) {
-        const slideSelector = `.col:nth-child(1) > div > div:nth-child(${slideNumber})`;
-        const slideElement = document.querySelector(slideSelector);
-        if (slideElement) {
-            return slideElement.getAttribute('data-color');
-        }
-        return '#FFFFFF'; // Default color if not found
-    }
-
-    render() {
-        return (
-            <>
-                <div id="MsMmSlider">
-                    <div data-color="#007cc2" data-img={blog1.src}><span><strong>Scroll!</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
-                    <div data-color="#343434" data-img={blog2.src}><span><strong>Cities</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
-                    <div data-color="#79a4ad" data-img={blog3.src}><span><strong>Colors</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
-                    <div data-color="#a4ca3f" data-img={blog1.src}><span><strong>Food</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
-                    <div data-color="#ff8d61" data-img={blog2.src}><span><strong>Nature</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
-                    <div data-color="#5e1f10" data-img={blog3.src}><span><strong>End</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /><a href="">Call 2 action</a></span></div>
+    return (
+        <section id='devSlider'>
+            <div class="sliderWrapper">
+                <div class="sidebar">
+                    <div style={{ background: " linear-gradient(229.99deg, #fd3737 -26%, #d35353 145%)" }}>
+                        <h1>Русская кухня</h1>
+                        <p>Изысканная еда и напитки</p>
+                    </div>
+                    <div style={{ background: " linear-gradient(215.32deg, #03abf9 -1%, #055ec4 124%)" }}>
+                        <h1>Итальянская кухня</h1>
+                        <p>Изысканная еда и напитки</p>
+                    </div>
+                    <div style={{ background: " linear-gradient(220.16deg,  #F39102 138%,  #FFE101 -8%)" }}>
+                        <h1>Японская кухня</h1>
+                        <p>Изысканная еда и напитки</p>
+                    </div>
+                    <div style={{ background: " linear-gradient(221.87deg, #fbf7ff 1%, #b2b2b3 128%)" }}>
+                        <h1>Напитки на любой вкус</h1>
+                        <p>Изысканная еда и напитки</p>
+                    </div>
                 </div>
-                <div id="arrow"></div>
-                <div id="Indic"><div><i></i></div></div>
-            </>
+                <div class="main-slide">
+                    <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?car'})` }}></div>
+                    <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?bike'})` }}></div>
+                    <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?animal'})` }}></div>
+                    <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?bird'})` }}></div>
+                </div>
+                <div class="controls">
+                    <button class="down-button buttn">
+                        <BsArrowUpCircle />
+                    </button>
+                    <button class="up-button buttn">
+                        <BsArrowDownCircle />
+                    </button>
+                </div>
+            </div>
+        </section>
 
-        );
-    }
-}
+    );
+};
 
-export default NewSilder;
-
-
-
-
-
+export default Slider;
 
 

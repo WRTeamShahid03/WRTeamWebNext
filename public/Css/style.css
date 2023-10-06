@@ -5325,6 +5325,10 @@ footer .footerContainer .flinks {
     padding-top: 130px;
 }
 
+#development .deveRightDiv .commonBorderDiv {
+    left: 60px;
+}
+
 #development .comman_Headlines,
 #benefits .comman_Headlines,
 #process .comman_Headlines,
@@ -5498,7 +5502,7 @@ footer .footerContainer .flinks {
     text-align: center;
 }
 
-#benefits .benefitsCards .card .card-img-top img{
+#benefits .benefitsCards .card .card-img-top img {
     filter: brightness(5%) invert(100%);
     width: 66px;
 }
@@ -5549,6 +5553,20 @@ footer .footerContainer .flinks {
     color: #212121;
 }
 
+#process .upperDivWrapper .upperDivRightContent {
+    padding-left: 60px;
+}
+
+#process .lowerDivWrapper .upperDivRightContent {
+    padding-right: 90px;
+    padding-top: 66px;
+}
+
+#process .lowerDivWrapper .upperDivLeftContent {
+    position: relative;
+    left: 60px;
+}
+
 #process .lowerDivWrapper {
     margin-top: 186px;
     background-size: cover;
@@ -5557,9 +5575,9 @@ footer .footerContainer .flinks {
 
 #process .lowerDivWrapper .arrowImg img {
     position: absolute;
-    top: -200px;
-    left: 50px;
-    width: 50%;
+    top: -198px;
+    left: 40px;
+    width: 55%;
 }
 
 #build {
@@ -5619,12 +5637,12 @@ footer .footerContainer .flinks {
     box-shadow: 0px 8px 26px #176BF15C;
 }
 
-#build .buildWrapper .rightDiv .card .buildCardIcon img{
+#build .buildWrapper .rightDiv .card .buildCardIcon img {
     border-radius: 8px;
     transition: all 0.3s;
 }
 
-#build .buildWrapper .rightDiv .card .buildCardIcon .buildIcon2{
+#build .buildWrapper .rightDiv .card .buildCardIcon .buildIcon2 {
     display: none;
 }
 
@@ -5633,6 +5651,7 @@ footer .footerContainer .flinks {
     display: none;
     transition: all 0.3s;
 }
+
 #build .buildWrapper .rightDiv .card:hover .buildIcon2 {
     display: block;
     transition: all 0.3s;
@@ -5676,7 +5695,7 @@ footer .footerContainer .flinks {
     position: absolute;
     top: 12px;
     left: -4px;
-    width: 96%;
+    width: 91.5%;
     height: 96%;
     background-color: var(--primary-color);
     border-radius: 16px;
@@ -5684,3 +5703,102 @@ footer .footerContainer .flinks {
     transform: rotate(185deg);
 }
 
+#development .deveRightDiv img,
+#process .upperDivLeftContent img {
+    width: 90%;
+}
+
+/* slider css */
+
+#devSlider{
+    margin-top: 100px;
+}
+
+#devSlider .sliderWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    background-color: darkred;
+}
+
+#devSlider .sidebar {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+#devSlider .sidebar>div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+#devSlider .sidebar h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+#devSlider .main-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    transition: transform 0.5s ease-in-out;
+    /* overflow: hidden; */
+}
+
+#devSlider .main-slide>div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+#devSlider .buttn {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#devSlider .buttn:hover {
+    color: #222;
+}
+
+#devSlider .buttn:focus {
+    outline: none;
+}
+
+#devSlider .sliderWrapper .controls .buttn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+}
+
+#devSlider .sliderWrapper .controls .down-button {
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#devSlider .sliderWrapper .controls .up-button {
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+    /* Web Development ends  */

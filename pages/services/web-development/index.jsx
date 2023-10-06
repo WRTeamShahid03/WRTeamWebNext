@@ -166,7 +166,7 @@ const index = () => {
   ]
 
   return (
-    <>
+    <div id='webDevelopmentPage'>
       <Breadcrum title='Web' blueText={'Development'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Web Development'} />
 
       <section id='development' className='container'>
@@ -188,7 +188,7 @@ const index = () => {
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="deveRightDiv">
+            <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="2000">
               <div className="commonBorderDiv">
               <img src={webDeveImg.src} alt="" />
               </div>
@@ -207,7 +207,7 @@ const index = () => {
                 <span className="common_span">
                   <span>What</span> We Can Do <span>For You</span>
                 </span>
-                <h3 className='comman_Headlines'>
+                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
                   Services <span>We Can Help </span>You With
                 </h3>
               </div>
@@ -256,7 +256,7 @@ const index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines'>Make a Website With the Best <span>Web Development</span> Company</h3>
+              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make a Website With the Best <span>Web Development</span> Company</h3>
             </div>
           </div>
 
@@ -271,7 +271,7 @@ const index = () => {
         <div className="row benefitsCards">
           {
             benefitsCardData.map((e) => {
-              return <div className="col-sm-12 col-md-4 col-lg-3" key={e.id}>
+              return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                 <Card>
                   {/* <Card.Img variant="top" src="..." /> */}
                   <span className='card-img-top'><img src={e.icon.src} alt="" /></span>
@@ -289,7 +289,7 @@ const index = () => {
       <section id='process' className='container'>
         <div className="row upperDivWrapper">
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="upperDivLeftContent">
+            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="2000">
             <div className="commonBorderDiv">
               <img src={processImg.src} alt="" />
               </div>
@@ -301,28 +301,28 @@ const index = () => {
                 <span className="common_span">
                   Our <span>Work Process</span>
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
+                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
                   Make a Website With the Best <span>Web Development</span> Company
                 </h3>
               </div>
 
               <div className="processCardWrapper">
 
-                <div className="processCard">
+                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
                   <span className='cardIcon'></span>
                   <span className='cardContent'>
                     <span className='title'>01.Idea</span>
                     <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
                   </span>
                 </div>
-                <div className="processCard">
+                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
                   <span className='cardIcon'></span>
                   <span className='cardContent'>
                     <span className='title'>01.Idea</span>
                     <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
                   </span>
                 </div>
-                <div className="processCard">
+                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
                   <span className='cardIcon'></span>
                   <span className='cardContent'>
                     <span className='title'>01.Idea</span>
@@ -369,7 +369,7 @@ const index = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="upperDivLeftContent">
+            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="2000">
             <div className="commonBorderDiv">
               <img src={processImg2.src} alt="" />
               </div>
@@ -393,7 +393,7 @@ const index = () => {
                 <span className="common_span">
                   <span>We</span> Build
                 </span>
-                <h3 className='comman_Headlines'>
+                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
                   We <span> Build</span> With <span> Modern</span> Technologies & Tools
                 </h3>
                 <p className="comman_para firstP">
@@ -462,7 +462,7 @@ const index = () => {
               <span className="common_span">
                 Our <span>Blogs</span>
               </span>
-              <h3 className="comman_Headlines">
+              <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="1000">
                 Recent <span>Blogs</span>
               </h3>
             </div>
@@ -498,7 +498,8 @@ const index = () => {
           </div>
         </div>
       </section>
-    </>
+      {/* recentBlogs ends  */}
+    </div>
   )
 }
 

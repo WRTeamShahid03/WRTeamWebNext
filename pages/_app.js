@@ -16,7 +16,6 @@ function MyApp({ Component, pageProps, data }) {
         AOS.init();
     }, []);
 
-
     return (
         <>
 

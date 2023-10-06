@@ -19,14 +19,13 @@
 }
 
 /* For Breadcrum  */
-
 @media only screen and (max-width: 575px) {
 
     #header {
         height: 70px;
     }
 
-    #hamburg svg{
+    #hamburg svg {
         width: 32px;
     }
 
@@ -34,12 +33,15 @@
         width: 170px !important;
         height: 35px;
     }
-    .breadcrum .lines{
+
+    .breadcrum .lines {
         display: none;
     }
+
     .breadcrum .breadcrumContent {
         top: 180px;
     }
+
     .breadcrum h1 {
         margin-bottom: -10px;
     }
@@ -366,6 +368,59 @@
 
     #webPro .cardsWrapper .card .card-title {
         height: 80px;
+    }
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 60px 90px;
+        padding-bottom: 90px;
+    }
+
+    #backend .rightDivContent {
+        padding: 68px;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 107px;
+        height: 78px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -168px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 62px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        height: 108px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 130px;
     }
 
 }
@@ -937,6 +992,94 @@
     #webPro .cardsWrapper .col-lg-3 {
         flex: 0 0 auto;
         width: 33.33%;
+    }
+
+    /* webPro ends  */
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 60px 90px;
+        padding-bottom: 90px;
+    }
+
+    #backend .rightDivContent {
+        padding: 34px;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 152px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 32px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 92px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 154px;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 22px/34px Montserrat;
+        height: 56px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-top: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 20px/29px Montserrat;
+    }
+
+    #process .lowerDivWrapper .upperDivLeftContent,
+    #development .deveRightDiv .commonBorderDiv {
+        left: 36px;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 16px/22px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
     }
 
 }
@@ -1597,6 +1740,147 @@
     #webPro .cardsWrapper .col-lg-3 {
         flex: 0 0 auto;
         width: 33.33%;
+    }
+
+    /* webPro ends  */
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #webDevelopmentPage .col-lg-6 {
+        width: 100%;
+    }
+
+    #development,
+    #process {
+        margin-top: 50px;
+    }
+
+    #development .deveRightDiv img,
+    #process .upperDivLeftContent img {
+        width: 65%;
+    }
+
+    .commonBorderDiv {
+        position: relative;
+        left: 160px;
+        top: 36px;
+    }
+
+    .commonBorderDiv::before {
+        width: 65.5%;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 60px 90px;
+        padding-bottom: 90px;
+    }
+
+    #backend .rightDivContent {
+        padding: 34px;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 152px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+    #build .buildWrapper {
+        margin-top: -334px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 32px;
+    }
+    #recentBlogs{
+        margin-top: -54px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 92px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 210px;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 19px/34px Montserrat;
+        height: 56px;
+    }
+
+    #benefits .benefitsPara {
+        margin-top: 10px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        display: none;
+    }
+    #process .upperDivWrapper .upperDivRightContent {
+       padding: 0;
+    }
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding: 0;
+        margin-top: -12%;
+    }
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 22px/29px Montserrat;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 16px/22px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 12px;
+        width: 100%;
+        border: none;
+    }
+
+    #build .buildWrapper .leftDiv .firstP{
+        margin-top: 10px;
+    }
+    #build .buildWrapper .rightDiv {
+        padding: 20px 130px;
+        padding-right: 0;
     }
 }
 
@@ -2396,6 +2680,164 @@
 
     #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
+    }
+
+     /* webPro ends  */
+
+     #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #webDevelopmentPage .col-lg-6 {
+        width: 100%;
+    }
+
+    #development,
+    #process ,
+    #benefits {
+        margin-top: 50px;
+    }
+
+    #development .deveRightDiv img,
+    #process .upperDivLeftContent img {
+        width: 65%;
+    }
+
+    .commonBorderDiv {
+        position: relative;
+        left: 130px !important;
+        top: 36px;
+    }
+
+    .commonBorderDiv::before {
+        width: 65.5%;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 32px 0px;
+        padding-bottom: 20px;
+    }
+
+    #backend .rightDivContent {
+        padding: 34px;
+    }
+    #backend .leftDivContent .leftDivshapes img,
+    #backend .rightDivContent .rightDivshapes img {
+        display: none;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 152px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+    #build .buildWrapper {
+        margin-top: -334px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 32px;
+    }
+    #recentBlogs{
+        margin-top: -54px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 92px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 166px;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 19px/34px Montserrat;
+        height: 24px;
+    }
+
+    #benefits .benefitsPara {
+        margin-top: 10px;
+    }
+    #benefits .benefitsCards {
+        margin-top: 10px;
+        gap: 20px 0px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        display: none;
+    }
+    #process .upperDivWrapper .upperDivRightContent {
+       padding: 0;
+    }
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding: 0;
+        margin-top: -12%;
+    }
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 22px/29px Montserrat;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 16px/22px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 12px;
+        width: 100%;
+        border: none;
+    }
+
+    #build .buildWrapper .leftDiv .firstP{
+        margin-top: 10px;
+    }
+    #build .buildWrapper .rightDiv {
+        padding: 20px 40px;
+        padding-right: 0;
+    }
+
+    #recentBlogs .col-lg-12 .row{
+        padding-bottom: 50px;
+    }
+    #recentBlogs .recentBlogsCards {
+        margin-top: 20px;
+        padding-bottom: 0px;
     }
 
 }
@@ -3369,14 +3811,15 @@
         flex-direction: column;
     }
 
-    #webPro .sortBy{
+    #webPro .sortBy {
         margin-top: 12px;
     }
 
     #webPro .sortBy span {
         left: 2px;
     }
-    #webPro .sortBy select{
+
+    #webPro .sortBy select {
         margin-left: 66px;
     }
 }
@@ -4541,9 +4984,9 @@
         margin-top: 0px;
     }
 
-     /* career ends  */
+    /* career ends  */
 
-     #webPro {
+    #webPro {
         margin-top: 40px;
         padding-bottom: 56px;
     }
@@ -4553,14 +4996,15 @@
         flex-direction: column;
     }
 
-    #webPro .sortBy{
+    #webPro .sortBy {
         margin-top: 12px;
     }
 
     #webPro .sortBy span {
         left: 2px;
     }
-    #webPro .sortBy select{
+
+    #webPro .sortBy select {
         margin-left: 66px;
     }
 
@@ -5969,16 +6413,18 @@
         flex-direction: column;
     }
 
-    #webPro .sortBy{
+    #webPro .sortBy {
         margin-top: 12px;
     }
 
     #webPro .sortBy span {
         left: 2px;
     }
-    #webPro .sortBy select{
+
+    #webPro .sortBy select {
         margin-left: 66px;
     }
+
     #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
     }
@@ -6021,6 +6467,7 @@
         transform: translateY(0);
 
     }
+
 
 }
 
