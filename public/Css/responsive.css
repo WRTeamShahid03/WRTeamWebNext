@@ -1806,6 +1806,7 @@
     #build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
+
     #build .buildWrapper {
         margin-top: -334px;
     }
@@ -1817,7 +1818,8 @@
         padding-right: 0px;
         font-size: 32px;
     }
-    #recentBlogs{
+
+    #recentBlogs {
         margin-top: -54px;
     }
 
@@ -1846,13 +1848,16 @@
     #process .lowerDivWrapper .arrowImg img {
         display: none;
     }
+
     #process .upperDivWrapper .upperDivRightContent {
-       padding: 0;
+        padding: 0;
     }
+
     #process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -12%;
     }
+
     #process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 118px;
     }
@@ -1875,9 +1880,10 @@
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP{
+    #build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
+
     #build .buildWrapper .rightDiv {
         padding: 20px 130px;
         padding-right: 0;
@@ -2682,9 +2688,9 @@
         font: normal normal bold 20px/29px Montserrat;
     }
 
-     /* webPro ends  */
+    /* webPro ends  */
 
-     #webDevelopmentPage {
+    #webDevelopmentPage {
         overflow: hidden;
     }
 
@@ -2693,7 +2699,7 @@
     }
 
     #development,
-    #process ,
+    #process,
     #benefits {
         margin-top: 50px;
     }
@@ -2725,6 +2731,7 @@
     #backend .rightDivContent {
         padding: 34px;
     }
+
     #backend .leftDivContent .leftDivshapes img,
     #backend .rightDivContent .rightDivshapes img {
         display: none;
@@ -2751,6 +2758,7 @@
     #build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
+
     #build .buildWrapper {
         margin-top: -334px;
     }
@@ -2762,7 +2770,8 @@
         padding-right: 0px;
         font-size: 32px;
     }
-    #recentBlogs{
+
+    #recentBlogs {
         margin-top: -54px;
     }
 
@@ -2783,6 +2792,7 @@
     #benefits .benefitsPara {
         margin-top: 10px;
     }
+
     #benefits .benefitsCards {
         margin-top: 10px;
         gap: 20px 0px;
@@ -2795,13 +2805,16 @@
     #process .lowerDivWrapper .arrowImg img {
         display: none;
     }
+
     #process .upperDivWrapper .upperDivRightContent {
-       padding: 0;
+        padding: 0;
     }
+
     #process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -12%;
     }
+
     #process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 118px;
     }
@@ -2824,17 +2837,19 @@
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP{
+    #build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
+
     #build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
     }
 
-    #recentBlogs .col-lg-12 .row{
+    #recentBlogs .col-lg-12 .row {
         padding-bottom: 50px;
     }
+
     #recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
@@ -3582,7 +3597,7 @@
     .breadcrum {
         background-color: #2E71FE14;
         height: 292px;
-        margin-top: -172px;
+        margin-top: -150px;
     }
 
     .breadcrum .pageName {
@@ -3821,6 +3836,181 @@
 
     #webPro .sortBy select {
         margin-left: 66px;
+    }
+
+    /* webPro ends  */
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #webDevelopmentPage .col-lg-6 {
+        width: 100%;
+    }
+
+    #development,
+    #process,
+    #benefits {
+        margin-top: 50px;
+    }
+
+    #development .deveRightDiv img,
+    #process .upperDivLeftContent img {
+        width: 65%;
+    }
+
+    #process .lowerDivWrapper .upperDivLeftContent {
+        left: 0px !important;
+    }
+
+    .commonBorderDiv {
+        position: relative;
+        left: 100px !important;
+        top: 36px;
+    }
+
+    .commonBorderDiv::before {
+        width: 65.5%;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 32px 0px;
+        padding-bottom: 20px;
+    }
+
+    #backend .rightDivContent {
+        padding: 34px;
+    }
+
+    #backend .leftDivContent .leftDivshapes img,
+    #backend .rightDivContent .rightDivshapes img {
+        display: none;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 152px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+
+    #build .buildWrapper {
+        margin-top: -334px;
+    }
+
+    #build .buildWrapper .rightDiv .buildCardsWrapper {
+        margin-left: 60px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 32px;
+    }
+
+    #recentBlogs {
+        margin-top: -54px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 100%;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 90px;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 19px/34px Montserrat;
+        height: 50px;
+    }
+
+    #benefits .benefitsPara {
+        margin-top: 10px;
+    }
+
+    #benefits .benefitsCards {
+        margin-top: 10px;
+        gap: 20px 0px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        display: none;
+    }
+
+    #process .upperDivWrapper .upperDivRightContent {
+        padding: 0;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding: 0;
+        margin-top: -12%;
+    }
+
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 22px/29px Montserrat;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 16px/22px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 12px;
+        width: 100%;
+        border: none;
+    }
+
+    #build .buildWrapper .leftDiv .firstP {
+        margin-top: 10px;
+    }
+
+    #build .buildWrapper .rightDiv {
+        padding: 20px 40px;
+        padding-right: 0;
+    }
+
+    #recentBlogs .col-lg-12 .row {
+        padding-bottom: 50px;
+    }
+
+    #recentBlogs .recentBlogsCards {
+        margin-top: 20px;
+        padding-bottom: 0px;
     }
 }
 
@@ -5008,6 +5198,195 @@
         margin-left: 66px;
     }
 
+    /* webPro ends  */
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #webDevelopmentPage .col-lg-6 {
+        width: 100%;
+    }
+
+    #development,
+    #process,
+    #benefits {
+        margin-top: 20px;
+    }
+
+    #development .deveRightDiv img,
+    #process .upperDivLeftContent img {
+        width: 65%;
+    }
+
+    #process .lowerDivWrapper .upperDivLeftContent {
+        left: 0px !important;
+    }
+
+    .commonBorderDiv {
+        position: relative;
+        left: 68px !important;
+        top: 36px;
+    }
+
+    .commonBorderDiv::before {
+        width: 65.5%;
+    }
+
+    #development .comman_para {
+        margin-top: 12px;
+        padding-right: 0px;
+        font-size: 16px;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 32px 0px;
+        padding-bottom: 20px;
+    }
+
+    #backend .rightDivContent {
+        padding: 14px;
+    }
+
+    #backend .wrapper {
+        padding: 0px 10px;
+    }
+
+    #backend .leftDivContent .leftDivshapes img,
+    #backend .rightDivContent .rightDivshapes img {
+        display: none;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 205px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        padding: 20px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+
+    #build .buildWrapper {
+        margin-top: -334px;
+    }
+
+    #build .buildWrapper .rightDiv .buildCardsWrapper {
+        margin-left: 0px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 26px;
+    }
+
+    #recentBlogs {
+        margin-top: -54px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 100%;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 100%;
+    }
+
+    #benefits .benefitsCards .card {
+        align-items: center;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 19px/34px Montserrat;
+        height: 20px;
+    }
+
+    #benefits .benefitsPara {
+        margin-top: 10px;
+    }
+
+    #benefits .benefitsCards {
+        margin-top: 10px;
+        gap: 20px 0px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        display: none;
+    }
+
+    #process .upperDivWrapper .upperDivRightContent {
+        padding: 0;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding: 0;
+        margin-top: -26%;
+    }
+
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 22px/29px Montserrat;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 16px/22px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 12px;
+        width: 100%;
+        border: none;
+    }
+
+    #build .buildWrapper .leftDiv .firstP {
+        margin-top: 10px;
+    }
+
+    #build .buildWrapper .rightDiv {
+        padding: 20px 40px;
+        padding-right: 0;
+    }
+
+    #recentBlogs .col-lg-12 .row {
+        padding-bottom: 50px;
+    }
+
+    #recentBlogs .recentBlogsCards {
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 399px) {
@@ -6051,7 +6430,15 @@
 
     .breadcrum {
         height: 280px;
-        margin-top: -178px;
+        margin-top: -168px;
+    }
+
+    .breadcrum .pageName span {
+        font-size: 14px;
+    }
+
+    .breadcrum .pageName span svg {
+        width: 14px;
     }
 
     .breadcrum .pageName {
@@ -6427,6 +6814,206 @@
 
     #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
+    }
+
+    /* webPro ends  */
+
+    #webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    #webDevelopmentPage .col-lg-6 {
+        width: 100%;
+    }
+
+    #development,
+    #process,
+    #benefits {
+        margin-top: 20px;
+    }
+
+    #development .deveRightDiv img,
+    #process .upperDivLeftContent img {
+        width: 94%;
+    }
+
+    #process .lowerDivWrapper .upperDivLeftContent {
+        left: 0px !important;
+    }
+
+    .commonBorderDiv {
+        position: relative;
+        left: 10px !important;
+        top: 36px;
+    }
+
+    .commonBorderDiv::before {
+        width: 94.5%;
+        top: 4px;
+        height: 96%;
+        left: 0px;
+    }
+
+    #development .comman_para {
+        margin-top: 12px;
+        padding-right: 0px;
+        font-size: 16px;
+    }
+
+    #development .deveLeftDiv {
+        padding-top: 20px;
+    }
+
+    #backend {
+        padding: 32px 0px;
+        padding-bottom: 20px;
+    }
+
+    #backend .backendHeadings {
+        align-items: self-start;
+    }
+
+    #backend .rightDivContent {
+        padding: 14px;
+    }
+
+    #backend .wrapper {
+        padding: 0px 10px;
+    }
+
+    #backend .leftDivContent .leftDivshapes img,
+    #backend .rightDivContent .rightDivshapes img {
+        display: none;
+    }
+
+    #process .upperDivRightContent .processCard .cardIcon {
+        width: 245px;
+        height: 96px;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding-top: 24px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        top: -124px;
+        left: 48px;
+    }
+
+    #build .buildWrapper {
+        margin-top: -365px;
+        padding: 4px;
+        margin: 0;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 136px;
+    }
+
+    #build .buildWrapper {
+        margin-top: -334px;
+    }
+
+    #build .buildWrapper .rightDiv .buildCardsWrapper {
+        margin-left: 0px;
+    }
+
+    #development .comman_Headlines,
+    #benefits .comman_Headlines,
+    #process .comman_Headlines,
+    #build .comman_Headlines {
+        padding-right: 0px;
+        font-size: 26px;
+    }
+
+    #recentBlogs {
+        margin-top: -54px;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-title {
+        font: normal normal 700 20px/28px Montserrat;
+        height: 100%;
+    }
+
+    #recentBlogs .recentBlogsCards .card .card-text {
+        height: 100%;
+    }
+
+    #benefits .benefitsCards .card {
+        align-items: center;
+    }
+
+    #benefits .benefitsCards .card .card-title {
+        font: normal normal bold 19px/34px Montserrat;
+        height: 100%;
+        text-align: center;
+        margin-bottom: -6px;
+    }
+
+    #benefits .benefitsPara {
+        margin-top: 10px;
+    }
+
+    #benefits .benefitsCards {
+        margin-top: 10px;
+        gap: 20px 0px;
+    }
+
+    #process .lowerDivWrapper {
+        margin-top: 130px;
+    }
+
+    #process .lowerDivWrapper .arrowImg img {
+        display: none;
+    }
+
+    #process .upperDivWrapper .upperDivRightContent {
+        padding: 0;
+    }
+
+    #process .lowerDivWrapper .upperDivRightContent {
+        padding: 0;
+        margin-top: -36%;
+    }
+
+    #process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 118px;
+    }
+
+    #process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 18px/29px Montserrat;
+    }
+
+    #process .comman_para {
+        font: normal normal 600 14px/20px Montserrat;
+    }
+
+    #process .upperDivRightContent .processCardWrapper {
+        gap: 20px 0px;
+    }
+
+    #build .buildWrapper .leftDiv {
+        padding-top: 12px;
+        width: 100%;
+        border: none;
+    }
+
+    #build .buildWrapper .leftDiv .firstP {
+        margin-top: 10px;
+    }
+
+    #build .buildWrapper .rightDiv {
+        padding: 20px 40px;
+        padding-right: 0;
+    }
+
+    #recentBlogs .col-lg-12 .row {
+        padding-bottom: 50px;
+    }
+
+    #recentBlogs .recentBlogsCards {
+        margin-top: 20px;
+        padding-bottom: 0px;
     }
 
 }

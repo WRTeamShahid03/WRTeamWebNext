@@ -251,7 +251,7 @@ const index = () => {
 
       <section id='benefits' className='container'>
         <div className="row">
-          <div className="col-sm col-md-12 col-lg-6">
+          <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="benefitsHeadings">
               <span className="common_span">
                 Extensive <span>Benefits</span>
@@ -260,7 +260,7 @@ const index = () => {
             </div>
           </div>
 
-          <div className="col-sm col-md-12 col-lg-6">
+          <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="benefitsPara">
               <p className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
             </div>
@@ -271,7 +271,7 @@ const index = () => {
         <div className="row benefitsCards">
           {
             benefitsCardData.map((e) => {
-              return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
+              return <div className="col-sm-6 col-md-6 col-lg-3" key={e.id}>
                 <Card>
                   {/* <Card.Img variant="top" src="..." /> */}
                   <span className='card-img-top'><img src={e.icon.src} alt="" /></span>
@@ -405,7 +405,7 @@ const index = () => {
               <div className="row buildCardsWrapper">
                 {
                   buildCardData.map((e) => {
-                    return <div className="col-sm-12 col-md-3 col-lg-4" key={e.id}>
+                    return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id}>
                       <div className="card">
                         <span className='buildCardIcon'>
                           <img src={e.icon.src} alt="" className='buildIcon1'/>
