@@ -151,10 +151,9 @@ const BlogsSideBoxes = () => {
         <span className='boxHeadline'>Tags</span>
         {
           tags.map((e) => {
-            return <span className='common_span'>{e.tag}</span>
+            return <span className='common_span' key={e.id}>{e.tag}</span>
           })
         }
-
       </div>
 
       </section>

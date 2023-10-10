@@ -13,6 +13,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import navLogo from '../../Asset/navLogo.svg'
 import GetInTouch from "../GetInTouch";
 import { useRouter } from "next/router";
+import Link from "next/link";
 // import Image from 'next/image';
 // import { BiRightArrow } from 'react-icons/bi';
 
@@ -28,25 +29,33 @@ const Footer = () => {
    return (
       <>
          <footer id='footer'>
-         {!isContactUsPage && <GetInTouch />}
+            {!isContactUsPage && <GetInTouch />}
 
             <div className={`container footerContainer  ${isContactUsPage ? "footerTopPad " : ""}`}>
                <div className="row">
                   <div className="col-sm-12 col-md-6 col-lg-2">
                      <div className="cont logoCont">
                         <div className="footLogo">
-                           
-                        <img src={navLogo.src} alt='navLogo' />
+
+                           <img src={navLogo.src} alt='navLogo' />
 
                         </div>
                         <span>WRTeam has creative and dedicated group of developers who are mastered in apps Developments and Web development with a nice in delivering quality solutions to customers across the globe.</span>
                         <div className='socialIcons'>
                            <span id='followSpan'>Follow Us</span>
                            <span className='icons'>
-                              <BsFacebook />
-                              <FaInstagram />
-                              <BsLinkedin />
-                              <PiYoutubeLogoFill />
+                              <Link target='_blank' href="https://www.facebook.com/wrteam.in">
+                                 <BsFacebook />
+                              </Link>
+                              <Link target='_blank' href="https://www.instagram.com/wrteam.in/">
+                                 <FaInstagram />
+                              </Link>
+                              <Link target='_blank' href="https://www.linkedin.com/company/wrteam/">
+                                 <BsLinkedin />
+                              </Link>
+                              <Link target='_blank' href="https://www.youtube.com/channel/UCLt9XRUuiWsqKng4681_6cQ">
+                                 <PiYoutubeLogoFill />
+                              </Link>
                            </span>
                         </div>
                      </div>
@@ -57,26 +66,26 @@ const Footer = () => {
                         <span className='footercontHeading'>Menu Links</span>
                         <div className="flinks">
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <span className='footerLinks'> About Us</span>
+                           <Link href='/about-us'>  <span className='footerLinks'> About Us</span></Link>
 
                         </div>
 
                         <div className="flinks">
 
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <span className='footerLinks'> Blogs</span>
+                           <Link href='/blogs'><span className='footerLinks'> Blogs</span></Link>
 
                         </div>
 
                         <div className="flinks">
 
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <span className='footerLinks'> Career</span>
+                           <Link href='career'> <span className='footerLinks'> Career</span></Link>
                         </div>
 
                         <div className="flinks">
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <span className='footerLinks'>Hire Us</span>
+                           <Link href='/hire-us'> <span className='footerLinks'>Hire Us</span></Link>
                         </div>
                      </div>
                   </div>
@@ -87,22 +96,22 @@ const Footer = () => {
 
                         <div className="flinks">
                            <span className="footerArrow"> < BsArrowRightCircle size={18} /></span>
-                           <span className="footerLinks"> Web Development</span>
+                           <Link href='/services/web-development'> <span className="footerLinks"> Web Development</span></Link>
                         </div>
 
                         <div className="flinks">
                            <span className="footerArrow"> < BsArrowRightCircle size={18} /></span>
-                           <span className="footerLinks"> App Development</span>
+                           <Link href='/services/app-development'> <span className="footerLinks"> App Development</span></Link>
                         </div>
 
                         <div className="flinks">
                            <span className="footerArrow"> < BsArrowRightCircle size={18} /></span>
-                           <span className="footerLinks"> UI/UX Design Service</span>
+                           <Link href='/services/ui-ux-design'> <span className="footerLinks"> UI/UX Design Service</span></Link>
                         </div>
 
                         <div className="flinks">
                            <span className="footerArrow"> < BsArrowRightCircle size={18} /></span>
-                           <span className="footerLinks"> Digital Marketing Service</span>
+                           <Link href='/servicesdigital-marketing'> <span className="footerLinks"> Digital Marketing Service</span></Link>
                         </div>
                      </div>
 
@@ -114,12 +123,12 @@ const Footer = () => {
 
                         <div className="flinks">
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /> </span>
-                           <span className='footerLinks'> Web Products</span>
+                           <Link href='/products/web-products'>  <span className='footerLinks'> Web Products</span></Link>
                         </div>
 
                         <div className="flinks">
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <span className='footerLinks'>  App Products</span>
+                           <Link href='/products/app-products'><span className='footerLinks'>  App Products</span></Link>
                         </div>
                      </div>
                   </div>
@@ -132,7 +141,7 @@ const Footer = () => {
 
                            <div className="footContCards">
                               <div className="contIconDiv">
-                                 <span className='contactIcons'>  <BsFillTelephoneFill size={22} /> </span>
+                                 <span className='contactIcons'> <BsFillTelephoneFill size={22} /> </span>
                               </div>
                               <div className="contactContent">
                                  <span className='footerLinks'> Call </span>

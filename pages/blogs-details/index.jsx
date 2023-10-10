@@ -20,38 +20,75 @@ import Link from 'next/link'
 
 const index = () => {
 
-    const [replyInput, setReplyInput] = useState(false)
-
-    const commentsData = [
+    const [replyInput, setReplyInput] = useState('');
+    const [replyText, setReplyText] = useState('');
+    const [commentsData] = useState([
         {
             id: 1,
-            name: "SkyTraveler123",
-            comment: "Fascinating read! The concept of flying cars has always captured my imagination. As a tech enthusiast, I'm thrilled to see these advancements taking shape. The potential for reducing urban congestion and transforming how we move is truly exciting.",
-            date: "May 25 , 2024",
-            img: user1
+            name: 'SkyTraveler123',
+            comment:
+                'Fascinating read! The concept of flying cars has always captured my imagination. As a tech enthusiast, I\'m thrilled to see these advancements taking shape. The potential for reducing urban congestion and transforming how we move is truly exciting.',
+            date: 'May 25 , 2024',
+            img: user1,
+            replies: [],
         },
         {
             id: 2,
-            name: "AeroPioneer87",
-            comment: "Brilliant post! The integration of autonomous flight and electric propulsion is a game-changer. I've been following flying car prototypes closely, and the progress they've made is astonishing. Can't wait to witness the skies teeming with these marvels",
-            date: "August 26, 2023",
-            img: user2
+            name: 'AeroPioneer87',
+            comment:
+                'Brilliant post! The integration of autonomous flight and electric propulsion is a game-changer. I\'ve been following flying car prototypes closely, and the progress they\'ve made is astonishing. Can\'t wait to witness the skies teeming with these marvels',
+            date: 'August 26, 2023',
+            img: user2,
+            replies: [],
         },
         {
             id: 3,
-            name: "UrbanNomad22",
-            comment: "An insightful overview of the challenges and opportunities presented by urban air mobility. The thought of seamless transitions from ground to air travel has me intrigued. Addressing safety concerns and collaborating with city planners will be pivotal in making this a reality",
-            date: "August 28, 2023",
-            img: user3
+            name: 'UrbanNomad22',
+            comment:
+                'An insightful overview of the challenges and opportunities presented by urban air mobility. The thought of seamless transitions from ground to air travel has me intrigued. Addressing safety concerns and collaborating with city planners will be pivotal in making this a reality',
+            date: 'August 28, 2023',
+            img: user3,
+            replies: [],
         },
         {
-            id: 3,
-            name: "FutureSkyways",
-            comment: "Great post! I appreciate the emphasis on sustainable aviation solutions. The potential reduction in carbon emissions could have a profound impact on our cities' environmental health. Flying cars could redefine not just how we travel, but how we view urban sustainability",
-            date: "August 30, 2023",
-            img: user4
+            id: 4,
+            name: 'FutureSkyways',
+            comment:
+                'Great post! I appreciate the emphasis on sustainable aviation solutions. The potential reduction in carbon emissions could have a profound impact on our cities\' environmental health. Flying cars could redefine not just how we travel, but how we view urban sustainability',
+            date: 'August 30, 2023',
+            img: user4,
+            replies: [],
         },
-    ]
+    ]);
+
+    const handleReply = (commentId) => {
+        setReplyInput(commentId);
+    };
+
+    const handleReplySubmit = (commentId) => {
+        const updatedComments = commentsData.map((comment) => {
+            if (comment.id === commentId) {
+                return {
+                    ...comment,
+                    replies: [
+                        ...comment.replies,
+                        {
+                            id: comment.replies.length + 1,
+                            name: 'Your Name', // Get user's name from input field or authentication
+                            comment: replyText,
+                            date: new Date().toLocaleDateString(), // Current date
+                        },
+                    ],
+                };
+            }
+            return comment;
+        });
+
+        setReplyInput('');
+        setReplyText('');
+        // Update comments with new replies
+        // You might want to send updatedComments to your API or wherever you're storing your data
+    };
 
     return (
         <>
@@ -104,11 +141,11 @@ const index = () => {
 
                             <div className="row">
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <img src={blog.src} alt="" className='middleDivImg'/>
+                                    <img src={blog.src} alt="" className='middleDivImg' />
                                 </div>
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <img src={blog1.src} alt="" className='middleDivImg'/>
+                                    <img src={blog1.src} alt="" className='middleDivImg' />
                                 </div>
 
                             </div>
@@ -159,18 +196,18 @@ const index = () => {
                                 </span>
 
                                 <span className='tagIcons'>
-                                   <Link href="">  <span className='facebook'>  <BsFacebook size={30} /> </span> </Link>
-                                   <Link href="">  <span className='twitter'>  <AiFillTwitterCircle size={34} /> </span> </Link>
-                                   <Link href="">  <span className='pintrest'>  <BsPinterest size={30} /> </span> </Link>
-                                   <Link href="">  <span className='linkedin'>  <BsLinkedin size={30} /> </span> </Link>
+                                    <Link href="">  <span className='facebook'>  <BsFacebook size={30} /> </span> </Link>
+                                    <Link href="">  <span className='twitter'>  <AiFillTwitterCircle size={34} /> </span> </Link>
+                                    <Link href="">  <span className='pintrest'>  <BsPinterest size={30} /> </span> </Link>
+                                    <Link href="">  <span className='linkedin'>  <BsLinkedin size={30} /> </span> </Link>
                                 </span>
                             </div>
 
                             <div className="previousBlogs">
                                 <div className='prevNextHeadDiv'>
 
-                                <span className='boxHeadline'>Previous Blogs</span>
-                                <span className='boxHeadline'>Next Blogs</span>
+                                    <span className='boxHeadline'>Previous Blogs</span>
+                                    <span className='boxHeadline'>Next Blogs</span>
 
                                 </div>
 
@@ -195,7 +232,7 @@ const index = () => {
 
                             </div>
 
-                            <div className="commentBox">
+                            {/* <div className="commentBox">
                                 <span className='boxHeadline'>Comments (03)</span>
 
                                 <div className="commentWrapper">
@@ -286,9 +323,71 @@ const index = () => {
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> */}
 
-                            <div className="leaveReplyBox">
+                            {/* <div className="commentBox">
+                                <span className="boxHeadline">Comments ({commentsData.length})</span>
+
+                                {commentsData.map((comment) => (
+                                    <div className="commentWrapper" key={comment.id}>
+                                        <div className="commentCard">
+                                            <span>
+                                                <img src={comment.img.src} alt="userPic" />
+                                            </span>
+                                            <span className="userContent">
+                                                <span className="userName">{comment.name}</span>
+                                                <span className="userComment">{comment.comment}</span>
+                                                <span className="rbDate">
+                                                    <span className="blogDate">
+                                                        {' '}
+                                                        <img src={dateIcon.src} alt="" />
+                                                        {comment.date}{' '}
+                                                    </span>
+                                                    <span className="replyBtn" onClick={() => handleReply(comment.id)}>
+                                                        {' '}
+                                                        <BsReplyAll size={22} /> Reply{' '}
+                                                    </span>
+                                                </span>
+                                            </span>
+                                            {replyInput === comment.id && (
+                                                <div className="replyInput">
+                                                    <textarea
+                                                        className="form-control leaveInputColor"
+                                                        value={replyText}
+                                                        onChange={(e) => setReplyText(e.target.value)}
+                                                        placeholder="Write Reply"
+                                                    />
+                                                    <button className="homeCommon_btn" onClick={() => handleReplySubmit(comment.id)}>
+                                                        Submit
+                                                    </button>
+                                                </div>
+                                            )}
+                                        </div>
+
+                                        {comment.replies &&
+                                            comment.replies.map((reply) => (
+                                                <div className="commentCard subCommentCard" key={reply.id}>
+                                                    <span>
+                                                        <img src={reply.img.src} alt="userPic" />
+                                                    </span>
+                                                    <span className="userContent">
+                                                        <span className="userName">{reply.name}</span>
+                                                        <span className="userComment">{reply.comment}</span>
+                                                        <span className="rbDate">
+                                                            <span className="blogDate">
+                                                                {' '}
+                                                                <img src={dateIcon.src} alt="" />
+                                                                {reply.date}{' '}
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            ))}
+                                    </div>
+                                ))}
+                            </div> */}
+
+                            {/* <div className="leaveReplyBox">
                                 <span className="boxHeadline">Leave A Reply</span>
 
                                 <div className="mb-3 row leaveInput">
@@ -314,7 +413,7 @@ const index = () => {
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
 

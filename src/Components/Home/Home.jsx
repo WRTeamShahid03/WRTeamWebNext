@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { BsArrowRightCircle, BsFacebook, BsLinkedin, BsYoutube } from 'react-icons/bs'
+import { BsArrowRightCircle, BsFacebook, BsLinkedin, BsWhatsapp, BsYoutube } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai';
 import { LiaStarSolid } from 'react-icons/lia';
 
@@ -47,6 +47,7 @@ import heroLine from '../../Asset/Images/Hero_Line.png'
 import Counter from '../Counter';
 import WorkChain from '../WorkChain';
 import Testimonials from '../Testimonials';
+import Link from 'next/link';
 
 
 const Home = () => {
@@ -55,8 +56,6 @@ const Home = () => {
     useEffect(() => {
         AOS.init();
     }, []);
-
-
 
     const servCardData = [
         {
@@ -153,7 +152,12 @@ const Home = () => {
                                             <div className="follIcons">
 
                                                 <span>Follow Us</span>
-                                                <span className='heroContIcons'> <BsFacebook size={20} /> <AiFillInstagram size={24} /> <BsLinkedin size={20} /> <BsYoutube size={25} /> </span>
+                                                <span className='heroContIcons'>
+                                                    <Link target='_blank' href="https://www.facebook.com/wrteam.in"><BsFacebook size={20} /></Link>
+                                                    <Link target='_blank' href="https://www.instagram.com/wrteam.in/"><AiFillInstagram size={24} /></Link>
+                                                    <Link target='_blank' href="https://www.linkedin.com/company/wrteam/"><BsLinkedin size={20} /> </Link>
+                                                    <Link target='_blank' href="https://www.youtube.com/channel/UCLt9XRUuiWsqKng4681_6cQ"><BsYoutube size={25} /> </Link>
+                                                </span>
 
                                             </div>
                                         </div>
@@ -215,6 +219,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+
             </section>
             {/* homeHeroSect ends here  */}
 
@@ -331,7 +336,7 @@ const Home = () => {
             {/* winner ends  */}
 
 
-           <Counter/>
+            <Counter />
             {/* counter ends  */}
 
 
@@ -525,10 +530,10 @@ const Home = () => {
             </section >
             {/* tech ends */}
 
-            <WorkChain/>
+            <WorkChain />
             {/* workChain ends  */}
 
-            <Testimonials/>
+            <Testimonials />
             {/* testimonials ends  */}
 
         </>

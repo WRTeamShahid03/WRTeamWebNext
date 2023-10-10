@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import Breadcrum from '@/Components/Breadcrum'
 import trianglePattern from '../../src/Asset/Icons/Triangle Pattern.png'
 import dotsPattern from '../../src/Asset/Icons/Dots Pattern.png'
@@ -6,11 +6,22 @@ import ourValues from '../../src/Asset/Images/our_values.png'
 import Link from 'next/link'
 import { BsArrowRightCircle } from 'react-icons/bs'
 import { FiUploadCloud } from 'react-icons/fi'
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast'
+
 
 const index = () => {
 
     const [selectedFile, setSelectedFile] = useState(null);
+    const [name, setName] = useState('')
+    const [number, setNumber] = useState('')
+    const [email, setEmail] = useState('')
+    const [experience, setExperience] = useState('')
+    const [qualification, setQualification] = useState('')
+    const [applyFor, setApplyFor] = useState('')    
     const [fileDataUrl, setFileDataUrl] = useState(null);
+    const form = useRef();
+
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
@@ -110,6 +121,24 @@ const index = () => {
             link: ''
         },
     ]
+
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+      if(!name||!number||!email||!qualification||!applyFor||!experience){
+        toast.error('Fill out the form first')
+      }
+      else{
+        emailjs.sendForm('service_f0zhqhh', 'template_4gxxd1i', form.current, 'RITTN3aEr8VNyLQdN')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        toast.success('Submited Successfully !')
+      }
+      
+    };
     return (
         <>
             <Breadcrum title='Career' contentOne='Home' contentTwo='Career' />
@@ -225,29 +254,31 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="formDiv">
 
+                            <form ref={form} onSubmit={sendEmail}>
+
                                 <div className="mb-3 row">
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Full Name</label>
-                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Write Your Name Full Name" />
+                                        <input type="text" className="form-control" name='full_name' id="exampleFormControlInput1" placeholder="Write Your Name Full Name" onChange={(e)=>setName(e.target.value)} value={name} />
                                     </div>
 
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Email</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Write Your Email"></input>
+                                        <input type="email" className="form-control" name='email' id="exampleFormControlInput1" placeholder="Write Your Email" onChange={(e)=>setEmail(e.target.value)} value={email} />
                                     </div>
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Contact Number</label>
-                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Write Your Phone Number" />
+                                        <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Write Your Phone Number" onChange={(e)=>setNumber(e.target.value)} value={number} />
                                     </div>
 
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Qualification</label>
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Write Your Qualification"></input>
+                                        <input type="text" className="form-control" name='qualification' id="exampleFormControlInput1" placeholder="Write Your Qualification" onChange={(e)=>setQualification(e.target.value)} value={qualification} />
                                     </div>
 
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Apply For</label>
-                                        <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                                        <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e)=>setApplyFor(e.target.value)} value={applyFor} >
                                             <option selected>Select Apply For</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -256,7 +287,7 @@ const index = () => {
                                     </div>
                                     <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                         <label htmlFor="name">Experience</label>
-                                        <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
+                                        <select className="form-select form-select-md mb-3" name='experience' aria-label=".form-select-lg example" onChange={(e)=>setExperience(e.target.value)} value={experience} >
                                             <option defaultValue selected>Select Your Experience</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -266,7 +297,6 @@ const index = () => {
                                     <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
                                         <div className="item">
                                             {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
-                                            <form data-validation="true" action="#" method="post" encType="multipart/form-data">
                                                 <div className="item-inner">
                                                     <div className="item-content">
                                                         <div className="image-upload">
@@ -290,7 +320,7 @@ const index = () => {
                                                             <input
                                                                 data-required="image"
                                                                 type="file"
-                                                                name="image_name"
+                                                                name="file_uploaded"
                                                                 id="file_upload"
                                                                 className="image-input"
                                                                 onChange={handleFileChange}
@@ -298,14 +328,14 @@ const index = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </form>
 
                                         </div>
-                                        <button className='homeCommon_btn'>Submit</button>
+                                        <button type='submit' className='homeCommon_btn'>Submit</button>
                                     </div>
 
 
                                 </div>
+                                </form>
                             </div>
                         </div>
                     </div>

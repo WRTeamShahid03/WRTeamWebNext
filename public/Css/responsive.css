@@ -316,6 +316,10 @@
 
     /* team ends  */
 
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 114px;
+    }
+
     #category .card-title {
         font: normal normal 700 20px/34px Montserrat;
     }
@@ -341,6 +345,7 @@
         padding: 0px 150px;
     }
 
+
     #hireUs .hireLowerDiv .hireLowerDivHeadline span {
         padding: 0px;
     }
@@ -352,6 +357,12 @@
 
     #success .lowerDiv::before {
         width: 96.5%;
+    }
+
+    #success .hireUpperDiv{
+        display: flex;
+        justify-content: center;
+        margin-top: -40px;
     }
 
     .emipreHeadlines .commonPara,
@@ -874,6 +885,9 @@
 
     /* team ends  */
 
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 114px;
+    }
 
     #category .card-title {
         font: normal normal 700 17px/34px Montserrat;
@@ -908,6 +922,9 @@
     }
 
     /* category ends  */
+    #blogDetails .boxWrapper {
+        padding-bottom: 54px;
+    }
 
     #blogDetails .bottomDiv .previousBlogs .boxDetails {
         padding: 12px 10px;
@@ -927,6 +944,11 @@
         padding: 26px 55px;
     }
 
+    #success .hireUpperDiv{
+        display: flex;
+        justify-content: center;
+        margin-top: -40px;
+    }
 
     #success .commonHeadlines,
     #whyHireUs .hireHeadlines {
@@ -1512,6 +1534,7 @@
 
     #workChain .workBottDiv .workCardsWrapper {
         background: transparent !important;
+        margin-top: 0px;
     }
 
     .getInTouch .getTouchText .getTouchDesc {
@@ -1604,6 +1627,10 @@
     }
 
     /* team ends  */
+
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 114px;
+    }
 
     #category {
         margin-top: 50px;
@@ -1887,6 +1914,10 @@
     #build .buildWrapper .rightDiv {
         padding: 20px 130px;
         padding-right: 0;
+    }
+
+    #devSlider .sidebar>div {
+        padding: 0px 50px;
     }
 }
 
@@ -2384,12 +2415,13 @@
 
     #workChain .workBottDiv .workCardsWrapper {
         background: transparent !important;
+        margin-top: 0;
     }
 
     /* workChain ends  */
 
     .getInTouch .getTouchText {
-        padding: 30px 42px;
+        padding: 30px 0px;
     }
 
     .getInTouch .getTouchText .getTouchDesc {
@@ -2515,9 +2547,9 @@
 
     /* team ends  */
 
-    /* #category .card {
-        height: 64vh;
-    } */
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 130px;
+    }
 
     #category {
         margin-top: 50px;
@@ -2732,9 +2764,17 @@
         padding: 34px;
     }
 
-    #backend .leftDivContent .leftDivshapes img,
-    #backend .rightDivContent .rightDivshapes img {
+    #backend .sliderContainer .leftDivshapes img,
+    #backend .sliderContainer .rightDivshapes img {
         display: none;
+    }
+
+    #devSlider .sidebar>div {
+        padding: 0px 22px;
+    }
+
+    #devSlider .sliderWrapper .controls .buttn {
+        top: 86%;
     }
 
     #process .upperDivRightContent .processCard .cardIcon {
@@ -2799,7 +2839,7 @@
     }
 
     #process .lowerDivWrapper {
-        margin-top: 130px;
+        margin-top: 84px;
     }
 
     #process .lowerDivWrapper .arrowImg img {
@@ -2853,6 +2893,11 @@
     #recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
+    }
+
+    #devSlider .sidebar h1 {
+        font-size: 34px;
+        margin-top: 0px;
     }
 
 }
@@ -3414,6 +3459,7 @@
     }
 
     #workChain .workBottDiv .workCardsWrapper {
+        margin-top: 0px;
         background: transparent !important;
     }
 
@@ -3444,7 +3490,7 @@
     }
 
     .getInTouch .getTouchText {
-        padding: 30px 42px;
+        padding: 30px 0px;
     }
 
     .getInTouch .getTouchText .getTouchDesc {
@@ -3607,9 +3653,9 @@
 
     /* team ends  */
 
-    /* #category .card {
-        height: 76vh;
-    } */
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 100%;
+    }
 
     #category {
         margin-top: 50px;
@@ -3753,12 +3799,12 @@
     }
 
     #hireUs .hireLowerDiv .hireUsCard {
-        width: 196px;
+        width: 100%;
     }
 
     #hireUs .hireLowerDiv .hireUsCardWrapper {
         align-items: center;
-        justify-content: start;
+        justify-content: center;
     }
 
     #hireUs .hireLowerDiv .hireLowerDivHeadline span {
@@ -3886,8 +3932,30 @@
         padding: 34px;
     }
 
-    #backend .leftDivContent .leftDivshapes img,
-    #backend .rightDivContent .rightDivshapes img {
+    #backend .sliderContainer .leftDivshapes img,
+    #backend .sliderContainer .rightDivshapes img {
+        display: none;
+    }
+
+    #devSlider .sliderWrapper {
+        height: 500px;
+    }
+    #devSlider .sidebar {
+        height: 100%;
+        width: 100%;
+    }
+    #devSlider .sidebar h1 {
+        font-size: 34px;
+        margin-top: -80px;
+    }
+
+    #devSlider .sliderWrapper .controls .buttn {
+        top: 77%;
+    }
+    #devSlider .sliderWrapper .controls .up-button {
+        transform: translateY(0%);
+    }
+    #devSlider .main-slide {
         display: none;
     }
 
@@ -3957,7 +4025,7 @@
     }
 
     #process .lowerDivWrapper {
-        margin-top: 130px;
+        margin-top: 70px;
     }
 
     #process .lowerDivWrapper .arrowImg img {
@@ -4012,6 +4080,8 @@
         margin-top: 20px;
         padding-bottom: 0px;
     }
+
+   
 }
 
 @media only screen and (min-width: 400px) and (max-width: 574px) {
@@ -4596,6 +4666,10 @@
         padding: 64px 12px;
     }
 
+    #solutions .soluHeadlines {
+        padding-top: 18px;
+    }
+
     #solutions .productsCardsWrapper .mobilePro .solu_product_img {
         width: 50vw;
     }
@@ -4697,6 +4771,11 @@
 
     /* tech ends  */
 
+    #workChain .workUpperDiv .workHeadlines, #whyHireUs .hireHeadlines, #hireUs .hireHeadlines, .commonHeadlines {
+        font: normal normal 800 26px/42px Montserrat;
+    }
+
+
     #workChain .workUpperDiv .workHeadlines {
         padding: 0px 0px;
     }
@@ -4736,7 +4815,7 @@
     }
 
     .getInTouch .getTouchText {
-        padding: 30px 15px;
+        padding: 30px 0px;
     }
 
     .getInTouch .getTouchText .getTouchDesc {
@@ -4748,13 +4827,13 @@
         padding-bottom: 18px;
     }
 
-    .getInTouch .getTouchText .getTouchDesc {
+    .getInTouch .getTouchText .getTouchDesc #webDevContact .getInTouch .getTouchDesc {
         font: normal normal 600 24px/30px Montserrat;
         width: 100%;
     }
 
     .getInTouch .getTouchText .getTouchTitle {
-        font: normal normal 600 19px/29px Montserrat;
+        font: normal normal bold 36px/29px Montserrat;
     }
 
     #testimonials .testSlider .testiSwiper {
@@ -4889,10 +4968,9 @@
     }
 
     /* team ends  */
-    /* 
-     #category .card {
-        height: 64vh;
-    } */
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 100%;
+    }
 
     #category {
         margin-top: 50px;
@@ -4956,7 +5034,7 @@
     }
 
     #blogDetails .bottomDiv .common_span {
-        padding: 8px;
+        padding: 4px;
         font: normal normal 600 12px/19px Montserrat;
     }
 
@@ -5256,9 +5334,37 @@
         padding: 0px 10px;
     }
 
-    #backend .leftDivContent .leftDivshapes img,
-    #backend .rightDivContent .rightDivshapes img {
+    #backend .sliderContainer .leftDivshapes img,
+    #backend .sliderContainer .rightDivshapes img {
         display: none;
+    }
+    #backend .sliderContainer {
+        margin-top: -26px;
+    }
+
+    #devSlider .sliderWrapper {
+        height: 500px;
+    }
+    #devSlider .sidebar {
+        height: 100%;
+        width: 100%;
+    }
+    #devSlider .sidebar h1 {
+        font-size: 34px;
+        margin-top: -80px;
+    }
+
+    #devSlider .sliderWrapper .controls .buttn {
+        top: 77%;
+    }
+    #devSlider .sliderWrapper .controls .up-button {
+        transform: translateY(0%);
+    }
+    #devSlider .main-slide {
+        display: none;
+    }
+    #devSlider .sidebar>div {
+        padding: 0px 26px;
     }
 
     #process .upperDivRightContent .processCard .cardIcon {
@@ -6286,7 +6392,7 @@
     }
 
     .getInTouch .getTouchText {
-        padding: 30px 15px;
+        padding: 30px 0px;
     }
 
     .getInTouch .getTouchText .getTouchDesc {
@@ -6298,13 +6404,13 @@
         padding-bottom: 18px;
     }
 
-    .getInTouch .getTouchText .getTouchDesc {
+    .getInTouch .getTouchText .getTouchDesc ,#webDevContact .getInTouch .getTouchDesc {
         font: normal normal 600 20px/30px Montserrat;
         width: 100%;
     }
 
     .getInTouch .getTouchText .getTouchTitle {
-        font: normal normal 600 16px/29px Montserrat;
+        font: normal normal bold 32px/18px Montserrat;
     }
 
     .getInTouch .homeCommon_btn {
@@ -6347,6 +6453,10 @@
     #vision .visionRightDiv,
     #values .valuesRightDiv {
         padding-left: 0;
+    }
+
+    #workChain .workUpperDiv .workHeadlines, #whyHireUs .hireHeadlines, #hireUs .hireHeadlines, .commonHeadlines {
+        font: normal normal 800 26px/42px Montserrat;
     }
 
     #knowMore .knowMoreLeftDiv .trianglePattern,
@@ -6448,9 +6558,9 @@
 
     /* team ends  */
 
-    /* #category .card {
-        height: 76vh;
-    } */
+    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+        height: 100%;
+    }
 
     #category {
         margin-top: 30px;
@@ -6490,7 +6600,7 @@
 
     #category .card-text {
         font-size: 15px;
-        height: 140px;
+        height: 100%;
     }
 
     #category .boxHeadline {
@@ -6881,10 +6991,39 @@
         padding: 0px 10px;
     }
 
-    #backend .leftDivContent .leftDivshapes img,
-    #backend .rightDivContent .rightDivshapes img {
+    #backend .sliderContainer .leftDivshapes img,
+    #backend .sliderContainer .rightDivshapes img {
         display: none;
     }
+    #backend .sliderContainer {
+        margin-top: -24px;
+    }
+
+    #devSlider .sliderWrapper {
+        height: 500px;
+    }
+    #devSlider .sidebar {
+        height: 100%;
+        width: 100%;
+    }
+    #devSlider .sidebar h1 {
+        font-size: 34px;
+        margin-top: -80px;
+    }
+
+    #devSlider .sliderWrapper .controls .buttn {
+        top: 85%;
+    }
+    #devSlider .sliderWrapper .controls .up-button {
+        transform: translateY(0%);
+    }
+    #devSlider .main-slide {
+        display: none;
+    }
+    #devSlider .sidebar>div {
+        padding: 0px 10px;
+    }
+
 
     #process .upperDivRightContent .processCard .cardIcon {
         width: 245px;

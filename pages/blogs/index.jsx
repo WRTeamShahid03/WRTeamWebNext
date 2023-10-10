@@ -23,7 +23,6 @@ import blog4 from '../../src/Asset/Images/Blog_4.png'
 import blog5 from '../../src/Asset/Images/Blog_5.png'
 import blog6 from '../../src/Asset/Images/Blog_6.png'
 import dateIcon from '../../src/Asset/Icons/ic_date.png'
-import GetInTouch from '@/Components/GetInTouch';
 import BlogsSideBoxes from '@/Components/BlogsSideBoxes';
 import Link from 'next/link';
 
@@ -82,108 +81,108 @@ const index = () => {
     },
   ]
 
-  const swiperData2 = [
-    {
-      id: 0,
-      badge: "Space Exploration",
-      date: "October 5, 2023",
-      title: "Mars Colonization: Navigating the Challenges of Red Planet Habitability",
-      text: "Embark on a celestial journey to explore the intricate challenges and breakthroughs in the quest for colonizing Mars. Delve into the complexities of creating a habitable environment, sustainable resource management...",
-      img: blog3
-    },
-    {
-      id: 1,
-      badge: "Sustainable Technology",
-      date: "November 15, 2023",
-      title: "Solar Paint: Painting a Greener and More Energy-Efficient Future",
-      text: "Discover the revolutionary concept of solar paint and its potential to transform ordinary surfaces into clean energy generators. This blog post unveils the science behind solar paint, its applications in architecture, transportation...",
-      img: blog4
-    },
-    {
-      id: 2,
-      badge: "Artificial Intelligence",
-      date: "August 25, 2023",
-      title: "Exploring the Evolution of AI in Healthcare",
-      text: "Dive into the fascinating journey of Artificial Intelligence in the realm of healthcare. This blog post takes you through the significant advancements AI has made in diagnosing illnesses, personalized treatment plans, and...",
-      img: blog1
-    },
-    {
-      id: 3,
-      badge: "Cybersecurity",
-      date: "September 10, 2023",
-      title: "The Rising Threat of Ransomware: Protecting Your Digital Fortress",
-      text: "In this informative piece, we dissect the alarming surge of ransomware attacks and their far-reaching consequences. Gain insights into the tactics cybercriminals employ and learn effective strategies to safeguard your digital...",
-      img: blog2
-    },
+  // const swiperData2 = [
+  //   {
+  //     id: 0,
+  //     badge: "Space Exploration",
+  //     date: "October 5, 2023",
+  //     title: "Mars Colonization: Navigating the Challenges of Red Planet Habitability",
+  //     text: "Embark on a celestial journey to explore the intricate challenges and breakthroughs in the quest for colonizing Mars. Delve into the complexities of creating a habitable environment, sustainable resource management...",
+  //     img: blog3
+  //   },
+  //   {
+  //     id: 1,
+  //     badge: "Sustainable Technology",
+  //     date: "November 15, 2023",
+  //     title: "Solar Paint: Painting a Greener and More Energy-Efficient Future",
+  //     text: "Discover the revolutionary concept of solar paint and its potential to transform ordinary surfaces into clean energy generators. This blog post unveils the science behind solar paint, its applications in architecture, transportation...",
+  //     img: blog4
+  //   },
+  //   {
+  //     id: 2,
+  //     badge: "Artificial Intelligence",
+  //     date: "August 25, 2023",
+  //     title: "Exploring the Evolution of AI in Healthcare",
+  //     text: "Dive into the fascinating journey of Artificial Intelligence in the realm of healthcare. This blog post takes you through the significant advancements AI has made in diagnosing illnesses, personalized treatment plans, and...",
+  //     img: blog1
+  //   },
+  //   {
+  //     id: 3,
+  //     badge: "Cybersecurity",
+  //     date: "September 10, 2023",
+  //     title: "The Rising Threat of Ransomware: Protecting Your Digital Fortress",
+  //     text: "In this informative piece, we dissect the alarming surge of ransomware attacks and their far-reaching consequences. Gain insights into the tactics cybercriminals employ and learn effective strategies to safeguard your digital...",
+  //     img: blog2
+  //   },
 
-    {
-      id: 4,
-      badge: "Future of Mobility",
-      date: "December 8, 2023",
-      title: "Flying Cars: Navigating the Path to Urban Air Mobility",
-      text: "Take a leap into the future with a deep dive into the concept of flying cars and their role in urban transportation. Explore the technological marvels behind vertical takeoff and landing vehicles (VTOLs), the regulatory challenges they face...",
-      img: blog5
-    },
-    {
-      id: 5,
-      badge: "Internet of Things (IoT)",
-      date: "January 20, 2024",
-      title: "Unleashing the Power of IoT in Smart Agriculture: Cultivating the Future",
-      text: "Step into the world of smart agriculture, where Internet of Things (IoT) technologies are revolutionizing traditional farming practices. From precision farming and crop monitoring to automated irrigation and livestock...",
-      img: blog6
-    },
-  ]
+  //   {
+  //     id: 4,
+  //     badge: "Future of Mobility",
+  //     date: "December 8, 2023",
+  //     title: "Flying Cars: Navigating the Path to Urban Air Mobility",
+  //     text: "Take a leap into the future with a deep dive into the concept of flying cars and their role in urban transportation. Explore the technological marvels behind vertical takeoff and landing vehicles (VTOLs), the regulatory challenges they face...",
+  //     img: blog5
+  //   },
+  //   {
+  //     id: 5,
+  //     badge: "Internet of Things (IoT)",
+  //     date: "January 20, 2024",
+  //     title: "Unleashing the Power of IoT in Smart Agriculture: Cultivating the Future",
+  //     text: "Step into the world of smart agriculture, where Internet of Things (IoT) technologies are revolutionizing traditional farming practices. From precision farming and crop monitoring to automated irrigation and livestock...",
+  //     img: blog6
+  //   },
+  // ]
 
-  const swiperData3 = [
-    {
-      id: 0,
-      badge: "Future of Mobility",
-      date: "December 8, 2023",
-      title: "Flying Cars: Navigating the Path to Urban Air Mobility",
-      text: "Take a leap into the future with a deep dive into the concept of flying cars and their role in urban transportation. Explore the technological marvels behind vertical takeoff and landing vehicles (VTOLs), the regulatory challenges they face...",
-      img: blog5
-    },
-    {
-      id: 1,
-      badge: "Internet of Things (IoT)",
-      date: "January 20, 2024",
-      title: "Unleashing the Power of IoT in Smart Agriculture: Cultivating the Future",
-      text: "Step into the world of smart agriculture, where Internet of Things (IoT) technologies are revolutionizing traditional farming practices. From precision farming and crop monitoring to automated irrigation and livestock...",
-      img: blog6
-    },
-    {
-      id: 2,
-      badge: "Artificial Intelligence",
-      date: "August 25, 2023",
-      title: "Exploring the Evolution of AI in Healthcare",
-      text: "Dive into the fascinating journey of Artificial Intelligence in the realm of healthcare. This blog post takes you through the significant advancements AI has made in diagnosing illnesses, personalized treatment plans, and...",
-      img: blog1
-    },
-    {
-      id: 3,
-      badge: "Cybersecurity",
-      date: "September 10, 2023",
-      title: "The Rising Threat of Ransomware: Protecting Your Digital Fortress",
-      text: "In this informative piece, we dissect the alarming surge of ransomware attacks and their far-reaching consequences. Gain insights into the tactics cybercriminals employ and learn effective strategies to safeguard your digital...",
-      img: blog2
-    },
-    {
-      id: 4,
-      badge: "Space Exploration",
-      date: "October 5, 2023",
-      title: "Mars Colonization: Navigating the Challenges of Red Planet Habitability",
-      text: "Embark on a celestial journey to explore the intricate challenges and breakthroughs in the quest for colonizing Mars. Delve into the complexities of creating a habitable environment, sustainable resource management...",
-      img: blog3
-    },
-    {
-      id: 5,
-      badge: "Sustainable Technology",
-      date: "November 15, 2023",
-      title: "Solar Paint: Painting a Greener and More Energy-Efficient Future",
-      text: "Discover the revolutionary concept of solar paint and its potential to transform ordinary surfaces into clean energy generators. This blog post unveils the science behind solar paint, its applications in architecture, transportation...",
-      img: blog4
-    },
-  ]
+  // const swiperData3 = [
+  //   {
+  //     id: 0,
+  //     badge: "Future of Mobility",
+  //     date: "December 8, 2023",
+  //     title: "Flying Cars: Navigating the Path to Urban Air Mobility",
+  //     text: "Take a leap into the future with a deep dive into the concept of flying cars and their role in urban transportation. Explore the technological marvels behind vertical takeoff and landing vehicles (VTOLs), the regulatory challenges they face...",
+  //     img: blog5
+  //   },
+  //   {
+  //     id: 1,
+  //     badge: "Internet of Things (IoT)",
+  //     date: "January 20, 2024",
+  //     title: "Unleashing the Power of IoT in Smart Agriculture: Cultivating the Future",
+  //     text: "Step into the world of smart agriculture, where Internet of Things (IoT) technologies are revolutionizing traditional farming practices. From precision farming and crop monitoring to automated irrigation and livestock...",
+  //     img: blog6
+  //   },
+  //   {
+  //     id: 2,
+  //     badge: "Artificial Intelligence",
+  //     date: "August 25, 2023",
+  //     title: "Exploring the Evolution of AI in Healthcare",
+  //     text: "Dive into the fascinating journey of Artificial Intelligence in the realm of healthcare. This blog post takes you through the significant advancements AI has made in diagnosing illnesses, personalized treatment plans, and...",
+  //     img: blog1
+  //   },
+  //   {
+  //     id: 3,
+  //     badge: "Cybersecurity",
+  //     date: "September 10, 2023",
+  //     title: "The Rising Threat of Ransomware: Protecting Your Digital Fortress",
+  //     text: "In this informative piece, we dissect the alarming surge of ransomware attacks and their far-reaching consequences. Gain insights into the tactics cybercriminals employ and learn effective strategies to safeguard your digital...",
+  //     img: blog2
+  //   },
+  //   {
+  //     id: 4,
+  //     badge: "Space Exploration",
+  //     date: "October 5, 2023",
+  //     title: "Mars Colonization: Navigating the Challenges of Red Planet Habitability",
+  //     text: "Embark on a celestial journey to explore the intricate challenges and breakthroughs in the quest for colonizing Mars. Delve into the complexities of creating a habitable environment, sustainable resource management...",
+  //     img: blog3
+  //   },
+  //   {
+  //     id: 5,
+  //     badge: "Sustainable Technology",
+  //     date: "November 15, 2023",
+  //     title: "Solar Paint: Painting a Greener and More Energy-Efficient Future",
+  //     text: "Discover the revolutionary concept of solar paint and its potential to transform ordinary surfaces into clean energy generators. This blog post unveils the science behind solar paint, its applications in architecture, transportation...",
+  //     img: blog4
+  //   },
+  // ]
 
   const breakpoints = {
     320: {
@@ -214,8 +213,6 @@ const index = () => {
 
     }
   };
-
-
 
   const sliderRef = useRef(null);
 
@@ -252,10 +249,8 @@ const index = () => {
                 id='teamSwiper'
               >
                   {
-                  swiperData.map((ele, index) => {
-                    return <>
-
-                      <SwiperSlide key={index}>
+                  swiperData.map((ele) => {
+                    return <SwiperSlide key={ele.id}>
                        
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
@@ -313,7 +308,6 @@ const index = () => {
                           </div>
                         </div>
                       </SwiperSlide>
-                    </>
                   })
                 }
               </Swiper>
