@@ -28,12 +28,12 @@ function MyApp({ Component, pageProps, data }) {
                 <title>Top IT company in India | Web Developer | App Developer - wrteam</title>
                 <meta name="description" content="Grow your business with our top web developers, app developers, graphic designers and digital marketing and IT consulting services provider specialists." />
                 <meta name='viewport' content='initial-scale=1, width=device-width' />
-                <script
+                {/* <script
                     type="text/javascript"
                     src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
                     id="aisensy-wa-widget"
                     widget-id="uVuIUw"
-                ></script>
+                ></script> */}
             </Head>
 
             <Header />

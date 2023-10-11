@@ -19,26 +19,32 @@ import blog1 from '../../../src/Asset/Images/Blog_1.png'
 import blog2 from '../../../src/Asset/Images/Blog_2.png'
 import blog3 from '../../../src/Asset/Images/Blog_3.png'
 import dateIcon from '../../../src/Asset/Icons/ic_date.png'
-import timelyUpdadtes from '../../../src/Asset/Icons/Extensive benefits/Timely Updates.svg'
-import quality from '../../../src/Asset/Icons/Extensive benefits/Testing & Quality Assurance.svg'
-import support from '../../../src/Asset/Icons/Extensive benefits/Ongoing Support.svg'
-// import eliteAuthor from '../../../src/Asset/Icons/Extensive benefits/Elite Author on Codecanyon.svg'
-import eliteAuthor from '../../../src/Asset/Icons/Extensive benefits/Elite Author on Codecanyon – 1.svg'
-import laravel from '../../../src/Asset/Icons/We Build/Laravel.svg'
-import laravelHover from '../../../src/Asset/Icons/We Build/Laravel_Hover.svg'
-import php from '../../../src/Asset/Icons/We Build/php.svg'
-import phpHover from '../../../src/Asset/Icons/We Build/php_Hover.svg'
-import codeignitor from '../../../src/Asset/Icons/We Build/codeigniter.svg'
-import codeignitorHover from '../../../src/Asset/Icons/We Build/codeigniter_Hover.svg'
-import vueJs from '../../../src/Asset/Icons/We Build/Vue.js.svg'
-import vueJsHover from '../../../src/Asset/Icons/We Build/Vue.js_Hover.svg'
-import nextJs from '../../../src/Asset/Icons/We Build/nextjs.svg'
-import nextJsHover from '../../../src/Asset/Icons/We Build/nextjs_Hover.svg'
-import reactJs from '../../../src/Asset/Icons/We Build/React.svg'
-import reactJsHover from '../../../src/Asset/Icons/We Build/React_Hover.svg'
+import timelyUpdadtes from '../../../src/Asset/Icons/All_Icons/Benefits/Timely Updates-.png'
+import quality from '../../../src/Asset/Icons/All_Icons/Benefits/Testing & Quality Assurance.png'
+import support from '../../../src/Asset/Icons/All_Icons/Benefits/Ongoing Support.png'
+import eliteAuthor from '../../../src/Asset/Icons/All_Icons/Benefits/Elite Author on Codecanyon – 1.png'
+import laravel from '../../../src/Asset/Icons/All_Icons/Build/Laravel.png'
+import laravelHover from '../../../src/Asset/Icons/All_Icons/Build/Laravel_Hover.png'
+import php from '../../../src/Asset/Icons/All_Icons/Build/php.png'
+import phpHover from '../../../src/Asset/Icons/All_Icons/Build/php_Hover.png'
+import codeignitor from '../../../src/Asset/Icons/All_Icons/Build/codeigniter.png'
+import codeignitorHover from '../../../src/Asset/Icons/All_Icons/Build/codeigniter_Hover.png'
+import vueJs from '../../../src/Asset/Icons/All_Icons/Build/Vue.js.png'
+import vueJsHover from '../../../src/Asset/Icons/All_Icons/Build/Vue.js_Hover.png'
+import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
+import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
+import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
+import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
 import processImg from '../../../src/Asset/Images/Our Work Process Devlopment.png'
 import processImg2 from '../../../src/Asset/Images/Our Work Process_Devlopment.png'
 import NewSlider from './NewSlider'
+
+import processIcon1 from '../../../src/Asset/Icons/All_Icons/Process/Development.png'
+import processIcon2 from '../../../src/Asset/Icons/All_Icons/Process/Maintenance & Support.png'
+import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Planning.png'
+import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
+import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
+import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
 
 const index = () => {
 
@@ -69,32 +75,54 @@ const index = () => {
     },
   ]
 
-  const processCardData = [
+  const processCard1Data = [
     {
       id: 0,
-      icon: '',
-      title: 'Timely Updates'
+      icon: processIcon1,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
     },
     {
       id: 1,
-      icon: '',
-      title: 'Testing & Quality Assurance'
+      icon: processIcon2,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
     },
     {
       id: 2,
-      icon: '',
-      title: 'Ongoing Support'
-
-    },
-    {
-      id: 3,
-      icon: '',
-      title: 'Elite Author on Codecanyon'
+      icon: processIcon3,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
     },
   ]
+
+  const processCard2Data = [
+    {
+      id: 0,
+      icon: processIcon4,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+
+    },
+    {
+      id: 1,
+      icon: processIcon5,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+
+    },
+    {
+      id: 2,
+      icon: processIcon6,
+      title: '01. Idea',
+      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+
+    },
+  ]
+
   const buildCardData = [
     {
       id: 0,
@@ -292,8 +320,23 @@ const index = () => {
               </div>
 
               <div className="processCardWrapper">
+                {
+                  processCard1Data.map((e)=>{
+                    return <div className="processCard" data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                    <span className='cardIcon'>
+                      <img src={e.icon.src} alt="" />
+                    </span>
+                    <span className='cardContent'>
+                      <span className='title'>{e.title}</span>
+                      <span className='comman_para'>{e.desc}</span>
+                    </span>
+                  </div>
 
-                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
+                  })
+                }
+
+                
+                {/* <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
                   <span className='cardIcon'></span>
                   <span className='cardContent'>
                     <span className='title'>01.Idea</span>
@@ -306,14 +349,7 @@ const index = () => {
                     <span className='title'>01.Idea</span>
                     <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
                   </span>
-                </div>
-                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
-                  <span className='cardIcon'></span>
-                  <span className='cardContent'>
-                    <span className='title'>01.Idea</span>
-                    <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
-                  </span>
-                </div>
+                </div> */}
               </div>
 
             </div>
@@ -328,7 +364,22 @@ const index = () => {
               </div>
 
               <div className="processCardWrapper">
-                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
+                {
+                  processCard2Data.map((e)=>{
+                    return <div className="processCard" data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                    <span className='cardIcon'>
+                      <img src={e.icon.src} alt="" />
+                    </span>
+                    <span className='cardContent'>
+                      <span className='title'>{e.title}</span>
+                      <span className='comman_para'>{e.desc}</span>
+                    </span>
+                  </div>
+
+                  })
+                }
+                
+                {/* <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
                   <span className='cardIcon'></span>
                   <span className='cardContent'>
                     <span className='title'>01.Idea</span>
@@ -341,14 +392,7 @@ const index = () => {
                     <span className='title'>01.Idea</span>
                     <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
                   </span>
-                </div>
-                <div className="processCard" data-aos="fade-up" data-aos-duration="1000">
-                  <span className='cardIcon'></span>
-                  <span className='cardContent'>
-                    <span className='title'>01.Idea</span>
-                    <span className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality.</span>
-                  </span>
-                </div>
+                </div> */}
               </div>
 
             </div>

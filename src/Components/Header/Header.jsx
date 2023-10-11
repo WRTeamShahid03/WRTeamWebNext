@@ -117,7 +117,7 @@ const Header = () => {
                     <div className="contactNum">
                       <span id='callIcon'><IoIosCall size={28} /></span>
                       <div className="number">
-                        <span>Hot Line Numbae</span>
+                        <span>Hot Line Number</span>
                         <span>+91 12345 67890</span>
                       </div>
                     </div>
@@ -196,7 +196,7 @@ const Header = () => {
               <div className="contactNum">
                 <span id='callIcon'><IoIosCall size={28} /></span>
                 <div className="number">
-                  <span>Hot Line Numbae</span>
+                  <span>Hot Line Number</span>
                   <span>+91 12345 67890</span>
                 </div>
               </div>
