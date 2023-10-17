@@ -23,7 +23,8 @@
     }
 
     .breadcrum h1 {
-        margin-bottom: -10px;
+        margin-bottom: -18px;
+        font: normal normal 800 26px/64px Montserrat;
     }
 }
 
@@ -42,7 +43,8 @@
     .getInTouch,
     #knowMore,
     #mission,
-    #vision {
+    #vision,
+    #values {
         overflow: hidden;
     }
 
@@ -1405,6 +1407,7 @@
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 0px;
         left: 0;
+        top: 8px
     }
 
     #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
@@ -1496,8 +1499,7 @@
         margin: 0px;
     }
 
-    .webProImg {
-        height: 390px;
+    #solutions .productsCardsWrapper .mobilePro .webProImg {
         width: 72%;
     }
 
@@ -2055,8 +2057,11 @@
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
+    #homeHeroSect {
+        margin-top: 0;
+        overflow: hidden;
+    }
 
-    #homeHeroSect,
     #aboutUs,
     #winner,
     #couter,
@@ -2114,15 +2119,10 @@
     }
 
     #aboutUs .aboutWrapper #wrTeam {
-        left: -150px;
-        top: 66%;
-    }
-
-    #aboutUs .aboutWrapper #wrTeam {
         font: normal normal 800 74px/117px Poppins;
         transform: rotate(0);
         left: 0px;
-        top: -23px;
+        top: 52%;
     }
 
     #aboutUs .aboutWrapper .row,
@@ -2133,12 +2133,13 @@
     #aboutUs .aboutWrapper .aboutLeftDiv {
         position: relative;
         left: 0px;
-        top: 70px;
+        top: 36px;
     }
 
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 0px;
         left: 0;
+        top: 12px;
     }
 
     #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg img {
@@ -2247,6 +2248,10 @@
         justify-content: center;
         width: 100%;
         gap: 20px;
+    }
+
+    #solutions .productsCardsWrapper .mobilePro .webProImg {
+        width: 78%;
     }
 
     #solutions .productsCardsWrapper .mobilePro {
@@ -2977,7 +2982,7 @@
     #values,
     #blogDetails,
     #empire,
-    #wrTeamWork,
+    #team #wrTeamWork,
     #jobOpening,
     #applyNow {
         overflow: hidden;
@@ -3052,8 +3057,8 @@
     }
 
     #aboutUs .aboutWrapper #wrTeam {
-        left: -150px;
-        top: 66%;
+        /* left: -150px; */
+        top: 54%;
     }
 
     #aboutUs .aboutWrapper .row,
@@ -3064,7 +3069,7 @@
     #aboutUs .aboutWrapper .aboutLeftDiv {
         position: relative;
         left: 0px;
-        top: 70px;
+        /* top: 70px; */
     }
 
     #aboutUs .aboutWrapper .aboutRightDiv {
@@ -3940,7 +3945,7 @@
         padding: 0px 26px;
     }
 
-    #process .upperDivWrapper{
+    #process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
@@ -4171,8 +4176,8 @@
     }
 
     #aboutUs .aboutWrapper #wrTeam {
-        left: -150px;
-        top: 66%;
+        /* left: -150px; */
+        top: 62%;
     }
 
     #aboutUs .aboutWrapper .row {
@@ -4182,7 +4187,7 @@
     #aboutUs .aboutWrapper .aboutLeftDiv {
         position: relative;
         left: 0px;
-        top: 70px;
+        /* top: 70px; */
     }
 
     #aboutUs .aboutWrapper .aboutRightDiv {
@@ -4276,7 +4281,7 @@
 
     #winner .winnerWrapper .winnRightDiv {
         left: 26px;
-        top: 98px;
+        top: 64px;
         padding-bottom: 110px;
     }
 
@@ -5173,7 +5178,7 @@
         padding: 0px 10px;
     }
 
-    #process .upperDivWrapper{
+    #process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
@@ -5265,7 +5270,7 @@
     }
 
     #process .upperDivWrapper .upperDivLeftContent {
-        padding-bottom: 118px;
+        padding-bottom: 60px;
     }
 
     #process .upperDivRightContent .processCard .cardContent .title {
@@ -5278,6 +5283,7 @@
 
     #process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
+        margin-top: 0;
     }
 
     #build .buildWrapper .leftDiv {
