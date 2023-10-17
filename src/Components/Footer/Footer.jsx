@@ -5,17 +5,12 @@ import { FaInstagram } from "react-icons/fa6";
 import { BsArrowRightCircle, BsFillTelephoneFill } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
-import { DiEnvato } from "react-icons/di";
-
 import { AiOutlineMail } from "react-icons/ai";
 
 import navLogo from '../../Asset/navLogo.svg'
 import GetInTouch from "../GetInTouch";
 import { useRouter } from "next/router";
-import Link from "next/link";
-// import Image from 'next/image';
-// import { BiRightArrow } from 'react-icons/bi';
+import Link from "next/link"
 
 const Footer = () => {
 
@@ -24,7 +19,6 @@ const Footer = () => {
 
    // Check if the current route contains "contact-us"
    const isContactUsPage = pathname.includes("contact-us");
-   console.log(isContactUsPage)
 
    return (
       <>

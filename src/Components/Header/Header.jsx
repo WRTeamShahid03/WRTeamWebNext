@@ -145,9 +145,9 @@ const Header = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="me-auto">
-            <Link className="nav-link" href="/"> Home</Link>
+            <Link className="nav-link" href="/" onClick={() => setShow(false)}> Home</Link>
 
-            <Link className='nav-link' href='/about-us'> About Us </Link>
+            <Link className='nav-link' href='/about-us' onClick={() => setShow(false)}> About Us </Link>
 
             <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
               onMouseLeave={handlers1.onMouseLeave}
@@ -157,10 +157,10 @@ const Header = () => {
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item className='navItem1'>
-                  <Link href="/products/web-products">Web Products</Link>
+                  <Link href="/products/web-products" onClick={() => setShow(false)}>Web Products</Link>
                 </Dropdown.Item>
                 <Dropdown.Item className='navItem2'>
-                  <Link href="/products/app-products">App Products</Link>
+                  <Link href="/products/app-products" onClick={() => setShow(false)}>App Products</Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
@@ -173,26 +173,26 @@ const Header = () => {
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 <Dropdown.Item className='navItem3'>
-                  <Link href="/services/web-development">Web Development</Link>
+                  <Link href="/services/web-development" onClick={() => setShow(false)}>Web Development</Link>
                 </Dropdown.Item>
                 <Dropdown.Item className='navItem4'>
-                  <Link href="/services/app-development">App Development</Link>
+                  <Link href="/services/app-development" onClick={() => setShow(false)}>App Development</Link>
                 </Dropdown.Item>
                 <Dropdown.Item className='navItem5'>
-                  <Link href="/services/ui-ux-design">UI/UX Design Service</Link>
+                  <Link href="/services/ui-ux-design" onClick={() => setShow(false)}>UI/UX Design Service</Link>
 
                 </Dropdown.Item>
                 <Dropdown.Item href="#/action-1" className='navItem6'>
-                  <Link href="/services/digital-marketing">Digital Marketing Service</Link>
+                  <Link href="/services/digital-marketing" onClick={() => setShow(false)}>Digital Marketing Service</Link>
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
 
-            <Link className="nav-link" href="/blogs">Blogs</Link>
+            <Link className="nav-link" href="/blogs" onClick={() => setShow(false)}>Blogs</Link>
 
-            <Link className="nav-link" href="/career">Career</Link>
+            <Link className="nav-link" href="/career" onClick={() => setShow(false)}>Career</Link>
 
-            <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
+            <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }} onClick={() => setShow(false)} >
               <div className="contactNum">
                 <span id='callIcon'><IoIosCall size={28} /></span>
                 <div className="number">
@@ -204,7 +204,7 @@ const Header = () => {
 
             <div id="rightSide">
 
-              <Link href="/hire-us"> <button className="homeCommon_btn"> Hire Us </button> </Link>
+              <Link href="/hire-us" onClick={() => setShow(false)}> <button className="homeCommon_btn"> Hire Us </button> </Link>
 
             </div>
           </Nav>

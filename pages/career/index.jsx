@@ -18,7 +18,7 @@ const index = () => {
     const [email, setEmail] = useState('')
     const [experience, setExperience] = useState('')
     const [qualification, setQualification] = useState('')
-    const [applyFor, setApplyFor] = useState('')    
+    const [applyFor, setApplyFor] = useState('')
     const [fileDataUrl, setFileDataUrl] = useState(null);
     const form = useRef();
 
@@ -124,20 +124,27 @@ const index = () => {
 
 
     const sendEmail = (e) => {
-      e.preventDefault();
-      if(!name||!number||!email||!qualification||!applyFor||!experience){
-        toast.error('Fill out the form first')
-      }
-      else{
-        emailjs.sendForm('service_f0zhqhh', 'template_4gxxd1i', form.current, 'RITTN3aEr8VNyLQdN')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-        toast.success('Submited Successfully !')
-      }
-      
+        e.preventDefault();
+        if (!name || !number || !email || !qualification || !applyFor || !experience) {
+            toast.error('Fill out the form first')
+        }
+        else {
+            emailjs.sendForm('service_f0zhqhh', 'template_4gxxd1i', form.current, 'RITTN3aEr8VNyLQdN')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+            toast.success('Submited Successfully !')
+            setName('')
+            setEmail('')
+            setNumber('')
+            setExperience('')
+            setQualification('')
+            setApplyFor('')
+            setFileDataUrl('')
+        }
+
     };
     return (
         <>
@@ -254,49 +261,49 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="formDiv">
 
-                            <form ref={form} onSubmit={sendEmail}>
+                                <form ref={form} onSubmit={sendEmail}>
 
-                                <div className="mb-3 row">
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Full Name</label>
-                                        <input type="text" className="form-control" name='full_name' id="exampleFormControlInput1" placeholder="Write Your Name Full Name" onChange={(e)=>setName(e.target.value)} value={name} />
-                                    </div>
+                                    <div className="mb-3 row">
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Full Name</label>
+                                            <input type="text" className="form-control" name='full_name' id="exampleFormControlInput1" placeholder="Write Your Name Full Name" onChange={(e) => setName(e.target.value)} value={name} />
+                                        </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Email</label>
-                                        <input type="email" className="form-control" name='email' id="exampleFormControlInput1" placeholder="Write Your Email" onChange={(e)=>setEmail(e.target.value)} value={email} />
-                                    </div>
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Contact Number</label>
-                                        <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Write Your Phone Number" onChange={(e)=>setNumber(e.target.value)} value={number} />
-                                    </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Email</label>
+                                            <input type="email" className="form-control" name='email' id="exampleFormControlInput1" placeholder="Write Your Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                                        </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Contact Number</label>
+                                            <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Write Your Phone Number" onChange={(e) => setNumber(e.target.value)} value={number} />
+                                        </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Qualification</label>
-                                        <input type="text" className="form-control" name='qualification' id="exampleFormControlInput1" placeholder="Write Your Qualification" onChange={(e)=>setQualification(e.target.value)} value={qualification} />
-                                    </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Qualification</label>
+                                            <input type="text" className="form-control" name='qualification' id="exampleFormControlInput1" placeholder="Write Your Qualification" onChange={(e) => setQualification(e.target.value)} value={qualification} />
+                                        </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Apply For</label>
-                                        <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e)=>setApplyFor(e.target.value)} value={applyFor} >
-                                            <option selected>Select Apply For</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <label htmlFor="name">Experience</label>
-                                        <select className="form-select form-select-md mb-3" name='experience' aria-label=".form-select-lg example" onChange={(e)=>setExperience(e.target.value)} value={experience} >
-                                            <option defaultValue selected>Select Your Experience</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
-                                        <div className="item">
-                                            {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Apply For</label>
+                                            <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e) => setApplyFor(e.target.value)} value={applyFor} >
+                                                <option selected>Select Apply For</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <label htmlFor="name">Experience</label>
+                                            <select className="form-select form-select-md mb-3" name='experience' aria-label=".form-select-lg example" onChange={(e) => setExperience(e.target.value)} value={experience} >
+                                                <option defaultValue selected>Select Your Experience</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
+                                            <div className="item">
+                                                {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
                                                 <div className="item-inner">
                                                     <div className="item-content">
                                                         <div className="image-upload">
@@ -329,12 +336,12 @@ const index = () => {
                                                     </div>
                                                 </div>
 
+                                            </div>
+                                            <button type='submit' className='homeCommon_btn'>Submit</button>
                                         </div>
-                                        <button type='submit' className='homeCommon_btn'>Submit</button>
+
+
                                     </div>
-
-
-                                </div>
                                 </form>
                             </div>
                         </div>

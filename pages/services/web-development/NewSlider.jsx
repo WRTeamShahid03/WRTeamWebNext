@@ -48,8 +48,8 @@ const NewSlider = () => {
 
     return (
         <section id='devSlider'>
-            <div class="sliderWrapper">
-                <div class="sidebar">
+            <div className="sliderWrapper">
+                <div className="sidebar">
                     <div style={{ background: "linear-gradient(229.99deg, #fd3737 -26%, #d35353 145%)" }}>
                         <h1>Back-end web development</h1>
                         <p>Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.</p>
@@ -67,17 +67,17 @@ const NewSlider = () => {
                         <p>Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.</p>
                     </div>
                 </div>
-                <div class="main-slide">
+                <div className="main-slide">
                     <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?car'})` }}></div>
                     <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?bike'})` }}></div>
                     <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?animal'})` }}></div>
                     <div style={{ background: `rgb(23 79 196 / 83%) url(${'https://source.unsplash.com/featured/?bird'})` }}></div>
                 </div>
-                <div class="controls">
-                    <button class="down-button buttn">
+                <div className="controls">
+                    <button className="down-button buttn">
                         <BsArrowDownCircle />
                     </button>
-                    <button class="up-button buttn">
+                    <button className="up-button buttn">
                         <BsArrowUpCircle />
                     </button>
                 </div>

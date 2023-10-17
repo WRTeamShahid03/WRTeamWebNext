@@ -5,6 +5,7 @@ import Counter from '../../src/Components/Counter'
 import WorkChain from '@/Components/WorkChain'
 import Testimonials from '@/Components/Testimonials'
 import ReactPaginate from 'react-paginate';
+import Link from 'next/link'
 
 
 // images
@@ -19,7 +20,6 @@ import team1 from '../../src/Asset/Images/team_1.png'
 import team2 from '../../src/Asset/Images/team_2.png'
 import team3 from '../../src/Asset/Images/team_3.png'
 import team4 from '../../src/Asset/Images/team_4.png'
-import getTouch from '../../src/Asset/Images/getTouch.png'
 
 
 
@@ -35,6 +35,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { FreeMode, Pagination } from 'swiper/modules';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
+
 
 const index = () => {
 
@@ -273,7 +274,7 @@ const index = () => {
 
 
                 </div>
-                <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Hire Us</button>
+                <Link href='/hire-us'><button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Hire Us</button></Link>
 
               </div>
             </div>

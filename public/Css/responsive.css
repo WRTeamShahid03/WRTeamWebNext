@@ -1,23 +1,3 @@
-@media only screen and (max-width: 1750px) {
-    .divider .common_btn {
-        width: 200px;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    .divider {
-        position: relative;
-    }
-}
-
-@media only screen and (min-width:1850px) and (max-width: 3000px) {
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        width: 518px !important;
-    }
-}
-
 /* For Breadcrum  */
 @media only screen and (max-width: 575px) {
 
@@ -48,157 +28,7 @@
 }
 
 
-
 @media only screen and (min-width: 1400px) and (max-width: 1850px) {
-
-    .divider {
-        height: 160px;
-    }
-
-    .divider .row-cols-4>* {
-        flex: 0 0 auto;
-        width: 15%;
-    }
-
-    .divider .common_btn {
-        width: 210px;
-        top: 30px;
-        margin-bottom: 48px;
-        margin-right: 28px;
-    }
-
-    .divider .price {
-        margin-left: 12%;
-    }
-
-    /* Divider ends */
-
-
-    #banner2 .banner2Cont {
-        background-size: 100% 100%;
-    }
-
-    /* Banner2 ends */
-
-
-    #payments .paygetwaysLogo {
-        gap: 4%;
-    }
-
-    #payments .payImages img {
-        margin-left: 40px;
-    }
-
-    /* PaymentGetways ends  */
-
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        border-radius: 70px;
-        height: 650px;
-        width: auto;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-
-    #bannerSect #lapBanner {
-        margin-right: 12%;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 710px;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 620px;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: 0;
-    }
-
-    /* Banner ends  */
-
-
-    #getCode .getCodeContainer {
-        padding: 0 70px;
-        padding-left: 104px;
-    }
-
-    #getCode .card .card-title {
-        font: normal normal bold 26px/34px Poppins;
-    }
-
-    #getCode .card .card-text {
-        font: 26px/34px Poppins;
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* GetCode ends */
-
-
-    #buyNow .button {
-        width: 300px;
-        height: 106px;
-    }
-
-    #cards .card .card-img-top {
-        width: 15vw;
-    }
-
-    /* Cards ends */
-
-
-    #morePro .cardsContainer {
-        align-items: center;
-        justify-content: center;
-        gap: 2%;
-    }
-
-    #morePro .leftCards {
-        margin-left: 0;
-    }
-
-    #morePro .card1 {
-        width: 45vw;
-    }
-
-    #morePro .miniCard .card-img-top {
-        left: 6px;
-        width: fit-content;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 39px;
-        left: 26px;
-        width: 92%;
-    }
-
-    #morePro .miniCard {
-        width: 22vw;
-    }
-
-    #morePro .rightCardImg {
-        width: 45vw;
-    }
-
-    #morePro .miniCardsCont .hoverBtn,
-    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
-        left: 22%;
-        top: 22vh;
-    }
-
-    /* MorePro ends  */
-
-
     /* Home Page responsive  */
 
     #homeHeroSect,
@@ -316,7 +146,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -359,7 +190,7 @@
         width: 96.5%;
     }
 
-    #success .hireUpperDiv{
+    #success .hireUpperDiv {
         display: flex;
         justify-content: center;
         margin-top: -40px;
@@ -398,11 +229,6 @@
         padding: 68px;
     }
 
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 107px;
-        height: 78px;
-    }
-
     #process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
@@ -437,222 +263,6 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-
-    .divider {
-        height: 160px;
-    }
-
-    .divider .row-cols-4>* {
-        flex: 0 0 auto;
-        width: 15%;
-    }
-
-    .divider .common_btn {
-        width: 150px;
-        top: 30px;
-        margin-bottom: 48px;
-        margin-right: 54px;
-    }
-
-    .divider .price {
-        margin-left: 14%;
-    }
-
-    /* Divider ends */
-
-
-    #banner2 .banner2Cont {
-        background-size: 100% 100%;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 36%;
-    }
-
-    /* Banner2 ends */
-
-
-    #payments .paygetwaysLogo {
-        gap: 12%;
-    }
-
-    #payments .payImages img {
-        width: 210px;
-        margin-left: 40px;
-    }
-
-    /* PaymentGetways ends  */
-
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 36px/56px Poppins;
-        animation-duration: 0.7s;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        letter-spacing: 0.7px;
-        color: #2D3745;
-        opacity: 1;
-        font: var(--unnamed-font-style-normal) normal medium 35px/53px var(--unnamed-font-family-poppins);
-        font-size: 20px;
-    }
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        border-radius: 70px;
-        height: 650px;
-        width: auto;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-
-    #otherFea .featuresWrapper {
-        gap: 5%;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    /* OtherFea ends  */
-
-
-    #bannerSect #lapBanner {
-        margin-right: 12%;
-    }
-
-    #bannerSect .phoneBanner {
-        display: none;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: 0;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 710px;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 620px;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 200px;
-    }
-
-    /* Banner ends  */
-
-    #getCode .getCodeContainer {
-        padding: 0 70px;
-        padding-left: 104px;
-    }
-
-    #getCode .card .card-title {
-        font: normal normal bold 21px/34px Poppins;
-    }
-
-    #getCode .card .card-text {
-        font: 21px/34px Poppins;
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* GetCode ends */
-
-
-    #buyNow .button {
-        width: 260px;
-        height: 100px;
-    }
-
-    #cards .card .card-img-top {
-        width: 14vw;
-    }
-
-    /* Cards ends  */
-
-
-    #morePro .cardsContainer {
-        justify-content: center;
-        align-items: center;
-        gap: 2%;
-    }
-
-    #morePro .card1 {
-        width: 45vw;
-    }
-
-    #morePro .miniCard .card-img-top {
-        left: 0px;
-        width: 20vw;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 39px;
-        left: 26px;
-        width: 92%;
-    }
-
-    #morePro .miniCard {
-        width: 22vw;
-    }
-
-    #morePro .rightCardImg {
-        width: 45vw;
-    }
-
-    #morePro .miniCardsCont .hoverBtn,
-    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
-        left: 20%;
-        top: 22vh;
-    }
-
-    #morePro .card1 .cardBtn,
-    #morePro .card1 .card-title {
-        font: normal normal normal 28px/25px Poppins;
-    }
-
-    #morePro .card1 .card-text {
-        font: normal normal bold 35px/40px Poppins;
-    }
-
-    #morePro .card .hoverBtn {
-        left: 28%;
-    }
-
-    #morePro .sale_rating span,
-    #morePro .sale_rating .rating h3 {
-        font: 24px/30px Poppins;
-    }
-
-    #morePro .sale_rating .stars {
-        size: 26px;
-    }
-
-    #morePro .miniCard .sale_rating span,
-    #morePro .miniCard .sale_rating .rating h3 {
-        font: 12px/14px Poppins;
-    }
-
-    #morePro .miniCard .sale_rating .stars {
-        font-size: 14px;
-    }
-
-    #morePro .card .hoverBtn {
-        left: 18%;
-    }
-
-    /* MorePro ends  */
 
     /* Home Page responsive  */
 
@@ -859,8 +469,21 @@
 
     #vision .row,
     #values .row {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-top: 10px;
     }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -80px;
+    }
+
+    #mission .row {
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+
+
 
     #team .teamWrapper {
         padding: 40px 0;
@@ -885,7 +508,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -944,7 +568,7 @@
         padding: 26px 55px;
     }
 
-    #success .hireUpperDiv{
+    #success .hireUpperDiv {
         display: flex;
         justify-content: center;
         margin-top: -40px;
@@ -1035,11 +659,6 @@
         padding: 34px;
     }
 
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 152px;
-        height: 96px;
-    }
-
     #process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
@@ -1107,249 +726,6 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
-    #heroSect .bannerContainer {
-        padding: 0 64px;
-    }
-
-    #heroSect .para1 {
-        width: 50%;
-    }
-
-    #heroSect .detail {
-        width: 80%;
-    }
-
-    #heroSect .common_btn {
-        width: 14vw;
-        font-size: 16px;
-    }
-
-    /* HeroSect ends */
-
-
-    .divider {
-        height: 160px;
-    }
-
-    .divider .row-cols-4>* {
-        flex: 0 0 auto;
-        width: 15%;
-    }
-
-    .divider .common_btn {
-        width: 150px;
-        top: 30px;
-        margin-bottom: 48px;
-        margin-right: 54px;
-    }
-
-    .divider .price {
-        margin-left: 14%;
-    }
-
-    .divider::before {
-        width: 221px;
-        clip-path: circle(62% at -10% 74%);
-    }
-
-    .divider::after {
-        width: 189px;
-        clip-path: circle(90% at 110% 2%);
-    }
-
-    /* Divider ends */
-
-
-    #banner2 .banner2Cont {
-        background-size: 100% 100%;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 46%;
-        margin-left: 38px;
-    }
-
-    /* Banner2 ends */
-
-
-    #payments .paygetwaysLogo {
-        gap: 12%;
-    }
-
-    #payments .payImages img {
-        width: 170px;
-        margin-left: 40px;
-    }
-
-    /* PaymentGetways ends  */
-
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 36px/50px Poppins;
-        animation-duration: 0.7s;
-        width: 400px;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        letter-spacing: 0.7px;
-        color: #2D3745;
-        opacity: 1;
-        font: var(--unnamed-font-style-normal) normal medium 35px/53px var(--unnamed-font-family-poppins);
-        font-size: 20px;
-    }
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        border-radius: 70px;
-        height: 650px;
-        width: auto;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-
-    #otherFea .featuresWrapper {
-        gap: 5%;
-        padding: 0 28px;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        height: 710px;
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .feaList2 .listWrapper img {
-        height: 58px;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .feaList2 span {
-        font: normal normal 600 18px/32px Poppins;
-    }
-
-    #otherFea .listWrapper:hover {
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-    }
-
-    /* OtherFea ends  */
-
-
-    #bannerSect {
-        margin-top: 120px;
-    }
-
-
-    #bannerSect .phoneHoverImgs {
-        right: 0;
-    }
-
-    #bannerSect .container .box .body .imgContainer img {
-        position: absolute;
-        top: -42%;
-        left: 28px;
-        width: 88%;
-        height: 180%;
-        object-fit: cover;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 610px;
-        width: auto;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 586px;
-        width: auto;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 200px;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 30px/40px Poppins;
-    }
-
-    /* Banner ends  */
-
-
-    #getCode .getCodeContainer {
-        padding: 0 70px;
-        padding-left: 72px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0;
-    }
-
-    #getCode .card-img-top {
-        height: 100px;
-        width: 100px;
-        mix-blend-mode: darken;
-        color: white;
-    }
-
-    #getCode .card {
-        width: 20vw;
-        box-shadow: none;
-    }
-
-    #getCode .card:hover {
-        background-color: transparent;
-    }
-
-    #getCode .card .card-title {
-        font: normal normal bold 17px/34px Poppins;
-        margin-top: -48px;
-    }
-
-    #getCode .card .card-text {
-        font: 18px/34px Poppins;
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* GetCode ends */
-
-
-    #buyNow .buyNowCont p {
-        font: 30px/46px Poppins;
-        width: 48%;
-        text-align: center;
-    }
-
-    #buyNow .button {
-        width: 260px;
-        height: 100px;
-    }
-
-    /* BuyNow ends  */
-
-
-    #cards .buyNowCont .row {
-        gap: 12px;
-    }
-
-    #cards .card .card-img-top {
-        width: 15vw;
-    }
-
-    /* Cards ends  */
-
     /* Home Page  */
 
     #homeHeroSect,
@@ -1408,7 +784,15 @@
 
     /* homeHeroSect ends  */
 
-    #aboutUs .aboutWrapper .row,
+    #aboutUs .aboutWrapper .row {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    #winner .winnerWrapper {
+        top: 8px;
+    }
+
     #winner .winnerWrapper .row {
         flex-direction: column;
         gap: 60px;
@@ -1416,6 +800,7 @@
 
     #aboutUs .aboutWrapper #wrTeam {
         left: -150px;
+        top: 66%;
     }
 
     #aboutUs .aboutWrapper .aboutLeftDiv {
@@ -1432,6 +817,7 @@
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 0px;
         left: 0px;
+        top: 8px;
     }
 
     #aboutUs .aboutWrapper .aboutRightDiv .discover {
@@ -1607,7 +993,18 @@
 
     #vision .row,
     #values .row {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -80px;
+    }
+
+    #mission .row {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     #team .teamDeatails {
@@ -1628,7 +1025,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -1812,9 +1210,10 @@
         padding: 34px;
     }
 
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 152px;
-        height: 96px;
+    #process .upperDivWrapper {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 28px 0px;
     }
 
     #process .lowerDivWrapper .upperDivRightContent {
@@ -1922,286 +1321,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-    #heroSect .bannerContainer {
-        padding: 0 0px;
-    }
-
-    #heroSect .para1 {
-        width: 72%;
-    }
-
-    #heroSect .para2 {
-        width: 65%;
-    }
-
-    #heroSect .detail {
-        width: 100%;
-    }
-
-    #heroSect .buttons {
-        gap: 0 8px;
-    }
-
-    #heroSect .common_btn {
-        width: 17vw;
-        font-size: 16px;
-    }
-
-    /* HeroSect ends */
-
-
-    .divider {
-        height: 38vh;
-    }
-
-    .divider .row {
-        gap: 22px 20px;
-        flex-wrap: wrap;
-    }
-
-    .divider .col {
-        margin-top: 24px;
-    }
-
-    .divider::before {
-        width: 221px;
-        clip-path: circle(36% at -5% 94%);
-    }
-
-    .divider::after {
-        width: 189px;
-        clip-path: circle(40% at 110% 2%);
-    }
-
-    .divider .row-cols-4>* {
-        width: 45% !important;
-    }
-
-    .divider .common_btn {
-        height: 46px;
-        width: 110px;
-        top: 30px;
-        right: 64px;
-        margin-bottom: 100px;
-    }
-
-    /* Divider ends */
-
-
-    #banner2 .banner2Cont {
-        background-size: cover;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 70%;
-        margin-left: 116px;
-    }
-
-    /* Banner2 ends  */
-
-
-    #payments .paygetwaysLogo {
-        gap: 12%;
-    }
-
-    #payments .payImages {
-
-        margin: 0;
-    }
-
-    #payments .payImages img {
-        width: 120px;
-        margin-left: 40px;
-    }
-
-    /* PaymentGetways ends  */
-
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        height: 600px;
-        width: auto;
-        border-radius: 60px;
-        margin-left: 16px;
-    }
-
-    #topFea .feaImg2 img {
-        margin-right: 12px;
-    }
-
-
-    #topFea .feaHeadlines {
-        padding-left: 8vw;
-        width: 100%;
-    }
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 38px/46px Poppins;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 22px/32px Poppins;
-    }
-
-    #topFea .feaImg2 .feaHeadlines {
-        /* padding-right: 10vw; */
-        padding-left: 100px;
-    }
-
-    #topFea .feaImg2 {
-        overflow: hidden !important;
-        bottom: 110px;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-    #otherFea .featuresWrapper {
-        gap: 5%;
-        padding: 0 28px;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .feaList2 {
-        gap: 0%;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        height: 610px;
-    }
-
-    #otherFea .feaList1 .listWrapper,
-    .feaList2 .listWrapper {
-        gap: 10px;
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .feaList2 .listWrapper img {
-        height: 58px;
-    }
-
-    #otherFea .listWrapper:hover {
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .feaList2 span {
-        font: normal normal 600 18px/25px Poppins;
-    }
-
-    /* OtherFea ends  */
-
-    #bannerSect {
-        margin-top: 100px;
-    }
-
-    #bannerSect #lapBanner {
-        display: none !important;
-    }
-
-    #bannerSect .phoneBanner {
-        margin-bottom: 82%;
-        display: block;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: -44px;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 510px;
-        width: auto;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 372px;
-        width: auto;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 180px;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 28px/36px Poppins;
-    }
-
-    /* Banner ends  */
-
-    #getCode .getCodeContainer {
-        padding: 0 70px;
-        padding-left: 72px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0;
-    }
-
-    #getCode .card-img-top {
-        height: 100px;
-        width: 100px;
-        mix-blend-mode: darken;
-        color: white;
-    }
-
-    #getCode .card {
-        margin-top: 0;
-        width: 24vw;
-        box-shadow: none;
-    }
-
-    #getCode .card:hover {
-        background-color: transparent;
-    }
-
-    #getCode .card .card-title {
-        font: normal normal bold 15px/34px Poppins;
-        margin-top: -48px;
-    }
-
-    #getCode .card .card-text {
-        font: 15px/22px Poppins;
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* getCode ends  */
-
-    #buyNow .button {
-        width: 260px !important;
-        height: 100px !important;
-    }
-
-    #cards .buyNowCont {
-        padding: 0 65px;
-        display: flex;
-    }
-
-    #cards .buyNowCont .row {
-        flex-wrap: wrap;
-        gap: 16px 12px;
-        ;
-    }
-
-    #cards .card .card-img-top {
-        width: 25vw;
-    }
-
-    /* cards ends  */
-
     /* Home Page  */
 
     #homeHeroSect,
@@ -2248,6 +1367,26 @@
     }
 
     /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper .row {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    #winner .winnerWrapper {
+        top: 8px;
+    }
+
+    #winner .winnerWrapper .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper #wrTeam {
+        left: -150px;
+        top: 66%;
+    }
+
 
     #aboutUs .aboutWrapper #wrTeam {
         font: normal normal 800 84px/117px Poppins;
@@ -2526,7 +1665,18 @@
 
     #vision .row,
     #values .row {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -80px;
+    }
+
+    #mission .row {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     #team .teamDeatails {
@@ -2547,7 +1697,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 130px;
     }
 
@@ -2755,6 +1906,12 @@
         padding-top: 20px;
     }
 
+    #process .upperDivWrapper {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 28px 0px;
+    }
+
     #backend {
         padding: 32px 0px;
         padding-bottom: 20px;
@@ -2775,11 +1932,6 @@
 
     #devSlider .sliderWrapper .controls .buttn {
         top: 86%;
-    }
-
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 152px;
-        height: 96px;
     }
 
     #process .lowerDivWrapper .upperDivRightContent {
@@ -2904,319 +2056,6 @@
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
 
-    #heroSect .bannerContainer {
-        padding: 0 64px;
-    }
-
-    #heroSect .para1 {
-        width: 90%;
-    }
-
-    #heroSect .para2 {
-        width: 82%;
-    }
-
-    #heroSect .detail {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    #heroSect .buttons {
-        justify-content: center;
-        gap: 0 15px;
-    }
-
-    #heroSect .buttons .common_btn {
-        width: 186px;
-        height: 66px;
-    }
-
-    /* HeroSect ends */
-
-
-    .divider {
-        height: 26vh;
-        font-size: 16px;
-    }
-
-    .divider .row {
-        gap: 22px 20px;
-        flex-wrap: wrap;
-    }
-
-    .divider .col {
-        margin-top: 24px;
-    }
-
-    .divider::before {
-        width: 221px;
-        clip-path: circle(28% at -5% 94%);
-    }
-
-    .divider::after {
-        width: 189px;
-        clip-path: circle(34% at 110% 2%);
-    }
-
-    .divider .row-cols-4>* {
-        width: 45% !important;
-    }
-
-    .divider .common_btn {
-        height: 46px;
-        width: 98px;
-        top: 30px;
-        right: 30px;
-        font-size: 18px;
-        margin-bottom: 48px;
-    }
-
-    .divider span {
-        font-size: 20px !important;
-    }
-
-    /* Divider ends */
-
-
-    #banner2 .banner2Cont {
-        background-size: cover;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 70%;
-        margin-left: 116px;
-    }
-
-    /* Banner2 ends  */
-
-    #payments .payImages {
-        height: fit-content;
-    }
-
-    #payments .paygetwaysLogo {
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0px;
-        margin: auto;
-        margin-bottom: 38px;
-        width: 100%;
-    }
-
-    #payments .payImages img {
-        width: 180px;
-        margin-left: 0;
-    }
-
-    #payments .paygetwaysLogo .image-container:hover .hoverImg2 {
-        visibility: visible;
-        transform: translateY(0);
-
-    }
-
-    #payments .paygetwaysLogo .image-container:hover .hoverImg1 {
-        visibility: hidden;
-        transform: translateY(0);
-
-    }
-
-    /* PaymentGetways ends  */
-
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        height: 450px;
-        width: auto;
-        border-radius: 40px;
-        margin-left: 16px;
-    }
-
-    #topFea .feaImg2 img {
-        margin-right: 12px;
-    }
-
-    #topFea .feaHeadlines {
-        padding-left: 8vw;
-        width: 100%;
-        align-items: center;
-    }
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 28px/46px Poppins;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 18px/40px Poppins;
-        margin-top: 0;
-    }
-
-    #topFea .feaImg2 .feaHeadlines {
-        /* padding-right: 10vw; */
-        padding-left: 38px;
-    }
-
-    #topFea .feaImg2 {
-        overflow: hidden !important;
-        bottom: 32px;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-    #otherFea .featuresWrapper {
-        gap: 54px 0;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList {
-        gap: 0%;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        height: 550px;
-        display: none;
-    }
-
-    #otherFea .feaList1 .listWrapper,
-    .phoneFeaList .listWrapper {
-        gap: 10px;
-        align-items: center;
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .phoneFeaList .listWrapper img {
-        height: 58px;
-    }
-
-    #otherFea .listWrapper:hover {
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList span {
-        font: normal normal 600 18px/25px Poppins;
-    }
-
-    /* OtherFea ends  */
-
-    #bannerSect {
-        margin-top: 100px;
-        overflow: hidden;
-    }
-
-    #bannerSect #lapBanner {
-        display: none !important;
-    }
-
-    #bannerSect .phoneBanner {
-        margin-bottom: 82%;
-        display: block;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: -44px;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 390px;
-        width: auto;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 324px;
-        width: auto;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 180px;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 22px/32px Poppins;
-    }
-
-    /* Banner ends  */
-
-    #getCode {
-        margin-top: 50px !important;
-    }
-
-    #getCode .getCodeContainer {
-        padding: 0 70px;
-        padding-left: 72px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0;
-    }
-
-    #getCode .card-img-top {
-        height: 100px;
-        width: 100px;
-        mix-blend-mode: darken;
-        color: white;
-    }
-
-    #getCode .card {
-        margin-top: 0;
-        width: 30vw;
-        box-shadow: none;
-    }
-
-    #getCode .card:hover {
-        background-color: transparent;
-    }
-
-    #getCode .card .card-title {
-        font: normal normal bold 15px/34px Poppins;
-        margin-top: -10px;
-    }
-
-    #getCode .card .card-text {
-        font: 15px/22px Poppins;
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* GetCode ends  */
-
-    #buyNow .button {
-        width: 220px !important;
-        height: 76px !important;
-    }
-
-    #cards .buyNowCont {
-        padding: 0 65px;
-        display: flex;
-    }
-
-    #cards .buyNowCont .row {
-        flex-wrap: wrap;
-        gap: 16px 12px;
-        ;
-    }
-
-    #cards .card .card-img-top {
-        width: 30vw;
-    }
-
-    /* cards ends  */
-
-
     #homeHeroSect,
     #aboutUs,
     #winner,
@@ -3259,6 +2098,25 @@
     }
 
     /* homeHeroSect ends  */
+
+    #aboutUs .aboutWrapper .row {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    #winner .winnerWrapper {
+        top: 8px;
+    }
+
+    #winner .winnerWrapper .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper #wrTeam {
+        left: -150px;
+        top: 66%;
+    }
 
     #aboutUs .aboutWrapper #wrTeam {
         font: normal normal 800 74px/117px Poppins;
@@ -3611,7 +2469,18 @@
 
     #vision .row,
     #values .row {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -80px;
+    }
+
+    #mission .row {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     #vision .visionLeftDiv,
@@ -3653,7 +2522,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -3905,6 +2775,12 @@
         width: 65%;
     }
 
+    #process .upperDivWrapper {
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 28px 0px;
+    }
+
     #process .lowerDivWrapper .upperDivLeftContent {
         left: 0px !important;
     }
@@ -3940,10 +2816,12 @@
     #devSlider .sliderWrapper {
         height: 500px;
     }
+
     #devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
+
     #devSlider .sidebar h1 {
         font-size: 34px;
         margin-top: -80px;
@@ -3952,16 +2830,13 @@
     #devSlider .sliderWrapper .controls .buttn {
         top: 77%;
     }
+
     #devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
+
     #devSlider .main-slide {
         display: none;
-    }
-
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 152px;
-        height: 96px;
     }
 
     #process .lowerDivWrapper .upperDivRightContent {
@@ -4081,352 +2956,10 @@
         padding-bottom: 0px;
     }
 
-   
+
 }
 
 @media only screen and (min-width: 400px) and (max-width: 574px) {
-    /*  */
-
-    #heroSect .bannerContainer {
-        padding: 0 30px;
-    }
-
-    #heroSect .para1 {
-        width: 100%;
-    }
-
-    #heroSect .para2 {
-        width: 100%;
-    }
-
-    #heroSect .detail {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    #heroSect .detail h3 {
-        margin-left: 0px;
-    }
-
-    #heroSect .buttons {
-        justify-content: center;
-    }
-
-    #heroSect .buttons .common_btn {
-        width: 186px;
-        height: 66px;
-    }
-
-    /* HeroSect ends */
-
-    .divider {
-        width: fit-content;
-        height: fit-content;
-        flex-direction: column;
-    }
-
-    .divider .row {
-        gap: 22px 20px;
-        flex-wrap: wrap;
-    }
-
-    .divider .col {
-        margin-top: 24px;
-    }
-
-    .divider::before {
-        width: 221px;
-        clip-path: circle(28% at -5% 94%);
-    }
-
-    .divider::after {
-        width: 189px;
-        clip-path: circle(34% at 110% 2%);
-    }
-
-    .divider .row-cols-4>* {
-        width: 45% !important;
-    }
-
-    .divider .common_btn {
-        height: 46px;
-        width: 98px;
-        top: 30px;
-        left: 22px;
-        font-size: 18px;
-        margin-bottom: 48px;
-    }
-
-    .divider span {
-        font-size: 18px !important;
-    }
-
-    /* Divider ends */
-
-    #banner2 .banner2Cont {
-        background-size: cover;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 100%;
-        margin-left: 30px;
-    }
-
-    #banner2 .banner2Cont .whyEbro h2 {
-        font-size: 34px !important;
-
-    }
-
-    #banner2 .banner2Cont .whyEbro p {
-        font-size: 20px !important;
-
-    }
-
-    /* Banner2 ends  */
-
-
-    #topFea .feaImg,
-    .feaImg2 {
-        display: flex;
-        flex-direction: column;
-        border: 0;
-        border-bottom: 4px solid #707070;
-        border-style: dotted;
-    }
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        height: 450px;
-        width: auto;
-        border-radius: 40px;
-        margin-left: 16px;
-        margin: 16px 0;
-    }
-
-    #topFea .feaImg2 img {
-        margin-right: 12px;
-    }
-
-    #topFea .feaHeadlines {
-        padding-left: 8vw;
-        width: 100%;
-        align-items: center;
-        border-bottom: none;
-    }
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 28px/46px Poppins;
-        margin-top: 20px;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 18px/40px Poppins;
-        margin-top: 0;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 18px/28px Poppins;
-        margin-top: 0px;
-        width: 60%;
-    }
-
-    #topFea .feaImg2 .feaHeadlines {
-        /* padding-right: 10vw; */
-        padding-left: 38px;
-    }
-
-    #topFea .feaImg2 {
-        overflow: hidden !important;
-        bottom: 0px;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-
-    #otherFea {
-        margin-top: 30px;
-    }
-
-    #otherFea .featuresWrapper {
-        gap: 54px 0;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList {
-        gap: 0%;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        height: 550px;
-    }
-
-    #otherFea .feaList1 .listWrapper,
-    .phoneFeaList .listWrapper {
-        gap: 10px;
-        align-items: center;
-    }
-
-    #otherFea .listWrapper:hover {
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .phoneFeaList .listWrapper img {
-        height: 58px;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList span {
-        font: normal normal 600 18px/25px Poppins;
-    }
-
-    /* OtherFea ends  */
-
-    #bannerSect {
-        height: 100%;
-        overflow: hidden;
-        margin-top: 100px;
-    }
-
-    #bannerSect #lapBanner {
-        display: none !important;
-    }
-
-    #bannerSect .phoneBanner {
-        display: block !important;
-        margin-left: 18%;
-    }
-
-
-
-    #bannerSect .bannerCont {
-        height: 100%;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #bannerSect .bannerImg {
-        width: 70%;
-        position: relative;
-        margin-bottom: 20px;
-        left: 30px;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: 0;
-        display: contents;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 300px;
-        width: auto;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 255px;
-        width: auto;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 150px;
-        margin-right: 16%;
-    }
-
-    #bannerSect .bannerHeadlines {
-        align-items: center;
-        width: 58%;
-        margin-top: 20px;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 22px/32px Poppins;
-        width: 92vw;
-    }
-
-    #bannerSect .bannerHeadlines p {
-        margin-top: 40px;
-        margin-left: -30px;
-        width: 86vw;
-    }
-
-    /* Banner ends  */
-
-    #getCode {
-        margin-top: 10px !important;
-    }
-
-
-    #getCode .getCodeContainer {
-        padding: 0 0px;
-        padding-left: 30px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0%;
-    }
-
-    #getCode .getCodeContainer .row .col {
-        flex: 0 0 auto;
-        width: 45% !important;
-    }
-
-    #getCode .getCodeContainer .row .col .card {
-        width: 40vw;
-        background-color: #fff;
-    }
-
-    #getCode .card-img-top {
-        height: 60px;
-        width: 60px;
-    }
-
-    #getCode .card .card-title,
-    #getCode .card .card-text {
-        font: normal normal bold 16px/22px Poppins;
-    }
-
-    #getCode .card .card-text {
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* getCode ends  */
-
-    #cards .buyNowCont {
-        padding: 0 65px;
-        display: flex;
-    }
-
-    #cards .buyNowCont .row {
-        flex-wrap: wrap;
-        gap: 16px 12px;
-        ;
-    }
-
-    #cards .card .card-img-top {
-        width: 28vw;
-    }
-
-    /* cards ends  */
-
 
     #homeHeroSect,
     #aboutUs,
@@ -4502,6 +3035,25 @@
         transform: rotate(0);
         left: 0px;
         top: -23px;
+    }
+
+    #aboutUs .aboutWrapper .row {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    #winner .winnerWrapper {
+        top: 8px;
+    }
+
+    #winner .winnerWrapper .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper #wrTeam {
+        left: -150px;
+        top: 66%;
     }
 
     #aboutUs .aboutWrapper .row,
@@ -4771,7 +3323,10 @@
 
     /* tech ends  */
 
-    #workChain .workUpperDiv .workHeadlines, #whyHireUs .hireHeadlines, #hireUs .hireHeadlines, .commonHeadlines {
+    #workChain .workUpperDiv .workHeadlines,
+    #whyHireUs .hireHeadlines,
+    #hireUs .hireHeadlines,
+    .commonHeadlines {
         font: normal normal 800 26px/42px Montserrat;
     }
 
@@ -4920,7 +3475,18 @@
 
     #vision .row,
     #values .row {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -80px;
+    }
+
+    #mission .row {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     #vision .visionLeftDiv,
@@ -4968,7 +3534,8 @@
     }
 
     /* team ends  */
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -5338,6 +3905,7 @@
     #backend .sliderContainer .rightDivshapes img {
         display: none;
     }
+
     #backend .sliderContainer {
         margin-top: -26px;
     }
@@ -5345,10 +3913,12 @@
     #devSlider .sliderWrapper {
         height: 500px;
     }
+
     #devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
+
     #devSlider .sidebar h1 {
         font-size: 34px;
         margin-top: -80px;
@@ -5357,19 +3927,23 @@
     #devSlider .sliderWrapper .controls .buttn {
         top: 77%;
     }
+
     #devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
+
     #devSlider .main-slide {
         display: none;
     }
+
     #devSlider .sidebar>div {
         padding: 0px 26px;
     }
 
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 205px;
-        height: 96px;
+    #process .upperDivWrapper{
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 28px 0px;
     }
 
     #process .lowerDivWrapper .upperDivRightContent {
@@ -5497,476 +4071,10 @@
 
 @media only screen and (max-width: 399px) {
 
-    #heroSect {
-        background-size: cover;
-        padding-bottom: 60px;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-    }
-
-    #heroSect .para1 {
-        width: fit-content;
-    }
-
-    #heroSect .para2 {
-        width: fit-content;
-    }
-
-    #heroSect .detail {
-        flex-wrap: wrap;
-        width: 90vw;
-    }
-
-    #heroSect .detail h3 {
-        margin-left: 0px;
-    }
-
-    #heroSect .bannerContainer {
-        align-items: center;
-    }
-
-    #heroSect .buttons {
-        flex-wrap: wrap;
-        gap: 0 30px;
-        margin-bottom: 20px;
-        justify-content: center;
-    }
-
-    #heroSect .buttons button {
-        height: 90px;
-    }
-
-    #heroSect .common_btn {
-        width: 36%;
-        font-size: 17px;
-    }
-
-    /* HeroSect ends */
-
-    .divider {
-        width: fit-content;
-        height: fit-content;
-        flex-direction: column;
-    }
-
-    .divider .row {
-        gap: 22px 20px;
-        flex-wrap: wrap;
-    }
-
-    .divider .col {
-        margin-top: 4px;
-    }
-
-    .divider::before {
-        width: 221px;
-        clip-path: circle(22% at -5% 94%);
-    }
-
-    .divider::after {
-        width: 189px;
-        clip-path: circle(22% at 110% 2%);
-    }
-
-    .divider .row-cols-4>* {
-        width: 45% !important;
-    }
-
-    .divider .common_btn {
-        height: 46px;
-        width: 110px;
-        top: 30px;
-        right: 0;
-        margin-bottom: 48px;
-    }
-
-    /* Divider ends */
-
-    #banner2 .banner2Cont {
-        background-size: cover;
-    }
-
-    #banner2 .banner2Cont .whyEbro {
-        width: 100%;
-        margin-left: 10px;
-    }
-
-    #banner2 .banner2Cont .whyEbro h2 {
-        font-size: 30px !important;
-
-    }
-
-    #banner2 .banner2Cont .whyEbro p {
-        font-size: 18px !important;
-
-    }
-
-    /* Banner2 ends  */
-
-    #topFea .feaImg img {
-        margin-top: 0px;
-    }
-
-    #topFea .feaImg,
-    .feaImg2 {
-        display: flex;
-        flex-direction: column;
-        border: 0;
-        border-bottom: 4px solid #707070;
-        border-style: dotted;
-    }
-
-    #topFea .feaImg img,
-    .feaImg2 img {
-        height: 340px;
-        width: auto;
-        border-radius: 34px;
-        margin-left: 16px;
-        margin: 16px 0;
-        margin-top: 40px;
-    }
-
-    #topFea .feaImg2 img {
-        margin-top: 5px;
-        margin-right: 12px;
-    }
-
-    #topFea .feaHeadlines {
-        padding-left: 8vw;
-        width: 100%;
-        align-items: center;
-        border: none;
-    }
-
-    #topFea .feaHeadlines h2,
-    .feaHeadlines2 h2 {
-        font: normal normal 600 22px/76px Poppins;
-        margin-top: 20px;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 14px/40px Poppins;
-        margin-top: 0;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 18px/28px Poppins;
-        margin-top: 0px;
-        width: 60%;
-    }
-
-    #topFea .feaImg2 .feaHeadlines {
-        /* padding-right: 10vw; */
-        padding-left: 38px;
-    }
-
-    #topFea .feaImg2 {
-        overflow: hidden !important;
-        bottom: 0px;
-    }
-
-    #topFea .fisrtLastFea {
-        margin-left: 0px;
-    }
-
-    /* TopFea ends  */
-
-    #otherFea {
-        margin-top: 30px;
-    }
-
-    #otherFea .featuresWrapper {
-        gap: 54px 0;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    #otherFea img {
-        width: auto;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList {
-        gap: 0%;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        height: 450px;
-    }
-
-    #otherFea .feaList1 .listWrapper,
-    .phoneFeaList .listWrapper {
-        gap: 10px;
-        align-items: center;
-    }
-
-    #otherFea .listWrapper:hover {
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .phoneFeaList .listWrapper img {
-        height: 58px;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    .phoneFeaList span {
-        font: normal normal 600 18px/25px Poppins;
-    }
-
-    /* OtherFea ends  */
-
-
-    #bannerSect {
-        height: 100%;
-        overflow: hidden;
-        margin-top: 80px;
-    }
-
-    #bannerSect #lapBanner {
-        display: none !important;
-    }
-
-    #bannerSect .phoneBanner {
-        display: block !important;
-        margin-left: 18%;
-    }
-
-
-
-    #bannerSect .bannerCont {
-        height: 100%;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #bannerSect .bannerImg {
-        width: 70%;
-        position: relative;
-        bottom: 50px;
-        left: 30px;
-    }
-
-    #bannerSect .phoneHoverImgs {
-        right: 0;
-        display: contents;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 250px;
-        width: auto;
-    }
-
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 222px;
-        position: relative;
-        width: auto;
-        right: 30px;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 125px;
-        margin-right: 16%;
-    }
-
-    #bannerSect .bannerHeadlines {
-        align-items: center;
-        width: 58%;
-        margin-top: 20px;
-        margin-right: 20px;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 22px/32px Poppins;
-        width: 92vw;
-    }
-
-    #bannerSect .bannerHeadlines p {
-        width: 84vw;
-        margin-top: 40px;
-        margin-left: -30px;
-    }
-
-    /* Banner ends  */
-
-
-    #getCode .getCodeContainer {
-        padding: 0 0px;
-        padding-left: 30px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0%;
-    }
-
-    #getCode .getCodeContainer .row .col {
-        flex: 0 0 auto;
-        width: 45% !important;
-    }
-
-    #getCode .getCodeContainer .row .col .card {
-        width: 42vw;
-        background-color: transparent;
-        margin-top: 0;
-    }
-
-    #getCode .card-img-top {
-        height: 60px;
-        width: 60px;
-    }
-
-    #getCode .card .card-title,
-    #getCode .card .card-text {
-        font: normal normal bold 11px/18px Poppins;
-    }
-
-    #getCode .card .card-text {
-        font-weight: 100;
-        opacity: 0.5;
-    }
-
-    /* GetCode ends  */
-
-    #cards .buyNowCont {
-        padding: 0 30px;
-        display: flex;
-    }
-
-    #cards .buyNowCont .row {
-        flex-wrap: wrap;
-        gap: 16px 0px;
-        ;
-    }
-
-    #cards .card .card-img-top {
-        width: 34vw;
-    }
-
-
-    /* Cards ends  */
-
-
-    #morePro {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    #morePro .cardsContainer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 60px 0;
-    }
-
-    #morePro .leftCards,
-    #morePro .rightCards {
-        margin-left: 0;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px 0;
-    }
-
-    #morePro .leftCards .miniCardsCont,
-    #morePro .rightCards .miniCardsCont {
-        flex-wrap: wrap;
-        width: min-content;
-        gap: 60px 0;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 30px;
-        left: 0px;
-        height: 167px;
-        border-radius: 22px;
-        margin-bottom: -68px;
-    }
-
-    #morePro .leftCards .card1 .hoverBtn {
-        left: 22%;
-        top: 22vh;
-        font: 15px/23px Poppins;
-        width: 171px;
-        height: 40px;
-    }
-
-    #morePro .miniCard .card-img-top,
-    #morePro .card1 .card-img-top {
-        left: 0px;
-        width: fit-content;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 39px;
-        left: 16px;
-        width: 92%;
-    }
-
-    #morePro .miniCard,
-    #morePro .card1 {
-        width: fit-content;
-    }
-
-    #morePro .card1 .card-title,
-    #morePro .card1 .card-text {
-        margin-top: 20px;
-        font: 14px/21px Poppins;
-    }
-
-    #morePro .card1 .cardBtn {
-        margin-top: 50px;
-        background: #DEF5F9 0% 0% no-repeat padding-box;
-        border-radius: 5px;
-        opacity: 1;
-        font: normal normal normal 13px/20px Poppins;
-        color: #1BB3CE;
-        outline: none;
-        border: none;
-        padding: 0 12px;
-        transition: all 0.8s ease-out;
-        transition-delay: 0.2s;
-    }
-
-
-    #morePro .rightCardImg {
-        width: 305px;
-        height: 60vh;
-    }
-
-    #morePro .miniCardsCont .hoverBtn,
-    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
-        left: 22%;
-        top: 22vh;
-    }
-
-    #morePro .miniCard .sale_rating span,
-    #morePro .miniCard .sale_rating .rating h3,
-    #morePro .card1 .sale_rating span,
-    #morePro .card1 .sale_rating .rating h3 {
-        font: 12px/14px Poppins;
-    }
-
-    #morePro .miniCard .sale_rating .stars,
-    #morePro .card1 .sale_rating .stars {
-        font-size: 14px !important;
-    }
-
-    /* MorePro ends  */
-
     .navLogo img {
         width: 170px;
         height: 50px;
     }
-
 
     #homeHeroSect,
     #aboutUs,
@@ -6046,6 +4154,25 @@
         transform: rotate(0);
         left: 0px;
         top: -23px;
+    }
+
+    #aboutUs .aboutWrapper .row {
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+    #winner .winnerWrapper {
+        top: 8px;
+    }
+
+    #winner .winnerWrapper .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    #aboutUs .aboutWrapper #wrTeam {
+        left: -150px;
+        top: 66%;
     }
 
     #aboutUs .aboutWrapper .row {
@@ -6404,7 +4531,8 @@
         padding-bottom: 18px;
     }
 
-    .getInTouch .getTouchText .getTouchDesc ,#webDevContact .getInTouch .getTouchDesc {
+    .getInTouch .getTouchText .getTouchDesc,
+    #webDevContact .getInTouch .getTouchDesc {
         font: normal normal 600 20px/30px Montserrat;
         width: 100%;
     }
@@ -6455,7 +4583,10 @@
         padding-left: 0;
     }
 
-    #workChain .workUpperDiv .workHeadlines, #whyHireUs .hireHeadlines, #hireUs .hireHeadlines, .commonHeadlines {
+    #workChain .workUpperDiv .workHeadlines,
+    #whyHireUs .hireHeadlines,
+    #hireUs .hireHeadlines,
+    .commonHeadlines {
         font: normal normal 800 26px/42px Montserrat;
     }
 
@@ -6501,7 +4632,18 @@
 
     #vision .row,
     #values .row {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #vision .visionRightDiv,
+    #values .valuesRightDiv {
+        top: -45px;
+    }
+
+    #mission .row {
         flex-direction: column-reverse;
+        margin-top: 10px;
     }
 
     #vision .visionLeftDiv,
@@ -6558,7 +4700,8 @@
 
     /* team ends  */
 
-    #category .card-text, #recentBlogs .recentBlogsCards .card .card-text {
+    #category .card-text,
+    #recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -6995,6 +5138,7 @@
     #backend .sliderContainer .rightDivshapes img {
         display: none;
     }
+
     #backend .sliderContainer {
         margin-top: -24px;
     }
@@ -7002,10 +5146,12 @@
     #devSlider .sliderWrapper {
         height: 500px;
     }
+
     #devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
+
     #devSlider .sidebar h1 {
         font-size: 34px;
         margin-top: -80px;
@@ -7014,20 +5160,23 @@
     #devSlider .sliderWrapper .controls .buttn {
         top: 85%;
     }
+
     #devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
+
     #devSlider .main-slide {
         display: none;
     }
+
     #devSlider .sidebar>div {
         padding: 0px 10px;
     }
 
-
-    #process .upperDivRightContent .processCard .cardIcon {
-        width: 245px;
-        height: 96px;
+    #process .upperDivWrapper{
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        gap: 28px 0px;
     }
 
     #process .lowerDivWrapper .upperDivRightContent {
@@ -7157,579 +5306,12 @@
 
 }
 
-
-/* Payments // */
-
-@media screen and (max-width: 576px) {
-
-    h1 {
-        font: normal normal 600 22px/40px Poppins !important;
-    }
-
-    #payments .payImages {
-        height: fit-content;
-    }
-
-    #payments .paygetwaysLogo {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 0 40px;
-    }
-
-    #payments .payImages img {
-        width: 120px;
-        margin-left: 0;
-    }
-
-    #payments .paygetwaysLogo .image-container:hover .hoverImg2 {
-        visibility: visible;
-        transform: translateY(0);
-
-    }
-
-    #payments .paygetwaysLogo .image-container:hover .hoverImg1 {
-        visibility: hidden;
-        transform: translateY(0);
-
-    }
-
-
-}
-
-@media only screen and (min-width: 464px) and (max-width: 577px) {
-
-    #payments .payImages img {
-        width: 160px;
-        margin-left: 0;
-    }
-}
-
-
-/* BuyNow // */
-@media only screen and (min-width: 575px) and (max-width: 991px) {
-
-    #buyNow .button {
-        width: 150px;
-        font-size: 20px;
-        height: 60px;
-    }
-
-    #buyNow .button::before {
-        background: #FF7730;
-    }
-
-    #buyNow .buyNowCont p {
-        font: 26px/46px Poppins;
-        width: 60%;
-        text-align: center;
-    }
-}
-
-@media only screen and (min-width: 280px) and (max-width: 574px) {
-
-    #buyNow .button {
-        width: 150px;
-        font-size: 20px;
-        height: 60px;
-    }
-
-    #buyNow .buyNowCont p {
-        font: 22px/32px Poppins;
-        width: 90%;
-        text-align: center;
-    }
-
-    #buyNow .button::before {
-        background: #FF7730;
-    }
-}
-
-@media only screen and (min-width: 280px) and (max-width: 575px) {
-    #buyNow .buyNowCont {
-        height: 270px;
-        gap: 40px;
-    }
-}
-
-
-/* MorePro //  */
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-    #morePro .cardsContainer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 70px 0;
-    }
-
-    #morePro .leftCards {
-        margin-left: 0;
-    }
-
-    #morePro .card1 {
-        width: 100%;
-    }
-
-    #morePro .miniCard .card-img-top {
-        left: 0px;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 39px;
-        left: 26px;
-        width: 92%;
-    }
-
-    #morePro .miniCard {
-        width: 100%;
-    }
-
-
-    #morePro .rightCardImg {
-        width: 100%;
-    }
-
-    #morePro .miniCardsCont .hoverBtn,
-    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
-        left: 26%;
-        top: 22vh;
-    }
-
-    #morePro .card1 .cardBtn,
-    #morePro .card1 .card-title {
-        font: normal normal normal 28px/25px Poppins;
-    }
-
-    #morePro .card1 .card-text {
-        font: normal normal bold 35px/40px Poppins;
-    }
-
-    #morePro .card .hoverBtn {
-        left: 30%;
-    }
-
-
-    #morePro .sale_rating span,
-    #morePro .sale_rating .rating h3 {
-        font: 24px/30px Poppins;
-    }
-
-    #morePro .sale_rating .stars {
-        size: 26px;
-    }
-
-    #morePro .miniCard .sale_rating span,
-    #morePro .miniCard .sale_rating .rating h3 {
-        font: 12px/14px Poppins;
-    }
-
-    #morePro .miniCard .sale_rating .stars {
-        font-size: 14px !important;
-    }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 767px) {
-
-    #morePro {
-        width: 100%;
-        overflow: hidden;
-    }
-
-    #morePro .cardsContainer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 70px 0;
-    }
-
-    #morePro .leftCards,
-    #morePro .rightCards {
-        margin-left: 0;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 12px 0px;
-    }
-
-    #morePro .card1 {
-        width: fit-content;
-    }
-
-    #morePro .leftCards .miniCardsCont,
-    #morePro .rightCards .miniCardsCont {
-        flex-wrap: wrap;
-        width: min-content;
-        gap: 60px 0;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 30px;
-        left: 0px;
-        width: 329px;
-        height: 167px;
-        border-radius: 22px;
-        margin-bottom: -68px;
-    }
-
-    #morePro .leftCards .card1 .hoverBtn {
-        left: 26%;
-        top: 22vh;
-        font: 15px/23px Poppins;
-        width: 171px;
-        height: 40px;
-    }
-
-    #morePro .miniCard .card-img-top {
-        left: 0px;
-    }
-
-    #morePro .card1 .card-img-top {
-        bottom: 39px;
-        left: 16px;
-        width: 92%;
-    }
-
-    #morePro .miniCard,
-    #morePro .card1 {
-        width: 100%;
-    }
-
-    #morePro .card1 .card-title,
-    #morePro .card1 .card-text {
-        margin-top: 20px;
-        font: 14px/21px Poppins;
-    }
-
-    #morePro .card1 .cardBtn {
-        margin-top: 50px;
-        background: #DEF5F9 0% 0% no-repeat padding-box;
-        border-radius: 5px;
-        opacity: 1;
-        font: normal normal normal 13px/20px Poppins;
-        color: #1BB3CE;
-        outline: none;
-        border: none;
-        padding: 0 12px;
-        transition: all 0.8s ease-out;
-        transition-delay: 0.2s;
-    }
-
-
-    #morePro .rightCardImg {
-        width: 360px;
-        height: 60vh;
-    }
-
-    #morePro .miniCardsCont .hoverBtn,
-    #morePro .leftCards .miniCardsCont #cd1 .hoverBtn {
-        left: 26%;
-        top: 22vh;
-    }
-
-    #morePro .miniCard .sale_rating span,
-    #morePro .miniCard .sale_rating .rating h3,
-    #morePro .card1 .sale_rating span,
-    #morePro .card1 .sale_rating .rating h3 {
-        font: 12px/14px Poppins;
-    }
-
-    #morePro .miniCard .sale_rating .stars,
-    #morePro .card1 .sale_rating .stars {
-        font-size: 14px !important;
-    }
-}
-
-/* bannerSect  */
-@media only screen and (min-width: 280px) and (max-width: 399px) {
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 22px/32px Poppins;
-        width: 90vw;
-    }
-
-    #bannerSect .bannerHeadlines p {
-        width: 90vw;
-        margin-top: 40px;
-        margin-left: -2px;
-    }
-
-
-}
-
-@media only screen and (min-width: 280px) and (max-width: 574px) {
-
-    #heroSect .detail h3 {
-        margin-left: 0px;
-    }
-
-    #heroSect .detail .detail1,
-    #heroSect .detail .detail2 {
-        width: 100%;
-    }
-
-    #heroSect .buttons .common_btn {
-        width: 38vw;
-        height: 66px;
-        font-size: 15px;
-    }
-
-    #heroSect .buttons .common_btn:hover {
-        font-size: 15px;
-    }
-
-
-    #heroSect .buttons {
-        gap: 0 12px;
-    }
-
-    #topFea .feaHeadlines p,
-    .feaHeadlines2 p {
-        font: 16px/24px Poppins;
-        margin-top: -10px;
-        width: 100%;
-    }
-
-    #topFea .feaImg2 {
-        width: 100%;
-    }
-
-    #bannerSect .bannerHeadlines h2 {
-        font: normal normal 800 22px/32px Poppins;
-        width: 90vw;
-    }
-
-    #bannerSect .bannerHeadlines p {
-        width: 90vw;
-        margin-top: 10px;
-        margin-left: -2px;
-    }
-
-    #bannerSect .bannerBtn {
-        margin-top: -40px;
-    }
-
-    #getCode h2 {
-        text-align: center;
-        font: normal normal bold 30px/72px Poppins;
-    }
-
-}
-
-/* Divider  */
-@media only screen and (min-width: 575px) and (max-width: 830px) {
-    .divider .common_btn {
-        height: 46px;
-        width: 24% !important;
-    }
-}
-
-/* getCode */
-@media only screen and (min-width: 280px) and (max-width: 575px) {
-
-    #getCode .getCodeContainer {
-        padding: 0 0px;
-        padding-left: 30px;
-    }
-
-    #getCode .getCodeContainer .row {
-        gap: 0%;
-    }
-
-    #getCode .getCodeContainer .row .col {
-        flex: 0 0 auto;
-        width: 45% !important;
-    }
-
-    #getCode .getCodeContainer .row .col .card {
-        width: 42vw;
-        background-color: transparent;
-        margin-top: 0;
-    }
-
-    #getCode .card-img-top {
-        height: 60px;
-        width: 60px;
-    }
-
-    #getCode .card .card-title,
-    #getCode .card .card-text {
-        font: normal normal bold 11px/18px Poppins;
-    }
-
-    #getCode .card .card-text {
-        font-weight: 100;
-        opacity: 0.5;
-    }
-}
-
 /* All Mix */
-@media only screen and (min-width: 280px) and (max-width: 767px) {
-
-    .is-sticky {
-        background-color: #fff !important;
-    }
-
-    #payments .payImages {
-        margin: 0;
-        margin-top: -14px;
-    }
-
-    #heroSect .logo {
-        width: 300px;
-        margin-top: 30px;
-    }
-
-    #topFea,
-    #buyNow,
-    #cards,
-    #morePro,
-    #banner2,
-    #payments,
-    .mainBuynow,
-    #bannerSect,
-    .divider {
-        margin-top: 40px !important;
-    }
-
-    .divider .form-select {
-        background-color: white !important;
-        box-shadow: none !important;
-        font-size: 16px;
-    }
-
-    #getCode {
-        margin-top: -50%;
-    }
-
-    #getCode .card {
-        gap: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: none !important;
-        box-shadow: none !important;
-    }
-
-    #otherFea .featuresWrapper .phoneImg img {
-        display: none;
-    }
-
-    #otherFea .feaList1 .listWrapper,
-    .phoneFeaList .listWrapper {
-        height: 46px;
-    }
-
-    #otherFea .viewMore {
-        display: block !important;
-        text-align: center;
-        text-decoration: underline;
-        transition: 0.5s;
-    }
-
-    #otherFea .feaList2 {
-        display: none !important;
-    }
-
-    #otherFea .featuresWrapper {
-        gap: 5px 0;
-    }
-
-    #otherFea .feaList1 .listWrapper {
-        gap: 10px 26px;
-    }
-
-    #otherFea .featuresWrapper .feaList1,
-    #otherFea .featuresWrapper .phoneFeaList {
-        gap: 18px 0;
-    }
-
-    #otherFea .featuresWrapper .phoneFeaList .listWrapper {
-        margin: 18px 0;
-    }
-
-    #otherFea .feaList1 .listWrapper img,
-    .phoneFeaList .listWrapper img {
-        height: 58px !important;
-        width: auto;
-    }
-
-    #otherFea hr {
-        display: none;
-    }
-
-    .secondCont-topFea {
-        margin-top: 0;
-    }
-
-    .mainBuynow {
-        width: 150px;
-        font-size: 20px;
-        height: 60px;
-        display: block;
-        margin: auto;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-    #morePro .rightCardImg .common_btn,
-    #morePro .rightCardImg .common_btn:hover {
-        width: 250px;
-        height: 50px;
-        font-size: 20px;
-    }
-
-    #banner2 .banner2Cont {
-        height: auto;
-    }
-
-    #bannerSect {
-        z-index: 20;
-    }
-
-    #otherFea .featuresWrapper {
-        margin-top: 0px;
-    }
-
-    #otherFea .feaList1 {
-        display: none !important;
-    }
-
-    #otherFea .phoneFeaList {
-        display: inline-block;
-        max-height: 52vh;
-        overflow: hidden;
-        transition: max-height 1s !important;
-    }
-}
-
 @media only screen and (min-width: 280px) and (max-width: 330px) {
 
     .hoverArrSpan {
         font-size: 11px;
         margin-left: -4px;
-    }
-
-    #heroSect .logo img {
-        width: 280px;
-        height: 85px;
-        vertical-align: bottom;
-    }
-
-    #bannerSect .bannerBtn img {
-        width: 94px;
-        margin-right: 10%;
-    }
-
-    #bannerSect .bannerImg .phone1,
-    .phoneHover2 {
-        height: 205px;
-        width: auto;
-    }
-
-    #bannerSect .bannerImg .phone2,
-    .phoneHover1 {
-        height: 180px;
-        width: auto;
     }
 
     .navLogo img {
@@ -7746,10 +5328,7 @@
     }
 }
 
-
-
-
-
+/* Winner Text  */
 @media only screen and (min-width: 400px) and (max-width: 444px) {
     #winner .winnerWrapper #winnText {
         top: 589px;
@@ -7758,7 +5337,6 @@
         font: normal normal 800 60px/117px Poppins;
     }
 }
-
 
 @media only screen and (min-width: 448px) and (max-width: 532px) {
     #winner .winnerWrapper #winnText {
@@ -7853,6 +5431,7 @@
     }
 }
 
+/* swiper buttons  */
 @media only screen and (min-width: 1400px) and (max-width: 1850px) {
     .swiper-button-prev {
         padding: 0;
@@ -7874,6 +5453,7 @@
 
 }
 
+/* testimonials  */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
     #testimonials .testSlider .swiperCard .card-body {
         padding-bottom: 20px;
@@ -7889,7 +5469,6 @@
         font: normal normal 600 18px/29px Montserrat;
     }
 }
-
 
 @media only screen and (max-width: 399px) {
     #testimonials .testSlider .swiperCard .card-body {

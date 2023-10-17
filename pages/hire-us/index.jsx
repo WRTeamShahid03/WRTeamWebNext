@@ -213,8 +213,8 @@ const index = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
-                            <div className="hireUpperDiv">
-                                <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">4 Steps to <span>Success</span> With <span>WRTeam</span></span>
+                            <div className="hireUpperDiv" data-aos="fade-right" data-aos-duration="1000">
+                                <span className='commonHeadlines' >4 Steps to <span>Success</span> With <span>WRTeam</span></span>
                             </div>
                         </div>
 

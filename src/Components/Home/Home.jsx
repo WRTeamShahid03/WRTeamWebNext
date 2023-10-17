@@ -147,7 +147,7 @@ const Home = () => {
                                         <p>Optimize Your Business Operations Using WRTeam's Powerful Software Solutions & Streamlined Workflows. We are committed to providing to our clients with the End-to-End Software Solutions.</p>
 
                                         <div className="followDiv">
-                                            <button className='homeCommon_btn'>About Us</button>
+                                           <Link href='/about-us'> <button className='homeCommon_btn'>About Us</button></Link>
 
                                             <div className="follIcons">
 
@@ -275,8 +275,8 @@ const Home = () => {
                                 <p className='common_para'>WRTeam is a creative and dedicated group of developers who are mastered in Mobile & Web Development with expertise in delivering quality solutions to customers across the globe.</p>
 
                                 <div className="discover" data-aos="fade-up" data-aos-duration="1000">
-                                    <button className='homeCommon_btn'>Discover More</button>
-                                    <span className='hoverArrSpan'>Let's Talk About Idea < BsArrowRightCircle className='discRightArr' /></span>
+                                  <Link href='about-us'>  <button className='homeCommon_btn'>Discover More</button></Link>
+                                    {/* <span className='hoverArrSpan'>Let's Talk About Idea < BsArrowRightCircle className='discRightArr' /></span> */}
                                 </div>
                             </div>
 
@@ -309,7 +309,7 @@ const Home = () => {
 
                                 <p className='common_para'>As we continue to evolve and innovate, we look forward to inspiring others in the industry with our ingenuity.</p>
 
-                                <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Read More</button>
+                               <Link href=''> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Read More</button></Link>
                             </div>
                         </div>
 
@@ -364,7 +364,7 @@ const Home = () => {
                                 <div className="mobProContent">
                                     <span className='mobProIcon'><img src={appProIcon.src} alt="" /></span>
                                     <h4 className='mobProText'>Mobile App Products</h4>
-                                    <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span>
+                                    <Link href='/products/app-products'><span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
 
                             </div>
@@ -382,7 +382,7 @@ const Home = () => {
                                 <div className="mobProContent">
                                     <span className='mobProIcon'><img src={webProIcon.src} alt="" /></span>
                                     <h4 className='mobProText'>Web App Products</h4>
-                                    <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span>
+                                   <Link href='/products/web-products'> <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
 
                             </div>
@@ -411,7 +411,7 @@ const Home = () => {
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[0].title}</h4>
                                         <span className='servText'>{servCardData[0].desc}</span>
-                                        <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
+                                        <Link href='/services/web-development'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
                                     </div>
                                 </div>
 
@@ -423,7 +423,7 @@ const Home = () => {
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[1].title}</h4>
                                         <span className='servText'>{servCardData[1].desc}</span>
-                                        <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
+                                       <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
                                     </div>
                                 </div>
 
@@ -435,7 +435,7 @@ const Home = () => {
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[2].title}</h4>
                                         <span className='servText'>{servCardData[2].desc}</span>
-                                        <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
+                                        <Link href='/services/ui-ux-design'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
                                     </div>
                                 </div>
 
@@ -447,7 +447,7 @@ const Home = () => {
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[3].title}</h4>
                                         <span className='servText'>{servCardData[3].desc}</span>
-                                        <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
+                                        <Link href='/services/digital-marketing'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
                                     </div>
                                 </div>
                             </div>

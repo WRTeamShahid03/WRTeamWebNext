@@ -96,7 +96,7 @@ const Testimonials = () => {
 
 
     const renderBullet = (index, className) => {
-        return `<span class="${className}" style="
+        return `<span className="${className}" style="
             outline: 1px solid #000;
             font-size: 20px;
             padding: 8px;
