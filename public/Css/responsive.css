@@ -5378,6 +5378,9 @@
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
     }
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 62%;
+    }
 
     #team .teamDeatails {
         margin-top: 326px;
@@ -5394,6 +5397,9 @@
         right: 15px;
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
+    }
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 59%;
     }
 
     #services .serviesWrapper .servleftDiv {
@@ -5416,9 +5422,37 @@
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
     }
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 55%;
+    }
 
     #services .serviesWrapper .servleftDiv {
         gap: 5px 40px;
+    }
+}
+@media only screen and (min-width: 410px) and (max-width: 438px) {
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 52%;
+    }
+}
+@media only screen and (min-width: 439px) and (max-width: 478px) {
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 49%;
+    }
+}
+@media only screen and (min-width: 479px) and (max-width: 510px) {
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 46%;
+    }
+}
+@media only screen and (min-width: 511px) and (max-width: 550px) {
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 44%;
+    }
+}
+@media only screen and (min-width: 551px) and (max-width: 574px) {
+    #aboutUs .aboutWrapper #wrTeam {
+        top: 42%;
     }
 }
 
