@@ -96,7 +96,7 @@ const Testimonials = () => {
 
 
     const renderBullet = (index, className) => {
-        return `<span className="${className}" style="
+        return `<span class="${className}" style="
             outline: 1px solid #000;
             font-size: 20px;
             padding: 8px;
@@ -138,7 +138,6 @@ const Testimonials = () => {
                         navigation
                         className='testiSwiper'
                         breakpoints={breakpoints}
-                    // data-aos="fade-up" data-aos-duration="2000"
                     >
                         {
                             swiperData.map((ele, index) => {
