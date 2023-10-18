@@ -8,7 +8,7 @@ import { BiRightArrowCircle } from 'react-icons/bi'
 import { BsArrowRightCircle } from 'react-icons/bs'
 
 //Images
-import webDeveImg from '../../../src/Asset/Images/web-development/Web Devlopment.png'
+import uiuxDeveImg from '../../../src/Asset/Images/ui-ux-development/ux-ui-design.png'
 import circle from '../../../src/Asset/Images/Shape_1.svg'
 import dottsShape from '../../../src/Asset/Images/Shape_2.png'
 import crossShape from '../../../src/Asset/Images/Shape_3.png'
@@ -35,8 +35,8 @@ import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
 import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
 import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
 import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
-import processImg from '../../../src/Asset/Images/web-development/Our Work Process Devlopment.png'
-import processImg2 from '../../../src/Asset/Images/web-development/Our Work Process_Devlopment.png'
+import processImg from '../../../src/Asset/Images/ui-ux-development/12-10-05-Our Work Process_Ui-ux Disign service-.png'
+import processImg2 from '../../../src/Asset/Images/ui-ux-development/12-10-05-Our Work Process Ui-ux Disign service.png'
 import NewSlider from '../../../src/Components/NewSlider'
 
 import processIcon1 from '../../../src/Asset/Icons/All_Icons/Process/Development.png'
@@ -198,21 +198,21 @@ const Index = () => {
   const newSwiperData = [
     {
       id: 0,
-      title: 'Front-end web development',
+      title: 'Web design',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.',
       img: 'https://source.unsplash.com/featured/?car',
       bgColor: 'white'
     },
     {
       id: 1,
-      title: 'Back-end web development',
+      title: 'App design',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements',
       img: 'https://source.unsplash.com/featured/?bike',
       bgColor: 'grey'
     },
     {
       id: 2,
-      title: 'Full-stack web development',
+      title: 'Brand design',
       desc: 'WRTeam offers full-stack web development services that combine the best of front-end and back-end development. Our full-stack developers are experts in handling all aspects of website development, from designing attractive interfaces to implementing difficult business logic in the back-end. Comprehensive features ensure seamless integration between the various layers of your website, delivering a high-end product.',
       img: 'https://source.unsplash.com/featured/?animal',
       bgColor: 'rgb(23 79 196 / 80%)'
@@ -220,21 +220,21 @@ const Index = () => {
     {
       id: 3,
       title: 'Complete Solution',
-      desc: 'WRTeam provides professional web development services that satisfy the demands of online businesses. Our experienced programmers employ the most modern technology to build adaptable, practical websites that comply with certain specifications.Our web development services include front-end web development, back-end web development, and full-stack web development. WRTeam believes in delivering end-to-end web development services.',
+      desc: `At WRTeam, we understand that your website or app is your online presence and the first impression you make on potential customers. That's why we provide the best UI/UX design services and develop beautiful and user-friendly websites or apps that increase conversion rates. WRTeam believes that good design should be both attractive and functional, which is why we focus on user experience (UX) design. Our aim is to ensure that your website or app is easy to use, clean, and focused on conversion. We strive to provide comprehensive solutions for creating user-friendly and efficient websites and apps.`,
       img: 'https://source.unsplash.com/featured/?bird',
       bgColor: 'lightblue'
     },
     {
       id: 4,
       title: 'Experienced Team',
-      desc: `WRTeam's web development service team has good experience and great knowledge of various technologies such as databases, programming languages, development tools and frameworks. Our team of experts works hard to keep your website up-to-date, secure, and running faster.`,
+      desc: `Our team of skilled UI/UX designers works closely with you to understand your brand identity, target audience, and business objectives. We keep up with the latest design trends and use industry-standard techniques to build websites and apps that showcase your style and effectively engage users. Whether it's a website or an app, we strive to create digital experiences that align with your vision and drive results.`,
       img: 'https://source.unsplash.com/featured/?home',
       bgColor: 'green'
     },
     {
       id: 5,
       title: 'Budget Friendly',
-      desc: 'At WRTeam, we take our clients, their financial goals, and their business budgets very seriously. We offer excellent his web development services at affordable prices. Our affordable web development services do not mean compromising on quality. We design high-quality websites that meet the specific needs of our clients and provide them with an excellent user experience. WRTeam recognizes the value of an engaging and actionable website and strives to provide just that.',
+      desc: 'We understand that financial aspects are important for all types of businesses. That is why we provide best UI/UX design service at cost-effective price without compromising on design quality. Our competitive pricing and various range of design packages ensure that you receive the best value for your investment.',
       img: 'https://source.unsplash.com/featured/?nature',
       bgColor: 'orange'
     },
@@ -242,7 +242,7 @@ const Index = () => {
 
   return (
     <div className='webDevelopmentPage'>
-      <Breadcrum title='Web' blueText={'Development'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Web Development'} />
+      <Breadcrum title='UI-UX' blueText={'Services'} contentOne={'Home'} contentTwo={'Services'} contentThree={'UI-UX Development'} />
 
       <section className='development container'>
         <div className="row">
@@ -250,13 +250,13 @@ const Index = () => {
             <div className="deveLeftDiv">
               <div className="deveHeadings">
                 <span className="common_span">
-                  Web <span>Development</span>
+                  UI-UX <span>Services</span>
                 </span>
                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                  Make a Website With the Best <span>Web Development</span> Company
+                  Make Your App More User-Friendly with Best <span> UI/UX Design </span> Services
                 </h1>
 
-                <p className="comman_para"> Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
+                <p className="comman_para"> Our Best UI/UX design service aims to enhance your brand's digital presence by creating visually stunning designs that provide a seamless user experience for your target audience.</p>
               </div>
             </div>
 
@@ -265,7 +265,7 @@ const Index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="2000">
               <div className="commonBorderDiv">
-                <img src={webDeveImg.src} alt="" />
+                <img src={uiuxDeveImg.src} alt="" />
               </div>
             </div>
           </div>
@@ -314,13 +314,13 @@ const Index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make a Website With the Best <span>Web Development</span> Company</h3>
+              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make Your App More User-Friendly with Best <span>UI/UX Design</span> Services</h3>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="benefitsPara">
-              <p className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
+              <p className='comman_para'>Our Best UI/UX design service aims to enhance your brand's digital presence by creating visually stunning designs that provide a seamless user experience for your target audience.</p>
             </div>
           </div>
 
@@ -360,7 +360,7 @@ const Index = () => {
                   Our <span>Work Process</span>
                 </span>
                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
-                  Make a Website With the Best <span>Web Development</span> Company
+                  Make Your App More User-Friendly with Best <span>UI/UX Design</span> Services
                 </h3>
               </div>
 

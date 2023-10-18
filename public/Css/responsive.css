@@ -24,7 +24,12 @@
 
     .breadcrum h1 {
         margin-bottom: -18px;
-        font: normal normal 800 26px/64px Montserrat;
+        font: normal normal 800 20px/80px Montserrat;
+    }
+
+    .breadcrum .pageName {
+        font: normal normal 200 15px/24px Montserrat !important;
+        color: #2D3745;
     }
 }
 
@@ -44,7 +49,8 @@
     #knowMore,
     #mission,
     #vision,
-    #values {
+    #values,
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
@@ -149,7 +155,7 @@
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -214,51 +220,52 @@
         height: 80px;
     }
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 60px 90px;
         padding-bottom: 90px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 68px;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
-        top: -168px;
+    .process .lowerDivWrapper .arrowImg img {
+        margin-top: -192px;
+        left: 50px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 62px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         height: 108px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 130px;
     }
 
@@ -281,7 +288,8 @@
     #knowMore,
     #mission,
     #vision,
-    #values {
+    #values,
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
@@ -511,7 +519,7 @@
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -644,84 +652,85 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 60px 90px;
         padding-bottom: 90px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 34px;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
-        top: -124px;
+    .process .lowerDivWrapper .arrowImg img {
+        margin-top: -152px;
         left: 48px;
+        width: 55%;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 32px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 92px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 154px;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 22px/34px Montserrat;
         height: 56px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 130px;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
+    .process .upperDivWrapper .upperDivLeftContent {
         padding-top: 118px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
+    .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 20px/29px Montserrat;
     }
 
-    #process .lowerDivWrapper .upperDivLeftContent,
-    #development .deveRightDiv .commonBorderDiv {
+    .process .lowerDivWrapper .upperDivLeftContent,
+    .development .deveRightDiv .commonBorderDiv {
         left: 36px;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 16px/22px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
     }
 
@@ -743,8 +752,13 @@
     #knowMore,
     #mission,
     #vision,
-    #values {
+    #values,
+    .webDevelopmentPage {
         overflow: hidden;
+    }
+
+    .development {
+        margin-top: 50px;
     }
 
     #knowMore,
@@ -930,7 +944,7 @@
     }
 
     .getInTouch .homeCommon_btn {
-        padding: 12px;
+        padding: 12px 4px;
     }
 
     #testimonials .testSlider .swiperCard .card-body {
@@ -1028,7 +1042,7 @@
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 114px;
     }
 
@@ -1171,27 +1185,26 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #webDevelopmentPage .col-lg-6 {
+    .webDevelopmentPage .col-lg-6 {
         width: 100%;
     }
 
-    #development,
-    #process {
+   .development,
+    .process {
         margin-top: 50px;
     }
 
-    #development .deveRightDiv img,
-    #process .upperDivLeftContent img {
+    .development .deveRightDiv img,
+    .process .upperDivLeftContent img {
         width: 65%;
     }
 
     .commonBorderDiv {
-        position: relative;
-        left: 160px;
+        left: 160px !important;
         top: 36px;
     }
 
@@ -1199,126 +1212,130 @@
         width: 65.5%;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 60px 90px;
         padding-bottom: 90px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 34px;
     }
 
-    #process .upperDivWrapper {
+    .process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         top: -124px;
         left: 48px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -334px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 32px;
     }
 
-    #recentBlogs {
+    .recentBlogs {
         margin-top: -54px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 92px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 210px;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 19px/34px Montserrat;
         height: 56px;
     }
 
-    #benefits .benefitsPara {
+    .benefits .benefitsPara {
         margin-top: 10px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 130px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         display: none;
     }
 
-    #process .upperDivWrapper .upperDivRightContent {
+    .process .upperDivWrapper .upperDivRightContent {
         padding: 0;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -12%;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
+    .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 118px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
+    .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 22px/29px Montserrat;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 16px/22px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 12px;
         width: 100%;
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP {
+    .build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
 
-    #build .buildWrapper .rightDiv {
+    .build .buildWrapper .rightDiv {
         padding: 20px 130px;
         padding-right: 0;
     }
 
-    #devSlider .sidebar>div {
-        padding: 0px 50px;
+    .devSlider .sliderWrapper .controls .buttn {
+        top: 86%;
+    }
+
+    .devSlider .sidebar>div {
+        padding: 0px 10px;
     }
 }
 
@@ -1338,8 +1355,13 @@
     #knowMore,
     #mission,
     #vision,
-    #values {
+    #values,
+    .webDevelopmentPage {
         overflow: hidden;
+    }
+
+    .development{
+        margin-top: 40px;
     }
 
     #knowMore,
@@ -1572,6 +1594,9 @@
     .getInTouch .getTouchBtn {
         text-align: center;
         padding-bottom: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #testimonials .testSlider .swiperCard .card-body {
@@ -1700,7 +1725,7 @@
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 130px;
     }
 
@@ -1875,22 +1900,22 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #webDevelopmentPage .col-lg-6 {
+    .webDevelopmentPage .col-lg-6 {
         width: 100%;
     }
 
-    #development,
-    #process,
-    #benefits {
+   .development,
+    .process,
+    .benefits {
         margin-top: 50px;
     }
 
-    #development .deveRightDiv img,
-    #process .upperDivLeftContent img {
+    .development .deveRightDiv img,
+    .process .upperDivLeftContent img {
         width: 65%;
     }
 
@@ -1904,154 +1929,158 @@
         width: 65.5%;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #process .upperDivWrapper {
+    .process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
     }
 
-    #backend {
+    .backend {
         padding: 32px 0px;
         padding-bottom: 20px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 34px;
     }
 
-    #backend .sliderContainer .leftDivshapes img,
-    #backend .sliderContainer .rightDivshapes img {
+    .backend .sliderContainer .leftDivshapes img,
+    .backend .sliderContainer .rightDivshapes img {
         display: none;
     }
 
-    #devSlider .sidebar>div {
+    .devSlider .sidebar>div {
         padding: 0px 22px;
     }
 
-    #devSlider .sliderWrapper .controls .buttn {
+    .devSlider .sliderWrapper .controls .buttn {
         top: 86%;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         top: -124px;
         left: 48px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -334px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 32px;
     }
 
-    #recentBlogs {
+    .recentBlogs {
         margin-top: -54px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 92px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 166px;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 19px/34px Montserrat;
         height: 24px;
     }
 
-    #benefits .benefitsPara {
+    .benefits .benefitsPara {
         margin-top: 10px;
     }
 
-    #benefits .benefitsCards {
+    .benefits .benefitsCards {
         margin-top: 10px;
         gap: 20px 0px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 84px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         display: none;
     }
 
-    #process .upperDivWrapper .upperDivRightContent {
+    .process .upperDivWrapper .upperDivRightContent {
         padding: 0;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -12%;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
+    .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 118px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
+    .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 22px/29px Montserrat;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 16px/22px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 12px;
         width: 100%;
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP {
+    .build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
 
-    #build .buildWrapper .rightDiv {
+    .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
     }
 
-    #recentBlogs .col-lg-12 .row {
+    .recentBlogs .col-lg-12 .row {
         padding-bottom: 50px;
     }
 
-    #recentBlogs .recentBlogsCards {
+    .recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
     }
 
-    #devSlider .sidebar h1 {
-        font-size: 34px;
+    .devSlider .sidebar h1 {
+        font-size: 30px;
         margin-top: 0px;
+    }
+
+    .devSlider .sidebar p {
+        font: 16px/28px Montserrat;
     }
 
 }
@@ -2060,6 +2089,14 @@
     #homeHeroSect {
         margin-top: 0;
         overflow: hidden;
+    }
+
+    .webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    .development {
+        margin-top: 34px;
     }
 
     #aboutUs,
@@ -2363,6 +2400,9 @@
     .getInTouch .getTouchBtn {
         text-align: center;
         padding-bottom: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #testimonials .testSlider .swiperCard .card-body {
@@ -2520,15 +2560,19 @@
         margin-top: -150px;
     }
 
+    .breadcrum h1 {
+        font: normal normal 800 30px/64px Montserrat;
+    }
+
     .breadcrum .pageName {
-        font: normal normal 200 15px/64px Montserrat;
+        font: normal normal 200 18px/44px Montserrat;
         color: #2D3745;
     }
 
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -2761,32 +2805,32 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #webDevelopmentPage .col-lg-6 {
+    .webDevelopmentPage .col-lg-6 {
         width: 100%;
     }
 
-    #development,
-    #process,
-    #benefits {
+   .development,
+    .process,
+    .benefits {
         margin-top: 50px;
     }
 
-    #development .deveRightDiv img,
-    #process .upperDivLeftContent img {
+    .development .deveRightDiv img,
+    .process .upperDivLeftContent img {
         width: 65%;
     }
 
-    #process .upperDivWrapper {
+    .process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
     }
 
-    #process .lowerDivWrapper .upperDivLeftContent {
+    .process .lowerDivWrapper .upperDivLeftContent {
         left: 0px !important;
     }
 
@@ -2796,167 +2840,171 @@
         top: 36px;
     }
 
+    .backend .comman_Headlines {
+        font: normal normal 800 30px/52px Montserrat;
+    }
+
     .commonBorderDiv::before {
         width: 65.5%;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 32px 0px;
         padding-bottom: 20px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 34px;
     }
 
-    #backend .sliderContainer .leftDivshapes img,
-    #backend .sliderContainer .rightDivshapes img {
+    .backend .sliderContainer .leftDivshapes img,
+    .backend .sliderContainer .rightDivshapes img {
         display: none;
     }
 
-    #devSlider .sliderWrapper {
+    .devSlider .sliderWrapper {
         height: 500px;
     }
 
-    #devSlider .sidebar {
+    .devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
 
-    #devSlider .sidebar h1 {
+    .devSlider .sidebar h1 {
         font-size: 34px;
         margin-top: -80px;
     }
 
-    #devSlider .sliderWrapper .controls .buttn {
-        top: 77%;
+    .devSlider .sliderWrapper .controls .buttn {
+        top: 84%;
     }
 
-    #devSlider .sliderWrapper .controls .up-button {
+    .devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
 
-    #devSlider .main-slide {
+    .devSlider .main-slide {
         display: none;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         top: -124px;
         left: 48px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -334px;
     }
 
-    #build .buildWrapper .rightDiv .buildCardsWrapper {
+    .build .buildWrapper .rightDiv .buildCardsWrapper {
         margin-left: 60px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 32px;
     }
 
-    #recentBlogs {
+    .recentBlogs {
         margin-top: -54px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 100%;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 90px;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 19px/34px Montserrat;
         height: 50px;
     }
 
-    #benefits .benefitsPara {
+    .benefits .benefitsPara {
         margin-top: 10px;
     }
 
-    #benefits .benefitsCards {
+    .benefits .benefitsCards {
         margin-top: 10px;
         gap: 20px 0px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 70px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         display: none;
     }
 
-    #process .upperDivWrapper .upperDivRightContent {
+    .process .upperDivWrapper .upperDivRightContent {
         padding: 0;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -12%;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
-        padding-bottom: 118px;
+    .process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 64px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
+    .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 22px/29px Montserrat;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 16px/22px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 12px;
         width: 100%;
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP {
+    .build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
 
-    #build .buildWrapper .rightDiv {
+    .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
     }
 
-    #recentBlogs .col-lg-12 .row {
+    .recentBlogs .col-lg-12 .row {
         padding-bottom: 50px;
     }
 
-    #recentBlogs .recentBlogsCards {
+    .recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
     }
@@ -2987,6 +3035,14 @@
     #applyNow {
         overflow: hidden;
         margin-top: 40px;
+    }
+
+    .webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    .development {
+        margin-top: 16px;
     }
 
     #homeHeroSect .heroContainer .heroContContent {
@@ -3385,9 +3441,12 @@
     .getInTouch .getTouchBtn {
         text-align: center;
         padding-bottom: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .getInTouch .getTouchText .getTouchDesc #webDevContact .getInTouch .getTouchDesc {
+    .getInTouch .getTouchText .getTouchDesc .webDevContact .getInTouch .getTouchDesc {
         font: normal normal 600 24px/30px Montserrat;
         width: 100%;
     }
@@ -3540,7 +3599,7 @@
 
     /* team ends  */
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -3850,26 +3909,26 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #webDevelopmentPage .col-lg-6 {
+    .webDevelopmentPage .col-lg-6 {
         width: 100%;
     }
 
-    #development,
-    #process,
-    #benefits {
-        margin-top: 20px;
+   .development,
+    .process,
+    .benefits {
+        margin-top: 40px;
     }
 
-    #development .deveRightDiv img,
-    #process .upperDivLeftContent img {
+    .development .deveRightDiv img,
+    .process .upperDivLeftContent img {
         width: 65%;
     }
 
-    #process .lowerDivWrapper .upperDivLeftContent {
+    .process .lowerDivWrapper .upperDivLeftContent {
         left: 0px !important;
     }
 
@@ -3883,191 +3942,199 @@
         width: 65.5%;
     }
 
-    #development .comman_para {
+    .development .comman_para {
         margin-top: 12px;
         padding-right: 0px;
         font-size: 16px;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 32px 0px;
         padding-bottom: 20px;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 14px;
     }
 
-    #backend .wrapper {
+    .backend .wrapper {
         padding: 0px 10px;
     }
 
-    #backend .sliderContainer .leftDivshapes img,
-    #backend .sliderContainer .rightDivshapes img {
+    .backend .sliderContainer .leftDivshapes img,
+    .backend .sliderContainer .rightDivshapes img {
         display: none;
     }
 
-    #backend .sliderContainer {
+    .backend .sliderContainer {
         margin-top: -26px;
     }
 
-    #devSlider .sliderWrapper {
+    .devSlider .sliderWrapper {
         height: 500px;
     }
 
-    #devSlider .sidebar {
+    .devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
 
-    #devSlider .sidebar h1 {
-        font-size: 34px;
+    .devSlider .sidebar h1 {
+        font-size: 28px;
         margin-top: -80px;
     }
-
-    #devSlider .sliderWrapper .controls .buttn {
-        top: 77%;
+    .devSlider .sidebar p {
+        font: 16px/28px Montserrat;;
     }
 
-    #devSlider .sliderWrapper .controls .up-button {
+    .devSlider .sliderWrapper .controls .buttn {
+        top: 82%;
+    }
+
+    .devSlider .sliderWrapper .controls .buttn svg{
+        width: 20px;
+        height: 22px;
+    }
+
+    .devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
 
-    #devSlider .main-slide {
+    .devSlider .main-slide {
         display: none;
     }
 
-    #devSlider .sidebar>div {
-        padding: 0px 26px;
+    .devSlider .sidebar>div {
+        padding: 0px 10px;
     }
 
-    #process .upperDivWrapper {
+    .process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         top: -124px;
         left: 48px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         padding: 20px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -334px;
     }
 
-    #build .buildWrapper .rightDiv .buildCardsWrapper {
+    .build .buildWrapper .rightDiv .buildCardsWrapper {
         margin-left: 0px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 26px;
     }
 
-    #recentBlogs {
+    .recentBlogs {
         margin-top: -54px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 100%;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
-    #benefits .benefitsCards .card {
+    .benefits .benefitsCards .card {
         align-items: center;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 19px/34px Montserrat;
         height: 20px;
     }
 
-    #benefits .benefitsPara {
+    .benefits .benefitsPara {
         margin-top: 10px;
     }
 
-    #benefits .benefitsCards {
+    .benefits .benefitsCards {
         margin-top: 10px;
         gap: 20px 0px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 130px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         display: none;
     }
 
-    #process .upperDivWrapper .upperDivRightContent {
+    .process .upperDivWrapper .upperDivRightContent {
         padding: 0;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -26%;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
-        padding-bottom: 118px;
+    .process .upperDivWrapper .upperDivLeftContent {
+        padding-bottom: 50px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
-        font: normal normal bold 22px/29px Montserrat;
+    .process .upperDivRightContent .processCard .cardContent .title {
+        font: normal normal bold 18px/29px Montserrat;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 16px/22px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 12px;
         width: 100%;
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP {
+    .build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
 
-    #build .buildWrapper .rightDiv {
+    .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
     }
 
-    #recentBlogs .col-lg-12 .row {
+    .recentBlogs .col-lg-12 .row {
         padding-bottom: 50px;
     }
 
-    #recentBlogs .recentBlogsCards {
+    .recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
     }
@@ -4107,6 +4174,14 @@
     #applyNow {
         overflow: hidden;
         margin-top: 30px;
+    }
+
+    .webDevelopmentPage {
+        overflow: hidden;
+    }
+
+    .development {
+        margin-top: 15px;
     }
 
     #homeHeroSect .heroContainer .heroContContent {
@@ -4534,10 +4609,13 @@
     .getInTouch .getTouchBtn {
         text-align: center;
         padding-bottom: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .getInTouch .getTouchText .getTouchDesc,
-    #webDevContact .getInTouch .getTouchDesc {
+    .webDevContact .getInTouch .getTouchDesc {
         font: normal normal 600 20px/30px Montserrat;
         width: 100%;
     }
@@ -4686,7 +4764,7 @@
     }
 
     .breadcrum {
-        height: 280px;
+        height: 304px;
         margin-top: -168px;
     }
 
@@ -4706,7 +4784,7 @@
     /* team ends  */
 
     #category .card-text,
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
@@ -5076,26 +5154,29 @@
 
     /* webPro ends  */
 
-    #webDevelopmentPage {
+    .webDevelopmentPage {
         overflow: hidden;
     }
 
-    #webDevelopmentPage .col-lg-6 {
+    .webDevelopmentPage .col-lg-6 {
         width: 100%;
     }
 
-    #development,
-    #process,
-    #benefits {
+   .development,
+    .process,
+    .benefits {
         margin-top: 20px;
     }
+    .benefits{
+        margin-top: 50px;
+    }
 
-    #development .deveRightDiv img,
-    #process .upperDivLeftContent img {
+    .development .deveRightDiv img,
+    .process .upperDivLeftContent img {
         width: 94%;
     }
 
-    #process .lowerDivWrapper .upperDivLeftContent {
+    .process .lowerDivWrapper .upperDivLeftContent {
         left: 0px !important;
     }
 
@@ -5112,200 +5193,209 @@
         left: 0px;
     }
 
-    #development .comman_para {
+    .development .comman_para {
         margin-top: 12px;
         padding-right: 0px;
         font-size: 16px;
     }
 
-    #development .deveLeftDiv {
+    .development .deveLeftDiv {
         padding-top: 20px;
     }
 
-    #backend {
+    .backend {
         padding: 32px 0px;
         padding-bottom: 20px;
     }
 
-    #backend .backendHeadings {
+    .backend .backendHeadings {
         align-items: self-start;
     }
 
-    #backend .rightDivContent {
+    .backend .rightDivContent {
         padding: 14px;
     }
 
-    #backend .wrapper {
+    .backend .wrapper {
         padding: 0px 10px;
     }
 
-    #backend .sliderContainer .leftDivshapes img,
-    #backend .sliderContainer .rightDivshapes img {
+    .backend .sliderContainer .leftDivshapes img,
+    .backend .sliderContainer .rightDivshapes img {
         display: none;
     }
 
-    #backend .sliderContainer {
+    .backend .sliderContainer {
         margin-top: -24px;
     }
 
-    #devSlider .sliderWrapper {
+    .devSlider .sliderWrapper {
         height: 500px;
     }
 
-    #devSlider .sidebar {
+    .devSlider .sidebar {
         height: 100%;
         width: 100%;
     }
 
-    #devSlider .sidebar h1 {
-        font-size: 34px;
-        margin-top: -80px;
+    .devSlider .sidebar h1 {
+        font-size: 18px;
+        margin-top: -42px;
     }
 
-    #devSlider .sliderWrapper .controls .buttn {
-        top: 85%;
+    .devSlider .sidebar p {
+        font: 16px/28px Montserrat;
     }
 
-    #devSlider .sliderWrapper .controls .up-button {
+    .devSlider .sliderWrapper .controls .buttn {
+        top: 90%;
+    }
+
+    .devSlider .sliderWrapper .controls .buttn svg{
+        width: 20px;
+        height: 22px;
+    }
+
+    .devSlider .sliderWrapper .controls .up-button {
         transform: translateY(0%);
     }
 
-    #devSlider .main-slide {
+    .devSlider .main-slide {
         display: none;
     }
 
-    #devSlider .sidebar>div {
+    .devSlider .sidebar>div {
         padding: 0px 10px;
     }
 
-    #process .upperDivWrapper {
+    .process .upperDivWrapper {
         flex-direction: column-reverse;
         margin-top: 80px;
         gap: 28px 0px;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding-top: 24px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         top: -124px;
         left: 48px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -365px;
         padding: 4px;
         margin: 0;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 136px;
     }
 
-    #build .buildWrapper {
+    .build .buildWrapper {
         margin-top: -334px;
     }
 
-    #build .buildWrapper .rightDiv .buildCardsWrapper {
+    .build .buildWrapper .rightDiv .buildCardsWrapper {
         margin-left: 0px;
     }
 
-    #development .comman_Headlines,
-    #benefits .comman_Headlines,
-    #process .comman_Headlines,
-    #build .comman_Headlines {
+    .development .comman_Headlines,
+    .benefits .comman_Headlines,
+    .process .comman_Headlines,
+    .build .comman_Headlines {
         padding-right: 0px;
         font-size: 26px;
     }
 
-    #recentBlogs {
+    .recentBlogs {
         margin-top: -54px;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-title {
+    .recentBlogs .recentBlogsCards .card .card-title {
         font: normal normal 700 20px/28px Montserrat;
         height: 100%;
     }
 
-    #recentBlogs .recentBlogsCards .card .card-text {
+    .recentBlogs .recentBlogsCards .card .card-text {
         height: 100%;
     }
 
-    #benefits .benefitsCards .card {
+    .benefits .benefitsCards .card {
         align-items: center;
     }
 
-    #benefits .benefitsCards .card .card-title {
+    .benefits .benefitsCards .card .card-title {
         font: normal normal bold 19px/34px Montserrat;
         height: 100%;
         text-align: center;
         margin-bottom: -6px;
     }
 
-    #benefits .benefitsPara {
+    .benefits .benefitsPara {
         margin-top: 10px;
     }
 
-    #benefits .benefitsCards {
+    .benefits .benefitsCards {
         margin-top: 10px;
         gap: 20px 0px;
     }
 
-    #process .lowerDivWrapper {
+    .process .lowerDivWrapper {
         margin-top: 130px;
     }
 
-    #process .lowerDivWrapper .arrowImg img {
+    .process .lowerDivWrapper .arrowImg img {
         display: none;
     }
 
-    #process .upperDivWrapper .upperDivRightContent {
+    .process .upperDivWrapper .upperDivRightContent {
         padding: 0;
     }
 
-    #process .lowerDivWrapper .upperDivRightContent {
+    .process .lowerDivWrapper .upperDivRightContent {
         padding: 0;
         margin-top: -36%;
     }
 
-    #process .upperDivWrapper .upperDivLeftContent {
+    .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 60px;
     }
 
-    #process .upperDivRightContent .processCard .cardContent .title {
+    .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 18px/29px Montserrat;
     }
 
-    #process .comman_para {
+    .process .comman_para {
         font: normal normal 600 14px/20px Montserrat;
     }
 
-    #process .upperDivRightContent .processCardWrapper {
+    .process .upperDivRightContent .processCardWrapper {
         gap: 20px 0px;
         margin-top: 0;
     }
 
-    #build .buildWrapper .leftDiv {
+    .build .buildWrapper .leftDiv {
         padding-top: 12px;
         width: 100%;
         border: none;
     }
 
-    #build .buildWrapper .leftDiv .firstP {
+    .build .buildWrapper .leftDiv .firstP {
         margin-top: 10px;
     }
 
-    #build .buildWrapper .rightDiv {
-        padding: 20px 40px;
+    .build .buildWrapper .rightDiv {
+        padding: 20px 8px;
         padding-right: 0;
     }
 
-    #recentBlogs .col-lg-12 .row {
+    .recentBlogs .col-lg-12 .row {
         padding-bottom: 50px;
     }
 
-    #recentBlogs .recentBlogsCards {
+    .recentBlogs .recentBlogsCards {
         margin-top: 20px;
         padding-bottom: 0px;
     }
@@ -5378,6 +5468,7 @@
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
     }
+
     #aboutUs .aboutWrapper #wrTeam {
         top: 62%;
     }
@@ -5398,6 +5489,7 @@
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
     }
+
     #aboutUs .aboutWrapper #wrTeam {
         top: 59%;
     }
@@ -5422,6 +5514,7 @@
         transform: rotate(0);
         font: normal normal 800 60px/117px Poppins;
     }
+
     #aboutUs .aboutWrapper #wrTeam {
         top: 55%;
     }
@@ -5430,26 +5523,31 @@
         gap: 5px 40px;
     }
 }
+
 @media only screen and (min-width: 410px) and (max-width: 438px) {
     #aboutUs .aboutWrapper #wrTeam {
         top: 52%;
     }
 }
+
 @media only screen and (min-width: 439px) and (max-width: 478px) {
     #aboutUs .aboutWrapper #wrTeam {
         top: 49%;
     }
 }
+
 @media only screen and (min-width: 479px) and (max-width: 510px) {
     #aboutUs .aboutWrapper #wrTeam {
         top: 46%;
     }
 }
+
 @media only screen and (min-width: 511px) and (max-width: 550px) {
     #aboutUs .aboutWrapper #wrTeam {
         top: 44%;
     }
 }
+
 @media only screen and (min-width: 551px) and (max-width: 574px) {
     #aboutUs .aboutWrapper #wrTeam {
         top: 42%;

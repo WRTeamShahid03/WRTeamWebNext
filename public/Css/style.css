@@ -10,7 +10,8 @@ body {
     background-color: #fff !important;
     overflow-x: hidden;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
 
@@ -1885,17 +1886,18 @@ a{
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    #header .row .col-lg-5{
+    #header .row .col-lg-5 {
         width: 0%;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         margin-left: 242px !important;
     }
 
-    .nav-link{
+    .nav-link {
         margin: 0px -2px;
     }
+
     .navLogo img {
         width: 220px;
     }
@@ -2010,7 +2012,7 @@ footer .footerContainer .row {
         gap: 0;
     }
 
-    footer .footerContainer #reachus_sect{
+    footer .footerContainer #reachus_sect {
         margin-top: -90px;
     }
 }
@@ -2339,7 +2341,7 @@ footer .footerContainer .flinks {
 }
 
 .comman_para {
-    font: normal normal 600 16px/32px Montserrat;
+    font: normal normal 600 16px/28px Montserrat;
     color: #545A68;
 }
 
@@ -2710,21 +2712,21 @@ footer .footerContainer .flinks {
 
 #category .card-title,
 #category .card-text,
-#recentBlogs .recentBlogsCards .card .card-title,
-#recentBlogs .recentBlogsCards .card .card-text {
+.recentBlogs .recentBlogsCards .card .card-title,
+.recentBlogs .recentBlogsCards .card .card-text {
     color: #212121;
 
 }
 
 #category .card-title,
-#recentBlogs .recentBlogsCards .card .card-title {
+.recentBlogs .recentBlogsCards .card .card-title {
     font: normal normal 700 24px/34px Montserrat;
     color: #212121;
     margin-top: 12px;
 }
 
 #category .card-text,
-#recentBlogs .recentBlogsCards .card .card-text {
+.recentBlogs .recentBlogsCards .card .card-text {
     font: 16px/24px Montserrat;
     color: #545A68;
     font-weight: 300 !important;
@@ -2732,7 +2734,7 @@ footer .footerContainer .flinks {
 }
 
 #category .card,
-#recentBlogs .recentBlogsCards .card {
+.recentBlogs .recentBlogsCards .card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.5px solid #51535892;
     border-radius: 16px;
@@ -2742,7 +2744,7 @@ footer .footerContainer .flinks {
 
 #category .cateBadge,
 #blogDetails .cateBadge,
-#recentBlogs .recentBlogsCards .cateBadge {
+.recentBlogs .recentBlogsCards .cateBadge {
     background-color: var(--primary-color);
     color: white;
     position: absolute;
@@ -2756,14 +2758,14 @@ footer .footerContainer .flinks {
 }
 
 #category .card-img-top,
-#recentBlogs .recentBlogsCards .card .card-img-top {
+.recentBlogs .recentBlogsCards .card .card-img-top {
     width: 100%;
     height: 100%;
 }
 
 #category .cateDate,
 .blogDate,
-#recentBlogs .recentBlogsCards .cateDate {
+.recentBlogs .recentBlogsCards .cateDate {
     font: 14px/24px Montserrat;
     color: #545A68;
     display: flex;
@@ -2774,12 +2776,12 @@ footer .footerContainer .flinks {
 }
 
 #category .cateDetails,
-#recentBlogs .recentBlogsCards .cateDetails {
+.recentBlogs .recentBlogsCards .cateDetails {
     padding: 14px;
 }
 
 #category .blogComman_btn,
-#recentBlogs .recentBlogsCards .blogComman_btn {
+.recentBlogs .recentBlogsCards .blogComman_btn {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.5px solid #51535892;
     border-radius: 8px;
@@ -2790,7 +2792,7 @@ footer .footerContainer .flinks {
 }
 
 #category .blogComman_btn:hover,
-#recentBlogs .recentBlogsCards .blogComman_btn:hover {
+.recentBlogs .recentBlogsCards .blogComman_btn:hover {
     background-color: var(--primary-color);
     color: white;
     box-shadow: 0px 8px 26px #2E71FE42;
@@ -3979,77 +3981,77 @@ footer .footerContainer .flinks {
 
 /* WebPro ends   */
 
-#development {
+.development {
     margin-top: 100px;
 }
 
-#development .deveLeftDiv {
+.development .deveLeftDiv {
     padding-top: 130px;
 }
 
-#development .deveRightDiv .commonBorderDiv {
+.development .deveRightDiv .commonBorderDiv {
     left: 60px;
 }
 
-#development .comman_Headlines,
-#benefits .comman_Headlines,
-#process .comman_Headlines,
-#build .comman_Headlines {
+.development .comman_Headlines,
+.benefits .comman_Headlines,
+.process .comman_Headlines,
+.build .comman_Headlines {
     padding-right: 114px;
 }
 
-#development .comman_para {
+.development .comman_para {
     margin-top: 20px;
     padding-right: 90px;
 }
 
-#backend {
+.backend {
     margin-top: 100px;
     background-color: #2E71FE14;
     padding: 60px 0px;
     padding-bottom: 90px;
 }
 
-#backend .backendHeadings {
+.backend .backendHeadings {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#backend .sliderContainer {
+.backend .sliderContainer {
     position: relative;
 }
 
-#backend .sliderContainer .leftDivshapes img,
-#backend .sliderContainer .rightDivshapes img {
+.backend .sliderContainer .leftDivshapes img,
+.backend .sliderContainer .rightDivshapes img {
     width: 35px;
     position: absolute;
     z-index: -1;
 }
 
-#backend .sliderContainer .leftDivshapes .crossShape {
+.backend .sliderContainer .leftDivshapes .crossShape {
     width: 35px;
     left: -4%;
     top: 30%;
     animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
 }
 
-#backend .sliderContainer .leftDivshapes .dottsShape {
+.backend .sliderContainer .leftDivshapes .dottsShape {
     width: 110px;
     left: -10%;
     bottom: -8%;
     animation: dotts 6s ease-in-out 1s infinite alternate-reverse forwards;
 }
 
-#backend .sliderContainer .rightDivshapes .circleShape {
+.backend .sliderContainer .rightDivshapes .circleShape {
     width: 110px;
     right: 6%;
     top: -1%;
     animation: circle 6s ease-in-out 1s infinite alternate-reverse forwards;
 }
 
-#backend .sliderContainer .rightDivshapes .triangleShape {
+.backend .sliderContainer .rightDivshapes .triangleShape {
     width: 40px;
     right: 10%;
     bottom: -10%;
@@ -4060,12 +4062,12 @@ footer .footerContainer .flinks {
     0% {
         right: 5%;
     }
-    
+
     50% {
         right: -2%;
         top: -1%;
     }
-    
+
     100% {
         top: 20%;
         right: -2%;
@@ -4102,31 +4104,31 @@ footer .footerContainer .flinks {
 
 /*  */
 
-#backend .contentWrapper {
+.backend .contentWrapper {
     padding: 0;
 }
 
-#backend .rightDivContent {
+.backend .rightDivContent {
     position: relative;
     background-color: #FFFFFF;
     padding: 100px;
     border-radius: 0px 16px 16px 0px;
 }
 
-#backend .rightDivContent span {
+.backend .rightDivContent span {
     font: normal normal bold 30px/37px Montserrat;
     color: #212121;
 }
 
-#benefits {
+.benefits {
     margin-top: 100px;
 }
 
-#benefits .benefitsPara {
+.benefits .benefitsPara {
     margin-top: 56px;
 }
 
-#benefits .benefitsCards .card {
+.benefits .benefitsCards .card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 2px solid #545A684D;
     border-radius: 16px;
@@ -4135,120 +4137,121 @@ footer .footerContainer .flinks {
     transition: all 0.3s ease-out;
 }
 
-#benefits .benefitsCards .card:hover {
+.benefits .benefitsCards .card:hover {
     border: 2px solid #ffffff4d;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: -16px 16px 46px #2830421F;
     transition: all 0.3s ease-out;
 }
 
-#benefits .benefitsCards {
+.benefits .benefitsCards {
     margin-top: 30px;
 }
 
-#benefits .benefitsCards .card .card-body {
+.benefits .benefitsCards .card .card-body {
     padding: 0px;
 }
 
-#benefits .card span:last-child img{
+.benefits .card span:last-child img {
     filter: none;
 }
 
-#benefits .benefitsCards .card .card-img-top {
-    width: 100px;
-    line-height: 100px;
+.benefits .benefitsCards .card .card-img-top {
+    width: 90px;
+    line-height: 90px;
     background: #176BF1 0% 0% no-repeat padding-box;
     box-shadow: 0px 8px 26px #176BF15C;
     border-radius: 8px;
     text-align: center;
 }
 
-#benefits .benefitsCards .card .card-img-top img {
+.benefits .benefitsCards .card .card-img-top img {
     filter: brightness(5%) invert(100%);
-    width: 66px;
+    width: 50px;
 }
 
-#benefits .benefitsCards .card .card-title {
+.benefits .benefitsCards .card .card-title {
     font: normal normal bold 24px/34px Montserrat;
     color: #212121;
     height: 66px;
 }
 
-#process {
+.process {
     margin-top: 100px;
 }
 
-#process .upperDivRightContent .processCardWrapper {
+.process .upperDivRightContent .processCardWrapper {
     display: flex;
     flex-direction: column;
-    gap: 12px 0px;
+    gap: 20px 0px;
     margin-top: 20px;
 }
 
-#process .upperDivRightContent .processCard {
+.process .upperDivRightContent .processCard {
     display: flex;
     align-items: center;
     gap: 0px 12px;
 }
 
-#process .upperDivRightContent .processCard .cardIcon {
-   padding: 10px;
+.process .upperDivRightContent .processCard .cardIcon {
+    padding: 10px;
     background: #176BF1 0% 0% no-repeat padding-box;
     border-radius: 8px;
     transition: all 0.3s;
 }
 
-#process .upperDivRightContent .processCard:hover .cardIcon {
+.process .upperDivRightContent .processCard:hover .cardIcon {
     background: #283042 0% 0% no-repeat padding-box;
 }
-#process .upperDivRightContent .processCard .cardIcon img{
-    width: 100%;
+
+.process .upperDivRightContent .processCard .cardIcon img {
+    width: 50px;
 }
 
-#process .upperDivRightContent .processCard .cardContent {
+.process .upperDivRightContent .processCard .cardContent {
     display: flex;
     flex-direction: column;
     gap: 2px 0px;
 }
 
-#process .upperDivRightContent .processCard .cardContent .title {
-    font: normal normal bold 24px/29px Montserrat;
+.process .upperDivRightContent .processCard .cardContent .title {
+    font: normal normal bold 20px/29px Montserrat;
     color: #212121;
 }
 
-#process .upperDivWrapper .upperDivRightContent {
+.process .upperDivWrapper .upperDivRightContent {
     padding-left: 60px;
 }
 
-#process .lowerDivWrapper .upperDivRightContent {
+.process .lowerDivWrapper .upperDivRightContent {
     padding-right: 90px;
     padding-top: 66px;
 }
 
-#process .lowerDivWrapper .upperDivLeftContent {
+.process .lowerDivWrapper .upperDivLeftContent {
     position: relative;
     left: 60px;
 }
 
-#process .lowerDivWrapper {
+.process .lowerDivWrapper {
     margin-top: 186px;
     background-size: cover;
     position: relative;
 }
 
-#process .lowerDivWrapper .arrowImg img {
+.process .lowerDivWrapper .arrowImg img {
     position: absolute;
-    top: -198px;
-    left: 40px;
-    width: 55%;
+    left: 44px;
+    width: 54%;
+    margin-top: -264px;
 }
 
-#build {
+.build {
     margin-top: 100px;
     position: relative;
 }
 
-#build .bgDiv {
+.build .bgDiv {
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -4258,14 +4261,14 @@ footer .footerContainer .flinks {
     z-index: -1;
 }
 
-#build .bgDiv .blueBg {
+.build .bgDiv .blueBg {
     background: #0071ff 0% 0% no-repeat padding-box;
     opacity: 0.5;
     height: 100%;
     width: 100%;
 }
 
-#build .buildWrapper {
+.build .buildWrapper {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 46px #2830421F;
     border-radius: 16px;
@@ -4273,27 +4276,27 @@ footer .footerContainer .flinks {
     margin-top: -270px;
 }
 
-#build .buildWrapper .leftDiv {
+.build .buildWrapper .leftDiv {
     border-right: 0.5px solid lightgray;
     padding-top: 160px;
 }
 
-#build .buildWrapper .rightDiv {
+.build .buildWrapper .rightDiv {
     padding: 85px;
     padding-right: 0;
 }
 
-#build .buildWrapper .rightDiv .buildCardsWrapper {
+.build .buildWrapper .rightDiv .buildCardsWrapper {
     gap: 50px 0px;
 }
 
-#build .buildWrapper .rightDiv .card {
+.build .buildWrapper .rightDiv .card {
     border: none;
     gap: 40px 0px;
     transition: all 0.3s;
 }
 
-#build .buildWrapper .rightDiv .card .buildCardIcon {
+.build .buildWrapper .rightDiv .card .buildCardIcon {
     width: 100px;
     height: 100px;
     display: flex;
@@ -4304,51 +4307,55 @@ footer .footerContainer .flinks {
     background: #176BF114 0% 0% no-repeat padding-box;
 }
 
-#build .buildWrapper .rightDiv .card .buildCardIcon img {
+.build .buildWrapper .rightDiv .card .buildCardIcon img {
     border-radius: 8px;
     transition: all 0.3s;
 }
 
-#build .buildWrapper .rightDiv .card .buildCardIcon .buildIcon2 {
+.build .buildWrapper .rightDiv .card .buildCardIcon .buildIcon2 {
     display: none;
 }
 
 
-#build .buildWrapper .rightDiv .card:hover .buildIcon1 {
+.build .buildWrapper .rightDiv .card:hover .buildIcon1 {
     display: none;
     transition: all 0.3s;
 }
 
-#build .buildWrapper .rightDiv .card:hover .buildIcon2 {
+.build .buildWrapper .rightDiv .card:hover .buildIcon2 {
     display: block;
     transition: all 0.3s;
 }
 
-#build .buildWrapper .rightDiv .card span:last-child {
+.build .buildWrapper .rightDiv .card span:last-child {
     font: normal normal 600 18px/22px Montserrat;
     color: #212121;
 }
 
-#webDevContact {
+.webDevContact {
     margin-top: 200px;
 }
 
-#webDevContact .getInTouch .getTouchDesc {
+.webDevContact .getInTouch .getTouchDesc {
     font: normal normal bold 36px/50px Montserrat;
 }
 
-#webDevContact .getInTouch .word svg {
+.webDevContact .getInTouch .word svg {
     width: 50% !important;
     transform: none !important;
 }
 
 
-#webDevContact .getInTouch .homeCommon_btn {
+.webDevContact .getInTouch .homeCommon_btn {
     background-color: transparent;
     border: 1px solid white;
 }
 
-#recentBlogs .recentBlogsCards {
+.webDevContact .getInTouch .homeCommon_btn svg{
+    margin-left: 8px;
+}
+
+.recentBlogs .recentBlogsCards {
     margin-top: 30px;
     padding-bottom: 35px;
 }
@@ -4370,18 +4377,19 @@ footer .footerContainer .flinks {
     transform: rotate(185deg);
 }
 
-#development .deveRightDiv img,
-#process .upperDivLeftContent img {
+.development .deveRightDiv img,
+.process .upperDivLeftContent img {
     width: 90%;
+    border-radius: 16px;
 }
 
 /* slider css */
 
-#devSlider {
+.devSlider {
     margin-top: 100px;
 }
 
-#devSlider .sliderWrapper {
+.devSlider .sliderWrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -4390,7 +4398,7 @@ footer .footerContainer .flinks {
     margin-top: -70px;
 }
 
-#devSlider .sidebar {
+.devSlider .sidebar {
     height: 100%;
     width: 50%;
     position: absolute;
@@ -4399,7 +4407,7 @@ footer .footerContainer .flinks {
     transition: transform 0.5s ease-in-out;
 }
 
-#devSlider .sidebar>div {
+.devSlider .sidebar>div {
     height: 100%;
     width: 100%;
     display: flex;
@@ -4410,13 +4418,22 @@ footer .footerContainer .flinks {
     padding: 0px 70px;
 }
 
-#devSlider .sidebar h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+.devSlider .sidebar h1 {
+    font: normal normal bold 30px/37px Montserrat;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 20px;
     margin-top: -30px;
 }
 
-#devSlider .main-slide {
+.devSlider .sidebar p {
+    text-align: center;
+    font: 16px/32px Montserrat;
+    color: #212121;
+}
+
+
+.devSlider .main-slide {
     height: 100%;
     position: absolute;
     top: 0;
@@ -4426,14 +4443,14 @@ footer .footerContainer .flinks {
     /* overflow: hidden; */
 }
 
-#devSlider .main-slide>div {
+.devSlider .main-slide>div {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     height: 100%;
     width: 100%;
 }
 
-#devSlider .buttn {
+.devSlider .buttn {
     background-color: #fff;
     border: none;
     color: #aaa;
@@ -4442,28 +4459,28 @@ footer .footerContainer .flinks {
     padding: 15px;
 }
 
-#devSlider .buttn:hover {
+.devSlider .buttn:hover {
     color: #222;
 }
 
-#devSlider .buttn:focus {
+.devSlider .buttn:focus {
     outline: none;
 }
 
-#devSlider .sliderWrapper .controls .buttn {
+.devSlider .sliderWrapper .controls .buttn {
     position: absolute;
     left: 50%;
     top: 50%;
     z-index: 100;
 }
 
-#devSlider .sliderWrapper .controls .down-button {
+.devSlider .sliderWrapper .controls .down-button {
     transform: translateX(-100%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-#devSlider .sliderWrapper .controls .up-button {
+.devSlider .sliderWrapper .controls .up-button {
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -4512,26 +4529,29 @@ footer .footerContainer .flinks {
 
 
 
-.loader-cont{
+.loader-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20px;
     padding: 05px 10px;
-  }
-  .loader {
+}
+
+.loader {
     border: 4px solid #F3F3F3;
     border-top: 4px solid var(--primary-color);
     border-radius: 50%;
     width: 20px;
     height: 20px;
     animation: spin 2s linear infinite;
-  }
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}

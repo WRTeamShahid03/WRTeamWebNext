@@ -8,7 +8,7 @@ import { BiRightArrowCircle } from 'react-icons/bi'
 import { BsArrowRightCircle } from 'react-icons/bs'
 
 //Images
-import appDeveImg from '../../../src/Asset/Images/app-development/App Devlopment.png'
+import digitalMarketingServImg from '../../../src/Asset/Images/digital-marketing/Digital_Marketing Service.png'
 import circle from '../../../src/Asset/Images/Shape_1.svg'
 import dottsShape from '../../../src/Asset/Images/Shape_2.png'
 import crossShape from '../../../src/Asset/Images/Shape_3.png'
@@ -35,9 +35,9 @@ import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
 import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
 import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
 import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
-import processImg from '../../../src/Asset/Images/app-development/07-10-03-Android app Devlopment Service.jpg'
-import processImg2 from '../../../src/Asset/Images/app-development/Android app Devlopment Service.jpg'
-// import NewSlider from ''
+import processImg from '../../../src/Asset/Images/digital-marketing/13-10-05-Our Work Process Digital Marketing  service.png'
+import processImg2 from '../../../src/Asset/Images/digital-marketing/13-10-05-Our Work Process_Digital Marketing_service copy.png'
+import NewSlider from '../../../src/Components/NewSlider'
 
 import processIcon1 from '../../../src/Asset/Icons/All_Icons/Process/Development.png'
 import processIcon2 from '../../../src/Asset/Icons/All_Icons/Process/Maintenance & Support.png'
@@ -45,7 +45,6 @@ import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Pl
 import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
 import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
-import NewSlider from '@/Components/NewSlider'
 
 const Index = () => {
 
@@ -80,22 +79,22 @@ const Index = () => {
         {
             id: 0,
             icon: processIcon1,
-            title: 'Analysis of Demands',
-            desc: 'Work starts with requirement analysis, where we identify your business objectives and site specifications.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
         {
             id: 1,
             icon: processIcon2,
-            title: 'Design & Planning',
-            desc: 'Following that, we collaborate with UI/UX specialists and designers to create and plan an attractive and user-friendly website.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
         {
             id: 2,
             icon: processIcon3,
-            title: 'Development',
-            desc: 'Our experienced developers code and develop the website according to your requirements. We also provide regular updates to our clients.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
     ]
@@ -104,22 +103,22 @@ const Index = () => {
         {
             id: 0,
             icon: processIcon4,
-            title: 'Testing & Quality Assurance',
-            desc: 'After website development, we ensure its performance through rigorous testing and quality assurance processes to ensure it functions seamlessly on all platforms.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
         {
             id: 1,
             icon: processIcon5,
-            title: 'Deployment',
-            desc: 'Once the website is ready, we deploy it to a live environment so that your audience can access it.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
         {
             id: 2,
             icon: processIcon6,
-            title: 'Maintenance & Support',
-            desc: 'Our commitment to your project extends beyond deployment. We provide ongoing maintenance to ensure your website remains up-to-date and fully operational.'
+            title: '01. Idea',
+            desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
 
         },
     ]
@@ -199,50 +198,51 @@ const Index = () => {
     const newSwiperData = [
         {
             id: 0,
-            title: 'Android app development',
-            desc: `Our app development team possesses extensive knowledge and expertise in Android app development. We are deeply dedicated to delivering outstanding solutions that are perfectly tailored to our clients' unique needs and go above and beyond their expectations. Our primary focus is on providing exceptional services that not only meet but exceed our client's requirements, make sure their maximal satisfaction.`,
+            title: 'SEO (Search Engine Optimization)',
+            desc: `We will work with you to improve position of your website's on search engine results pages (SERPs) and secure the top at page. We will increase visibility of your site and chances of ranking higher on the SERPs by keyword reasearch, optimizing content and structure.`,
             img: 'https://source.unsplash.com/featured/?car',
             bgColor: 'white'
         },
         {
             id: 1,
-            title: 'iOS app development',
-            desc: 'There are over 1 billion globally active users of iPhones , making it a huge market for iOS apps. Our team is specialised in iOS app development and has the skills to create a great app for you.',
+            title: 'SMM (Social Media Marketing)',
+            desc: `We'll help you establish a strong social media presence by creating and managing your profile, and developing and publishing engaging content that will appeal to your target audience.`,
             img: 'https://source.unsplash.com/featured/?bike',
             bgColor: 'grey'
         },
         {
             id: 2,
-            title: 'Flutter app development',
-            desc: 'Flutter app development is the process of creating mobile apps with the Flutter framework. Flutter is an open-source, cross-platform framework created by Google. It means developers can use Flutter for build apps which can run on both Android and iOS devices, by single code.',
+            title: 'Email Marketing',
+            desc: 'We will help you reach your target audience with personalized email campaigns that are tailored to their interests and behaviors.',
             img: 'https://source.unsplash.com/featured/?animal',
             bgColor: 'rgb(23 79 196 / 80%)'
         },
         {
             id: 3,
-            title: 'Complete Solution',
-            desc: `WRTeam provides comprehensive app development services to organisations of all sizes. Our talented App Developers are committed to developing robust, feature-rich apps that meet your company's specific aims and requirements by utilising the most up-to-date tools, technologies, and industry standards. WRTeam specialises in Android app development, Flutter app development, and iOS app development to give the finest solutions for our client's needs. Our team has extensive expertise in developing high-quality mobile applications for the Android, Flutter, and iOS platforms. We have the competence to offer excellent outcomes whether you require an Android app, a Flutter app, or an iOS app.`,
+            title: 'Local Marketing',
+            desc: 'WRTeam helps businesses increase their brand exposure and connect with their local customers. Our special approaches to local SEO and local ads help businesses to reach new customers and increase foot traffic to your actual locations.',
             img: 'https://source.unsplash.com/featured/?bird',
             bgColor: 'lightblue'
         },
         {
             id: 4,
             title: 'Experienced Team',
-            desc: `WRTeam offers app development services through a team of skilled app developers who are well-versed in the newest technologies, development tools, and frameworks. We are dedicated to developing apps that are simple to use, interesting, and fulfil the demands of our clients.`,
+            desc: `WRTeam's web development service team has good experience and great knowledge of various technologies such as databases, programming languages, development tools and frameworks. Our team of experts works hard to keep your website up-to-date, secure, and running faster.`,
             img: 'https://source.unsplash.com/featured/?home',
             bgColor: 'green'
         },
         {
             id: 5,
             title: 'Budget Friendly',
-            desc: `We know budget is an important part for all kinds of businesses, which is why we offer competitive pricing for our mobile app development services. Our app developers work with clients to understand their needs and develop solutions that fit under their budget without compromising quality. We create high-quality apps that cater to our client's specific needs, making sure an exceptional user experience for their customers.`,
+            desc: 'At WRTeam, we take our clients, their financial goals, and their business budgets very seriously. We offer excellent his web development services at affordable prices. Our affordable web development services do not mean compromising on quality. We design high-quality websites that meet the specific needs of our clients and provide them with an excellent user experience. WRTeam recognizes the value of an engaging and actionable website and strives to provide just that.',
+            img: 'https://source.unsplash.com/featured/?nature',
             bgColor: 'orange'
         },
     ]
 
     return (
         <div className='webDevelopmentPage'>
-            <Breadcrum title='App' blueText={'Development'} contentOne={'Home'} contentTwo={'Services'} contentThree={'App Development'} />
+            <Breadcrum title='Digital Marketing' blueText={'Services'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Digital Marketing Services'} />
 
             <section className='development container'>
                 <div className="row">
@@ -250,14 +250,13 @@ const Index = () => {
                         <div className="deveLeftDiv">
                             <div className="deveHeadings">
                                 <span className="common_span">
-                                    App <span>Development</span>
+                                    Digital Marketing <span>Services</span>
                                 </span>
                                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                                    Make Mobile App  With the Best <span>App Development</span> Company
+                                Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h1>
 
-                                <p className="comman_para"> Our app development service is available to meet your unique business needs and create high-quality, user-friendly apps.
-                                </p>
+                                <p className="comman_para"> Drive traffic, increase ROI, maximise conversions, increase brand awareness, and grow your brand or business online with our best digital marketing services.</p>
                             </div>
                         </div>
 
@@ -266,7 +265,7 @@ const Index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="2000">
                             <div className="commonBorderDiv">
-                                <img src={appDeveImg.src} alt="" />
+                                <img src={digitalMarketingServImg.src} alt="" />
                             </div>
                         </div>
                     </div>
@@ -281,8 +280,8 @@ const Index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="backendHeadings">
                                 <span className="common_span">
-                                    <span>What</span> We Can Do <span>For You</span>
-                                </span>
+                                   {/* <span> What We</span> Offer</span> */}
+                                   <span> What </span>We Offer</span>
                                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
                                     Services <span>We Can Help </span>You With
                                 </h3>
@@ -315,13 +314,13 @@ const Index = () => {
                             <span className="common_span">
                                 Extensive <span>Benefits</span>
                             </span>
-                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make Mobile App With the Best <span>App Development</span> Company</h3>
+                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000"> Grow your business with the Best <span> Digital Marketing </span> Services</h3>
                         </div>
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="benefitsPara">
-                            <p className='comman_para'>Our app development service is available to meet your unique business needs and create high-quality, user-friendly apps.</p>
+                            <p className='comman_para'>Drive traffic, increase ROI, maximise conversions, increase brand awareness, and grow your brand or business online with our best digital marketing services.</p>
                         </div>
                     </div>
 
@@ -361,7 +360,7 @@ const Index = () => {
                                     Our <span>Work Process</span>
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
-                                    Make Mobile App With the Best <span>App Development</span> Company
+                                Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h3>
                             </div>
 
