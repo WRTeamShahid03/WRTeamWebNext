@@ -1302,6 +1302,10 @@
     .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 118px;
     }
+    .process .lowerDivWrapper .upperDivLeftContent {
+        position: relative;
+        left: 12px;
+    }
 
     .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 22px/29px Montserrat;
@@ -2035,7 +2039,11 @@
     }
 
     .process .upperDivWrapper .upperDivLeftContent {
-        padding-bottom: 118px;
+        padding-bottom: 80px;
+    }
+
+    .process .lowerDivWrapper .upperDivLeftContent {
+        left: 12px;
     }
 
     .process .upperDivRightContent .processCard .cardContent .title {
@@ -2972,6 +2980,9 @@
     .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 64px;
     }
+    .process .lowerDivWrapper .upperDivLeftContent {
+        left: 12px;
+    }
 
     .process .upperDivRightContent .processCard .cardContent .title {
         font: normal normal bold 22px/29px Montserrat;
@@ -2996,7 +3007,7 @@
     }
 
     .build .buildWrapper .rightDiv {
-        padding: 20px 40px;
+        padding: 20px 14px;
         padding-right: 0;
     }
 
@@ -4101,6 +4112,9 @@
 
     .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 50px;
+    }
+    .process .lowerDivWrapper .upperDivLeftContent {
+        left: 12px;
     }
 
     .process .upperDivRightContent .processCard .cardContent .title {
@@ -5387,7 +5401,7 @@
     }
 
     .build .buildWrapper .rightDiv {
-        padding: 20px 8px;
+        padding: 20px 18px;
         padding-right: 0;
     }
 

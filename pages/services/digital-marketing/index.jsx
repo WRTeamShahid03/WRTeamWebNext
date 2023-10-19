@@ -452,7 +452,7 @@ const Index = () => {
                                             <div className="card">
                                                 <span className='buildCardIcon'>
                                                     <img src={e.icon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
                                                 </span>
                                                 <span>{e.title}</span>
                                             </div>
