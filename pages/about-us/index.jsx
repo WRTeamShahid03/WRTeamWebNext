@@ -43,37 +43,37 @@ const index = () => {
 
   const swiperData = [
     {
-      id: 1,
+      id: 0,
       name: "Olivia Smith",
       work: "Web Developer",
       img: team1
     },
     {
-      id: 2,
+      id: 1,
       name: "Noah Martin",
       work: "UX/UI Designer",
       img: team2
     },
     {
-      id: 3,
+      id: 2,
       name: "Sophia Brown",
       work: "IT Project Manager",
       img: team3
     },
     {
-      id: 4,
+      id: 3,
       name: "Benjamin Williams",
       work: "Cybersecurity Analyst",
       img: team4
     },
     {
-      id: 5,
+      id: 4,
       name: "Olivia Smith",
       work: "Web Developer",
       img: team1
     },
     {
-      id: 6,
+      id: 5,
       name: "Noah Martin",
       work: "UX/UI Designer",
       img: team2
@@ -83,7 +83,7 @@ const index = () => {
   ]
 
   const breakpoints = {
-    320: {
+    0: {
       slidesPerView: 1,
       // spaceBetween: 40
     },
@@ -331,9 +331,8 @@ const index = () => {
                 >
                   {
                     swiperData.map((ele, index) => {
-                      return <>
-
-                        <SwiperSlide key={index}>
+                      return <div key={ele.id}>
+                        <SwiperSlide >
                           <div className="card text-white">
                             <img src={ele.img.src} className="card-img-top" alt="teamImg" />
                             <div className="card-img-overlay">
@@ -356,7 +355,7 @@ const index = () => {
                             </div>
                           </div>
                         </SwiperSlide>
-                      </>
+                      </div>
                     })
                   }
                 </Swiper>

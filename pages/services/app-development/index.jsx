@@ -6,6 +6,7 @@ import Lottie from 'react-lottie-player'
 import helloText from '../../../src/Components/animatedText.json'
 import { BiRightArrowCircle } from 'react-icons/bi'
 import { BsArrowRightCircle } from 'react-icons/bs'
+import NewSlider from '@/Components/NewSlider'
 
 //Images
 import appDeveImg from '../../../src/Asset/Images/app-development/App Devlopment.png'
@@ -35,9 +36,8 @@ import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
 import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
 import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
 import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
-import processImg from '../../../src/Asset/Images/app-development/07-10-03-Android app Devlopment Service.jpg'
-import processImg2 from '../../../src/Asset/Images/app-development/Android app Devlopment Service.jpg'
-// import NewSlider from ''
+import processImg from '../../../src/Asset/Images/app-development/10-10-05-Our_Work Process.png'
+import processImg2 from '../../../src/Asset/Images/app-development/11-10-05-Our Work Process Devlopment.psd.png'
 
 import processIcon1 from '../../../src/Asset/Icons/All_Icons/Process/Development.png'
 import processIcon2 from '../../../src/Asset/Icons/All_Icons/Process/Maintenance & Support.png'
@@ -45,7 +45,14 @@ import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Pl
 import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
 import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
-import NewSlider from '@/Components/NewSlider'
+
+// swiper Imgs 
+import android from '../../../src/Asset/Images/app-development/Android app Devlopment Service.jpg'
+import flutter from '../../../src/Asset/Images/app-development/07-10-03-Android app Devlopment Service.jpg'
+import ios from '../../../src/Asset/Images/app-development/iOS app Devlopment Service.jpg'
+import completeSolution from '../../../src/Asset/Images/app-development/Complete Solution Service.jpg'
+
+
 
 const Index = () => {
 
@@ -201,47 +208,33 @@ const Index = () => {
             id: 0,
             title: 'Android app development',
             desc: `Our app development team possesses extensive knowledge and expertise in Android app development. We are deeply dedicated to delivering outstanding solutions that are perfectly tailored to our clients' unique needs and go above and beyond their expectations. Our primary focus is on providing exceptional services that not only meet but exceed our client's requirements, make sure their maximal satisfaction.`,
-            img: 'https://source.unsplash.com/featured/?car',
-            bgColor: 'white'
+            img: android,
         },
         {
             id: 1,
             title: 'iOS app development',
             desc: 'There are over 1 billion globally active users of iPhones , making it a huge market for iOS apps. Our team is specialised in iOS app development and has the skills to create a great app for you.',
-            img: 'https://source.unsplash.com/featured/?bike',
+            img: ios,
             bgColor: 'grey'
         },
         {
             id: 2,
             title: 'Flutter app development',
             desc: 'Flutter app development is the process of creating mobile apps with the Flutter framework. Flutter is an open-source, cross-platform framework created by Google. It means developers can use Flutter for build apps which can run on both Android and iOS devices, by single code.',
-            img: 'https://source.unsplash.com/featured/?animal',
+            img: flutter,
             bgColor: 'rgb(23 79 196 / 80%)'
         },
         {
             id: 3,
             title: 'Complete Solution',
             desc: `WRTeam provides comprehensive app development services to organisations of all sizes. Our talented App Developers are committed to developing robust, feature-rich apps that meet your company's specific aims and requirements by utilising the most up-to-date tools, technologies, and industry standards. WRTeam specialises in Android app development, Flutter app development, and iOS app development to give the finest solutions for our client's needs. Our team has extensive expertise in developing high-quality mobile applications for the Android, Flutter, and iOS platforms. We have the competence to offer excellent outcomes whether you require an Android app, a Flutter app, or an iOS app.`,
-            img: 'https://source.unsplash.com/featured/?bird',
+            img: completeSolution,
             bgColor: 'lightblue'
-        },
-        {
-            id: 4,
-            title: 'Experienced Team',
-            desc: `WRTeam offers app development services through a team of skilled app developers who are well-versed in the newest technologies, development tools, and frameworks. We are dedicated to developing apps that are simple to use, interesting, and fulfil the demands of our clients.`,
-            img: 'https://source.unsplash.com/featured/?home',
-            bgColor: 'green'
-        },
-        {
-            id: 5,
-            title: 'Budget Friendly',
-            desc: `We know budget is an important part for all kinds of businesses, which is why we offer competitive pricing for our mobile app development services. Our app developers work with clients to understand their needs and develop solutions that fit under their budget without compromising quality. We create high-quality apps that cater to our client's specific needs, making sure an exceptional user experience for their customers.`,
-            bgColor: 'orange'
         },
     ]
 
     return (
-        <div className='webDevelopmentPage'>
+        <div className='webDevelopmentPage appDevelopmentPage'>
             <Breadcrum title='App' blueText={'Development'} contentOne={'Home'} contentTwo={'Services'} contentThree={'App Development'} />
 
             <section className='development container'>
@@ -452,8 +445,8 @@ const Index = () => {
                                         return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
-                                                    <img src={e.icon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
                                                 </span>
                                                 <span>{e.title}</span>
                                             </div>

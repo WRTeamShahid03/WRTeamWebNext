@@ -17,7 +17,8 @@ a {
 
 @media only screen and (min-width: 1660px) {
     .container {
-        max-width: 1638px !important;
+        /* max-width: 1638px !important; */
+        max-width: 1400px !important;
     }
 }
 
@@ -519,7 +520,9 @@ a {
 }
 
 #aboutUs .aboutWrapper .aboutRightDiv {
-    padding-right: 220px;
+    /* padding-right: 220px; */
+    padding-right: 70px;
+    padding-left: 122px;
 }
 
 .common_span span {
@@ -602,7 +605,8 @@ a {
 #winner .winnerWrapper .winnRightDiv {
     position: relative;
     /* margin-left: 120px; */
-    left: 160px;
+    /* left: 160px; */
+    left: 30px;
 }
 
 #winner .winnerWrapper #winnText {
@@ -610,7 +614,7 @@ a {
     font: normal normal 800 89px/117px Poppins;
     color: transparent;
     transform: rotate(90deg);
-    right: -170px;
+    right: -146px;
     -webkit-text-stroke: 0.3px #283042;
     top: 242px;
 }
@@ -618,7 +622,8 @@ a {
 #winner .winnerWrapper .winnRightDiv .winnerSmImg {
     position: absolute;
     top: 205px;
-    left: -166px;
+    /* left: -166px; */
+    left: -132px;
     animation: trophyMove 3s ease-in-out 1s infinite alternate-reverse forwards;
     transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -646,6 +651,7 @@ a {
     padding: 18px 16px;
     background: white;
     border-radius: 180px;
+    width: 92%;
 }
 
 
@@ -786,7 +792,8 @@ a {
 #solutions .productsCardsWrapper .mobilePro .webProImg {
     height: 390px;
     /* margin: 25px; */
-    width: 398px;
+    /* width: 398px; */
+    width: 540px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -844,11 +851,11 @@ a {
     }
 }
 
-@media only screen and (min-width: 575px) and (max-width: 2700px) {
+/* @media only screen and (min-width: 575px) and (max-width: 2700px) {
     #solutions .productsCardsWrapper .mobilePro .mobProImg img {
         display: none;
     }
-}
+} */
 
 /* soulutions ends  */
 
@@ -870,8 +877,10 @@ a {
 }
 
 #services .serviesWrapper .servleftDiv .servCard {
-    width: 346px;
-    height: 292px;
+    /* width: 346px;
+    height: 292px; */
+    width: 292px;
+    height: 310px;
     padding: 30px 15px;
     border-radius: 16px;
     transition: all 0.3s ease-out;
@@ -883,7 +892,7 @@ a {
 }
 
 #services .serviesWrapper .servleftDiv .servImg {
-    padding: 22px 16px;
+    padding: 28px 16px;
     background: #97B21E 0% 0% no-repeat padding-box;
     box-shadow: 0px 16px 36px #97B21E5C;
     opacity: 1;
@@ -912,7 +921,7 @@ a {
 
 #services .serviesWrapper .servleftDiv .servCardDown {
     margin-top: 32px;
-    height: 294px;
+    height: 310px;
 }
 
 #services .serviesWrapper .servleftDiv .orangeServ {
@@ -977,6 +986,7 @@ a {
 
 #services .serviesWrapper .servrightDiv {
     padding: 30px 0;
+    margin-left: 50px;
 }
 
 #services .serviesWrapper .servrightDiv h3 {
@@ -1053,7 +1063,7 @@ a {
 
 /* yash */
 #tech .techBottDiv .row {
-    gap: 90px;
+    gap:70px;
     justify-content: center;
 }
 
@@ -1100,7 +1110,7 @@ a {
 
 #tech .techBottDiv .techMainCard .techCard {
     padding: 30px;
-    width: 150px;
+    width: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1173,7 +1183,7 @@ a {
     font: normal normal 800 36px/52px Montserrat;
     color: #212121;
     margin-top: 30px;
-    padding: 0px 480px;
+    padding: 0px 364px;
     text-align: center;
 }
 
@@ -1289,6 +1299,7 @@ a {
 
 #testimonials .testSlider {
     position: relative;
+    margin-top: -60px;
 }
 
 #testimonials .testSlider .swiperCard {
@@ -1558,28 +1569,16 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-.nav-link:hover,
-#basic-nav-dropdown:hover,
-#dropdown-basic span:hover {
+.nav-link:hover{
     color: #2E71FE !important;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
+    text-decoration: underline !important;
+    text-decoration-thickness: 3px !important;
 }
 
 .navbar-expand-lg .navbar-nav {
     align-items: center;
-    margin-left: 36px;
-}
-
-.nav-active {
-    color: #2E71FE !important;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-}
-
-.dropdown-toggle::after {
-    border: none !important;
-    /* background-color: #080E32 !important; */
+    /* margin-left: 36px; */
+    margin-left: 24px;
 }
 
 #leftSide {
@@ -1593,11 +1592,6 @@ a {
     margin-right: 16%;
 }
 
-/* .navLogo img {
-    width: 249px;
-    height: 42px;
-} */
-
 .navIcons {
     display: flex;
     gap: 30px;
@@ -1610,129 +1604,58 @@ a {
 }
 
 
-#basic-nav-dropdown,
-#dropdown-basic {
-    background: transparent !important;
-    border: none !important;
+.navDropdown {
     font: normal normal 600 16px/19px Montserrat;
     color: #283042;
+    cursor: pointer;
 }
 
-.dropdown-item {
-    background: #FEFEFE !important;
+.navDropdown svg{
+    margin-left: 4px;
+}
+
+.navDropdown .ant-space-item {
     color: #283042 !important;
-    height: 35px;
 }
 
-.dropdown-item a {
+:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+    background-color: transparent !important;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx) a {
+    font: normal normal 600 16px/19px Montserrat !important;
     color: #283042 !important;
 }
 
-.navItem1::after {
+:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a::after {
     content: '';
     width: 0%;
     height: 3px;
     background: #2E71FE;
     position: absolute;
+    top: 28px;
     left: 14px;
-    top: 34px;
     transition: all 0.3s;
 }
 
-.navItem2::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    left: 14px;
-    top: 68px;
-    transition: all 0.3s;
+:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a:hover::after {
+    width: 85%;
+} 
+:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item{
+    padding: 6px 12px;
 }
 
-.navItem3::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    left: 14px;
-    top: 34px;
-    transition: all 0.3s;
-}
-
-.navItem4::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    left: 14px;
-    top: 70px;
-    transition: all 0.3s;
-}
-
-.navItem5::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    left: 14px;
-    top: 104px;
-    transition: all 0.3s;
-}
-
-.navItem6::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    left: 14px;
-    top: 140px;
-    transition: all 0.3s;
-}
-
-
-.dropdown-menu.show {
-    background: #FEFEFE !important;
-    color: #FEFEFE !important;
-}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     border: none !important;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block !important;
-}
-
-
-.dropdown-item:hover::after,
-.dropdown-item:focus::after {
-    width: 76%;
-}
-
-.navItem3:hover::after,
-.navItem3:focus::after {
-    width: 66%;
-}
-
-.navItem4:hover::after,
-.navItem4:focus::after {
-    width: 64%;
-}
-
-.navItem6:hover::after,
-.navItem6:focus::after {
-    width: 88%;
 }
 
 .nav-items {
     color: white !important;
 }
 
+
+/* offcanvas css  */
 
 .offcanvas-header {
     background: white !important;
@@ -1858,6 +1781,12 @@ a {
     transition: all 0.7s;
 }
 
+.navActive {
+    color: var(--primary-color) !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 3px !important;
+}
+
 @media only screen and (min-width: 1990px) and (max-width: 2700px) {
     .navLogo img {
         left: 500px;
@@ -1872,7 +1801,7 @@ a {
     }
 
     .navbar-expand-lg .navbar-nav {
-        margin-left: -184px;
+        margin-left: -26px;
     }
 
 }
@@ -1891,11 +1820,11 @@ a {
     }
 
     .navbar-nav {
-        margin-left: 242px !important;
+        margin-left: 330px !important;
     }
 
     .nav-link {
-        margin: 0px -2px;
+        margin: 0px 6px;
     }
 
     .navLogo img {
@@ -2208,18 +2137,18 @@ footer .footerContainer .flinks {
 
 .breadcrum {
     background-color: #2E71FE14;
-    height: 400px;
+    height: 270px;
     margin-top: -95px;
     z-index: -1;
 }
 
 .breadcrum .breadcrumContent {
     position: relative;
-    top: 166px;
+    top: 146px;
 }
 
 .breadcrum h1 {
-    font: normal normal 800 38px/64px Montserrat;
+    font: normal normal 800 38px/22px Montserrat;
     letter-spacing: 0px;
     color: #212121;
 }
@@ -2252,14 +2181,18 @@ footer .footerContainer .flinks {
 #mission .missionLeftDiv .missionImg img,
 #vision .visionRightDiv .visionLeftImg img,
 #values .valuesRightDiv .valuesLeftImg img {
+    width: 114%;
+}
+
+#vision .visionRightDiv .visionLeftImg img{
     width: 100%;
 }
 
 
 #knowMore .knowMoreLeftDiv .business {
     position: absolute;
-    top: 306px;
-    left: 478px;
+    top: 272px;
+    left: 442px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -2268,7 +2201,7 @@ footer .footerContainer .flinks {
     border-radius: 20px;
     color: white;
     padding: 58px 18px;
-    width: 438px;
+    width: 414px;
     height: 336px;
 }
 
@@ -2313,14 +2246,14 @@ footer .footerContainer .flinks {
 #mission .missionLeftDiv .trianglePattern {
     position: absolute;
     bottom: -58px;
-    left: 240px;
+    left: 210px;
 }
 
 #knowMore .knowMoreLeftDiv .dotsPattern,
 #mission .missionLeftDiv .dotsPattern {
     position: absolute;
     top: 76px;
-    right: -66px;
+    right: -142px;
 }
 
 #knowMore .knowMoreRightDiv,
@@ -2345,6 +2278,11 @@ footer .footerContainer .flinks {
     color: #545A68;
 }
 
+.process .comman_para{
+    font: normal normal 600 16px/24px Montserrat;
+
+}
+
 /* knowMore ends  */
 
 #vision,
@@ -2354,7 +2292,7 @@ footer .footerContainer .flinks {
 
 #vision .visionLeftDiv,
 #values .valuesLeftDiv {
-    width: 72%;
+    width: 82%;
 }
 
 #vision .visionRightDiv,
@@ -2419,7 +2357,7 @@ footer .footerContainer .flinks {
 
 #team .comman_Headlines {
     text-align: center;
-    width: 42%;
+    width: 54%;
 }
 
 #team .card {
@@ -2433,6 +2371,7 @@ footer .footerContainer .flinks {
 }
 
 #team .card .card-img-top {
+    height: 316px;
     transition: all 0.3s;
 }
 
@@ -2455,7 +2394,7 @@ footer .footerContainer .flinks {
 
 
 #team .teamDeatails {
-    margin-top: 428px;
+    margin-top: 264px;
     transition: all 0.3s;
 }
 
@@ -2475,7 +2414,7 @@ footer .footerContainer .flinks {
 }
 
 #team .card:hover .teamDeatails {
-    margin-top: 394px !important;
+    margin-top: 236px !important;
 }
 
 .swiper-slide {
@@ -2720,7 +2659,7 @@ footer .footerContainer .flinks {
 
 #category .card-title,
 .recentBlogs .recentBlogsCards .card .card-title {
-    font: normal normal 700 24px/34px Montserrat;
+    font: normal normal 700 22px/34px Montserrat;
     color: #212121;
     margin-top: 12px;
 }
@@ -2730,7 +2669,7 @@ footer .footerContainer .flinks {
     font: 16px/24px Montserrat;
     color: #545A68;
     font-weight: 300 !important;
-    height: 100px;
+    height: 130px;
 }
 
 #category .card,
@@ -3424,7 +3363,7 @@ footer .footerContainer .flinks {
     padding: 10px;
     box-shadow: 0px 8px 26px #28304214;
     border-radius: 8px;
-    width: 293px;
+    width: 226px;
     gap: 12px;
 }
 
@@ -3910,7 +3849,7 @@ footer .footerContainer .flinks {
 
 #webPro .cardsWrapper .card .card-title {
     margin-top: 15px;
-    font: normal normal bold 17px/26px Montserrat;
+    font: normal normal bold 16px/26px Montserrat;
     color: #212121;
 }
 
@@ -3940,7 +3879,7 @@ footer .footerContainer .flinks {
 
 #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
     font: normal normal bold 24px/29px Montserrat;
-    color: #212121;
+    color: #22A869;
 }
 
 #webPro .cardsWrapper .card .cardFooter .buyBtn {
@@ -3967,7 +3906,7 @@ footer .footerContainer .flinks {
 }
 
 #webPro .cardsWrapper .card:hover .buyBtn {
-    background-color: #283042;
+    background-color: #22A869;
     color: white;
 }
 
@@ -3986,7 +3925,7 @@ footer .footerContainer .flinks {
 }
 
 .development .deveLeftDiv {
-    padding-top: 130px;
+    padding-top: 50px;
 }
 
 .development .deveRightDiv .commonBorderDiv {
@@ -4226,7 +4165,7 @@ footer .footerContainer .flinks {
 
 .process .lowerDivWrapper .upperDivRightContent {
     padding-right: 90px;
-    padding-top: 66px;
+    padding-top: 20px;
 }
 
 .process .lowerDivWrapper .upperDivLeftContent {
@@ -4242,9 +4181,9 @@ footer .footerContainer .flinks {
 
 .process .lowerDivWrapper .arrowImg img {
     position: absolute;
-    left: 44px;
+    left: 50px;
     width: 54%;
-    margin-top: -264px;
+    margin-top: -192px;
 }
 
 .build {
@@ -4279,7 +4218,7 @@ footer .footerContainer .flinks {
 
 .build .buildWrapper .leftDiv {
     border-right: 0.5px solid lightgray;
-    padding-top: 160px;
+    padding-top: 120px;
 }
 
 .build .buildWrapper .rightDiv {
@@ -4303,7 +4242,7 @@ footer .footerContainer .flinks {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;   
+    border-radius: 8px;
     background: #E8F0FE 0% 0% no-repeat padding-box;
 }
 
@@ -4334,12 +4273,12 @@ footer .footerContainer .flinks {
 }
 
 /* change card hover  */
-.build .buildWrapper .rightDiv .card:hover .buildCardIcon{
+.build .buildWrapper .rightDiv .card:hover .buildCardIcon {
     background-color: var(--primary-color);
     box-shadow: 0px 8px 26px #176BF15C;
 }
 
-.build .buildWrapper .rightDiv .card:hover .buildIcon2{
+.build .buildWrapper .rightDiv .card:hover .buildIcon2 {
     filter: brightness(5%) invert(100%);
 }
 
@@ -4362,7 +4301,7 @@ footer .footerContainer .flinks {
     border: 1px solid white;
 }
 
-.webDevContact .getInTouch .homeCommon_btn svg{
+.webDevContact .getInTouch .homeCommon_btn svg {
     margin-left: 8px;
 }
 
@@ -4486,7 +4425,7 @@ footer .footerContainer .flinks {
     background-color: var(--primary-color);
 }
 
-.devSlider .sliderWrapper .controls .buttn svg{
+.devSlider .sliderWrapper .controls .buttn svg {
     color: white;
     font-size: 18px;
 }

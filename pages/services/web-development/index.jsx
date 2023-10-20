@@ -451,8 +451,8 @@ const Index = () => {
                     return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
                       <div className="card">
                         <span className='buildCardIcon'>
-                          <img src={e.icon.src} alt="" className='buildIcon1' />
-                          <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
+                          <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
+                          <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
                         </span>
                         <span>{e.title}</span>
                       </div>

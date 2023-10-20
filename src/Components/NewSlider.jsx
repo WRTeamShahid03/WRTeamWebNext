@@ -62,7 +62,9 @@ const NewSlider = ({ newSwiperData }) => {
                 <div className="main-slide">
                     {
                         newSwiperData.map((ele)=>{
-                            return <div style={{ background: `url(${ele.img})` }} key={ele.id}></div>
+                            return <div key={ele.id}>
+                                <img src={ele.img.src} alt="" />
+                            </div>
                         })
                     }
 

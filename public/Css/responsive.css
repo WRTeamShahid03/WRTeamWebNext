@@ -50,7 +50,8 @@
     #mission,
     #vision,
     #values,
-    .webDevelopmentPage {
+    .webDevelopmentPage ,
+    .careerPage{
         overflow: hidden;
     }
 
@@ -108,6 +109,13 @@
 
     /* Home Page ends  */
 
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
+        width: 100%;
+    }
+
 
     #knowMore .knowMoreLeftDiv .business {
         position: absolute;
@@ -141,11 +149,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 326px;
+        margin-top: 260px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 306px !important;
+        margin-top: 236px !important;
     }
 
     #team .comman_Headlines {
@@ -269,6 +277,10 @@
         height: 130px;
     }
 
+    #applyNow {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -289,7 +301,8 @@
     #mission,
     #vision,
     #values,
-    .webDevelopmentPage {
+    .webDevelopmentPage ,
+    .careerPage{
         overflow: hidden;
     }
 
@@ -333,6 +346,13 @@
     .homeCommon_btn {
         padding: 12px;
         width: fit-content;
+    }
+
+    #knowMore .knowMoreLeftDiv .knowMoreImg img,
+    #mission .missionLeftDiv .missionImg img,
+    #vision .visionRightDiv .visionLeftImg img,
+    #values .valuesRightDiv .valuesLeftImg img {
+        width: 100%;
     }
 
     /* aboutUs ends  */
@@ -417,9 +437,17 @@
         padding: 0px 222px;
     }
 
+    #workChain .workBottDiv .workCard .workTitle {
+        font: normal normal 600 23px/29px Montserrat;
+    }
+
     #testimonials .testSlider .swiperCard .card-body {
         padding-bottom: 20px;
         height: 290px;
+    }
+
+    #testimonials .testSlider {
+        margin-top: -70px;
     }
 
     .getInTouch .homeCommon_btn {
@@ -446,7 +474,14 @@
     #knowMore .knowMoreLeftDiv .business {
         left: unset;
         right: -235px;
+        width: 496px;
     }
+
+    #knowMore .knowMoreLeftDiv .dotsPattern,
+    #mission .missionLeftDiv .dotsPattern {
+        right: -60px;
+    }
+
 
     #knowMore .knowMoreRightDiv,
     #mission .missionRightDiv,
@@ -493,6 +528,13 @@
         margin-top: 10px;
     }
 
+    #mission .missionLeftDiv {
+        padding-bottom: 60px;
+    }
+
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 12px;
+    }
 
 
     #team .teamWrapper {
@@ -500,11 +542,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 386px;
+        margin-top: 266px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 346px !important;
+        margin-top: 240px !important;
     }
 
     #team .comman_Headlines {
@@ -734,6 +776,10 @@
         gap: 20px 0px;
     }
 
+    #applyNow {
+        margin-bottom: 60px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -753,7 +799,8 @@
     #mission,
     #vision,
     #values,
-    .webDevelopmentPage {
+    .webDevelopmentPage,
+    .careerPage {
         overflow: hidden;
     }
 
@@ -994,12 +1041,12 @@
 
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
-        margin-left: 250px;
+        margin-left: 144px;
     }
 
     #vision .visionRightDiv .dotsPattern2,
     #values .valuesRightDiv .dotsPattern2 {
-        left: 192px;
+        left: 86px;
     }
 
     #vision .visionRightDiv .trianglePattern2,
@@ -1023,8 +1070,16 @@
         margin-top: 10px;
     }
 
+    #mission .missionLeftDiv {
+        padding-bottom: 60px;
+    }
+
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 6px;
+    }
+
     #team .teamDeatails {
-        margin-top: 316px;
+        margin-top: 264px;
     }
 
     #team .teamWrapper {
@@ -1032,7 +1087,7 @@
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 276px !important;
+        margin-top: 240px !important;
     }
 
     #team .comman_Headlines {
@@ -1088,8 +1143,12 @@
 
 
     .breadcrum {
-        height: 330px;
-        margin-top: -142px;
+        height: 264px;
+        margin-top: -132px;
+    }
+
+    .webDevelopmentPage .breadcrum,.careerPage .breadcrum {
+        margin-top: -90px;
     }
 
     /* blogDetails ends  */
@@ -1148,6 +1207,10 @@
         padding: 24px 50px;
     }
 
+    #applyNow {
+        margin-bottom: 60px;
+    }
+
     #wrTeamWork .wrTeamLeftDiv {
         padding-right: 60px;
     }
@@ -1193,7 +1256,7 @@
         width: 100%;
     }
 
-   .development,
+    .development,
     .process {
         margin-top: 50px;
     }
@@ -1300,8 +1363,9 @@
     }
 
     .process .upperDivWrapper .upperDivLeftContent {
-        padding-bottom: 118px;
+        padding-bottom: 70px;
     }
+
     .process .lowerDivWrapper .upperDivLeftContent {
         position: relative;
         left: 12px;
@@ -1360,12 +1424,9 @@
     #mission,
     #vision,
     #values,
-    .webDevelopmentPage {
+    .webDevelopmentPage ,
+    .careerPage{
         overflow: hidden;
-    }
-
-    .development{
-        margin-top: 40px;
     }
 
     #knowMore,
@@ -1626,7 +1687,7 @@
         top: 248px;
         left: 314px;
         padding: 25px 18px;
-        width: 403px;
+        width: 390px;
         height: 274px;
     }
 
@@ -1664,10 +1725,23 @@
         left: 112px;
     }
 
+    #mission .missionLeftDiv {
+        padding-bottom: 60px;
+    }
+
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 0px;
+    }
+
     #knowMore .knowMoreLeftDiv .dotsPattern,
     #mission .missionLeftDiv .dotsPattern {
         top: 52px;
         right: 20px;
+    }
+
+    #mission .missionLeftDiv,
+    #values .valuesLeftDiv {
+        padding-bottom: 60px;
     }
 
 
@@ -1680,12 +1754,12 @@
 
     #vision .visionRightDiv .visionLeftImg img,
     #values .valuesRightDiv .valuesLeftImg img {
-        margin-left: 84px;
+        margin-left: 70px;
     }
 
     #vision .visionRightDiv .dotsPattern2,
     #values .valuesRightDiv .dotsPattern2 {
-        left: 34px;
+        left: 22px;
         top: 144px;
     }
 
@@ -1711,7 +1785,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 366px;
+        margin-top: 266px;
+    }
+
+    #testimonials .testSlider {
+        margin-top: -80px;
     }
 
     #team .teamWrapper {
@@ -1719,7 +1797,7 @@
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 326px !important;
+        margin-top: 236px !important;
     }
 
     #team .comman_Headlines {
@@ -1775,8 +1853,12 @@
     /* category ends  */
 
     .breadcrum {
-        height: 330px;
-        margin-top: -142px;
+        height: 275px;
+        margin-top: -132px;
+    }
+
+    .webDevelopmentPage .breadcrum ,.careerPage .breadcrum{
+        margin-top: -90px;
     }
 
     #blogDetails .middleDiv .row {
@@ -1879,6 +1961,10 @@
         padding: 30px 35px;
     }
 
+    #applyNow {
+        margin-bottom: 60px;
+    }
+
     #jobOpening .jobCards .card .cardBody {
         height: 88px;
     }
@@ -1912,10 +1998,14 @@
         width: 100%;
     }
 
-   .development,
+    .development,
     .process,
     .benefits {
         margin-top: 50px;
+    }
+
+    .development {
+        margin-top: 30px;
     }
 
     .development .deveRightDiv img,
@@ -2099,12 +2189,9 @@
         overflow: hidden;
     }
 
-    .webDevelopmentPage {
+    .webDevelopmentPage,
+    .careerPage {
         overflow: hidden;
-    }
-
-    .development {
-        margin-top: 34px;
     }
 
     #aboutUs,
@@ -2482,7 +2569,7 @@
         left: 207px;
         padding: 24px 18px;
         height: 230px;
-        width: 346px;
+        width: 320px;
         gap: 5px;
     }
 
@@ -2536,6 +2623,24 @@
         margin-top: 10px;
     }
 
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 0px;
+    }
+
+    #vision,
+    #counter {
+        margin-top: 30px;
+    }
+
+    #testimonials .testiUpperDiv .testiHeadline {
+        font: normal normal 800 32px/46px Montserrat;
+    }
+
+    #mission .missionLeftDiv {
+        margin-top: -132px;
+        padding-bottom: 60px;
+    }
+
     #vision .visionLeftDiv,
     #values .valuesLeftDiv {
         width: 100%;
@@ -2551,11 +2656,15 @@
     }
 
     #team .teamDeatails {
-        margin-top: 388px;
+        margin-top: 260px;
+    }
+
+    #team .teamWrapper {
+        padding: 30px 0;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 346px !important;
+        margin-top: 240px !important;
     }
 
     #team .comman_Headlines {
@@ -2563,13 +2672,16 @@
     }
 
     .breadcrum {
-        background-color: #2E71FE14;
-        height: 292px;
-        margin-top: -150px;
+        height: 256px;
+        margin-top: -136px;
+    }
+
+    .webDevelopmentPage .breadcrum ,.careerPage .breadcrum{
+        margin-top: -106px;
     }
 
     .breadcrum h1 {
-        font: normal normal 800 30px/64px Montserrat;
+        font: normal normal 800 30px/28px Montserrat;
     }
 
     .breadcrum .pageName {
@@ -2787,6 +2899,9 @@
         padding: 0 40px;
     }
 
+    #applyNow {
+        margin-bottom: 60px;
+    }
     /* career ends  */
 
     #webPro {
@@ -2821,10 +2936,14 @@
         width: 100%;
     }
 
-   .development,
+    .development,
     .process,
     .benefits {
         margin-top: 50px;
+    }
+
+    .development {
+        margin-top: 30px;
     }
 
     .development .deveRightDiv img,
@@ -2980,6 +3099,7 @@
     .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 64px;
     }
+
     .process .lowerDivWrapper .upperDivLeftContent {
         left: 12px;
     }
@@ -3043,18 +3163,17 @@
     #empire,
     #team #wrTeamWork,
     #jobOpening,
-    #applyNow {
+    #applyNow,
+    #team {
         overflow: hidden;
         margin-top: 40px;
     }
 
-    .webDevelopmentPage {
+    .webDevelopmentPage ,
+    .careerPage{
         overflow: hidden;
     }
 
-    .development {
-        margin-top: 16px;
-    }
 
     #homeHeroSect .heroContainer .heroContContent {
         padding: 0px;
@@ -3206,6 +3325,14 @@
     .getInTouch .getTouchText .getTouchDesc,
     .comman_Headlines {
         font: normal normal 800 26px/40px Montserrat;
+    }
+
+    #testimonials .testiUpperDiv .testiHeadline {
+        font: normal normal 800 23px/40px Montserrat;
+    }
+
+    #team .teamWrapper {
+        padding: 30px 0;
     }
 
     #homeHeroSect .heroContainer .heroCont-leftDiv p,
@@ -3489,6 +3616,11 @@
         left: 182px;
     }
 
+    #mission .missionLeftDiv {
+        margin-top: -82px;
+        padding-bottom: 60px;
+    }
+
     #knowMore .knowMoreLeftDiv .dotsPattern,
     #mission .missionLeftDiv .dotsPattern {
         top: 52px;
@@ -3512,6 +3644,10 @@
         left: 54px;
         width: 120px;
         bottom: -40px;
+    }
+
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 0px;
     }
 
     #knowMore .knowMoreLeftDiv .dotsPattern,
@@ -3556,7 +3692,7 @@
 
     #vision .visionRightDiv,
     #values .valuesRightDiv {
-        top: -80px;
+        top: -50px;
     }
 
     #mission .row {
@@ -3587,11 +3723,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 388px;
+        margin-top: 260px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 346px !important;
+        margin-top: 240px !important;
     }
 
     #team .comman_Headlines {
@@ -3599,8 +3735,8 @@
     }
 
     .breadcrum {
-        height: 292px;
-        margin-top: -172px;
+        height: 286px;
+        margin-top: -188px;
     }
 
     .breadcrum .pageName {
@@ -3857,9 +3993,14 @@
         font-size: 14px;
     }
 
+    #applyNow {
+        margin-bottom: 50px;
+    }
+
     #wrTeamWork {
         padding: 30px;
         padding-bottom: 80px;
+        margin-top: 20px;
     }
 
     #wrTeamWork .wrTeamRightDiv {
@@ -3928,10 +4069,14 @@
         width: 100%;
     }
 
-   .development,
+    .development,
     .process,
     .benefits {
         margin-top: 40px;
+    }
+
+    .development {
+        margin-top: 16px;
     }
 
     .development .deveRightDiv img,
@@ -3998,15 +4143,17 @@
         font-size: 28px;
         margin-top: -80px;
     }
+
     .devSlider .sidebar p {
-        font: 16px/28px Montserrat;;
+        font: 16px/28px Montserrat;
+        ;
     }
 
     .devSlider .sliderWrapper .controls .buttn {
         top: 82%;
     }
 
-    .devSlider .sliderWrapper .controls .buttn svg{
+    .devSlider .sliderWrapper .controls .buttn svg {
         width: 20px;
         height: 22px;
     }
@@ -4113,6 +4260,7 @@
     .process .upperDivWrapper .upperDivLeftContent {
         padding-bottom: 50px;
     }
+
     .process .lowerDivWrapper .upperDivLeftContent {
         left: 12px;
     }
@@ -4190,13 +4338,11 @@
         margin-top: 30px;
     }
 
-    .webDevelopmentPage {
+    .webDevelopmentPage ,
+    .careerPage{
         overflow: hidden;
     }
 
-    .development {
-        margin-top: 15px;
-    }
 
     #homeHeroSect .heroContainer .heroContContent {
         padding: 0px;
@@ -4360,6 +4506,10 @@
     .homeCommon_btn {
         padding: 12px;
         font-size: 14px;
+    }
+
+    #team .teamWrapper {
+        padding: 30px 0;
     }
 
     /* aboutUs ends  */
@@ -4680,6 +4830,12 @@
         padding-left: 0;
     }
 
+    #mission .missionLeftDiv {
+        margin-top: -50px;
+        padding-bottom: 50px;
+    }
+
+
     #workChain .workUpperDiv .workHeadlines,
     #whyHireUs .hireHeadlines,
     #hireUs .hireHeadlines,
@@ -4692,6 +4848,10 @@
         left: 60px;
         width: 100px;
         bottom: -28px;
+    }
+
+    #mission .missionLeftDiv .trianglePattern {
+        bottom: 0px;
     }
 
     #knowMore .knowMoreLeftDiv .dotsPattern,
@@ -4766,11 +4926,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 326px;
+        margin-top: 266px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 300px !important;
+        margin-top: 236px !important;
     }
 
     #team .comman_Headlines {
@@ -4778,8 +4938,8 @@
     }
 
     .breadcrum {
-        height: 304px;
-        margin-top: -168px;
+        height: 300px;
+        margin-top: -188px;
     }
 
     .breadcrum .pageName span {
@@ -5097,6 +5257,10 @@
         font-size: 14px;
     }
 
+    #applyNow {
+        margin-bottom: 50px;
+    }
+
     #wrTeamWork {
         padding: 20px 0px;
         padding-bottom: 80px;
@@ -5176,12 +5340,17 @@
         width: 100%;
     }
 
-   .development,
+    .development,
     .process,
     .benefits {
         margin-top: 20px;
     }
-    .benefits{
+
+    .development {
+        margin-top: 16px;
+    }
+
+    .benefits {
         margin-top: 50px;
     }
 
@@ -5265,7 +5434,7 @@
         top: 90%;
     }
 
-    .devSlider .sliderWrapper .controls .buttn svg{
+    .devSlider .sliderWrapper .controls .buttn svg {
         width: 20px;
         height: 22px;
     }
@@ -5488,11 +5657,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 326px;
+        margin-top: 265px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 300px !important;
+        margin-top: 236px !important;
     }
 }
 
@@ -5513,11 +5682,11 @@
     }
 
     #team .teamDeatails {
-        margin-top: 370px;
+        margin-top: 265px;
     }
 
     #team .card:hover .teamDeatails {
-        margin-top: 340px !important;
+        margin-top: 236px !important;
     }
 }
 

@@ -241,7 +241,7 @@ const Index = () => {
     ]
 
     return (
-        <div className='webDevelopmentPage'>
+        <div className='webDevelopmentPage digitalMarketingPage'>
             <Breadcrum title='Digital Marketing' blueText={'Services'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Digital Marketing Services'} />
 
             <section className='development container'>

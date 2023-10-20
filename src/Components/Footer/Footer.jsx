@@ -67,14 +67,14 @@ const Footer = () => {
                         <div className="flinks">
 
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <Link href='/blogs'><span className='footerLinks'> Blogs</span></Link>
+                           <Link href='/career'><span className='footerLinks'> Career</span></Link>
 
                         </div>
 
                         <div className="flinks">
 
                            <span className='footerArrow'> < BsArrowRightCircle size={18} /></span>
-                           <Link href='career'> <span className='footerLinks'> Career</span></Link>
+                           <Link href='/contact-us'> <span className='footerLinks'> Contact Us</span></Link>
                         </div>
 
                         <div className="flinks">

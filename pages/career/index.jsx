@@ -147,7 +147,7 @@ const index = () => {
 
     };
     return (
-        <>
+        <div className='careerPage'>
             <Breadcrum title='Career' contentOne='Home' contentTwo='Career' />
 
             <section id='empire' className='container'>
@@ -349,7 +349,7 @@ const index = () => {
                 </div>
             </section>
 
-        </>
+        </div>
     )
 }
 
