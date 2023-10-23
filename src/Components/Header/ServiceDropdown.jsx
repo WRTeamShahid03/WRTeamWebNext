@@ -14,7 +14,7 @@ const ServiceDropdown = ({setShow}) => {
             label: (
                 <>
                     <span>
-                        <Link href="/services/web-development" className={`${router.pathname === '/services/web-development' ? 'navActive' : ''}`} onClick={() => setShow(false)}>Web Development</Link>
+                        <Link href="/services/web-development" className={`dropdownItem ${router.pathname === '/services/web-development' ? 'navActive' : ''}`} onClick={() => setShow(false)}>Web Development</Link>
                     </span>
                 </>
             ),
@@ -24,7 +24,7 @@ const ServiceDropdown = ({setShow}) => {
             label: (
                 <>
                     <span>
-                        <Link href="/services/app-development" className={`${router.pathname === '/services/app-development' ? 'navActive' : ''}`} onClick={() => setShow(false)}>App Development</Link>
+                        <Link href="/services/app-development" className={`dropdownItem ${router.pathname === '/services/app-development' ? 'navActive' : ''}`} onClick={() => setShow(false)}>App Development</Link>
                     </span>
                 </>
             ),
@@ -34,7 +34,7 @@ const ServiceDropdown = ({setShow}) => {
             label: (
                 <>
                     <span>
-                        <Link href="/services/ui-ux-design" className={`${router.pathname === '/services/ui-ux-design' ? 'navActive' : ''}`} onClick={() => setShow(false)}>UI/UX Design Service</Link>
+                        <Link href="/services/ui-ux-design" className={`dropdownItem ${router.pathname === '/services/ui-ux-design' ? 'navActive' : ''}`} onClick={() => setShow(false)}>UI/UX Design Service</Link>
                     </span>
                 </>
             ),
@@ -44,7 +44,7 @@ const ServiceDropdown = ({setShow}) => {
             label: (
                 <>
                     <span>
-                        <Link href="/services/digital-marketing" className={`${router.pathname === '/services/digital-marketing' ? 'navActive' : ''}`} onClick={() => setShow(false)}>Digital Marketing Service</Link>
+                        <Link href="/services/digital-marketing" className={`dropdownItem ${router.pathname === '/services/digital-marketing' ? 'navActive' : ''}`} onClick={() => setShow(false)}>Digital Marketing Service</Link>
                     </span>
                 </>
             ),

@@ -1618,16 +1618,16 @@ a {
     color: #283042 !important;
 }
 
-:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover {
+.ant-dropdown-menu .ant-dropdown-menu-item:hover {
     background-color: transparent !important;
 }
 
-:where(.css-dev-only-do-not-override-3mqfnx) a {
+.dropdownItem {
     font: normal normal 600 16px/19px Montserrat !important;
     color: #283042 !important;
 }
 
-:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a::after {
+.dropdownItem::after {
     content: '' !important;
     width: 0% !important;
     height: 3px !important;
@@ -1638,10 +1638,10 @@ a {
     transition: all 0.3s !important;
 }
 
-:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a:hover::after {
+.dropdownItem:hover::after {
     width: 85% !important;
 } 
-:where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item{
+.ant-dropdown-menu .ant-dropdown-menu-item{
     padding: 6px 12px !important;
 }
 
