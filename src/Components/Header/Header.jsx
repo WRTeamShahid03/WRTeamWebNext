@@ -77,50 +77,12 @@ const Header = () => {
 
                   <ServiceDropdown setShow={setShow}/>
 
-
-                  {/* <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
-                    onMouseLeave={handlers1.onMouseLeave}
-                    show={menuOpen1}>
-                    <Dropdown.Toggle id="dropdown-basic" className={`${router.pathname.startsWith('/products') ? 'navActive' : ''}`}>
-                      <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item className='navItem1'>
-                        <Link href="/products/web-products" className={`${router.pathname === '/products/web-products' ? 'navActive' : ''}`}>Web Products</Link>
-                      </Dropdown.Item>
-                      <Dropdown.Item className='navItem2'>
-                        <Link href="/products/app-products" className={`${router.pathname === '/products/app-products' ? 'navActive' : ''}`}>App Products</Link>
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown> */}
-
-
-                  {/* <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers2.onMouseEnter}
-                    onMouseLeave={handlers2.onMouseLeave}
-                    show={menuOpen2}>
-                    <Dropdown.Toggle id="dropdown-basic" className={`${router.pathname.startsWith('/services') ? 'navActive' : ''}`}>
-                      <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                      <Dropdown.Item className='navItem3'>
-                        <Link href="/services/web-development" className={`${router.pathname === '/services/web-development' ? 'navActive' : ''}`}>Web Development</Link>
-                      </Dropdown.Item>
-                      <Dropdown.Item className='navItem4'>
-                        <Link href="/services/app-development" className={`${router.pathname === '/services/app-development' ? 'navActive' : ''}`}>App Development</Link>
-                      </Dropdown.Item>
-                      <Dropdown.Item className='navItem5'>
-                        <Link href="/services/ui-ux-design" className={`${router.pathname === '/services/ui-ux-design' ? 'navActive' : ''}`}>UI/UX Design Service</Link>
-
-                      </Dropdown.Item>
-                      <Dropdown.Item className='navItem6'>
-                        <Link href="/services/digital-marketing" className={`${router.pathname === '/services/digital-markting' ? 'navActive' : ''}`}>Digital Marketing Service</Link>
-                      </Dropdown.Item>
-                    </Dropdown.Menu>
-                  </Dropdown> */}
-
                   {/* <Link className={`nav-link ${router.pathname === '/blogs' ? 'navActive' : ''}`} href="/blogs">Blogs</Link> */}
+
                   <Link className={`nav-link ${router.pathname === '/career' ? 'navActive' : ''}`} href="/career">Career</Link>
-                  <Link className={`nav-link ${router.pathname === '/contact-' ? 'navActive' : ''}`} href="/contact-us/">Contact Us</Link>
+
+                  <Link className={`nav-link ${router.pathname === '/contact-us' ? 'navActive' : ''}`} href="/contact-us">Contact Us</Link>
+                 
 
 
                   {/* <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
@@ -162,45 +124,6 @@ const Header = () => {
             <ProductDropdown setShow={setShow} />
 
             <ServiceDropdown setShow={setShow}/>
-
-            {/* <Dropdown title="Products" id="basic-nav-dropdown" onMouseEnter={handlers1.onMouseEnter}
-              onMouseLeave={handlers1.onMouseLeave}
-              show={menuOpen1}>
-              <Dropdown.Toggle id="dropdown-basic">
-                <span>Products <AiFillPlusCircle size={19} id='plusIcon' /></span>
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item className='navItem1'>
-                  <Link href="/products/web-products" onClick={() => setShow(false)}>Web Products</Link>
-                </Dropdown.Item>
-                <Dropdown.Item className='navItem2'>
-                  <Link href="/products/app-products" onClick={() => setShow(false)}>App Products</Link>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-
-            <Dropdown title="Services" id="basic-nav-dropdown" onMouseEnter={handlers2.onMouseEnter}
-              onMouseLeave={handlers2.onMouseLeave}
-              show={menuOpen2}>
-              <Dropdown.Toggle id="dropdown-basic">
-                <span>Services <AiFillPlusCircle size={19} id='plusIcon' /></span>
-              </Dropdown.Toggle>
-              <Dropdown.Menu>
-                <Dropdown.Item className='navItem3'>
-                  <Link href="/services/web-development" onClick={() => setShow(false)}>Web Development</Link>
-                </Dropdown.Item>
-                <Dropdown.Item className='navItem4'>
-                  <Link href="/services/app-development" onClick={() => setShow(false)}>App Development</Link>
-                </Dropdown.Item>
-                <Dropdown.Item className='navItem5'>
-                  <Link href="/services/ui-ux-design" onClick={() => setShow(false)}>UI/UX Design Service</Link>
-
-                </Dropdown.Item>
-                <Dropdown.Item href="#/action-1" className='navItem6'>
-                  <Link href="/services/digital-marketing" onClick={() => setShow(false)}>Digital Marketing Service</Link>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown> */}
 
             <Link className="nav-link" href="/contact-us" onClick={() => setShow(false)}>Contact Us</Link>
 

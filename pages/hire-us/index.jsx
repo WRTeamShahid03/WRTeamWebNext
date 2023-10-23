@@ -1,5 +1,9 @@
 import Breadcrum from '@/Components/Breadcrum'
-import React from 'react'
+import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast'
+
+// Images
 import technicalExperties from '../../src/Asset/Images/Technical Expertise.png'
 import QualityAssurance from "../../src/Asset/Images/Quality Assurance.png"
 import CustomerSupport from '../../src/Asset/Images/Excellent Customer Support.png'
@@ -73,6 +77,38 @@ const index = () => {
             desc: "Our creative team is our power. WRTeam means we work together to bring real value through our projects.",
         },
     ]
+
+    const [name, setName] = useState('')
+    const [number, setNumber] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+    const [budget, setBudget] = useState('')
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        if (!name || !number || !email || !budget || !message) {
+            toast.error('Fill out the form first')
+        }
+        else {
+            emailjs.sendForm('service_f0zhqhh', 'template_zxke4jz', form.current, 'RITTN3aEr8VNyLQdN')
+                .then((result) => {
+                    console.log(result.text);
+                }, (error) => {
+                    console.log(error.text);
+                });
+            toast.success('Submited Successfully !')
+            setName('')
+            setNumber('')
+            setEmail('')
+            setBudget('')
+            setMessage('')
+        }
+
+    };
+
+
     return (
         <>
             <Breadcrum title="Hire" blueText="Us" contentOne="Home" contentTwo="Hire Us" />
@@ -170,34 +206,36 @@ const index = () => {
 
                                         <div className="formDiv">
 
-                                            <div className="mb-3 row">
-                                                <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
-                                                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" />
-                                                </div>
+                                            <form ref={form} onSubmit={sendEmail}>
 
-                                                <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email"></input>
-                                                </div>
-                                                <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Phone" />
-                                                </div>
+                                                <div className="mb-3 row">
+                                                    <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
+                                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" name='full_name' onChange={(e) => setName(e.target.value)} value={name}/>
+                                                    </div>
 
-                                                <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                    <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example">
-                                                        <option selected>Your Budget</option>
-                                                        <option value="1">One</option>
-                                                        <option value="2">Two</option>
-                                                        <option value="3">Three</option>
-                                                    </select>
+                                                    <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email}/>
+                                                    </div>
+                                                    <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={(e) => setNumber(e.target.value)} value={number}/>
+                                                    </div>
+
+                                                    <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
+                                                        <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example" name='budget' onChange={(e) => setBudget(e.target.value)} value={budget}>
+                                                            <option selected>Your Budget</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div className="mb-3 mt-4">
+                                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" name='message' placeholder='Your Message' onChange={(e) => setMessage(e.target.value)} value={message}/>
+                                                    </div>
+
+                                                    <button type='submit' className='homeCommon_btn'>Submit</button>
                                                 </div>
-
-                                                <div className="mb-3 mt-4">
-                                                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" placeholder='Your Message'></textarea>
-                                                </div>
-
-                                                <button className='homeCommon_btn'>Submit</button>
-
-                                            </div>
+                                            </form>
                                         </div>
                                     </div>
 
@@ -220,7 +258,7 @@ const index = () => {
 
                         <div className="col-sm-12 col-md-12 col-lg-12 lowerDiv">
 
-                                <span className='cardsdot'></span>
+                            <span className='cardsdot'></span>
                             <div className="row successCards">
                                 {
                                     Card2Data.map((e) => {

@@ -1605,13 +1605,13 @@ a {
 
 
 .navDropdown {
-    font: normal normal 600 16px/19px Montserrat;
-    color: #283042;
-    cursor: pointer;
+    font: normal normal 600 16px/19px Montserrat !important;
+    color: #283042 !important;
+    cursor: pointer !important;
 }
 
 .navDropdown svg{
-    margin-left: 4px;
+    margin-left: 4px !important;
 }
 
 .navDropdown .ant-space-item {
@@ -1628,21 +1628,21 @@ a {
 }
 
 :where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a::after {
-    content: '';
-    width: 0%;
-    height: 3px;
-    background: #2E71FE;
-    position: absolute;
-    top: 28px;
-    left: 14px;
-    transition: all 0.3s;
+    content: '' !important;
+    width: 0% !important;
+    height: 3px !important;
+    background: #2E71FE !important;
+    position: absolute !important;
+    top: 28px !important;
+    left: 14px !important;
+    transition: all 0.3s !important;
 }
 
 :where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-title-content a:hover::after {
-    width: 85%;
+    width: 85% !important;
 } 
 :where(.css-dev-only-do-not-override-3mqfnx).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item{
-    padding: 6px 12px;
+    padding: 6px 12px !important;
 }
 
 
@@ -1703,7 +1703,7 @@ a {
     width: 64% !important;
 }
 
-#heafer .navbar-nav .nav-link:hover {
+#header .navbar-nav .nav-link:hover {
     color: #2E71FE !important;
 
 }
@@ -1744,7 +1744,7 @@ a {
     width: 140px;
 }
 
-#header #rightSide .homeCommon_btn {
+#header #rightSide .homeCommon_btn ,.offcanvas #rightSide .homeCommon_btn{
     width: 120px;
     background-color: #283042;
     font: normal normal 600 16px/19px Montserrat;
@@ -1757,11 +1757,11 @@ a {
     overflow: hidden;
 }
 
-#header #rightSide .homeCommon_btn:hover {
+#header #rightSide .homeCommon_btn:hover ,.offcanvas #rightSide .homeCommon_btn:hover{
     color: white;
 }
 
-#header #rightSide .homeCommon_btn:after {
+#header #rightSide .homeCommon_btn::after,.offcanvas #rightSide .homeCommon_btn::after {
     content: "";
     background-color: #2E71FE;
     box-shadow: 0px 0px 60px #545A681A;
@@ -1775,7 +1775,7 @@ a {
     transition: all 0.7s;
 }
 
-#header #rightSide .homeCommon_btn:hover:after {
+#header #rightSide .homeCommon_btn:hover:after ,.offcanvas #rightSide .homeCommon_btn:hover::after{
     transform: skewY(-89.5deg) scale(1, 640);
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
