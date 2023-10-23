@@ -24,18 +24,12 @@ import timelyUpdadtes from '../../../src/Asset/Icons/All_Icons/Benefits/Timely U
 import quality from '../../../src/Asset/Icons/All_Icons/Benefits/Testing & Quality Assurance.png'
 import support from '../../../src/Asset/Icons/All_Icons/Benefits/Ongoing Support.png'
 import eliteAuthor from '../../../src/Asset/Icons/All_Icons/Benefits/Elite Author on Codecanyon – 1.png'
-import laravel from '../../../src/Asset/Icons/All_Icons/Build/Laravel.png'
-import laravelHover from '../../../src/Asset/Icons/All_Icons/Build/Laravel_Hover.png'
-import php from '../../../src/Asset/Icons/All_Icons/Build/php.png'
-import phpHover from '../../../src/Asset/Icons/All_Icons/Build/php_Hover.png'
-import codeignitor from '../../../src/Asset/Icons/All_Icons/Build/codeigniter.png'
-import codeignitorHover from '../../../src/Asset/Icons/All_Icons/Build/codeigniter_Hover.png'
-import vueJs from '../../../src/Asset/Icons/All_Icons/Build/Vue.js.png'
-import vueJsHover from '../../../src/Asset/Icons/All_Icons/Build/Vue.js_Hover.png'
-import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
-import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
-import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
-import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
+import androidIcon from '../../../src/Asset/Images/app-development/icon/Android.png'
+import androidIconHover from '../../../src/Asset/Images/app-development/icon/Android_Hover – 1.png'
+import flutterIcon from '../../../src/Asset/Images/app-development/icon/flutter.png'
+import flutterIconHover from '../../../src/Asset/Images/app-development/icon/flutterHover.png'
+import iosIcon from '../../../src/Asset/Images/app-development/icon/iOS.png'
+import iosIconHover from '../../../src/Asset/Images/app-development/icon/iOSHover.png'
 import processImg from '../../../src/Asset/Images/app-development/10-10-05-Our_Work Process.png'
 import processImg2 from '../../../src/Asset/Images/app-development/11-10-05-Our Work Process Devlopment.psd.png'
 
@@ -47,9 +41,9 @@ import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Q
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
 
 // swiper Imgs 
-import android from '../../../src/Asset/Images/app-development/Android app Devlopment Service.jpg'
-import flutter from '../../../src/Asset/Images/app-development/07-10-03-Android app Devlopment Service.jpg'
-import ios from '../../../src/Asset/Images/app-development/iOS app Devlopment Service.jpg'
+import android from '../../../src/Asset/Images/app-development/andriod Devlopment Service.jpg'
+import flutter from '../../../src/Asset/Images/app-development/flutter Devlopment Service.jpg'
+import ios from '../../../src/Asset/Images/app-development/iOS- Devlopment Service.jpg'
 import completeSolution from '../../../src/Asset/Images/app-development/Complete Solution Service.jpg'
 
 
@@ -134,44 +128,23 @@ const Index = () => {
     const buildCardData = [
         {
             id: 0,
-            icon: laravel,
-            hoverIcon: laravelHover,
-            title: 'Laravel'
+            icon: androidIcon,
+            hoverIcon: androidIconHover,
+            title: 'Android'
 
         },
         {
             id: 1,
-            icon: php,
-            hoverIcon: phpHover,
-            title: 'Php'
+            icon: flutterIcon,
+            hoverIcon: flutterIconHover,
+            title: 'Flutter'
 
         },
         {
             id: 2,
-            icon: codeignitor,
-            hoverIcon: codeignitorHover,
-            title: 'CodIgnitor'
-
-        },
-        {
-            id: 3,
-            icon: vueJs,
-            hoverIcon: vueJsHover,
-            title: 'VueJS'
-
-        },
-        {
-            id: 4,
-            icon: nextJs,
-            hoverIcon: nextJsHover,
-            title: 'NextJS'
-
-        },
-        {
-            id: 5,
-            icon: reactJs,
-            hoverIcon: reactJsHover,
-            title: 'ReactJS'
+            icon: iosIcon,
+            hoverIcon: iosIconHover,
+            title: 'iOS'
 
         },
     ]
@@ -215,21 +188,18 @@ const Index = () => {
             title: 'iOS app development',
             desc: 'There are over 1 billion globally active users of iPhones , making it a huge market for iOS apps. Our team is specialised in iOS app development and has the skills to create a great app for you.',
             img: ios,
-            bgColor: 'grey'
         },
         {
             id: 2,
             title: 'Flutter app development',
             desc: 'Flutter app development is the process of creating mobile apps with the Flutter framework. Flutter is an open-source, cross-platform framework created by Google. It means developers can use Flutter for build apps which can run on both Android and iOS devices, by single code.',
             img: flutter,
-            bgColor: 'rgb(23 79 196 / 80%)'
         },
         {
             id: 3,
             title: 'Complete Solution',
             desc: `WRTeam provides comprehensive app development services to organisations of all sizes. Our talented App Developers are committed to developing robust, feature-rich apps that meet your company's specific aims and requirements by utilising the most up-to-date tools, technologies, and industry standards. WRTeam specialises in Android app development, Flutter app development, and iOS app development to give the finest solutions for our client's needs. Our team has extensive expertise in developing high-quality mobile applications for the Android, Flutter, and iOS platforms. We have the competence to offer excellent outcomes whether you require an Android app, a Flutter app, or an iOS app.`,
             img: completeSolution,
-            bgColor: 'lightblue'
         },
     ]
 
@@ -445,8 +415,8 @@ const Index = () => {
                                         return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
+                                                    <img src={e.icon.src} alt="" className='buildIcon1' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
                                                 </span>
                                                 <span>{e.title}</span>
                                             </div>

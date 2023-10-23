@@ -1395,7 +1395,7 @@
 
     .build .buildWrapper .rightDiv {
         padding: 20px 130px;
-        padding-right: 0;
+        padding-left: 98px;
     }
 
     .devSlider .sliderWrapper .controls .buttn {
@@ -2161,6 +2161,7 @@
     .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
+        padding-left: 0;
     }
 
     .recentBlogs .col-lg-12 .row {
@@ -3129,6 +3130,7 @@
     .build .buildWrapper .rightDiv {
         padding: 20px 14px;
         padding-right: 0;
+        margin-left: -44px;
     }
 
     .recentBlogs .col-lg-12 .row {
@@ -4290,6 +4292,7 @@
     .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
+        margin-left: 26px;
     }
 
     .recentBlogs .col-lg-12 .row {
@@ -5576,6 +5579,7 @@
     .build .buildWrapper .rightDiv {
         padding: 20px 18px;
         padding-right: 0;
+        margin-left: -16px;
     }
 
     .recentBlogs .col-lg-12 .row {

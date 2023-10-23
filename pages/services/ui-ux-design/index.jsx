@@ -23,18 +23,14 @@ import timelyUpdadtes from '../../../src/Asset/Icons/All_Icons/Benefits/Timely U
 import quality from '../../../src/Asset/Icons/All_Icons/Benefits/Testing & Quality Assurance.png'
 import support from '../../../src/Asset/Icons/All_Icons/Benefits/Ongoing Support.png'
 import eliteAuthor from '../../../src/Asset/Icons/All_Icons/Benefits/Elite Author on Codecanyon – 1.png'
-import laravel from '../../../src/Asset/Icons/All_Icons/Build/Laravel.png'
-import laravelHover from '../../../src/Asset/Icons/All_Icons/Build/Laravel_Hover.png'
-import php from '../../../src/Asset/Icons/All_Icons/Build/php.png'
-import phpHover from '../../../src/Asset/Icons/All_Icons/Build/php_Hover.png'
-import codeignitor from '../../../src/Asset/Icons/All_Icons/Build/codeigniter.png'
-import codeignitorHover from '../../../src/Asset/Icons/All_Icons/Build/codeigniter_Hover.png'
-import vueJs from '../../../src/Asset/Icons/All_Icons/Build/Vue.js.png'
-import vueJsHover from '../../../src/Asset/Icons/All_Icons/Build/Vue.js_Hover.png'
-import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
-import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
-import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
-import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
+import figma from '../../../src/Asset/Images/ui-ux-development/icon/Figma.png'
+import figmaHover from '../../../src/Asset/Images/ui-ux-development/icon/FigmaHover.png'
+import illustrator from '../../../src/Asset/Images/ui-ux-development/icon/Illustrator.png'
+import illustratorHover from '../../../src/Asset/Images/ui-ux-development/icon/IllustratorHover.png'
+import photoShop from '../../../src/Asset/Images/ui-ux-development/icon/Photoshop.png'
+import photoShopHover from '../../../src/Asset/Images/ui-ux-development/icon/PhotoshopHover.png'
+import xd from '../../../src/Asset/Images/ui-ux-development/icon/XD.png'
+import xdHover from '../../../src/Asset/Images/ui-ux-development/icon/XDHover.png'
 import processImg from '../../../src/Asset/Images/ui-ux-development/12-10-05-Our Work Process_Ui-ux Disign service-.png'
 import processImg2 from '../../../src/Asset/Images/ui-ux-development/12-10-05-Our Work Process Ui-ux Disign service.png'
 import NewSlider from '../../../src/Components/NewSlider'
@@ -45,6 +41,11 @@ import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Pl
 import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
 import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
+// swiper Imgs 
+import appDesign from '../../../src/Asset/Images/ui-ux-development/app_design.jpg'
+import webDesign from '../../../src/Asset/Images/ui-ux-development/web_design.jpg'
+import brandDesign from '../../../src/Asset/Images/ui-ux-development/Brand design.jpg'
+import completeSolution from '../../../src/Asset/Images/ui-ux-development/Complete Solution Service.jpg'
 
 const Index = () => {
 
@@ -126,44 +127,30 @@ const Index = () => {
   const buildCardData = [
     {
       id: 0,
-      icon: laravel,
-      hoverIcon: laravelHover,
-      title: 'Laravel'
+      icon: figma,
+      hoverIcon: figmaHover,
+      title: 'Figma'
 
     },
     {
       id: 1,
-      icon: php,
-      hoverIcon: phpHover,
-      title: 'Php'
+      icon: illustrator,
+      hoverIcon: illustratorHover,
+      title: 'Illustrator'
 
     },
     {
       id: 2,
-      icon: codeignitor,
-      hoverIcon: codeignitorHover,
-      title: 'CodIgnitor'
+      icon: photoShop,
+      hoverIcon: photoShopHover,
+      title: 'Photoshop'
 
     },
     {
       id: 3,
-      icon: vueJs,
-      hoverIcon: vueJsHover,
-      title: 'VueJS'
-
-    },
-    {
-      id: 4,
-      icon: nextJs,
-      hoverIcon: nextJsHover,
-      title: 'NextJS'
-
-    },
-    {
-      id: 5,
-      icon: reactJs,
-      hoverIcon: reactJsHover,
-      title: 'ReactJS'
+      icon: xd,
+      hoverIcon: xdHover,
+      title: 'XD'
 
     },
   ]
@@ -200,43 +187,25 @@ const Index = () => {
       id: 0,
       title: 'Web design',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.',
-      img: 'https://source.unsplash.com/featured/?car',
-      bgColor: 'white'
+      img: webDesign,
     },
     {
       id: 1,
       title: 'App design',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements',
-      img: 'https://source.unsplash.com/featured/?bike',
-      bgColor: 'grey'
+      img: appDesign,
     },
     {
       id: 2,
       title: 'Brand design',
       desc: 'WRTeam offers full-stack web development services that combine the best of front-end and back-end development. Our full-stack developers are experts in handling all aspects of website development, from designing attractive interfaces to implementing difficult business logic in the back-end. Comprehensive features ensure seamless integration between the various layers of your website, delivering a high-end product.',
-      img: 'https://source.unsplash.com/featured/?animal',
-      bgColor: 'rgb(23 79 196 / 80%)'
+      img: brandDesign,
     },
     {
       id: 3,
       title: 'Complete Solution',
       desc: `At WRTeam, we understand that your website or app is your online presence and the first impression you make on potential customers. That's why we provide the best UI/UX design services and develop beautiful and user-friendly websites or apps that increase conversion rates. WRTeam believes that good design should be both attractive and functional, which is why we focus on user experience (UX) design. Our aim is to ensure that your website or app is easy to use, clean, and focused on conversion. We strive to provide comprehensive solutions for creating user-friendly and efficient websites and apps.`,
-      img: 'https://source.unsplash.com/featured/?bird',
-      bgColor: 'lightblue'
-    },
-    {
-      id: 4,
-      title: 'Experienced Team',
-      desc: `Our team of skilled UI/UX designers works closely with you to understand your brand identity, target audience, and business objectives. We keep up with the latest design trends and use industry-standard techniques to build websites and apps that showcase your style and effectively engage users. Whether it's a website or an app, we strive to create digital experiences that align with your vision and drive results.`,
-      img: 'https://source.unsplash.com/featured/?home',
-      bgColor: 'green'
-    },
-    {
-      id: 5,
-      title: 'Budget Friendly',
-      desc: 'We understand that financial aspects are important for all types of businesses. That is why we provide best UI/UX design service at cost-effective price without compromising on design quality. Our competitive pricing and various range of design packages ensure that you receive the best value for your investment.',
-      img: 'https://source.unsplash.com/featured/?nature',
-      bgColor: 'orange'
+      img: completeSolution,
     },
   ]
 
@@ -451,8 +420,8 @@ const Index = () => {
                     return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
                       <div className="card">
                         <span className='buildCardIcon'>
-                          <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                          <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
+                          <img src={e.icon.src} alt="" className='buildIcon1' />
+                          <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
                         </span>
                         <span>{e.title}</span>
                       </div>

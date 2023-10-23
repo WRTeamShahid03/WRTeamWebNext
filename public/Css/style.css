@@ -4232,8 +4232,9 @@ footer .footerContainer .flinks {
 
 .build .buildWrapper .rightDiv .card {
     border: none;
-    gap: 40px 0px;
+    gap: 20px 0px;
     transition: all 0.3s;
+    align-items: center;
 }
 
 .build .buildWrapper .rightDiv .card .buildCardIcon {
@@ -4256,10 +4257,13 @@ footer .footerContainer .flinks {
     display: none;
 }
 
-
 .build .buildWrapper .rightDiv .card:hover .buildIcon1 {
     display: none;
     transition: all 0.3s;
+}
+
+.build .buildWrapper .rightDiv .card:hover .buildIcon2 {
+    display: none;
 }
 
 .build .buildWrapper .rightDiv .card:hover .buildIcon2 {
@@ -4273,14 +4277,14 @@ footer .footerContainer .flinks {
 }
 
 /* change card hover  */
-.build .buildWrapper .rightDiv .card:hover .buildCardIcon {
+/* .build .buildWrapper .rightDiv .card:hover .buildCardIcon {
     background-color: var(--primary-color);
     box-shadow: 0px 8px 26px #176BF15C;
 }
 
 .build .buildWrapper .rightDiv .card:hover .buildIcon2 {
     filter: brightness(5%) invert(100%);
-}
+} */
 
 .webDevContact {
     margin-top: 200px;

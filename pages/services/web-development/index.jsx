@@ -23,18 +23,18 @@ import timelyUpdadtes from '../../../src/Asset/Icons/All_Icons/Benefits/Timely U
 import quality from '../../../src/Asset/Icons/All_Icons/Benefits/Testing & Quality Assurance.png'
 import support from '../../../src/Asset/Icons/All_Icons/Benefits/Ongoing Support.png'
 import eliteAuthor from '../../../src/Asset/Icons/All_Icons/Benefits/Elite Author on Codecanyon – 1.png'
-import laravel from '../../../src/Asset/Icons/All_Icons/Build/Laravel.png'
-import laravelHover from '../../../src/Asset/Icons/All_Icons/Build/Laravel_Hover.png'
-import php from '../../../src/Asset/Icons/All_Icons/Build/php.png'
-import phpHover from '../../../src/Asset/Icons/All_Icons/Build/php_Hover.png'
-import codeignitor from '../../../src/Asset/Icons/All_Icons/Build/codeigniter.png'
-import codeignitorHover from '../../../src/Asset/Icons/All_Icons/Build/codeigniter_Hover.png'
-import vueJs from '../../../src/Asset/Icons/All_Icons/Build/Vue.js.png'
-import vueJsHover from '../../../src/Asset/Icons/All_Icons/Build/Vue.js_Hover.png'
-import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
-import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
-import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
-import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
+import laravel from '../../../src/Asset/Images/web-development/icon/Laravel.png'
+import laravelHover from '../../../src/Asset/Images/web-development/icon/Laravel_Hover.png'
+import php from '../../../src/Asset/Images/web-development/icon/php.png'
+import phpHover from '../../../src/Asset/Images/web-development/icon/php_Hover.png'
+import codeignitor from '../../../src/Asset/Images/web-development/icon/codeigniter.png'
+import codeignitorHover from '../../../src/Asset/Images/web-development/icon/codeigniter_Hover.png'
+import vueJs from '../../../src/Asset/Images/web-development/icon/Vue.js.png'
+import vueJsHover from '../../../src/Asset/Images/web-development/icon/Vue.js_Hover.png'
+import nextJs from '../../../src/Asset/Images/web-development/icon/nextjs.png'
+import nextJsHover from '../../../src/Asset/Images/web-development/icon/nextjs_Hover.png'
+import reactJs from '../../../src/Asset/Images/web-development/icon/React.png'
+import reactJsHover from '../../../src/Asset/Images/web-development/icon/React_Hover.png'
 import processImg from '../../../src/Asset/Images/web-development/Our Work Process Devlopment.png'
 import processImg2 from '../../../src/Asset/Images/web-development/Our Work Process_Devlopment.png'
 import NewSlider from '../../../src/Components/NewSlider'
@@ -45,6 +45,12 @@ import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Pl
 import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
 import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
+// swiper Imgs 
+import frontendImg from '../../../src/Asset/Images/web-development/10-19- Front_end_Devlopment Service.jpg'
+import backendImg from '../../../src/Asset/Images/web-development/10-19- Back_end_Devlopment Service.jpg'
+import fullStactImg from '../../../src/Asset/Images/web-development/10-19- full_stak_Devlopment Service.jpg'
+import completeSolution from '../../../src/Asset/Images/web-development/10-19-Complete Solution Service.jpg'
+
 
 const Index = () => {
 
@@ -200,43 +206,25 @@ const Index = () => {
       id: 0,
       title: 'Front-end web development',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.',
-      img: 'https://source.unsplash.com/featured/?car',
-      bgColor: 'white'
+      img: frontendImg,
     },
     {
       id: 1,
       title: 'Back-end web development',
       desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements',
-      img: 'https://source.unsplash.com/featured/?bike',
-      bgColor: 'grey'
+      img: backendImg,
     },
     {
       id: 2,
       title: 'Full-stack web development',
       desc: 'WRTeam offers full-stack web development services that combine the best of front-end and back-end development. Our full-stack developers are experts in handling all aspects of website development, from designing attractive interfaces to implementing difficult business logic in the back-end. Comprehensive features ensure seamless integration between the various layers of your website, delivering a high-end product.',
-      img: 'https://source.unsplash.com/featured/?animal',
-      bgColor: 'rgb(23 79 196 / 80%)'
+      img: fullStactImg,
     },
     {
       id: 3,
       title: 'Complete Solution',
       desc: 'WRTeam provides professional web development services that satisfy the demands of online businesses. Our experienced programmers employ the most modern technology to build adaptable, practical websites that comply with certain specifications.Our web development services include front-end web development, back-end web development, and full-stack web development. WRTeam believes in delivering end-to-end web development services.',
-      img: 'https://source.unsplash.com/featured/?bird',
-      bgColor: 'lightblue'
-    },
-    {
-      id: 4,
-      title: 'Experienced Team',
-      desc: `WRTeam's web development service team has good experience and great knowledge of various technologies such as databases, programming languages, development tools and frameworks. Our team of experts works hard to keep your website up-to-date, secure, and running faster.`,
-      img: 'https://source.unsplash.com/featured/?home',
-      bgColor: 'green'
-    },
-    {
-      id: 5,
-      title: 'Budget Friendly',
-      desc: 'At WRTeam, we take our clients, their financial goals, and their business budgets very seriously. We offer excellent his web development services at affordable prices. Our affordable web development services do not mean compromising on quality. We design high-quality websites that meet the specific needs of our clients and provide them with an excellent user experience. WRTeam recognizes the value of an engaging and actionable website and strives to provide just that.',
-      img: 'https://source.unsplash.com/featured/?nature',
-      bgColor: 'orange'
+      img: completeSolution,
     },
   ]
 
@@ -452,7 +440,7 @@ const Index = () => {
                       <div className="card">
                         <span className='buildCardIcon'>
                           <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                          <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
+                          <img src={e.icon.src} alt="" className='buildIcon2'/>
                         </span>
                         <span>{e.title}</span>
                       </div>
@@ -547,3 +535,6 @@ const Index = () => {
 }
 
 export default Index
+
+
+// style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} 

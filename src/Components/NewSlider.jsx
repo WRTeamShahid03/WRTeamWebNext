@@ -67,13 +67,6 @@ const NewSlider = ({ newSwiperData }) => {
                             </div>
                         })
                     }
-
-                    {/* <div style={{ background: `url(${'https://source.unsplash.com/featured/?car'})` }}></div>
-                    <div style={{ background: `url(${'https://source.unsplash.com/featured/?bike'})` }}></div>
-                    <div style={{ background: `url(${'https://source.unsplash.com/featured/?animal'})` }}></div>
-                    <div style={{ background: `url(${'https://source.unsplash.com/featured/?bird'})` }}></div>
-                    <div style={{ background: `url(${'https://source.unsplash.com/featured/?home'})` }}></div>
-                    <div style={{ background: `url(${'https://source.unsplash.com/featured/?nature'})` }}></div> */}
                 </div>
                 <div className="controls">
                     <button className="down-button buttn">

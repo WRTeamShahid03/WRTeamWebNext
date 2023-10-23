@@ -23,18 +23,20 @@ import timelyUpdadtes from '../../../src/Asset/Icons/All_Icons/Benefits/Timely U
 import quality from '../../../src/Asset/Icons/All_Icons/Benefits/Testing & Quality Assurance.png'
 import support from '../../../src/Asset/Icons/All_Icons/Benefits/Ongoing Support.png'
 import eliteAuthor from '../../../src/Asset/Icons/All_Icons/Benefits/Elite Author on Codecanyon – 1.png'
-import laravel from '../../../src/Asset/Icons/All_Icons/Build/Laravel.png'
-import laravelHover from '../../../src/Asset/Icons/All_Icons/Build/Laravel_Hover.png'
-import php from '../../../src/Asset/Icons/All_Icons/Build/php.png'
-import phpHover from '../../../src/Asset/Icons/All_Icons/Build/php_Hover.png'
-import codeignitor from '../../../src/Asset/Icons/All_Icons/Build/codeigniter.png'
-import codeignitorHover from '../../../src/Asset/Icons/All_Icons/Build/codeigniter_Hover.png'
-import vueJs from '../../../src/Asset/Icons/All_Icons/Build/Vue.js.png'
-import vueJsHover from '../../../src/Asset/Icons/All_Icons/Build/Vue.js_Hover.png'
-import nextJs from '../../../src/Asset/Icons/All_Icons/Build/nextjs.png'
-import nextJsHover from '../../../src/Asset/Icons/All_Icons/Build/nextjs_Hover.png'
-import reactJs from '../../../src/Asset/Icons/All_Icons/Build/React.png'
-import reactJsHover from '../../../src/Asset/Icons/All_Icons/Build/React_Hover.png'
+import emailmarIcon from '../../../src/Asset/Images/digital-marketing/icon/email_marketing.png'
+import emailmarIconHover from '../../../src/Asset/Images/digital-marketing/icon/email_marketingHover.png'
+import fbAdds from '../../../src/Asset/Images/digital-marketing/icon/FB_ADD.png'
+import fbAddsHover from '../../../src/Asset/Images/digital-marketing/icon/FB_ADDHover.png'
+import googleAdds from '../../../src/Asset/Images/digital-marketing/icon/google_ads.png'
+import googleAddsHover from '../../../src/Asset/Images/digital-marketing/icon/google_adsHover.png'
+import googleAna from '../../../src/Asset/Images/digital-marketing/icon/Google_Analytics.png'
+import googleAnaHover from '../../../src/Asset/Images/digital-marketing/icon/Google_AnalyticsHover.png'
+import seoIcon from '../../../src/Asset/Images/digital-marketing/icon/seo.png'
+import seoIconHover from '../../../src/Asset/Images/digital-marketing/icon/seoHover.png'
+import seoYT from '../../../src/Asset/Images/digital-marketing/icon/YT_seo.png'
+import seoYTHover from '../../../src/Asset/Images/digital-marketing/icon/YT_seoHover.png'
+
+
 import processImg from '../../../src/Asset/Images/digital-marketing/13-10-05-Our Work Process Digital Marketing  service.png'
 import processImg2 from '../../../src/Asset/Images/digital-marketing/13-10-05-Our Work Process_Digital Marketing_service copy.png'
 import NewSlider from '../../../src/Components/NewSlider'
@@ -45,6 +47,11 @@ import processIcon3 from '../../../src/Asset/Icons/All_Icons/Process/Design & Pl
 import processIcon4 from '../../../src/Asset/Icons/All_Icons/Process/Analysis of Demands.png'
 import processIcon5 from '../../../src/Asset/Icons/All_Icons/Process/Testing & Quality Assurance.png'
 import processIcon6 from '../../../src/Asset/Icons/All_Icons/Process/Deployment.png'
+// swiper Imgs 
+import emailMarketing from '../../../src/Asset/Images/digital-marketing/Email Marketing.jpg'
+import seo from '../../../src/Asset/Images/digital-marketing/SEO.jpg'
+import smm from '../../../src/Asset/Images/digital-marketing/SMM.jpg'
+import localMarketing from '../../../src/Asset/Images/digital-marketing/Local Marketing.jpg'
 
 const Index = () => {
 
@@ -126,44 +133,44 @@ const Index = () => {
     const buildCardData = [
         {
             id: 0,
-            icon: laravel,
-            hoverIcon: laravelHover,
-            title: 'Laravel'
+            icon: emailmarIcon,
+            hoverIcon: emailmarIconHover,
+            title: 'Email Marketing'
 
         },
         {
             id: 1,
-            icon: php,
-            hoverIcon: phpHover,
-            title: 'Php'
+            icon: fbAdds,
+            hoverIcon: fbAddsHover,
+            title: 'Facebood Adds'
 
         },
         {
             id: 2,
-            icon: codeignitor,
-            hoverIcon: codeignitorHover,
-            title: 'CodIgnitor'
+            icon: googleAdds,
+            hoverIcon: googleAddsHover,
+            title: 'Google Adds'
 
         },
         {
             id: 3,
-            icon: vueJs,
-            hoverIcon: vueJsHover,
-            title: 'VueJS'
+            icon: googleAna,
+            hoverIcon: googleAnaHover,
+            title: 'Google Analytics'
 
         },
         {
             id: 4,
-            icon: nextJs,
-            hoverIcon: nextJsHover,
-            title: 'NextJS'
+            icon: seoIcon,
+            hoverIcon: seoIconHover,
+            title: 'SEO'
 
         },
         {
             id: 5,
-            icon: reactJs,
-            hoverIcon: reactJsHover,
-            title: 'ReactJS'
+            icon: seoYT,
+            hoverIcon: seoYTHover,
+            title: 'SEO Youtube'
 
         },
     ]
@@ -200,43 +207,25 @@ const Index = () => {
             id: 0,
             title: 'SEO (Search Engine Optimization)',
             desc: `We will work with you to improve position of your website's on search engine results pages (SERPs) and secure the top at page. We will increase visibility of your site and chances of ranking higher on the SERPs by keyword reasearch, optimizing content and structure.`,
-            img: 'https://source.unsplash.com/featured/?car',
-            bgColor: 'white'
+            img: seo,
         },
         {
             id: 1,
             title: 'SMM (Social Media Marketing)',
             desc: `We'll help you establish a strong social media presence by creating and managing your profile, and developing and publishing engaging content that will appeal to your target audience.`,
-            img: 'https://source.unsplash.com/featured/?bike',
-            bgColor: 'grey'
+            img: smm,
         },
         {
             id: 2,
             title: 'Email Marketing',
             desc: 'We will help you reach your target audience with personalized email campaigns that are tailored to their interests and behaviors.',
-            img: 'https://source.unsplash.com/featured/?animal',
-            bgColor: 'rgb(23 79 196 / 80%)'
+            img: emailMarketing,
         },
         {
             id: 3,
             title: 'Local Marketing',
             desc: 'WRTeam helps businesses increase their brand exposure and connect with their local customers. Our special approaches to local SEO and local ads help businesses to reach new customers and increase foot traffic to your actual locations.',
-            img: 'https://source.unsplash.com/featured/?bird',
-            bgColor: 'lightblue'
-        },
-        {
-            id: 4,
-            title: 'Experienced Team',
-            desc: `WRTeam's web development service team has good experience and great knowledge of various technologies such as databases, programming languages, development tools and frameworks. Our team of experts works hard to keep your website up-to-date, secure, and running faster.`,
-            img: 'https://source.unsplash.com/featured/?home',
-            bgColor: 'green'
-        },
-        {
-            id: 5,
-            title: 'Budget Friendly',
-            desc: 'At WRTeam, we take our clients, their financial goals, and their business budgets very seriously. We offer excellent his web development services at affordable prices. Our affordable web development services do not mean compromising on quality. We design high-quality websites that meet the specific needs of our clients and provide them with an excellent user experience. WRTeam recognizes the value of an engaging and actionable website and strives to provide just that.',
-            img: 'https://source.unsplash.com/featured/?nature',
-            bgColor: 'orange'
+            img: localMarketing,
         },
     ]
 
@@ -253,7 +242,7 @@ const Index = () => {
                                     Digital Marketing <span>Services</span>
                                 </span>
                                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                                Grow your business with the Best <span> Digital Marketing </span> Services
+                                    Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h1>
 
                                 <p className="comman_para"> Drive traffic, increase ROI, maximise conversions, increase brand awareness, and grow your brand or business online with our best digital marketing services.</p>
@@ -280,8 +269,8 @@ const Index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="backendHeadings">
                                 <span className="common_span">
-                                   {/* <span> What We</span> Offer</span> */}
-                                   <span> What </span>We Offer</span>
+                                    {/* <span> What We</span> Offer</span> */}
+                                    <span> What </span>We Offer</span>
                                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
                                     Services <span>We Can Help </span>You With
                                 </h3>
@@ -360,7 +349,7 @@ const Index = () => {
                                     Our <span>Work Process</span>
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
-                                Grow your business with the Best <span> Digital Marketing </span> Services
+                                    Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h3>
                             </div>
 
@@ -451,8 +440,8 @@ const Index = () => {
                                         return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' style={{ filter: e.hoverIcon === phpHover ? 'brightness(25%) invert(202%) contrast(100%)' : '' }} />
+                                                    <img src={e.icon.src} alt="" className='buildIcon1' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
                                                 </span>
                                                 <span>{e.title}</span>
                                             </div>
