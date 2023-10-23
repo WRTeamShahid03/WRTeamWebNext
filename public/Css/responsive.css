@@ -4428,6 +4428,7 @@
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 0px;
         left: 0;
+        padding-left: 0px;
     }
 
     #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg img {
@@ -4710,6 +4711,9 @@
 
     #services .servCard:hover .servText {
         color: #545A68 !important;
+    }
+    #services .serviesWrapper .servrightDiv {
+        margin-left: 0px;
     }
 
     /* services ends  */
