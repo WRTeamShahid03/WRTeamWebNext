@@ -1,15 +1,15 @@
 import Breadcrum from '@/Components/Breadcrum'
 import React, { useState } from 'react'
 import Card from 'react-bootstrap/Card';
-import egrocer from '../../../src/Asset/Images/eGrocer_web.png'
-import elite from '../../../src/Asset/Images/eLite_Quiz_web.png'
-import ecart from '../../../src/Asset/Images/eCart_Web.png'
-import news from '../../../src/Asset/Images/News-Web.png'
-import eshop from '../../../src/Asset/Images/eShop_web.png'
-import ecartSingle from '../../../src/Asset/Images/eCart_Web_Single.png'
-import eshopMulti from '../../../src/Asset/Images/eShop_Multi_Web.png'
-import erestro from '../../../src/Asset/Images/eRestro_Web.png'
-import espeech from '../../../src/Asset/Images/eSpeech_web.png'
+import egrocer from '../../../src/Asset/Images/web-products/eGrocer_web.png'
+import elite from '../../../src/Asset/Images/web-products/eLite_Quiz_web.png'
+import ecart from '../../../src/Asset/Images/web-products/eCart_Web.png'
+import news from '../../../src/Asset/Images/web-products/News-Web.png'
+import eshop from '../../../src/Asset/Images/web-products/eShop_web.png'
+import ecartSingle from '../../../src/Asset/Images/web-products/eCart_Web_Single.png'
+import eshopMulti from '../../../src/Asset/Images/web-products/eShop_Multi_Web.png'
+import erestro from '../../../src/Asset/Images/web-products/eRestro_Web.png'
+import espeech from '../../../src/Asset/Images/web-products/eSpeech_web.png'
 import { LiaStarSolid } from 'react-icons/lia';
 import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
@@ -138,12 +138,12 @@ const index = () => {
         <>
 
             <Breadcrum title='Web' blueText='Products' contentOne={'Home'} contentTwo={'Products'} contentThree={'Web Products'}/>
-            <section id='webPro' className='container'>
+            <section className='container webPro'>
 
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="webProHeadingDiv">
-                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">We found <span>9</span> Products</span>
+                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">We found <span>{cardData.length}</span> Products</span>
                             <div className="sortBy">
                                 <span>Sort By :</span>
                                 <select
@@ -177,7 +177,9 @@ const index = () => {
                                                         <BsStarHalf size={18} color='#FFA800' />
                                                     </span>{e.rating}</span>
                                                 </div>
-                                                <Card.Title>{e.title}</Card.Title>
+                                                {
+                                                    e.title.length > 60?<Card.Title>{e.title.slice(0,50)}...</Card.Title>:<Card.Title>{e.title}</Card.Title>
+                                                }
                                                 <Card.Text>
                                                     {e.text}
                                                 </Card.Text>

@@ -3429,7 +3429,7 @@ footer .footerContainer .flinks {
 #hireUs select,
 #applyNow select,
 #applyNow input,
-#webPro .sortBy select {
+.webPro .sortBy select {
     box-shadow: none;
     color: #595c5f;
 }
@@ -3776,38 +3776,38 @@ footer .footerContainer .flinks {
 
 /* applyNow ends  */
 
-#webPro {
+.webPro {
     margin-top: 60px;
     padding-bottom: 30px;
 }
 
-#webPro .webProHeadingDiv {
+.webPro .webProHeadingDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#webPro .webProHeadingDiv .commonHeadlines {
+.webPro .webProHeadingDiv .commonHeadlines {
     text-align: left;
     font: normal normal bold 24px/32px Montserrat;
     padding: 0px;
     margin-top: 0;
 }
 
-#webPro .sortBy {
+.webPro .sortBy {
     display: flex;
     align-items: baseline;
     gap: 0px 12px;
     position: relative;
 }
 
-#webPro .sortBy span {
+.webPro .sortBy span {
     position: absolute;
     left: -68px;
     top: 6px;
 }
 
-#webPro .cardsWrapper .card {
+.webPro .cardsWrapper .card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.5px dashed #545a6870;
     border-width: 2px;
@@ -3819,22 +3819,22 @@ footer .footerContainer .flinks {
     transition: all 0.3s ease-out;
 }
 
-#webPro .cardsWrapper .card .card-body {
+.webPro .cardsWrapper .card .card-body {
     padding: 0;
 }
 
-#webPro .cardsWrapper .card .card-img-top {
+.webPro .cardsWrapper .card .card-img-top {
     width: 100%;
     height: 100%;
 }
 
-#webPro .cardsWrapper .card .ratingDiv {
+.webPro .cardsWrapper .card .ratingDiv {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#webPro .cardsWrapper .card .ratingDiv .sales {
+.webPro .cardsWrapper .card .ratingDiv .sales {
     background: #283042 0% 0% no-repeat padding-box;
     border-radius: 4px;
     font: normal normal 600 14px/18px Montserrat;
@@ -3842,52 +3842,59 @@ footer .footerContainer .flinks {
     padding: 6px;
 }
 
-#webPro .cardsWrapper .card .ratingDiv .rating svg {
+.webPro .cardsWrapper .card .ratingDiv .rating svg {
     margin-top: -5px;
     margin-right: 4px;
 }
 
-#webPro .cardsWrapper .card .ratingDiv .rating {
+.webPro .cardsWrapper .card .ratingDiv .rating {
     font: normal normal 600 14px/18px Montserrat;
     color: #283042;
 }
 
-#webPro .cardsWrapper .card .card-title {
+.webPro .cardsWrapper .card .card-title {
     margin-top: 15px;
     font: normal normal bold 16px/26px Montserrat;
     color: #212121;
+    height: 50px;
 }
 
-#webPro .cardsWrapper .card .card-text {
+@media only screen and (max-width: 767px) {
+    .webPro .cardsWrapper .card .card-title {
+        height: 100%;
+    }
+}
+
+.webPro .cardsWrapper .card .card-text {
     font: normal normal medium 12px/15px Montserrat;
     color: #545A68C2;
 }
 
-#webPro .cardsWrapper .card .cardFooter {
+.webPro .cardsWrapper .card .cardFooter {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 4px;
 }
 
-#webPro .cardsWrapper .card .cardFooter .priceDiv {
+.webPro .cardsWrapper .card .cardFooter .priceDiv {
     display: flex;
     flex-direction: column;
     gap: 4px 0px;
 }
 
-#webPro .cardsWrapper .card .cardFooter .priceDiv span:first-child {
+.webPro .cardsWrapper .card .cardFooter .priceDiv span:first-child {
     font: normal normal medium 12px/15px Montserrat;
     color: #545A68C2;
 }
 
 
-#webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+.webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
     font: normal normal bold 24px/29px Montserrat;
     color: #22A869;
 }
 
-#webPro .cardsWrapper .card .cardFooter .buyBtn {
+.webPro .cardsWrapper .card .cardFooter .buyBtn {
     font: normal normal 600 16px/19px Montserrat;
     color: #545A68;
     border: 0.5px solid #283042a1;
@@ -3896,12 +3903,12 @@ footer .footerContainer .flinks {
     transition: all 0.3s ease-out;
 }
 
-#webPro .cardsWrapper .card .cardFooter .buyBtn svg {
+.webPro .cardsWrapper .card .cardFooter .buyBtn svg {
     margin-top: -4px;
     margin-right: 10px;
 }
 
-#webPro .cardsWrapper .card hr {
+.webPro .cardsWrapper .card hr {
     margin: 8px 0px;
     margin-left: -9px;
     width: 105%;
@@ -3910,16 +3917,16 @@ footer .footerContainer .flinks {
     border-radius: 16px;
 }
 
-#webPro .cardsWrapper .card:hover .buyBtn {
+.webPro .cardsWrapper .card:hover .buyBtn {
     background-color: #22A869;
     color: white;
 }
 
-#webPro .cardsWrapper .card:hover {
+.webPro .cardsWrapper .card:hover {
     box-shadow: 0px 16px 36px #28304214;
 }
 
-#webPro a {
+.webPro a {
     text-decoration: none;
 }
 

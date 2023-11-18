@@ -487,7 +487,7 @@ const Index = () => {
             </section>
             {/* webDevContact ends  */}
 
-            <section className='recentBlogs container'>
+            {/* <section className='recentBlogs container'>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="recentBlogHeading">
@@ -529,7 +529,7 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* recentBlogs ends  */}
         </div>
     )

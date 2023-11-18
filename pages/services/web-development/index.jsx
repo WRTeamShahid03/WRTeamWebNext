@@ -413,49 +413,6 @@ const Index = () => {
       </section>
       {/* process ends  */}
 
-      <section className='build'>
-        <div className="bgDiv">
-          <div className="blueBg"></div>
-        </div>
-        <div className="container">
-          <div className="row buildWrapper">
-            <div className="col-sm-12 col-md-12 col-lg-5 leftDiv" >
-              <div className="buildHeadings">
-                <span className="common_span">
-                  <span>We</span> Build
-                </span>
-                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                  We <span> Build</span> With <span> Modern</span> Technologies & Tools
-                </h3>
-                <p className="comman_para firstP">
-                  We're about relationships. Our dedicated support team is here for you.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-12 col-lg-6 rightDiv">
-              <div className="row buildCardsWrapper">
-                {
-                  buildCardData.map((e) => {
-                    return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
-                      <div className="card">
-                        <span className='buildCardIcon'>
-                          <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                          <img src={e.icon.src} alt="" className='buildIcon2'/>
-                        </span>
-                        <span>{e.title}</span>
-                      </div>
-                    </div>
-
-                  })
-                }
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* build ends  */}
-
       <section className='webDevContact'>
         <div className="getInTouch container" style={{
           background: `rgb(23 79 196 / 83%) url(${getTouch.src})`,

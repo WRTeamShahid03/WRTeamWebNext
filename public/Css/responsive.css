@@ -224,10 +224,6 @@
 
     /* career ends  */
 
-    #webPro .cardsWrapper .card .card-title {
-        height: 80px;
-    }
-
     .webDevelopmentPage {
         overflow: hidden;
     }
@@ -675,19 +671,15 @@
 
     /* career ends  */
 
-    #webPro {
+    .webPro {
         padding-bottom: 56px;
     }
 
-    #webPro .cardsWrapper .card .card-title {
-        height: 76px;
-    }
-
-    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+    .webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
     }
 
-    #webPro .cardsWrapper .col-lg-3 {
+    .webPro .cardsWrapper .col-lg-3 {
         flex: 0 0 auto;
         width: 33.33%;
     }
@@ -1229,19 +1221,15 @@
 
     /* career ends  */
 
-    #webPro {
+    .webPro {
         padding-bottom: 56px;
     }
 
-    #webPro .cardsWrapper .card .card-title {
-        height: 76px;
-    }
-
-    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+    .webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
     }
 
-    #webPro .cardsWrapper .col-lg-3 {
+    .webPro .cardsWrapper .col-lg-3 {
         flex: 0 0 auto;
         width: 33.33%;
     }
@@ -1975,16 +1963,11 @@
 
     /* career ends  */
 
-    #webPro {
+    .webPro {
         margin-top: 40px;
         padding-bottom: 56px;
     }
-
-    #webPro .cardsWrapper .card .card-title {
-        height: 76px;
-    }
-
-    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+    .webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
     }
 
@@ -2905,25 +2888,25 @@
     }
     /* career ends  */
 
-    #webPro {
+    .webPro {
         margin-top: 40px;
         padding-bottom: 56px;
     }
 
-    #webPro .webProHeadingDiv {
+    .webPro .webProHeadingDiv {
         align-items: start;
         flex-direction: column;
     }
 
-    #webPro .sortBy {
+    .webPro .sortBy {
         margin-top: 12px;
     }
 
-    #webPro .sortBy span {
+    .webPro .sortBy span {
         left: 2px;
     }
 
-    #webPro .sortBy select {
+    .webPro .sortBy select {
         margin-left: 66px;
     }
 
@@ -4039,25 +4022,25 @@
 
     /* career ends  */
 
-    #webPro {
+    .webPro {
         margin-top: 40px;
         padding-bottom: 56px;
     }
 
-    #webPro .webProHeadingDiv {
+    .webPro .webProHeadingDiv {
         align-items: start;
         flex-direction: column;
     }
 
-    #webPro .sortBy {
+    .webPro .sortBy {
         margin-top: 12px;
     }
 
-    #webPro .sortBy span {
+    .webPro .sortBy span {
         left: 2px;
     }
 
-    #webPro .sortBy select {
+    .webPro .sortBy select {
         margin-left: 66px;
     }
 
@@ -5311,29 +5294,29 @@
 
     /* career ends  */
 
-    #webPro {
+    .webPro {
         margin-top: 30px;
         padding-bottom: 56px;
     }
 
-    #webPro .webProHeadingDiv {
+    .webPro .webProHeadingDiv {
         align-items: start;
         flex-direction: column;
     }
 
-    #webPro .sortBy {
+    .webPro .sortBy {
         margin-top: 12px;
     }
 
-    #webPro .sortBy span {
+    .webPro .sortBy span {
         left: 2px;
     }
 
-    #webPro .sortBy select {
+    .webPro .sortBy select {
         margin-left: 66px;
     }
 
-    #webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
+    .webPro .cardsWrapper .card .cardFooter .priceDiv span:last-child {
         font: normal normal bold 20px/29px Montserrat;
     }
 
