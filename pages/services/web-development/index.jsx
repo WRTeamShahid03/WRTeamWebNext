@@ -85,23 +85,20 @@ const Index = () => {
     {
       id: 0,
       icon: processIcon1,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
-
+      title: 'Analysis',
+      desc: 'We recognise your business objectives and website standards as part of our requirement analysis stage, which starts our work process.'
     },
     {
       id: 1,
       icon: processIcon2,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
-
+      title: 'Design & Planning',
+      desc: 'Following this, we collaborate with UI/UX experts and designers to create a visually appealing and user-friendly website design and plan.'
     },
     {
       id: 2,
       icon: processIcon3,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
-
+      title: 'Development',
+      desc: 'Our experienced developers code and develop the website according to your requirements. We also provide regular updates to our clients.'
     },
   ]
 
@@ -109,22 +106,22 @@ const Index = () => {
     {
       id: 0,
       icon: processIcon4,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+      title: 'Testing & Quality Assurance',
+      desc: ' After website development, we ensure its performance through rigorous testing and quality assurance processes to ensure it functions seamlessly on all platforms.'
 
     },
     {
       id: 1,
       icon: processIcon5,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+      title: 'Deployment',
+      desc: 'Once the website is ready, we deploy it to a live environment so that your audience can access it.'
 
     },
     {
       id: 2,
       icon: processIcon6,
-      title: '01. Idea',
-      desc: 'Our web development service is ready to meet your unique business needs and deliver high-quality.'
+      title: 'Support',
+      desc: `Our work process doesn't end with deployment. We provide regular updates to keep your website up-to-date.`
 
     },
   ]
@@ -241,7 +238,7 @@ const Index = () => {
                   Web <span>Development</span>
                 </span>
                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                  Make a Website With the Best <span>Web Development</span> Company
+                Make a Website With the Best <span>Web Development</span> Company OR [Build Future-Ready Websites for Your Brand: Drive Traffic, Capture Success]
                 </h1>
 
                 <p className="comman_para"> Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
@@ -302,13 +299,13 @@ const Index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make a Website With the Best <span>Web Development</span> Company</h3>
+              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Unleashing the Potential of the Best <span>Web Development</span> company</h3>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="benefitsPara">
-              <p className='comman_para'>Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
+              <p className='comman_para'>Discover unparalleled benefits with the top web development company. We unleash innovation and efficiency to elevate your online success.</p>
             </div>
           </div>
 
@@ -348,7 +345,7 @@ const Index = () => {
                   Our <span>Work Process</span>
                 </span>
                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
-                  Make a Website With the Best <span>Web Development</span> Company
+                How Our <span>Web Development </span> Transforms Businesses?
                 </h3>
               </div>
 
@@ -412,6 +409,49 @@ const Index = () => {
 
       </section>
       {/* process ends  */}
+
+      <section className='build'>
+                <div className="bgDiv">
+                    <div className="blueBg"></div>
+                </div>
+                <div className="container">
+                    <div className="row buildWrapper">
+                        <div className="col-sm-12 col-md-12 col-lg-5 leftDiv" >
+                            <div className="buildHeadings">
+                                <span className="common_span">
+                                    <span>We</span> Build
+                                </span>
+                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
+                                    We <span> Build</span> With <span> Modern</span> Technologies & Tools
+                                </h3>
+                                <p className="comman_para firstP">
+                                    We're about relationships. Our dedicated support team is here for you.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-sm-12 col-md-12 col-lg-6 rightDiv">
+                            <div className="row buildCardsWrapper">
+                                {
+                                    buildCardData.map((e) => {
+                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
+                                            <div className="card">
+                                                <span className='buildCardIcon'>
+                                                    <img src={e.icon.src} alt="" className='buildIcon1' />
+                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
+                                                </span>
+                                                <span>{e.title}</span>
+                                            </div>
+                                        </div>
+
+                                    })
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* build ends  */}
 
       <section className='webDevContact'>
         <div className="getInTouch container" style={{

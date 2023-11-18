@@ -278,13 +278,13 @@ const Index = () => {
                             <span className="common_span">
                                 Extensive <span>Benefits</span>
                             </span>
-                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make Mobile App With the Best <span>App Development</span> Company</h3>
+                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Explore the Extensive Benefits of Our <span>App Development </span> Excellence</h3>
                         </div>
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="benefitsPara">
-                            <p className='comman_para'>Our app development service is available to meet your unique business needs and create high-quality, user-friendly apps.</p>
+                            <p className='comman_para'>Experience a business revolution with our app development expertise, transforming your ideas into powerful digital solutions that redefine success.</p>
                         </div>
                     </div>
 
@@ -324,8 +324,7 @@ const Index = () => {
                                     Our <span>Work Process</span>
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
-                                    Make Mobile App With the Best <span>App Development</span> Company
-                                </h3>
+                                How Our <span>App Development </span> Redefines Business Potential?</h3>
                             </div>
 
                             <div className="processCardWrapper">
@@ -462,7 +461,7 @@ const Index = () => {
             </section>
             {/* webDevContact ends  */}
 
-            {/* <section className='recentBlogs container'>
+            <section className='recentBlogs container'>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="recentBlogHeading">
@@ -504,7 +503,7 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
             {/* recentBlogs ends  */}
         </div>
     )
