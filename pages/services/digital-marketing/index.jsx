@@ -59,25 +59,25 @@ const Index = () => {
         {
             id: 0,
             icon: timelyUpdadtes,
-            title: 'Timely Updates'
+            title: 'Global Reach'
 
         },
         {
             id: 1,
             icon: quality,
-            title: 'Testing & Quality Assurance'
+            title: 'Cost Effective'
 
         },
         {
             id: 2,
             icon: support,
-            title: 'Ongoing Support'
+            title: 'Measurable Results'
 
         },
         {
             id: 3,
             icon: eliteAuthor,
-            title: 'Elite Author on Codecanyon'
+            title: 'Targeted Advertising'
 
         },
     ]
@@ -303,13 +303,13 @@ const Index = () => {
                             <span className="common_span">
                                 Extensive <span>Benefits</span>
                             </span>
-                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000"> Grow your business with the Best <span> Digital Marketing </span> Services</h3>
+                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000"> Leverage the Power of <span>Digital Marketing</span> for Precise and Targeted Results.</h3>
                         </div>
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="benefitsPara">
-                            <p className='comman_para'>Drive traffic, increase ROI, maximise conversions, increase brand awareness, and grow your brand or business online with our best digital marketing services.</p>
+                            <p className='comman_para'>Go global with cost-effective digital marketing. Measure success, target precisely, and gain a competitive edge in the digital arena.</p>
                         </div>
                     </div>
 
@@ -487,7 +487,7 @@ const Index = () => {
             </section>
             {/* webDevContact ends  */}
 
-            {/* <section className='recentBlogs container'>
+            <section className='recentBlogs container'>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="recentBlogHeading">
@@ -529,7 +529,7 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
             {/* recentBlogs ends  */}
         </div>
     )

@@ -86,40 +86,40 @@ const index = () => {
     const jobCardData = [
         {
             id: 0,
-            title: 'Senior Software Engineer',
-            text: 'Experience: 5+ years',
-            link: ''
+            title: 'Flutter Developer',
+            text: 'Experience: Freshers , 1+ years',
+            link: '#applyNow'
         },
-        {
-            id: 1,
-            title: 'Network Administrator',
-            text: 'Experience: 3+ years',
-            link: ''
-        },
-        {
-            id: 2,
-            title: 'Data Scientist',
-            text: 'Experience: 2+ years',
-            link: ''
-        },
-        {
-            id: 3,
-            title: 'Cybersecurity Analyst',
-            text: 'Experience: 3+ years',
-            link: ''
-        },
-        {
-            id: 4,
-            title: 'Front-End Developer',
-            text: 'Experience: 2+ years',
-            link: ''
-        },
-        {
-            id: 5,
-            title: 'DevOps Engineer',
-            text: 'Experience: 4+ years',
-            link: ''
-        },
+        // {
+        //     id: 1,
+        //     title: 'Network Administrator',
+        //     text: 'Experience: 3+ years',
+        //     link: ''
+        // },
+        // {
+        //     id: 2,
+        //     title: 'Data Scientist',
+        //     text: 'Experience: 2+ years',
+        //     link: ''
+        // },
+        // {
+        //     id: 3,
+        //     title: 'Cybersecurity Analyst',
+        //     text: 'Experience: 3+ years',
+        //     link: ''
+        // },
+        // {
+        //     id: 4,
+        //     title: 'Front-End Developer',
+        //     text: 'Experience: 2+ years',
+        //     link: ''
+        // },
+        // {
+        //     id: 5,
+        //     title: 'DevOps Engineer',
+        //     text: 'Experience: 4+ years',
+        //     link: ''
+        // },
     ]
 
 
@@ -157,9 +157,9 @@ const index = () => {
                             <span className="common_span">
                                 Work <span> With Us</span>
                             </span>
-                            <span className="commonHeadlines" data-aos="fade-right" data-aos-duration="1000" >
+                            <h1 className="commonHeadlines" data-aos="fade-right" data-aos-duration="1000" >
                                 Join Our <span>Empire</span>
-                            </span>
+                            </h1>
 
                             <span className='commonPara'>
                                 WRTeam invites all aspiring and experienced IT professionals to join and become a part of our family and give the right direction to their career. We're a leading web & mobile app development company, offering the best App development solutions at reasonable prices. Our motto is to grow together, and we focus on the holistic development of your career along with the growth of the company.
@@ -235,7 +235,7 @@ const index = () => {
                                                 <span className='card-title'>{e.title}</span>
                                                 <span className='card-text'>{e.text}</span>
                                             </div>
-                                            <Link href='...'> <span className='applyBtn'>Apply Now < BsArrowRightCircle /> </span></Link>
+                                            <Link href={e.link}> <span className='applyBtn'>Apply Now < BsArrowRightCircle /> </span></Link>
                                         </div>
                                     </div>
                                 })
@@ -287,22 +287,20 @@ const index = () => {
                                             <label htmlFor="name">Apply For</label>
                                             <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e) => setApplyFor(e.target.value)} value={applyFor} >
                                                 <option selected>Select Apply For</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
+                                                <option value="Flutter Developer">Flutter Developer</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Experience</label>
                                             <select className="form-select form-select-md mb-3" name='experience' aria-label=".form-select-lg example" onChange={(e) => setExperience(e.target.value)} value={experience} >
                                                 <option defaultValue selected>Select Your Experience</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
+                                                <option value="Fresher">Fresher</option>
+                                                <option value="1+ Years">1+ Years</option>
+                                                <option value="3+ Years">3+ Years</option>
                                             </select>
                                         </div>
                                         <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
-                                            <div className="item">
+                                            {/* <div className="item">
                                                 {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
                                                 <div className="item-inner">
                                                     <div className="item-content">
@@ -336,7 +334,7 @@ const index = () => {
                                                     </div>
                                                 </div>
 
-                                            </div>
+                                            </div> */}
                                             <button type='submit' className='homeCommon_btn'>Submit</button>
                                         </div>
 

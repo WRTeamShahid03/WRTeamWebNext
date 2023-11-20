@@ -283,13 +283,13 @@ const Index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Make Your App More User-Friendly with Best <span>UI/UX Design</span> Services</h3>
+              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">The Transformative Benefits of Our <span>UI/UX</span> Solutions</h3>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="benefitsPara">
-              <p className='comman_para'>Our Best UI/UX design service aims to enhance your brand's digital presence by creating visually stunning designs that provide a seamless user experience for your target audience.</p>
+              <p className='comman_para'>Transform your digital presence with our UI/UX mastery. Elevate user experiences, captivate audiences, and strategically enhance your brand's success.</p>
             </div>
           </div>
 
@@ -467,7 +467,7 @@ const Index = () => {
       </section>
       {/* webDevContact ends  */}
 
-      {/* <section className='recentBlogs container'>
+      <section className='recentBlogs container'>
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <div className="recentBlogHeading">
@@ -509,7 +509,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* recentBlogs ends  */}
     </div>
   )
