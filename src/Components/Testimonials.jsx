@@ -42,24 +42,24 @@ const Testimonials = () => {
         },
         {
             id: 3,
-            text: "I had a great experience working with XYZ Tech Solutions. Their design quality is top-notch, and the user interface they developed for our project was intuitive and visually appealing. The attention to detail in their design work is commendable.",
-            name: "JohnDeo",
-            work: "For Design Quality",
-            rating: "4.5"
+            text: "WRTeam, we are continually impressed by the robustness, performance and scalability of the code developed for our app. Your rigorous standards and best practices deliver optimized, bug-free code of the highest quality.",
+            name: "ckkapel",
+            work: "For Code Quality",
+            rating: "5.0"
         },
         {
             id: 4,
-            text: "I had a great experience working with XYZ Tech Solutions. Their design quality is top-notch, and the user interface they developed for our project was intuitive and visually appealing. The attention to detail in their design work is commendable.",
-            name: "JohnDeo",
-            work: "For Design Quality",
-            rating: "4.5"
+            text: "I'm very satisfied with both the code quality and support. I can easily say that they have the fastest support team I have ever seen here.",
+            name: "musbarozkok",
+            work: "For Code Quality & Support",
+            rating: "5.0"
         },
         {
             id: 5,
-            text: "I had a great experience working with XYZ Tech Solutions. Their design quality is top-notch, and the user interface they developed for our project was intuitive and visually appealing. The attention to detail in their design work is commendable.",
-            name: "JohnDeo",
-            work: "For Design Quality",
-            rating: "4.5"
+            text: "Well organized code and good support, highly recommended, thank you very much!!!",
+            name: "lizbethlove",
+            work: "For Code Quality & Support",
+            rating: "5.0"
         },
 
     ]

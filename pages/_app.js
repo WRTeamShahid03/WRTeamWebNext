@@ -9,6 +9,7 @@ import Footer from '@/Components/Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Toaster } from 'react-hot-toast'
+import TopHeader from '@/Components/TopHeader'
 
 
 function MyApp({ Component, pageProps, data }) {
@@ -36,6 +37,8 @@ function MyApp({ Component, pageProps, data }) {
                 ></script> */}
             </Head>
 
+            
+            <TopHeader/>
             <Header />
 
             <Component {...pageProps} data={data} />

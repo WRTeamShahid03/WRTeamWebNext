@@ -1474,7 +1474,6 @@ a {
 
 .getInTouch .getTouchText .getTouchDesc {
     font: normal normal 600 36px/44px Montserrat;
-    width: 54%;
 }
 
 
@@ -2366,8 +2365,10 @@ footer .footerContainer .flinks {
 }
 
 #team .card {
-    background-color: transparent;
+    /* background-color: #d9d9d9; */
+    background: linear-gradient(to bottom,#d9d9d9, rgb(1 1 1 / 44%));
     border: none;
+    border-radius: 30px;
 }
 
 #team .card .card-img-overlay {
@@ -2428,10 +2429,25 @@ footer .footerContainer .flinks {
     gap: 30px 0;
 }
 
+#team .teamSlider .row{
+    gap: 30px 0px;
+}
+
 #team .teamSlider {
     margin-top: 50px;
     position: relative;
 }
+
+#team .teamSlider .navigation-buttons {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    #team .teamSlider .navigation-buttons {
+        margin-top: 0px;
+    }
+}
+
 
 #team .swiper,
 #category .swiper {
@@ -3952,7 +3968,7 @@ footer .footerContainer .flinks {
 } */
 
 .benefits .comman_Headlines {
-    padding-right: 52px; 
+    padding-right: 52px;
 }
 
 .development .comman_para {
@@ -4535,4 +4551,48 @@ footer .footerContainer .flinks {
     100% {
         transform: rotate(360deg);
     }
+}
+
+
+
+.topHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ce1a2c;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    height: 60px;
+    gap: 12px;
+}
+
+@media screen and (max-width:991px) {
+    .topHeader{
+        flex-direction: column;
+        height: 100%;
+        padding: 12px;
+    }
+}
+@media screen and (max-width:576px) {
+    .topHeader{
+        font-size: 14px;
+    }
+}
+
+.topHeader .boldText{
+    font-weight: 900;
+}
+
+.topHeader button{
+    background-color: white;
+    color: #ce1a2c;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 4px 30px;
+}
+
+.topHeader button svg{
+    margin-left: 8px;
 }

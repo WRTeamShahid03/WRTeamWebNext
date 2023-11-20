@@ -554,6 +554,10 @@
         padding-bottom: 50px;
     }
 
+    #team .card-title {
+        font: normal normal 800 21px/52px Montserrat;
+    }
+
     /* team ends  */
 
     #category .card-text,
@@ -991,6 +995,11 @@
         height: 342px;
     }
 
+    #testimonials .testiUpperDiv .testiHeadline {
+        margin-top: 20px;
+        margin-bottom: 56px;
+    }
+
     #testimonials .testSlider .swiperCard {
         margin-top: 60px;
     }
@@ -1086,6 +1095,12 @@
         width: 100%;
     }
 
+    #team .card .card-img-overlay {
+        padding: 0px 16px;
+    }
+    #team .card-title {
+        font: normal normal 800 18px/52px Montserrat;
+    }
     /* team ends  */
 
     #category .card-text,
@@ -2618,6 +2633,7 @@
 
     #testimonials .testiUpperDiv .testiHeadline {
         font: normal normal 800 32px/46px Montserrat;
+        margin-bottom: 42px;
     }
 
     #mission .missionLeftDiv {
@@ -2637,6 +2653,7 @@
 
     #team .card {
         width: 350px;
+        margin: auto;
     }
 
     #team .teamDeatails {
@@ -3705,6 +3722,7 @@
 
     #team .card {
         width: 350px;
+        margin: auto;
     }
 
     #team .teamDeatails {
@@ -4913,6 +4931,7 @@
 
     #team .card {
         width: 92%;
+        margin: auto;
     }
 
     #team .teamDeatails {
@@ -4925,6 +4944,14 @@
 
     #team .comman_Headlines {
         width: 100%;
+    }
+
+    #team .card .card-img-overlay {
+        padding: 0px 18px;
+    }
+
+    #team .card-title {
+        font: normal normal 800 22px/52px Montserrat;
     }
 
     .breadcrum {

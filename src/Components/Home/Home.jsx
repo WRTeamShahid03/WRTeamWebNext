@@ -284,10 +284,6 @@ const Home = () => {
 
                     </div>
 
-
-
-
-
                 </div>
             </section>
             {/* aboutUs ends here  */}
@@ -309,7 +305,7 @@ const Home = () => {
 
                                 <p className='common_para'>As we continue to evolve and innovate, we look forward to inspiring others in the industry with our ingenuity.</p>
 
-                               <Link href=''> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Read More</button></Link>
+                               <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Read More</button></Link>
                             </div>
                         </div>
 

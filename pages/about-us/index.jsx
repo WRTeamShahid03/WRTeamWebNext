@@ -4,7 +4,6 @@ import { BsCheckCircle } from 'react-icons/bs'
 import Counter from '../../src/Components/Counter'
 import WorkChain from '@/Components/WorkChain'
 import Testimonials from '@/Components/Testimonials'
-import ReactPaginate from 'react-paginate';
 import Link from 'next/link'
 
 
@@ -16,111 +15,9 @@ import dotsPattern from '../../src/Asset/Icons/Dots Pattern.png'
 import ourVision from '../../src/Asset/Images/our_vision.png'
 import ourMission from '../../src/Asset/Images/our_mission.png'
 import ourValues from '../../src/Asset/Images/our_values.png'
-import team1 from '../../src/Asset/Images/team_1.png'
-import team2 from '../../src/Asset/Images/team_2.png'
-import team3 from '../../src/Asset/Images/team_3.png'
-import team4 from '../../src/Asset/Images/team_4.png'
+import Team from '@/Components/Team'
 
-
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
-
-
-// import required modules
-import { FreeMode, Pagination } from 'swiper/modules';
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
-
-
-const index = () => {
-
-  const [currentPage, setCurrentPage] = useState(1);
-
-  const swiperData = [
-    {
-      id: 0,
-      name: "Olivia Smith",
-      work: "Web Developer",
-      img: team1
-    },
-    {
-      id: 1,
-      name: "Noah Martin",
-      work: "UX/UI Designer",
-      img: team2
-    },
-    {
-      id: 2,
-      name: "Sophia Brown",
-      work: "IT Project Manager",
-      img: team3
-    },
-    {
-      id: 3,
-      name: "Benjamin Williams",
-      work: "Cybersecurity Analyst",
-      img: team4
-    },
-    {
-      id: 4,
-      name: "Olivia Smith",
-      work: "Web Developer",
-      img: team1
-    },
-    {
-      id: 5,
-      name: "Noah Martin",
-      work: "UX/UI Designer",
-      img: team2
-    },
-
-
-  ]
-
-  const breakpoints = {
-    0: {
-      slidesPerView: 1,
-      // spaceBetween: 40
-    },
-    375: {
-      slidesPerView: 1,
-      // spaceBetween: 40
-    },
-    576: {
-      slidesPerView: 1.5,
-      // spaceBetween: 40
-    },
-    768: {
-      slidesPerView: 2,
-
-    },
-    992: {
-      slidesPerView: 3,
-
-    },
-    1200: {
-      slidesPerView: 3,
-    },
-    1400: {
-      slidesPerView: 4,
-
-    }
-  };
-
-
-  const sliderRef = useRef(null);
-
-  const handlePageChange = selectedPage => {
-    if (!sliderRef.current) return;
-    sliderRef.current.swiper.slideTo(selectedPage);
-    setCurrentPage(selectedPage);
-  };
-
+const index = () => {  
 
   return (
     <>
@@ -301,96 +198,7 @@ const index = () => {
 
       <WorkChain />
 
-      <section id="team">
-
-        <div className="teamWrapper container">
-          <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-12">
-              <div className="teamUpperDiv">
-                <h4 className='common_span'> Expert<span> Team</span></h4>
-                <span className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Catalyzing Global Reach The<span> Expert Team Powering IT Solutions Worldwide</span></span>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-12 col-lg-12">
-              <div className="teamSlider">
-                <Swiper
-                  ref={sliderRef}
-                  slidesPerView={3}
-                  spaceBetween={30}
-                  freeMode={true}
-                  modules={[FreeMode, Pagination]}
-                  // pagination={{
-                  //   clickable: true,
-                  //   renderBullet: renderBullet
-                  // }}
-                  navigation
-                  className='testiSwiper'
-                  breakpoints={breakpoints}
-                  // data-aos="fade-up" data-aos-duration="2000"
-                  id='teamSwiper'
-                >
-                  {
-                    swiperData.map((ele, index) => {
-                      return <div key={ele.id}>
-                        <SwiperSlide >
-                          <div className="card text-white">
-                            <img src={ele.img.src} className="card-img-top" alt="teamImg" />
-                            <div className="card-img-overlay">
-                              <div className="teamDeatails">
-
-                                <p className="card-title teamName">{ele.name}</p>
-                                <span className='card-text teamWork'>{ele.work}</span>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div className="card text-white">
-                            <img src={ele.img.src} className="card-img-top" alt="teamImg" />
-                            <div className="card-img-overlay">
-                              <div className="teamDeatails">
-
-                                <p className="card-title teamName">{ele.name}</p>
-                                <span className='card-text teamWork'>{ele.work}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </SwiperSlide>
-                      </div>
-                    })
-                  }
-                </Swiper>
-
-                <div className="navigation-buttons">
-
-                  <ReactPaginate
-                    pageCount={3}
-                    pageRangeDisplayed={3}
-                    marginPagesDisplayed={1}
-                    forcePage={currentPage}
-                    onPageChange={({ selected }) => handlePageChange(selected)}
-                    containerClassName="pagination"
-                    activeClassName="active"
-                    pageClassName="page-item"
-                    previousLabel={<FaAngleLeft color="white" size={22} />}
-                    nextLabel={<FaAngleRight color="white" size={22} />}
-                    previousClassName="page-item"
-                    nextClassName="page-item"
-                    previousLinkClassName="page-link"
-                    nextLinkClassName="page-link"
-                    pageLinkClassName="page-link"
-                  />
-
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-        </div>
-      </section >
-
+      <Team/>
 
       <Testimonials />
 

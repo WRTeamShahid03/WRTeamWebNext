@@ -29,95 +29,95 @@ const index = () => {
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace...',
             text: 'PHP,React JS',
             price: '$59',
-            link: ''
+            link: 'https://1.envato.market/DK0gQn'
 
         },
         {
             id: 1,
             img: elite,
-            sales: '353',
-            rating: '(4.7)',
+            sales: '416',
+            rating: '(4.8)',
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Web Version',
             text: 'Codeigniter, React JS',
             price: '$19',
-            link: ''
+            link: 'https://1.envato.market/LXaGzo'
 
         },
         {
             id: 2,
             img: ecart,
-            sales: '330',
-            rating: '(4.6)',
+            sales: '597',
+            rating: '(4.7)',
             title: 'eCart Web - Multi Vendor eCommerce Marketplace',
             text: 'PHP, Laravel',
-            price: '$29',
-            link: ''
+            price: '$59',
+            link: 'https://1.envato.market/zNg326'
 
         },
         {
             id: 3,
             img: news,
-            sales: '523',
+            sales: '594',
             rating: '(4.9)',
             title: 'News Web - News Website with Admin panel',
             text: 'React JS',
             price: '$39',
-            link: ''
+            link: 'https://1.envato.market/rQ4323'
 
         },
         {
             id: 4,
             img: eshop,
-            sales: '516',
-            rating: '(4.9)',
+            sales: '569',
+            rating: '(4.8)',
             title: 'eShop Web- eCommerce Single Vendor Website | eCommerce...',
             text: 'PHP, Codeigniter',
             price: '$39',
-            link: ''
+            link: 'https://1.envato.market/QyPrb3'
 
         },
         {
             id: 5,
             img: ecartSingle,
-            sales: '587',
+            sales: '594',
             rating: '(4.9)',
             title: 'eCart Web- eCommerce Store Website with Laravel',
             text: 'PHP, Laravel',
-            price: '$19',
-            link: ''
+            price: '$39',
+            link: 'https://1.envato.market/9gGPz5'
 
         },
         {
             id: 6,
             img: eshopMulti,
-            sales: '433',
-            rating: '(4.6)',
+            sales: '488',
+            rating: '(4.8)',
             title: 'eShop Web - Multi Vendor eCommerce Marketplace / CMS',
             text: 'PHP, CodeIgniter',
             price: '$49',
-            link: ''
+            link: 'https://1.envato.market/LXEb9L'
 
         },
         {
             id: 7,
             img: erestro,
-            sales: '40',
-            rating: '(5.0)',
+            sales: '146',
+            rating: '(4.6)',
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
             text: 'React JS',
-            price: '$19',
-            link: ''
+            price: '$59',
+            link: 'https://1.envato.market/QyPrNA'
 
         },
         {
             id: 8,
             img: espeech,
-            sales: '159',
-            rating: '(5.0)',
+            sales: '79',
+            rating: '(0.0)',
             title: 'eSpeech - AI Text to Speech Marketplace with SaaS',
             text: 'PHP, CodeIgniter',
-            price: '$49',
-            link: ''
+            price: '$29',
+            link: 'https://1.envato.market/R5PjOg'
 
         },
     ]
@@ -190,7 +190,7 @@ const index = () => {
                                                     <span>Price</span>
                                                     <span>{e.price}</span>
                                                 </span>
-                                                <Link href={e.link}> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>
+                                                <Link href={e.link} target='_blank'> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>
                                             </div>
                                         </Card>
                                     </div>

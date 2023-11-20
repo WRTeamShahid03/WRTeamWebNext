@@ -223,9 +223,10 @@ const index = () => {
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
                                                         <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example" name='budget' onChange={(e) => setBudget(e.target.value)} value={budget}>
                                                             <option selected>Your Budget</option>
-                                                            <option value="1">One</option>
-                                                            <option value="2">Two</option>
-                                                            <option value="3">Three</option>
+                                                            <option value="$500">$500</option>
+                                                            <option value="$500-$1000">$500-$1000</option>
+                                                            <option value="$1000-$1500">$1000-$1500</option>
+                                                            <option value="$1500">$1500</option>
                                                         </select>
                                                     </div>
 
