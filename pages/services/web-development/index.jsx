@@ -238,7 +238,7 @@ const Index = () => {
                   Web <span>Development</span>
                 </span>
                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                Make a Website With the Best <span>Web Development</span> Company OR [Build Future-Ready Websites for Your Brand: Drive Traffic, Capture Success]
+                Build <span>Future-Ready Websites</span> for Your Brand: Drive Traffic, Capture Success
                 </h1>
 
                 <p className="comman_para"> Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>

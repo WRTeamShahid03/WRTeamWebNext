@@ -3923,7 +3923,7 @@ footer .footerContainer .flinks {
 }
 .webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:last-child{
     font: normal normal bold 24px/29px Montserrat;
-    color: red;
+    color: var(--primary-color);
 }
 
 .webPro .cardsWrapper .card .cardFooter .buyBtn {
