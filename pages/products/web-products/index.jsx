@@ -29,6 +29,7 @@ const index = () => {
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace...',
             text: 'PHP,React JS',
             price: '$59',
+            salePrice: '$29',
             link: 'https://1.envato.market/DK0gQn'
 
         },
@@ -40,6 +41,7 @@ const index = () => {
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Web Version',
             text: 'Codeigniter, React JS',
             price: '$19',
+            salePrice: '$9',
             link: 'https://1.envato.market/LXaGzo'
 
         },
@@ -51,6 +53,7 @@ const index = () => {
             title: 'eCart Web - Multi Vendor eCommerce Marketplace',
             text: 'PHP, Laravel',
             price: '$59',
+            salePrice: '$29',
             link: 'https://1.envato.market/zNg326'
 
         },
@@ -62,6 +65,7 @@ const index = () => {
             title: 'News Web - News Website with Admin panel',
             text: 'React JS',
             price: '$39',
+            salePrice: '$19',
             link: 'https://1.envato.market/rQ4323'
 
         },
@@ -73,6 +77,7 @@ const index = () => {
             title: 'eShop Web- eCommerce Single Vendor Website | eCommerce...',
             text: 'PHP, Codeigniter',
             price: '$39',
+            salePrice: '$19',
             link: 'https://1.envato.market/QyPrb3'
 
         },
@@ -84,6 +89,7 @@ const index = () => {
             title: 'eCart Web- eCommerce Store Website with Laravel',
             text: 'PHP, Laravel',
             price: '$39',
+            salePrice: '$19',
             link: 'https://1.envato.market/9gGPz5'
 
         },
@@ -95,6 +101,7 @@ const index = () => {
             title: 'eShop Web - Multi Vendor eCommerce Marketplace / CMS',
             text: 'PHP, CodeIgniter',
             price: '$49',
+            salePrice: '$24',
             link: 'https://1.envato.market/LXEb9L'
 
         },
@@ -106,6 +113,7 @@ const index = () => {
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
             text: 'React JS',
             price: '$59',
+            salePrice: '$29',
             link: 'https://1.envato.market/QyPrNA'
 
         },
@@ -117,6 +125,7 @@ const index = () => {
             title: 'eSpeech - AI Text to Speech Marketplace with SaaS',
             text: 'PHP, CodeIgniter',
             price: '$29',
+            salePrice: '$14',
             link: 'https://1.envato.market/R5PjOg'
 
         },
@@ -188,7 +197,10 @@ const index = () => {
                                             <div className="cardFooter">
                                                 <span className='priceDiv'>
                                                     <span>Price</span>
+                                                    <div className='productPriceWrapper'>
                                                     <span>{e.price}</span>
+                                                    <span>{e.salePrice}</span>                                                    
+                                                    </div>
                                                 </span>
                                                 <Link href={e.link} target='_blank'> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>
                                             </div>

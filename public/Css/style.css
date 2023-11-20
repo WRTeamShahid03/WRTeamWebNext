@@ -2366,7 +2366,7 @@ footer .footerContainer .flinks {
 
 #team .card {
     /* background-color: #d9d9d9; */
-    background: linear-gradient(to bottom,#d9d9d9, rgb(1 1 1 / 44%));
+    background: linear-gradient(to bottom, #d9d9d9, rgb(1 1 1 / 44%));
     border: none;
     border-radius: 30px;
 }
@@ -2429,7 +2429,7 @@ footer .footerContainer .flinks {
     gap: 30px 0;
 }
 
-#team .teamSlider .row{
+#team .teamSlider .row {
     gap: 30px 0px;
 }
 
@@ -3909,6 +3909,22 @@ footer .footerContainer .flinks {
     font: normal normal bold 24px/29px Montserrat;
     color: #22A869;
 }
+.webPro .cardsWrapper .card .cardFooter .productPriceWrapper{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:first-child{
+    font: normal normal bold 22px/29px Montserrat;
+    color: #22A869;
+    text-decoration: line-through;
+}
+.webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:last-child{
+    font: normal normal bold 24px/29px Montserrat;
+    color: red;
+}
 
 .webPro .cardsWrapper .card .cardFooter .buyBtn {
     font: normal normal 600 16px/19px Montserrat;
@@ -4555,7 +4571,7 @@ footer .footerContainer .flinks {
 
 
 
-.topHeader{
+.topHeader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4568,23 +4584,24 @@ footer .footerContainer .flinks {
 }
 
 @media screen and (max-width:991px) {
-    .topHeader{
+    .topHeader {
         flex-direction: column;
         height: 100%;
         padding: 12px;
     }
 }
+
 @media screen and (max-width:576px) {
-    .topHeader{
+    .topHeader {
         font-size: 14px;
     }
 }
 
-.topHeader .boldText{
+.topHeader .boldText {
     font-weight: 900;
 }
 
-.topHeader button{
+.topHeader button {
     background-color: white;
     color: #ce1a2c;
     border: none;
@@ -4593,6 +4610,6 @@ footer .footerContainer .flinks {
     padding: 4px 30px;
 }
 
-.topHeader button svg{
+.topHeader button svg {
     margin-left: 8px;
 }
