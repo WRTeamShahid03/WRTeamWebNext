@@ -12,6 +12,8 @@ const CustomDocument = () => {
 
                 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+                <link rel="shortcut icon" href="/favicon.ico" sizes="32x32" type="image/png" />
+
             </Head>
 
             <body>

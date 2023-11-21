@@ -14,9 +14,7 @@ const index = () => {
 }, [])
   return (
     <>
-    
       <Home/>
-
     </>
   )
 }
