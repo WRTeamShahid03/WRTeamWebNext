@@ -21,22 +21,22 @@ const Testimonials = () => {
     const swiperData = [
         {
             id: 0,
-            text: "I had a great experience working with XYZ Tech Solutions. Their design quality is top-notch, and the user interface they developed for our project was intuitive and visually appealing. The attention to detail in their design work is commendable.",
-            name: "JohnDeo",
-            work: "For Design Quality",
-            rating: "4.5"
+            text: "Can explain of these guys. They are so talented and customer support is beyond the limit.Recommended them to all. They work professionally. Awesome!!!",
+            name: "Johnepse",
+            work: "For Customer Support",
+            rating: "5.0"
         },
         {
             id: 1,
-            text: "The code quality was exceptional as well. The development team's expertise was evident in the well-structured and optimized codebase. RobertBrown's leadership ensured timely delivery without compromising on quality.",
-            name: "MikeJohnson",
+            text: "Amazing! The team is amazing. The professionalism is high level. They respond to you whenever you want. They are the high discipline team I have worked with so far. Our plan is building IOS app for this as well.",
+            name: "Akam_Barznji",
             work: "For Code Quality",
-            rating: "4.8"
+            rating: "5.0"
         },
         {
             id: 2,
-            text: "The customer support provided by the company was top-notch. SarahLee and the team were always available to address our concerns and provided timely updates on the project's progress.",
-            name: "SarahLee",
+            text: "Best app ever i seen on codecanyon.. and best part is the service..they provide best services.. keep it up team",
+            name: "Ajayambaliya",
             work: "For Customer Support",
             rating: "5.0"
         },

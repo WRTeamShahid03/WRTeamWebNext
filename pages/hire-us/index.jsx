@@ -165,7 +165,7 @@ const index = () => {
                                 <div className="row">
                                     <div className="col-sm-12 col-md-12 col-lg-12">
                                         <span className='hireLowerDivHeadline'>
-                                            <span>We stay on top of the latest tech advancements to ensure your project is completed quickly and uses best of the software and frameworks suitable for your project.</span></span>
+                                            <span>We stay on top of the latest tech advancements to ensure your project is completed quickly and uses best of the Apps & Webs Solutions and frameworks suitable for your project.</span></span>
                                     </div>
 
                                     <div className="col-sm-12 col-md-12 col-lg-6">

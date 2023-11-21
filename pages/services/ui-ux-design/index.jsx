@@ -406,10 +406,10 @@ const Index = () => {
                   <span>We</span> Build
                 </span>
                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                  We <span> Build</span> With <span> Modern</span> Technologies & Tools
+                <span>Crafting</span> Dynamic Solutions with <span>Leading Tools</span> for Your Digital Presence.
                 </h3>
                 <p className="comman_para firstP">
-                  We're about relationships. Our dedicated support team is here for you.
+                From Illustrator's finesse to Figma's innovation, we blend pixel-perfect precision from Photoshop with Adobe XD's seamless design.
                 </p>
               </div>
             </div>

@@ -226,7 +226,7 @@ const Index = () => {
             link: 'https://1.envato.market/21kqdQ'
         },
         {
-            id: 17,
+            id: 16,
             img: eshopSingleApp,
             sales: '693',
             rating: '(4.9)',

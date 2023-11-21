@@ -400,10 +400,11 @@ const Index = () => {
                                     <span>We</span> Build
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                                    We <span> Build</span> With <span> Modern</span> Technologies & Tools
+                                App <span>Development</span> Services Tailored for <span>Latest Platforms</span>
                                 </h3>
                                 <p className="comman_para firstP">
-                                    We're about relationships. Our dedicated support team is here for you.
+                                Our app development mastery across iOS, Android and compatible with cross platforms. Tailored solutions, universal impact.
+
                                 </p>
                             </div>
                         </div>

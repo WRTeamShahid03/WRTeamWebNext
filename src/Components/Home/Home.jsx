@@ -144,7 +144,7 @@ const Home = () => {
                                         <span className='mcWinner'>Most Creative Winner!</span>
                                         <h1 id='herocont_headline' className='comman_Headlines'>Unlock Your <span>Business</span> Potential with Expert <span>IT Company</span></h1>
 
-                                        <p>Optimize Your Business Operations Using WRTeam's Powerful Software Solutions & Streamlined Workflows. We are committed to providing to our clients with the End-to-End Software Solutions.</p>
+                                        <p>Optimize Your Business Operations Using WRTeam's Powerful App and Website Solutions & Streamlined Workflows. We are committed to providing to our clients with the Enr-to-End App and Website Solutions.</p>
 
                                         <div className="followDiv">
                                            <Link href='/about-us'> <button className='homeCommon_btn'>About Us</button></Link>

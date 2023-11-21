@@ -426,10 +426,10 @@ const Index = () => {
                                     <span>We</span> Build
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
-                                    We <span> Build</span> With <span> Modern</span> Technologies & Tools
+                                Leveraging Industry- <span>Leading Technology</span> in Our Services
                                 </h3>
                                 <p className="comman_para firstP">
-                                    We're about relationships. Our dedicated support team is here for you.
+                                Experience excellence with our services, powered by top-notch platforms for unmatched performance and innovation.
                                 </p>
                             </div>
                         </div>

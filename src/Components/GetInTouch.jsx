@@ -51,7 +51,7 @@ const GetInTouch = () => {
                 <div className="col-sm-12 col-md-12 col-lg-9">
                     <div className="getTouchText">
                         <span className='getTouchTitle'>Newsletter</span>
-                        <span className='getTouchDesc'>Subscribe to our newsletter for exclusive deals and exciting updates - join the coolest community now! 💌</span>
+                        <span className='getTouchDesc'>Subscribe for exclusive deals and exciting updates - join the coolest community now! 💌</span>
                     </div>
                 </div>
 

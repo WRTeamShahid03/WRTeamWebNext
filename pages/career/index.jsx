@@ -162,7 +162,7 @@ const index = () => {
                             </h1>
 
                             <span className='commonPara'>
-                                WRTeam invites all aspiring and experienced IT professionals to join and become a part of our family and give the right direction to their career. We're a leading web & mobile app development company, offering the best App development solutions at reasonable prices. Our motto is to grow together, and we focus on the holistic development of your career along with the growth of the company.
+                                WRTeam invites all aspiring and experienced IT professionals to join and become a part of our family and give the right direction to their career. We're a leading web & mobile app development company, offering the best App development solutions at reasonable prices. Our motto is to grow together, and we focus on the holistic development of enter your career along with the growth of the company.
                             </span>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ const index = () => {
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamLeftDiv">
-                                <span className='common_span'>Work With <span>Us</span> </span>
+                                <span className='common_span'>Career <span>Growth</span> </span>
                                 <h3 data-aos="fade-right" data-aos-duration="1000" className='comman_Headlines'>Why Work With <span>WRTeam </span></h3>
 
                                 <p className='firstP comman_para'>We value creativity, collaboration, and continuous learning</p>
@@ -220,7 +220,7 @@ const index = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="jobHeadlines">
-                            <span className='common_span'><span>Work</span> With Us</span>
+                            <span className='common_span'><span>Career</span> Opportunities</span>
                             <h3 className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000" >Current <span> Job Openings</span> At WRTeam</h3>
                             <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
                         </div>
@@ -246,7 +246,6 @@ const index = () => {
                 </div>
             </section>
 
-
             <section id='applyNow' className='container'>
                 <div className="wrapper">
                     <div className="row">
@@ -266,21 +265,21 @@ const index = () => {
                                     <div className="mb-3 row">
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Full Name</label>
-                                            <input type="text" className="form-control" name='full_name' id="exampleFormControlInput1" placeholder="Write Your Name Full Name" onChange={(e) => setName(e.target.value)} value={name} />
+                                            <input type="text" className="form-control" name='full_name' id="exampleFormControlInput1" placeholder="Enter Your Full Name" onChange={(e) => setName(e.target.value)} value={name} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Email</label>
-                                            <input type="email" className="form-control" name='email' id="exampleFormControlInput1" placeholder="Write Your Email" onChange={(e) => setEmail(e.target.value)} value={email} />
+                                            <input type="email" className="form-control" name='email' id="exampleFormControlInput1" placeholder="Enter Your Email" onChange={(e) => setEmail(e.target.value)} value={email} />
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Contact Number</label>
-                                            <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Write Your Phone Number" onChange={(e) => setNumber(e.target.value)} value={number} />
+                                            <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={(e) => setNumber(e.target.value)} value={number} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Qualification</label>
-                                            <input type="text" className="form-control" name='qualification' id="exampleFormControlInput1" placeholder="Write Your Qualification" onChange={(e) => setQualification(e.target.value)} value={qualification} />
+                                            <input type="text" className="form-control" name='qualification' id="exampleFormControlInput1" placeholder="Enter Your Qualification" onChange={(e) => setQualification(e.target.value)} value={qualification} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
