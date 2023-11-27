@@ -86,6 +86,12 @@ const index = () => {
 
     const form = useRef();
 
+    const handleNumber =(e)=>{
+        const inputNumber = e.target.value.replace(/\D/g, '');
+        const limitedNumber = inputNumber.slice(0, 16);
+        setNumber(limitedNumber);
+    }
+
     const sendEmail = (e) => {
         e.preventDefault();
         if (!name || !number || !email || !budget || !message) {
@@ -217,7 +223,7 @@ const index = () => {
                                                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email}/>
                                                     </div>
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={(e) => setNumber(e.target.value)} value={number}/>
+                                                        <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number}/>
                                                     </div>
 
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">

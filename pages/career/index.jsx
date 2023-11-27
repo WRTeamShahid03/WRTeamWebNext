@@ -284,7 +284,7 @@ const index = () => {
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Contact Number</label>
-                                            <input type="number" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={handleNumber} value={number} />
+                                            <input type="number" className="no-spinner form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={handleNumber} value={number} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">

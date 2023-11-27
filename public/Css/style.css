@@ -3449,6 +3449,21 @@ footer .footerContainer .flinks {
     box-shadow: none;
     color: #595c5f;
 }
+#applyNow .no-spinner::-webkit-inner-spin-button,
+#applyNow .no-spinner::-webkit-outer-spin-button ,
+#contactForm .no-spinner::-webkit-inner-spin-button,
+#contactForm .no-spinner::-webkit-outer-spin-button,
+#hireUs .no-spinner::-webkit-inner-spin-button,
+#hireUs .no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#applyNow .no-spinner,
+#contactForm .no-spinner,
+#hireUs .no-spinner {
+  -moz-appearance: textfield;
+}
 
 /* hireUs ends  */
 
