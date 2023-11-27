@@ -245,7 +245,7 @@ const index = () => {
                 navigation
                 className='testiSwiper'
                 breakpoints={breakpoints}
-                // data-aos="fade-up" data-aos-duration="2000"
+                // data-aos="fade-up" data-aos-duration="800"
                 id='teamSwiper'
               >
                   {

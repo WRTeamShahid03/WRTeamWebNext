@@ -64,7 +64,7 @@ const WorkChain = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="workUpperDiv">
                                 <h4 className='common_span'> Our Work<span> Chain</span></h4>
-                                <span className='workHeadlines' data-aos="fade-right" data-aos-duration="1000">From Concept to Creation <span>Simplifying Your Project Journey</span></span>
+                                <span className='workHeadlines' data-aos="fade-right" data-aos-duration="800">From Concept to Creation <span>Simplifying Your Project Journey</span></span>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-12">
@@ -80,7 +80,7 @@ const WorkChain = () => {
 
                                         <div className="row">
                                             <div className="col-sm-12 col-md-6 col-lg-3">
-                                                <div className="workCard" id='wCard1' data-aos="fade-down" data-aos-duration="2000">
+                                                <div className="workCard" id='wCard1' data-aos="fade-down" data-aos-duration="800">
                                                     <span className='workNumb num1'>1</span>
                                                     <img src={workImg1.src} alt="" className='workImg' onMouseEnter={num1} onMouseLeave={num1Back} />
 
@@ -92,7 +92,7 @@ const WorkChain = () => {
                                             </div>
 
                                             <div className="col-sm-12 col-md-6 col-lg-3">
-                                                <div className="workCard workCardReverse" id='wCard2' data-aos="fade-up" data-aos-duration="2000">
+                                                <div className="workCard workCardReverse" id='wCard2' data-aos="fade-up" data-aos-duration="800">
                                                     <span className='workNumb workRevNumb num2'>2</span>
                                                     <div className="workImgDiv">
 
@@ -108,7 +108,7 @@ const WorkChain = () => {
                                             </div>
 
                                             <div className="col-sm-12 col-md-6 col-lg-3">
-                                                <div className="workCard" id='wCard3' data-aos="fade-down" data-aos-duration="2000">
+                                                <div className="workCard" id='wCard3' data-aos="fade-down" data-aos-duration="800">
                                                     <span className='workNumb num3'>3</span>
                                                     <img src={workImg3.src} alt="" className='workImg' onMouseEnter={num3} onMouseLeave={num3Back} />
 
@@ -120,7 +120,7 @@ const WorkChain = () => {
                                             </div>
 
                                             <div className="col-sm-12 col-md-6 col-lg-3">
-                                                <div className="workCard workCardReverse" id='wCard4' data-aos="fade-up" data-aos-duration="2000">
+                                                <div className="workCard workCardReverse" id='wCard4' data-aos="fade-up" data-aos-duration="800">
                                                     <span className='workNumb workRevNumb num4'>4</span>
                                                     <img src={workImg4.src} alt="" className='workImg' onMouseEnter={num4} onMouseLeave={num4Back} />
 

@@ -122,7 +122,7 @@ const Testimonials = () => {
         <section id="testimonials" className='container'>
             <div className="testiUpperDiv">
                 <h5 className='common_span'>Our <span>Testimonials</span></h5>
-                <h6 className='testiHeadline' data-aos="fade-right" data-aos-duration="2000">Real  <span> Words</span> From Real <span>Clients</span></h6>
+                <h6 className='testiHeadline' data-aos="fade-right" data-aos-duration="800">Real  <span> Words</span> From Real <span>Clients</span></h6>
             </div>
             <div className="testSlider">
                 <Swiper

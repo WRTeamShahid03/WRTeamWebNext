@@ -140,7 +140,7 @@ const Home = () => {
                             <div className="row">
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <div className="heroCont-leftDiv" data-aos="fade-up" data-aos-duration="1000">
+                                    <div className="heroCont-leftDiv" data-aos="fade-up" data-aos-duration="800">
                                         <span className='mcWinner'>Most Creative Winner!</span>
                                         <h1 id='herocont_headline' className='comman_Headlines'>Unlock Your <span>Business</span> Potential with Expert <span>IT Company</span></h1>
 
@@ -165,7 +165,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <div className="heroCont-rightDiv" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50">
+                                    <div className="heroCont-rightDiv" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
                                         <div className="rightDivImg">
                                             <img src={rightDivImg.src} alt="" />
                                         </div>
@@ -212,7 +212,7 @@ const Home = () => {
 
                             </div>
 
-                            <div className="arrow" data-aos="fade-down" data-aos-duration="1000">
+                            <div className="arrow" data-aos="fade-down" data-aos-duration="800">
                                 <img src={arrow.src} alt="" />
                             </div>
 
@@ -233,7 +233,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
 
                             <div className="aboutLeftDiv">
-                                <div className="aboutImg" data-aos="fade-down-right" data-aos-duration="2000">
+                                <div className="aboutImg" data-aos="fade-down-right" data-aos-duration="800">
 
                                     <img src={aboutImg1.src} alt="" />
                                     <div className="aboutSmImg" style={{
@@ -266,7 +266,7 @@ const Home = () => {
 
                             <div className="aboutRightDiv">
                                 <span className="common_span">About <span>WRTeam</span></span>
-                                <h2 data-aos="fade-left" data-aos-duration="1000" className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
+                                <h2 data-aos="fade-left" data-aos-duration="800" className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
 
                                 <p className='firstP common_para'>WRTeam is an Award-Winning Web - App Development & IT Consulting Company serving clients across the Globe.</p>
 
@@ -274,7 +274,7 @@ const Home = () => {
 
                                 <p className='common_para'>WRTeam is a creative and dedicated group of developers who are mastered in Mobile & Web Development with expertise in delivering quality solutions to customers across the globe.</p>
 
-                                <div className="discover" data-aos="fade-up" data-aos-duration="1000">
+                                <div className="discover" data-aos="fade-up" data-aos-duration="800">
                                   <Link href='about-us'>  <button className='homeCommon_btn'>Discover More</button></Link>
                                     {/* <span className='hoverArrSpan'>Let's Talk About Idea < BsArrowRightCircle className='discRightArr' /></span> */}
                                 </div>
@@ -297,7 +297,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="winnLeftDiv">
                                 <span className='common_span'>Achievement <span>on Envato</span> </span>
-                                <h2 data-aos="fade-right" data-aos-duration="1000" className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
+                                <h2 data-aos="fade-right" data-aos-duration="800" className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
 
                                 <p className='firstP comman_para'>Meet the winner of 'Most Creative' competition on codecanyon! WRTeam are proud of our team members who came out on top with their outstanding creativity and innovative ideas.</p>
 
@@ -305,12 +305,12 @@ const Home = () => {
 
                                 <p className='common_para'>As we continue to evolve and innovate, we look forward to inspiring others in the industry with our ingenuity.</p>
 
-                               <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="1000">Read More</button></Link>
+                               <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="800">Read More</button></Link>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
-                            <div className="winnRightDiv" data-aos="fade-down-left" data-aos-duration="2000">
+                            <div className="winnRightDiv" data-aos="fade-down-left" data-aos-duration="800">
 
                                 <div className="winnerLeftImg">
 
@@ -340,7 +340,7 @@ const Home = () => {
 
                 <div className="soluHeadlines">
                     <h2 className='common_span'>Our <span>Solutions</span></h2>
-                    <h3 data-aos="fade-right" data-aos-duration="1000" className='comman_Healines'>Empowering Business <span>Growth </span>  with <span>Personalized </span>  Products</h3>
+                    <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Healines'>Empowering Business <span>Growth </span>  with <span>Personalized </span>  Products</h3>
                     <p >Here our wide variety of digital products or solutions for your businesses such as categories of ecommerce apps and websites, educational apps and websites, gaming apps and websites and many more business digital products.</p>
                 </div>
 
@@ -349,7 +349,7 @@ const Home = () => {
                     <div className="row">
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
-                            <div className="mobilePro" data-aos="fade-up" data-aos-duration="2000">
+                            <div className="mobilePro" data-aos="fade-up" data-aos-duration="800">
 
                                 <div className="mobProImg" style={{
                                     background: `url(${appProduct.src})`,
@@ -367,7 +367,7 @@ const Home = () => {
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6 mobCards2">
-                            <div className="mobilePro" data-aos="fade-down" data-aos-duration="2000">
+                            <div className="mobilePro" data-aos="fade-down" data-aos-duration="800">
 
                                 <div className="mobProImg webProImg" style={{
                                     background: `url(${webProduct.src})`,
@@ -399,7 +399,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="servleftDiv">
 
-                                <div className="servCard" id='lightGrnCard' data-aos="fade-down" data-aos-duration="2000">
+                                <div className="servCard" id='lightGrnCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg lightgrnServ">
                                         <img src={servWebIcon.src} alt="" className='servNorImg' />
                                         <img src={servwebHover.src} alt="" className='servHoverImg' />
@@ -411,7 +411,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down" data-aos-duration="2000">
+                                <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg orangeServ">
                                         <img src={servAppIcon.src} alt="" className='servNorImg' />
                                         <img src={appHover.src} alt="" className='servHoverImg' />
@@ -423,7 +423,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="servCard" id='crimsonCard' data-aos="fade-down" data-aos-duration="2000">
+                                <div className="servCard" id='crimsonCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg crimsonServ">
                                         <img src={uiIcon.src} alt="" className='servNorImg' />
                                         <img src={uiHover.src} alt="" className='servHoverImg' />
@@ -435,7 +435,7 @@ const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="servCard servCardDown" id='greenCard' data-aos="fade-down" data-aos-duration="2000">
+                                <div className="servCard servCardDown" id='greenCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg greenServ">
                                         <img src={digitalIcon.src} alt="" className='servNorImg' />
                                         <img src={digitalHover.src} alt="" className='servHoverImg' />
@@ -452,7 +452,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="servrightDiv">
                                 <h2 className='common_span'>Best <span>  IT Services</span> </h2>
-                                <h3 data-aos="fade-left" data-aos-duration="1000" className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
+                                <h3 data-aos="fade-left" data-aos-duration="800" className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
 
                                 <p className='firstP common_para'>For skyrocket business growth, the right IT service is more important from building engaging websites and user-friendly apps to crafting stunning designs and boosting your online presence. </p>
 
@@ -483,7 +483,7 @@ const Home = () => {
                                 <div className="col-sm-12 col-md-12 col-lg-6">
                                     <div className="techHeadlines">
                                         <h3 className='common_span'>Technology <span> We Use</span></h3>
-                                        <h4 data-aos="fade-right" data-aos-duration="1000" className='common_Headlines'>We Embrace Advanced & Latest <span>Technologies</span> to Enhance Your Projects</h4>
+                                        <h4 data-aos="fade-right" data-aos-duration="800" className='common_Headlines'>We Embrace Advanced & Latest <span>Technologies</span> to Enhance Your Projects</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-12 col-lg-6">
@@ -504,7 +504,7 @@ const Home = () => {
                                             techCardData.map((ele, index) => {
                                                 return <>
                                                     <div className="col-sm-12 col-md-6 col-lg-1" key={index}>
-                                                        <div className="techMainCard" data-aos="slide-left" data-aos-duration="2000" key={ele.icon}>
+                                                        <div className="techMainCard" data-aos="slide-left" data-aos-duration="800" key={ele.icon}>
                                                             <div className="techCard">
                                                                 <img src={ele.icon} alt="" className='techIcons' />
                                                             </div>

@@ -56,14 +56,14 @@ const index = () => {
             img: mail,
             title: "Email Address",
             desc1: "support@wrteam.in",
-            desc2: "www.wrteam.in"
+            desc2: "sales@wrteam.in"
         },
         {
             id: 2,
             img: call,
             title: "Phone Number",
             desc1: "+91 97979 45459",
-            desc2: "+91 97979 45459"
+            desc2: "+91 97124 45459"
         },
     ]
 

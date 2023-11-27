@@ -20,7 +20,7 @@ const index = () => {
     const [qualification, setQualification] = useState('')
     const [applyFor, setApplyFor] = useState('')
     const [fileDataUrl, setFileDataUrl] = useState(null);
-    const form = useRef();
+    const form = useRef();    
 
 
     const handleFileChange = (event) => {
@@ -122,9 +122,19 @@ const index = () => {
         // },
     ]
 
+    const handleNumber =(e)=>{
+        const inputNumber = e.target.value.replace(/\D/g, '');
+        const limitedNumber = inputNumber.slice(0, 16);
+        setNumber(limitedNumber);
+    }
+    
+
 
     const sendEmail = (e) => {
         e.preventDefault();
+        if(number.length>16){
+            toast.error('Enter a valid number')
+        }
         if (!name || !number || !email || !qualification || !applyFor || !experience) {
             toast.error('Fill out the form first')
         }
@@ -157,7 +167,7 @@ const index = () => {
                             <span className="common_span">
                                 Work <span> With Us</span>
                             </span>
-                            <h1 className="commonHeadlines" data-aos="fade-right" data-aos-duration="1000" >
+                            <h1 className="commonHeadlines" data-aos="fade-right" data-aos-duration="800" >
                                 Join Our <span>Empire</span>
                             </h1>
 
@@ -177,14 +187,14 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamLeftDiv">
                                 <span className='common_span'>Career <span>Growth</span> </span>
-                                <h3 data-aos="fade-right" data-aos-duration="1000" className='comman_Headlines'>Why Work With <span>WRTeam </span></h3>
+                                <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Headlines'>Why Work With <span>WRTeam </span></h3>
 
                                 <p className='firstP comman_para'>We value creativity, collaboration, and continuous learning</p>
 
                                 <div className="workList">
                                     {
                                         workListData.map((e) => {
-                                            return <div className="list" key={e.id} data-aos="fade-left" data-aos-duration="2000">
+                                            return <div className="list" key={e.id} data-aos="fade-left" data-aos-duration="800">
                                                 <span>{e.srn}</span>
                                                 <span>{e.text}</span>
                                             </div>
@@ -199,13 +209,13 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamRightDiv" >
 
-                                <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="2000">
+                                <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="800">
 
                                     <img src={ourValues.src} alt="" />
 
                                 </div>
 
-                                <div data-aos="fade-left" data-aos-duration="2000">
+                                <div data-aos="fade-left" data-aos-duration="800">
 
                                     <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
@@ -221,7 +231,7 @@ const index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="jobHeadlines">
                             <span className='common_span'><span>Career</span> Opportunities</span>
-                            <h3 className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000" >Current <span> Job Openings</span> At WRTeam</h3>
+                            <h3 className='commonHeadlines' data-aos="fade-right" data-aos-duration="800" >Current <span> Job Openings</span> At WRTeam</h3>
                             <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
                         </div>
                     </div>
@@ -230,7 +240,7 @@ const index = () => {
                             {
                                 jobCardData.map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-4" key={e.id}>
-                                        <div className="card" data-aos="fade-up" data-aos-duration="2000">
+                                        <div className="card" data-aos="fade-up" data-aos-duration="800">
                                             <div className="cardBody">
                                                 <span className='card-title'>{e.title}</span>
                                                 <span className='card-text'>{e.text}</span>
@@ -251,7 +261,7 @@ const index = () => {
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="applyHeadlines">
-                                <h3 data-aos="fade-down" data-aos-duration="1000" className='comman_Headlines'>Apply<span> Now</span></h3>
+                                <h3 data-aos="fade-down" data-aos-duration="800" className='comman_Headlines'>Apply<span> Now</span></h3>
 
                                 <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
                             </div>
@@ -274,7 +284,7 @@ const index = () => {
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Contact Number</label>
-                                            <input type="text" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={(e) => setNumber(e.target.value)} value={number} />
+                                            <input type="number" className="form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={handleNumber} value={number} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">

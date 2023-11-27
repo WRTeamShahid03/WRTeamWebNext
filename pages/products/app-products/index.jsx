@@ -122,13 +122,13 @@ const Index = () => {
         {
             id: 7,
             img: eshop,
-            sales: '890',
+            sales: '921',
             rating: '(4.9)',
             title: 'eShop - Multi Vendor eCommerce App & eCommerce Vendor Marketplace Flutter App',
             text: 'Flutter,CodeIgniter',
             price: '$69',
             salePrice: '$34',
-            link: 'https://1.envato.market/QyPrb3'
+            link: 'https://1.envato.market/R5PjZN'
 
         },
         {
@@ -314,7 +314,7 @@ const Index = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="webProHeadingDiv">
-                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">We found <span>{cardData.length}</span> Products</span>
+                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="800">We found <span>{cardData.length}</span> Products</span>
                             <div className="sortBy">
                                 <span>Sort By :</span>
                                 <select

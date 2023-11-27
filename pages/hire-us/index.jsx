@@ -120,7 +120,7 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="hireUpperDiv">
                                 <h4 className='common_span'> Why Hire<span> Us</span></h4>
-                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="1000">We Are <span>Experts</span> Dedicated to Making Your Concept  <span>Come True!</span></span>
+                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="800">We Are <span>Experts</span> Dedicated to Making Your Concept  <span>Come True!</span></span>
                             </div>
                         </div>
 
@@ -156,7 +156,7 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="hireUpperDiv">
                                 <h4 className='common_span'>Hire<span> Us</span></h4>
-                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="1000">Need <span>Assistance</span> With Your Project?</span>
+                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="800">Need <span>Assistance</span> With Your Project?</span>
                             </div>
                         </div>
 
@@ -223,10 +223,10 @@ const index = () => {
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
                                                         <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example" name='budget' onChange={(e) => setBudget(e.target.value)} value={budget}>
                                                             <option selected>Your Budget</option>
-                                                            <option value="$500">$500</option>
+                                                            <option value="$500">Less than $500</option>
                                                             <option value="$500-$1000">$500-$1000</option>
                                                             <option value="$1000-$1500">$1000-$1500</option>
-                                                            <option value="$1500">$1500</option>
+                                                            <option value="$1500">Above $1500</option>
                                                         </select>
                                                     </div>
 
@@ -252,7 +252,7 @@ const index = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
-                            <div className="hireUpperDiv" data-aos="fade-right" data-aos-duration="1000">
+                            <div className="hireUpperDiv" data-aos="fade-right" data-aos-duration="800">
                                 <span className='commonHeadlines' >4 Steps to <span>Success</span> With <span>WRTeam</span></span>
                             </div>
                         </div>

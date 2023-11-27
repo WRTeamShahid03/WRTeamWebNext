@@ -54,7 +54,7 @@ const index = () => {
             text: 'PHP, Laravel',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/zNg326'
+            link: 'https://1.envato.market/VyNrvR'
 
         },
         {
@@ -114,7 +114,7 @@ const index = () => {
             text: 'React JS',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/QyPrNA'
+            link: 'https://1.envato.market/0ZB6XE'
 
         },
         {
@@ -126,7 +126,7 @@ const index = () => {
             text: 'PHP, CodeIgniter',
             price: '$29',
             salePrice: '$14',
-            link: 'https://1.envato.market/R5PjOg'
+            link: 'https://1.envato.market/B0Y3kx'
 
         },
     ]
@@ -152,7 +152,7 @@ const index = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="webProHeadingDiv">
-                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="1000">We found <span>{cardData.length}</span> Products</span>
+                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="800">We found <span>{cardData.length}</span> Products</span>
                             <div className="sortBy">
                                 <span>Sort By :</span>
                                 <select

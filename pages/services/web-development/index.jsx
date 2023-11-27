@@ -237,7 +237,7 @@ const Index = () => {
                 <span className="common_span">
                   Web <span>Development</span>
                 </span>
-                <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
+                <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
                 Build <span>Future-Ready Websites</span> for Your Brand: Drive Traffic, Capture Success
                 </h1>
 
@@ -248,7 +248,7 @@ const Index = () => {
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
                 <img src={webDeveImg.src} alt="" />
               </div>
@@ -267,7 +267,7 @@ const Index = () => {
                 <span className="common_span">
                   <span>What</span> We Can Do <span>For You</span>
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
+                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
                   Services <span>We Can Help </span>You With
                 </h3>
               </div>
@@ -299,7 +299,7 @@ const Index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">Unleashing the Potential of the Best <span>Web Development</span> company</h3>
+              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">Unleashing the Potential of the Best <span>Web Development</span> company</h3>
             </div>
           </div>
 
@@ -332,7 +332,7 @@ const Index = () => {
       <section className='process container'>
         <div className="row upperDivWrapper">
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
                 <img src={processImg.src} alt="" />
               </div>
@@ -344,7 +344,7 @@ const Index = () => {
                 <span className="common_span">
                   Our <span>Work Process</span>
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="1000">
+                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="800">
                 How Our <span>Web Development </span> Transforms Businesses?
                 </h3>
               </div>
@@ -352,7 +352,7 @@ const Index = () => {
               <div className="processCardWrapper">
                 {
                   processCard1Data.map((e) => {
-                    return <div className="processCard" data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                    return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                       <span className='cardIcon'>
                         <img src={e.icon.src} alt="" />
                       </span>
@@ -380,7 +380,7 @@ const Index = () => {
               <div className="processCardWrapper">
                 {
                   processCard2Data.map((e) => {
-                    return <div className="processCard" data-aos="fade-up" data-aos-duration="1000" key={e.id}>
+                    return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                       <span className='cardIcon'>
                         <img src={e.icon.src} alt="" />
                       </span>
@@ -397,7 +397,7 @@ const Index = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-6">
-            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="2000">
+            <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
                 <img src={processImg2.src} alt="" />
               </div>
@@ -421,7 +421,7 @@ const Index = () => {
                                 <span className="common_span">
                                     <span>We</span> Build
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="1000">
+                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
                                 We <span>Build</span> Dynamic Solutions with Leading <span> Web Development</span> Platforms
 
                                 </h3>
@@ -434,7 +434,7 @@ const Index = () => {
                             <div className="row buildCardsWrapper">
                                 {
                                     buildCardData.map((e) => {
-                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="1000">
+                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="800">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
                                                     {/* <img src={e.icon.src} alt="" className='buildIcon1' />
@@ -493,7 +493,7 @@ const Index = () => {
               <span className="common_span">
                 Our <span>Blogs</span>
               </span>
-              <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="1000">
+              <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="800">
                 Recent <span>Blogs</span>
               </h3>
             </div>
