@@ -48,6 +48,7 @@ import Counter from '../Counter';
 import WorkChain from '../WorkChain';
 import Testimonials from '../Testimonials';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const Home = () => {
@@ -62,25 +63,25 @@ const Home = () => {
             id: 1,
             title: "Web Development",
             desc: "Build a user-friendly website that showcases your business online.",
-            icon: servWebIcon.src,
+            icon: servWebIcon,
         },
         {
             id: 2,
             title: "App Development",
             desc: "Create a custom app for your business that makes your tasks easier.",
-            icon: servWebIcon.src,
+            icon: servWebIcon,
         },
         {
             id: 3,
             title: "UI/UX Services",
             desc: "Design and develop engaging and user-friendly websites and apps.",
-            icon: servWebIcon.src,
+            icon: servWebIcon,
         },
         {
             id: 4,
             title: "Digital Marketing",
             desc: "Promote your business online, reach new customers and increase sales.",
-            icon: servWebIcon.src,
+            icon: servWebIcon,
         },
     ]
 
@@ -88,37 +89,37 @@ const Home = () => {
         {
             id: 1,
             title: "Flutter",
-            icon: flutterTech.src,
+            icon: flutterTech,
         },
         {
             id: 2,
             title: "React Js",
-            icon: react.src,
+            icon: react,
         },
         {
             id: 3,
             title: "Vue JS",
-            icon: vue.src,
+            icon: vue,
         },
         {
             id: 4,
             title: "Node JS",
-            icon: node.src,
+            icon: node,
         },
         {
             id: 5,
             title: "Laravel",
-            icon: laravel.src,
+            icon: laravel,
         },
         {
             id: 6,
             title: "Android",
-            icon: android.src,
+            icon: android,
         },
         {
             id: 7,
             title: "iOS",
-            icon: ios.src,
+            icon: ios,
         },
 
     ]
@@ -147,7 +148,7 @@ const Home = () => {
                                         <p>Optimize Your Business Operations Using WRTeam's Powerful App and Website Solutions & Streamlined Workflows. We are committed to providing to our clients with the Enr-to-End App and Website Solutions.</p>
 
                                         <div className="followDiv">
-                                           <Link href='/about-us'> <button className='homeCommon_btn'>About Us</button></Link>
+                                            <Link href='/about-us'> <button className='homeCommon_btn'>About Us</button></Link>
 
                                             <div className="follIcons">
 
@@ -167,11 +168,11 @@ const Home = () => {
                                 <div className="col-sm-12 col-md-12 col-lg-6">
                                     <div className="heroCont-rightDiv" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
                                         <div className="rightDivImg">
-                                            <img src={rightDivImg.src} alt="" />
+                                            <Image height={0} width={0} loading="lazy" src={rightDivImg} alt="" />
                                         </div>
                                         <div className="floatingCard1">
                                             <div className="fcardImg">
-                                                <img src={likeIcon.src} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={likeIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>
@@ -187,11 +188,11 @@ const Home = () => {
 
                                         <div className="floatingCard2">
                                             <div className="fcardImg">
-                                                <img src={checkIcon.src} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={checkIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>Sales Count</span>
-                                                <span className=''>(13k+) <span className='customerRev'>Products </span></span>
+                                                <span className=''>(15k+) <span className='customerRev'>Products </span></span>
                                             </div>
                                         </div>
 
@@ -199,10 +200,10 @@ const Home = () => {
                                             <div className="floCard3Content">
                                                 <span>Our Creative Team</span>
                                                 <span className='teamIcons'>
-                                                    <img src={team1.src} alt="" />
-                                                    <img src={team2.src} alt="" />
-                                                    <img src={team3.src} alt="" />
-                                                    <img src={team4.src} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team1} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team2} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team3} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team4} alt="" />
                                                     <span className='teamMem'>40+</span>
                                                 </span>
                                             </div>
@@ -213,7 +214,7 @@ const Home = () => {
                             </div>
 
                             <div className="arrow" data-aos="fade-down" data-aos-duration="800">
-                                <img src={arrow.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={arrow} alt="" />
                             </div>
 
                         </div>
@@ -235,7 +236,7 @@ const Home = () => {
                             <div className="aboutLeftDiv">
                                 <div className="aboutImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                                    <img src={aboutImg1.src} alt="" />
+                                    <Image height={0} width={0} loading="lazy" src={aboutImg1} alt="" />
                                     <div className="aboutSmImg" style={{
                                         background: `url(${aboutImg2.src})`,
                                         backgroundSize: 'cover'
@@ -275,7 +276,7 @@ const Home = () => {
                                 <p className='common_para'>WRTeam is a creative and dedicated group of developers who are mastered in Mobile & Web Development with expertise in delivering quality solutions to customers across the globe.</p>
 
                                 <div className="discover" data-aos="fade-up" data-aos-duration="800">
-                                  <Link href='about-us'>  <button className='homeCommon_btn'>Discover More</button></Link>
+                                    <Link href='about-us'>  <button className='homeCommon_btn'>Discover More</button></Link>
                                     {/* <span className='hoverArrSpan'>Let's Talk About Idea < BsArrowRightCircle className='discRightArr' /></span> */}
                                 </div>
                             </div>
@@ -305,7 +306,7 @@ const Home = () => {
 
                                 <p className='common_para'>As we continue to evolve and innovate, we look forward to inspiring others in the industry with our ingenuity.</p>
 
-                               <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="800">Read More</button></Link>
+                                <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="800">Read More</button></Link>
                             </div>
                         </div>
 
@@ -314,9 +315,9 @@ const Home = () => {
 
                                 <div className="winnerLeftImg">
 
-                                    <img src={winnerImg1.src} alt="" className='winnerTeamImg' />
+                                    <Image height={0} width={0} loading="lazy" src={winnerImg1} alt="" className='winnerTeamImg' />
                                     <div className="winnerSmImg" >
-                                        <img src={trophy.src} alt="" />
+                                        <Image height={0} width={0} loading="lazy" src={trophy} alt="" />
 
                                     </div>
 
@@ -355,10 +356,10 @@ const Home = () => {
                                     background: `url(${appProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <img src={appProduct.src} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0} loading="lazy" src={appProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><img src={appProIcon.src} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={appProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Mobile App Products</h4>
                                     <Link href='/products/app-products'><span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
@@ -373,12 +374,12 @@ const Home = () => {
                                     background: `url(${webProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <img src={webProduct.src} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0} loading="lazy" src={webProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><img src={webProIcon.src} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={webProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Web App Products</h4>
-                                   <Link href='/products/web-products'> <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                    <Link href='/products/web-products'> <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
 
                             </div>
@@ -401,8 +402,8 @@ const Home = () => {
 
                                 <div className="servCard" id='lightGrnCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg lightgrnServ">
-                                        <img src={servWebIcon.src} alt="" className='servNorImg' />
-                                        <img src={servwebHover.src} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0} loading="lazy" src={servWebIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0} loading="lazy" src={servwebHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[0].title}</h4>
@@ -413,20 +414,20 @@ const Home = () => {
 
                                 <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg orangeServ">
-                                        <img src={servAppIcon.src} alt="" className='servNorImg' />
-                                        <img src={appHover.src} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0} loading="lazy" src={servAppIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0} loading="lazy" src={appHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[1].title}</h4>
                                         <span className='servText'>{servCardData[1].desc}</span>
-                                       <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                        <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
                                     </div>
                                 </div>
 
                                 <div className="servCard" id='crimsonCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg crimsonServ">
-                                        <img src={uiIcon.src} alt="" className='servNorImg' />
-                                        <img src={uiHover.src} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0} loading="lazy" src={uiIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0} loading="lazy" src={uiHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[2].title}</h4>
@@ -437,8 +438,8 @@ const Home = () => {
 
                                 <div className="servCard servCardDown" id='greenCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg greenServ">
-                                        <img src={digitalIcon.src} alt="" className='servNorImg' />
-                                        <img src={digitalHover.src} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0} loading="lazy" src={digitalIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0} loading="lazy" src={digitalHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[3].title}</h4>
@@ -502,11 +503,11 @@ const Home = () => {
                                     <div className="row">
                                         {
                                             techCardData.map((ele, index) => {
-                                                return <>
-                                                    <div className="col-sm-12 col-md-6 col-lg-1" key={index}>
+                                                return (
+                                                    <div className="col-sm-6 col-md-6 col-lg-1" key={index}>
                                                         <div className="techMainCard" data-aos="slide-left" data-aos-duration="800" key={ele.icon}>
                                                             <div className="techCard">
-                                                                <img src={ele.icon} alt="" className='techIcons' />
+                                                                <Image height={0} width={0} loading="lazy" src={ele.icon} alt="" className='techIcons' />
                                                             </div>
                                                             <span className="colorDot">
                                                                 <span className='darkDot'></span>
@@ -514,7 +515,7 @@ const Home = () => {
                                                             <span className='techName'>{ele.title}</span>
                                                         </div>
                                                     </div>
-                                                </>
+                                                )
                                             })
                                         }
                                     </div >

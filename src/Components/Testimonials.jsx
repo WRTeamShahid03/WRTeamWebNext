@@ -15,6 +15,7 @@ import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
 
 import dobleQuotes from '../../src/Asset/Icons/double-quotes-l.svg'
+import Image from 'next/image';
 
 const Testimonials = () => {
 
@@ -142,12 +143,12 @@ const Testimonials = () => {
                 >
                     {
                         swiperData.map((ele, index) => {
-                            return <div key={ele.id}>
-                                <SwiperSlide >
+                            return (
+                                <SwiperSlide key={ele.id} >
                                     <div className="card swiperCard">
                                         <div className="card-header">
                                             <span className="testiImg">
-                                                <img src={dobleQuotes.src} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={dobleQuotes} alt="" />
                                             </span>
                                         </div>
                                         <div className="card-body">
@@ -169,7 +170,7 @@ const Testimonials = () => {
                                         </div>
                                     </div>
                                 </SwiperSlide>
-                            </div>
+                            )
                         })
                     }
                 </Swiper>

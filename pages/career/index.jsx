@@ -8,6 +8,8 @@ import { BsArrowRightCircle } from 'react-icons/bs'
 import { FiUploadCloud } from 'react-icons/fi'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
+import Head from 'next/head'
+import Image from 'next/image'
 
 
 const index = () => {
@@ -158,6 +160,10 @@ const index = () => {
     };
     return (
         <div className='careerPage'>
+             <Head>
+                <title> Join WRTeam's Highly Skilled & Experienced Team & Build Career</title>
+                <meta name="description" content="Apply Now! Ready to take your career to the next level? We are looking for talented candidates to join our team of flutter, react, laravel, dart, vue js champ." />
+            </Head>
             <Breadcrum title='Career' contentOne='Home' contentTwo='Career' />
 
             <section id='empire' className='container'>
@@ -211,15 +217,15 @@ const index = () => {
 
                                 <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                                    <img src={ourValues.src} alt="" />
+                                    <Image height={0} width={0} loading="lazy" src={ourValues} alt="" />
 
                                 </div>
 
                                 <div data-aos="fade-left" data-aos-duration="800">
 
-                                    <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                                    <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
-                                <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
+                                <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
                             </div>
                         </div>
                     </div>
@@ -295,14 +301,14 @@ const index = () => {
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Apply For</label>
                                             <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e) => setApplyFor(e.target.value)} value={applyFor} >
-                                                <option selected>Select Apply For</option>
+                                                <option defaultValue>Select Apply For</option>
                                                 <option value="Flutter Developer">Flutter Developer</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Experience</label>
                                             <select className="form-select form-select-md mb-3" name='experience' aria-label=".form-select-lg example" onChange={(e) => setExperience(e.target.value)} value={experience} >
-                                                <option defaultValue selected>Select Your Experience</option>
+                                                <option defaultValue>Select Your Experience</option>
                                                 <option value="Fresher">Fresher</option>
                                                 <option value="1+ Years">1+ Years</option>
                                                 <option value="3+ Years">3+ Years</option>
@@ -316,7 +322,7 @@ const index = () => {
                                                         <div className="image-upload">
                                                             {selectedFile ? (
                                                                 <div className="img-uploaded">
-                                                                    <img src={fileDataUrl} alt="" />
+                                                                    <Image height={0} width={0} loading="lazy" src={fileDataUrl} alt="" />
                                                                 </div>
                                                             ) : (
                                                                 <label style={{ cursor: "pointer" }} htmlFor="file_upload">

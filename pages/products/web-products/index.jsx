@@ -14,6 +14,7 @@ import { LiaStarSolid } from 'react-icons/lia';
 import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const index = () => {
@@ -146,7 +147,7 @@ const index = () => {
     return (
         <>
 
-            <Breadcrum title='Web' blueText='Products' contentOne={'Home'} contentTwo={'Products'} contentThree={'Web Products'}/>
+            <Breadcrum title='Web' blueText='Products' contentOne={'Home'} contentTwo={'Products'} contentThree={'Web Products'} />
             <section className='container webPro'>
 
                 <div className="row">
@@ -174,7 +175,7 @@ const index = () => {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                         <Card>
-                                            <Card.Img variant="top" className='webProImg' src={e.img.src} />
+                                            <Image height={0} width={0} loading="lazy" alt='product_img' className='webProImg card-img-top' src={e.img} />
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>
@@ -187,7 +188,7 @@ const index = () => {
                                                     </span>{e.rating}</span>
                                                 </div>
                                                 {
-                                                    e.title.length > 60?<Card.Title>{e.title.slice(0,50)}...</Card.Title>:<Card.Title>{e.title}</Card.Title>
+                                                    e.title.length > 60 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
                                                 }
                                                 <Card.Text>
                                                     {e.text}
@@ -198,8 +199,8 @@ const index = () => {
                                                 <span className='priceDiv'>
                                                     <span>Price</span>
                                                     <div className='productPriceWrapper'>
-                                                    <span>{e.price}</span>
-                                                    <span>{e.salePrice}</span>                                                    
+                                                        <span>{e.price}</span>
+                                                        <span>{e.salePrice}</span>
                                                     </div>
                                                 </span>
                                                 <Link href={e.link} target='_blank'> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>

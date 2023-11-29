@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import ReactPaginate from 'react-paginate';
 import teamDefaultImg from '../Asset/Images/teamDefaultImg.png';
+import Image from 'next/image';
 
 const Team = () => {
     const [currentPage, setCurrentPage] = useState(0); // Start from the first page
@@ -241,8 +242,8 @@ const Team = () => {
                                 {visibleTeamData.map(ele => (
                                     <div className="col-sm-12 col-md-6 col-lg-3" key={ele.id}>
                                         <div className="card text-white">
-                                            <img
-                                                src={ele.img.src || teamDefaultImg}
+                                            <Image height={0} width={0} loading="lazy"
+                                                src={ele.img || teamDefaultImg}
                                                 className="card-img-top"
                                                 alt="teamImg"
                                             />

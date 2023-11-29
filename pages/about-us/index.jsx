@@ -16,11 +16,18 @@ import ourVision from '../../src/Asset/Images/our_vision.png'
 import ourMission from '../../src/Asset/Images/our_mission.png'
 import ourValues from '../../src/Asset/Images/our_values.png'
 import Team from '@/Components/Team'
+import Head from 'next/head'
+import Image from 'next/image'
 
-const index = () => {  
+const index = () => {
 
   return (
+
     <>
+      <Head>
+        <title> Web & App Development Company In Bhuj | IT Consulting Service</title>
+        <meta name="description" content="WRTeam Gujarat based IT company which has created code  of website & application. Also provide UI/UX, IT consulting and digital marketing services." />
+      </Head>
       <Breadcrum title="About" blueText="Us" contentOne="Home" contentTwo="About Us" />
 
       <section id='knowMore' className='container'>
@@ -31,16 +38,16 @@ const index = () => {
             <div className="knowMoreLeftDiv">
               <div className="knowMoreImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                <img src={knowMoreImg.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={knowMoreImg} alt="" />
                 <div className="business">
-                  <span className='likeSpan'><img src={likeIcon.src} alt="likeIcon" /></span>
+                  <span className='likeSpan'><Image height={0} width={0} loading="lazy" src={likeIcon} alt="likeIcon" /></span>
                   <span className='businessNum'>25+</span>
                   <span className='businessText'>Business Solution</span>
                 </div>
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
-              <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
+              <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
 
@@ -93,16 +100,16 @@ const index = () => {
 
                 <div className="visionLeftImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                  <img src={ourVision.src} alt="" className='winnerTeamImg' />
+                  <Image height={0} width={0} loading="lazy" src={ourVision} alt="" className='winnerTeamImg' />
 
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="800">
 
-                  <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                  <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
 
-                <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
+                <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
 
               </div>
             </div>
@@ -119,11 +126,11 @@ const index = () => {
             <div className="missionLeftDiv">
               <div className="missionImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                <img src={ourMission.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={ourMission} alt="" />
               </div>
 
-              <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
-              <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern' />
+              <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
 
@@ -181,14 +188,14 @@ const index = () => {
 
                 <div className="valuesLeftImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                  <img src={ourValues.src} alt="" className='winnerTeamImg' />
+                  <Image height={0} width={0} loading="lazy" src={ourValues} alt="" className='winnerTeamImg' />
 
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="800">
-                  <img src={trianglePattern.src} alt="trianglePattern" className='trianglePattern2' />
+                  <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
-                <img src={dotsPattern.src} alt="dotsPattern" className='dotsPattern2' />
+                <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
               </div>
             </div>
           </div>
@@ -198,7 +205,7 @@ const index = () => {
 
       <WorkChain />
 
-      <Team/>
+      <Team />
 
       <Testimonials />
 

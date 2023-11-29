@@ -21,6 +21,8 @@ import creativity from '../../src/Asset/Images/Creativity.png'
 import trust from '../../src/Asset/Images/Trust.png'
 import quality from '../../src/Asset/Images/Quality.png'
 import teamWork from '../../src/Asset/Images/Team Work.png'
+import Head from 'next/head';
+import Image from 'next/image';
 
 const index = () => {
 
@@ -86,7 +88,7 @@ const index = () => {
 
     const form = useRef();
 
-    const handleNumber =(e)=>{
+    const handleNumber = (e) => {
         const inputNumber = e.target.value.replace(/\D/g, '');
         const limitedNumber = inputNumber.slice(0, 16);
         setNumber(limitedNumber);
@@ -117,6 +119,10 @@ const index = () => {
 
     return (
         <>
+            <Head>
+                <title>Hire Us Today - Web & Apps Development & IT Services Company</title>
+                <meta name="description" content="Experience the smart IT solutions for your company. Hire wrteam for specialised services, such as web & app development, IT consulting & graphic design." />
+            </Head>
             <Breadcrum title="Hire" blueText="Us" contentOne="Home" contentTwo="Hire Us" />
 
             <section id='whyHireUs'>
@@ -139,7 +145,7 @@ const index = () => {
                                     CardData.map((e) => {
                                         return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                             <div className="card">
-                                                <span className='contactCardSpan'> <img className="card-img-top card1Img" src={e.img.src} alt="Card image cap" /> </span>
+                                                <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top card1Img" src={e.img} alt="Card image cap" /> </span>
                                                 <div className="card-body ">
                                                     <h5 className="card-title card1Title">{e.title}</h5>
                                                     <p className="card-text card1Text">{e.desc}</p>
@@ -178,31 +184,31 @@ const index = () => {
                                         <div className="hireUsCardWrapper">
 
                                             <div className="hireUsCard">
-                                                <span className='flutter'> <img src={flutter.src} alt="" /> </span>
+                                                <span className='flutter'> <Image height={0} width={0} loading="lazy" src={flutter} alt="" /> </span>
                                                 <span className='title'>Flutter</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='react'> <img src={react.src} alt="" /> </span>
+                                                <span className='react'> <Image height={0} width={0} loading="lazy" src={react} alt="" /> </span>
                                                 <span className='title'>React Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='vue'> <img src={vue.src} alt="" /> </span>
+                                                <span className='vue'> <Image height={0} width={0} loading="lazy" src={vue} alt="" /> </span>
                                                 <span className='title'>Vue Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='node'> <img src={node.src} alt="" /> </span>
+                                                <span className='node'> <Image height={0} width={0} loading="lazy" src={node} alt="" /> </span>
                                                 <span className='title'>Node Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='laravel'> <img src={laravel.src} alt="" /> </span>
+                                                <span className='laravel'> <Image height={0} width={0} loading="lazy" src={laravel} alt="" /> </span>
                                                 <span className='title'>Laravel</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='android'> <img src={android.src} alt="" /> </span>
+                                                <span className='android'> <Image height={0} width={0} loading="lazy" src={android} alt="" /> </span>
                                                 <span className='title'>Android</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='ios'> <img src={ios.src} alt="" /> </span>
+                                                <span className='ios'> <Image height={0} width={0} loading="lazy" src={ios} alt="" /> </span>
                                                 <span className='title'>iOS</span>
                                             </div>
 
@@ -216,19 +222,19 @@ const index = () => {
 
                                                 <div className="mb-3 row">
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
-                                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" name='full_name' onChange={(e) => setName(e.target.value)} value={name}/>
+                                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" name='full_name' onChange={(e) => setName(e.target.value)} value={name} />
                                                     </div>
 
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email}/>
+                                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email} />
                                                     </div>
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                        <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number}/>
+                                                        <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} />
                                                     </div>
 
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
                                                         <select className="form-select form-select-md mb-3" aria-label=".form-select-lg example" name='budget' onChange={(e) => setBudget(e.target.value)} value={budget}>
-                                                            <option selected>Your Budget</option>
+                                                            <option defaultValue>Your Budget</option>
                                                             <option value="$500">Less than $500</option>
                                                             <option value="$500-$1000">$500-$1000</option>
                                                             <option value="$1000-$1500">$1000-$1500</option>
@@ -237,7 +243,7 @@ const index = () => {
                                                     </div>
 
                                                     <div className="mb-3 mt-4">
-                                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" name='message' placeholder='Your Message' onChange={(e) => setMessage(e.target.value)} value={message}/>
+                                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" name='message' placeholder='Your Message' onChange={(e) => setMessage(e.target.value)} value={message} />
                                                     </div>
 
                                                     <button type='submit' className='homeCommon_btn'>Submit</button>
@@ -271,7 +277,7 @@ const index = () => {
                                     Card2Data.map((e) => {
                                         return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                             <div className="card">
-                                                <span className=''> <img className="card-img-top" src={e.img.src} alt="Card image cap" /> </span>
+                                                <span className=''> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" /> </span>
                                                 <div className="card-body ">
                                                     <h5 className="card-title">{e.title}</h5>
                                                     <p className="card-text">{e.desc}</p>

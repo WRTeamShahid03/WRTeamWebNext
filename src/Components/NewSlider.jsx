@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useEffect } from 'react';
 import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs'
 
@@ -63,7 +64,7 @@ const NewSlider = ({ newSwiperData }) => {
                     {
                         newSwiperData.map((ele)=>{
                             return <div key={ele.id}>
-                                <img src={ele.img.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={ele.img} alt="" />
                             </div>
                         })
                     }

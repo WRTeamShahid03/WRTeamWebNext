@@ -28,6 +28,8 @@ import quiz from '../../../src/Asset/Images/app-products/20_Quiz Online (iOS).jp
 import quizAndroid from '../../../src/Asset/Images/app-products/21_Quiz Online (Android).jpg'
 import ecartApp from '../../../src/Asset/Images/app-products/22_eCart App Single.jpg'
 import quotes from '../../../src/Asset/Images/app-products/23_Quotes app.jpg'
+import Head from 'next/head';
+import Image from 'next/image';
 
 
 const Index = () => {
@@ -308,7 +310,12 @@ const Index = () => {
     return (
         <>
 
-            <Breadcrum title='App' blueText='Products' contentOne={'Home'} contentTwo={'Products'} contentThree={'App Products'}/>
+            <Head>
+                <title> Create Websites and mobile App with WRTeam's Digital Products</title>
+                <meta name="description" content="Complete business solutions. Clean & safe code for your Ecom. business, grocery business, local business & make educational and game apps and web." />
+            </Head>
+
+            <Breadcrum title='App' blueText='Products' contentOne={'Home'} contentTwo={'Products'} contentThree={'App Products'} />
             <section className='container webPro'>
 
                 <div className="row">
@@ -336,7 +343,7 @@ const Index = () => {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                         <Card>
-                                            <Card.Img variant="top" className='webProImg' src={e.img.src} />
+                                            <Image height={0} width={0} loading="lazy" className='webProImg card-img-top' alt='product_img' src={e.img} />
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>
@@ -349,9 +356,9 @@ const Index = () => {
                                                     </span>{e.rating}</span>
                                                 </div>
                                                 {
-                                                    e.title.length > 60?<Card.Title>{e.title.slice(0,50)}...</Card.Title>:<Card.Title>{e.title}</Card.Title>
+                                                    e.title.length > 60 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
                                                 }
-                                                
+
                                                 <Card.Text>
                                                     {e.text}
                                                 </Card.Text>
@@ -361,8 +368,8 @@ const Index = () => {
                                                 <span className='priceDiv'>
                                                     <span>Price</span>
                                                     <div className='productPriceWrapper'>
-                                                    <span>{e.price}</span>
-                                                    <span>{e.salePrice}</span>                                                    
+                                                        <span>{e.price}</span>
+                                                        <span>{e.salePrice}</span>
                                                     </div>
                                                 </span>
                                                 <Link href={e.link} target='_blank'> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>

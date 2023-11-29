@@ -11,6 +11,7 @@ import navLogo from '../../Asset/navLogo.svg'
 import GetInTouch from "../GetInTouch";
 import { useRouter } from "next/router";
 import Link from "next/link"
+import Image from "next/image";
 
 const Footer = () => {
 
@@ -31,7 +32,7 @@ const Footer = () => {
                      <div className="cont logoCont">
                         <div className="footLogo">
 
-                           <img src={navLogo.src} alt='navLogo' />
+                           <Image height={0} width={0} loading="lazy" src={navLogo} alt='navLogo' />
 
                         </div>
                         <span>WRTeam has creative and dedicated group of developers who are mastered in apps Developments and Web development with a nice in delivering quality solutions to customers across the globe.</span>

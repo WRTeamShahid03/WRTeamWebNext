@@ -67,10 +67,10 @@
 
 
 
-    #aboutUs .aboutWrapper .aboutRightDiv {
+    /* #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 90px;
         margin-left: 100px;
-    }
+    } */
 
     /* aboutUs ends  */
 
@@ -85,7 +85,7 @@
     #solutions .productsCardsWrapper .mobilePro {
         display: flex;
         flex-direction: row;
-        margin: 0 -50px;
+        margin: 0 -20px;
     }
 
     /* solutions ends  */
@@ -141,6 +141,8 @@
     #knowMore .knowMoreLeftDiv .dotsPattern,
     #mission .missionLeftDiv .dotsPattern {
         top: 52px;
+        right: -70px;
+        
     }
 
     #vision .visionLeftDiv,
@@ -313,7 +315,7 @@
 
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 90px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
 
     #aboutUs .aboutWrapper .aboutLeftDiv .aboutImg .aboutSmImg {
@@ -390,9 +392,9 @@
         width: 24vw;
     }
 
-    #solutions .productsCardsWrapper .mobCards2 {
+    /* #solutions .productsCardsWrapper .mobCards2 {
         padding-left: 50px;
-    }
+    } */
 
     #solutions .productsCardsWrapper .mobilePro .mobProContent {
         display: flex;
@@ -774,6 +776,9 @@
 
     #applyNow {
         margin-bottom: 60px;
+    }
+    .devSlider .sidebar>div {
+        padding: 0px 30px;
     }
 
 }
@@ -2974,6 +2979,7 @@
 
     .commonBorderDiv::before {
         width: 65.5%;
+        top: 6px;
     }
 
     .development .deveLeftDiv {
@@ -4098,7 +4104,8 @@
     }
 
     .commonBorderDiv::before {
-        width: 65.5%;
+        width: 66.5%;
+        top: 4px;
     }
 
     .development .comman_para {
@@ -4293,7 +4300,7 @@
     .build .buildWrapper .rightDiv {
         padding: 20px 40px;
         padding-right: 0;
-        margin-left: 26px;
+        margin-left: -16px;
     }
 
     .recentBlogs .col-lg-12 .row {
@@ -4629,7 +4636,7 @@
     }
 
     .hoverArrSpan {
-        font-size: 13px;
+        font-size: 11px;
         margin-left: -4px;
     }
 
@@ -5607,7 +5614,7 @@
 @media only screen and (min-width: 280px) and (max-width: 330px) {
 
     .hoverArrSpan {
-        font-size: 11px;
+        font-size: 10px;
         margin-left: -4px;
     }
 

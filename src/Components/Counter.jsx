@@ -7,6 +7,7 @@ import happy from '../../src/Asset/Icons/Happy Clients.svg'
 import projectDone from '../../src/Asset/Icons/Projects Done.svg'
 import reconnet from '../../src/Asset/Icons/Reconecct.svg'
 import satisfaction from '../../src/Asset/Icons/Satisfaction.svg'
+import Image from 'next/image';
 
 
 const Counter = () => {
@@ -26,7 +27,7 @@ const Counter = () => {
                 <div className="col-sm-12 col-md-6 col-lg-3">
                     <div className="countCard">
                         <div className="fcardImg">
-                            <img src={happy.src} alt="" />
+                            <Image height={0} width={0} loading="lazy" src={happy} alt="" />
                         </div>
                         <div className="countContent">
                             {counter && <span className='countNum'><CountUp start={0} end={15} duration={2} delay={0} />k+</span>}
@@ -41,7 +42,7 @@ const Counter = () => {
                 <div className="col-sm-12 col-md-6 col-lg-3">
                     <div className="countCard">
                         <div className="fcardImg">
-                            <img src={projectDone.src} alt="" />
+                            <Image height={0} width={0} loading="lazy" src={projectDone} alt="" />
                         </div>
                         <div className="countContent">
                             {counter && <span className='countNum'> <CountUp start={0} end={450} duration={2} delay={0} />+</span>}
@@ -56,7 +57,7 @@ const Counter = () => {
                 <div className="col-sm-12 col-md-6 col-lg-3">
                     <div className="countCard">
                         <div className="fcardImg">
-                            <img src={reconnet.src} alt="" />
+                            <Image height={0} width={0} loading="lazy" src={reconnet} alt="" />
                         </div>
                         <div className="countContent">
                             {counter && <span className='countNum'><CountUp start={0} end={94} duration={2} delay={0} />%</span>}
@@ -70,7 +71,7 @@ const Counter = () => {
                 <div className="col-sm-12 col-md-6 col-lg-3">
                     <div className="countCard">
                         <div className="fcardImg">
-                            <img src={satisfaction.src} alt="" />
+                            <Image height={0} width={0} loading="lazy" src={satisfaction} alt="" />
                         </div>
                         <div className="countContent">
                             {counter && <span className='countNum'><CountUp start={0} end={98} duration={2} delay={0} />%</span>}

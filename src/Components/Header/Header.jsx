@@ -11,6 +11,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import ProductDropdown from './ProductDropdown';
 import ServiceDropdown from './ServiceDropdown';
+import Image from 'next/image';
 
 
 
@@ -62,7 +63,7 @@ const Header = () => {
             <div className="col-sm-5 col-md-5 col-lg-5">
               <div id="leftSide">
                 <div className="navLogo">
-                  <Navbar.Brand href="/">  <img src={navLogo.src} alt="navLogo" /> </Navbar.Brand>
+                  <Navbar.Brand href="/">  <Image height={0} width={0} loading="lazy" src={navLogo} alt="navLogo" /> </Navbar.Brand>
                 </div>
               </div>
             </div>
@@ -83,8 +84,6 @@ const Header = () => {
 
                   <Link className={`nav-link ${router.pathname === '/contact-us' ? 'navActive' : ''}`} href="/contact-us">Contact Us</Link>
                  
-
-
                   {/* <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }}  >
                     <div className="contactNum">
                       <span id='callIcon'><IoIosCall size={28} /></span>
@@ -117,17 +116,18 @@ const Header = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="me-auto">
-            <Link className="nav-link" href="/" onClick={() => setShow(false)}> Home</Link>
+            <Link className={`nav-link ${router.pathname === '/' ? 'navActive' : ''}`} href="/" onClick={() => setShow(false)}> Home</Link>
 
-            <Link className='nav-link' href='/about-us' onClick={() => setShow(false)}> About Us </Link>
+            <Link className={`nav-link ${router.pathname === '/about-us' ? 'navActive' : ''}`} href='/about-us' onClick={() => setShow(false)}> About Us </Link>
 
             <ProductDropdown setShow={setShow} />
 
             <ServiceDropdown setShow={setShow}/>
 
-            <Link className="nav-link" href="/contact-us" onClick={() => setShow(false)}>Contact Us</Link>
+            <Link className={`nav-link ${router.pathname === '/career' ? 'navActive' : ''}`} href="/career" onClick={() => setShow(false)}>Career</Link>
 
-            <Link className="nav-link" href="/career" onClick={() => setShow(false)}>Career</Link>
+            <Link className={`nav-link ${router.pathname === '/contact-us' ? 'navActive' : ''}`} href="/contact-us" onClick={() => setShow(false)}>Contact Us</Link>
+
 
             {/* <Link className="nav-link" href="/contact-us/" style={{ textDecoration: "none" }} onClick={() => setShow(false)} >
               <div className="contactNum">

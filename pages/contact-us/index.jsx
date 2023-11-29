@@ -11,6 +11,8 @@ import { AiFillTwitterCircle } from 'react-icons/ai'
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
+import Head from 'next/head'
+import Image from 'next/image'
 
 const index = () => {
 
@@ -21,7 +23,7 @@ const index = () => {
     const [message, setMessage] = useState('')
     const form = useRef();
 
-    const handleNumber =(e)=>{
+    const handleNumber = (e) => {
         const inputNumber = e.target.value.replace(/\D/g, '');
         const limitedNumber = inputNumber.slice(0, 16);
         setNumber(limitedNumber);
@@ -29,7 +31,7 @@ const index = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if (!name || !number || !email || !subject || !message ) {
+        if (!name || !number || !email || !subject || !message) {
             toast.error('Fill out the form first')
         }
         else {
@@ -75,6 +77,10 @@ const index = () => {
 
     return (
         <>
+            <Head>
+                <title>Contact Us - WRTeam | IT Company In Bhuj</title>
+                <meta name="description" content="How to make websites and apps? without knowledge of coding and create web & app for your business and. Contact Us for any type of IT solutions." />
+            </Head>
             <Breadcrum title="Contact" blueText="Us" contentOne="Home" contentTwo="Contact Us" />
 
             <section id='contactUs' className='container'>
@@ -84,7 +90,7 @@ const index = () => {
                             return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
 
                                 <div className="card">
-                                    <span className='contactCardSpan'> <img className="card-img-top" src={e.img.src} alt="Card image cap" id='contactCardIcon' /> </span>
+                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
                                     <div className="card-body ">
                                         <h5 className="card-title contactCardTitle">{e.title}</h5>
                                         <p className="card-text contactCardText1">{e.desc1}</p>
@@ -118,7 +124,7 @@ const index = () => {
                                 <div className="blueBg">
 
                                     <div className="logo">
-                                        <img src={companyLogo.src} alt="" />
+                                        <Image height={0} width={0} loading="lazy" src={companyLogo} alt="" />
                                     </div>
                                     <div className="socialContent">
                                         <span className='text'>Stay connected with us on social media for the latest updates, content, and more. Follow us today!</span>
@@ -150,29 +156,29 @@ const index = () => {
 
                                 <form ref={form} onSubmit={sendEmail}>
 
-                                <div className="mb-3 row">
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" name='full_name' onChange={(e) => setName(e.target.value)} value={name} />
-                                    </div>
+                                    <div className="mb-3 row">
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Name" name='full_name' onChange={(e) => setName(e.target.value)} value={name} />
+                                        </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email}/>
-                                    </div>
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number}/>
-                                    </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email} />
+                                        </div>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} />
+                                        </div>
 
-                                    <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Subject" name='subject' onChange={(e) => setSubject(e.target.value)} value={subject}/>
+                                        <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
+                                            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Your Subject" name='subject' onChange={(e) => setSubject(e.target.value)} value={subject} />
+                                        </div>
+
+                                        <div className="mb-3 mt-4">
+                                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" name='message' placeholder='Your Message' onChange={(e) => setMessage(e.target.value)} value={message} />
+                                        </div>
+
+                                        <button type='submit' className='homeCommon_btn'>Submit</button>
+
                                     </div>
-
-                                    <div className="mb-3 mt-4">
-                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" name='message' placeholder='Your Message' onChange={(e) => setMessage(e.target.value)} value={message}/>
-                                    </div>
-
-                                    <button type='submit' className='homeCommon_btn'>Submit</button>
-
-                                </div>
                                 </form>
                             </div>
                         </div>

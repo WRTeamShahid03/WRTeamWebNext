@@ -52,6 +52,8 @@ import emailMarketing from '../../../src/Asset/Images/digital-marketing/Email Ma
 import seo from '../../../src/Asset/Images/digital-marketing/SEO.jpg'
 import smm from '../../../src/Asset/Images/digital-marketing/SMM.jpg'
 import localMarketing from '../../../src/Asset/Images/digital-marketing/Local Marketing.jpg'
+import Head from 'next/head'
+import Image from 'next/image'
 
 const Index = () => {
 
@@ -231,6 +233,10 @@ const Index = () => {
 
     return (
         <div className='webDevelopmentPage digitalMarketingPage'>
+            <Head>
+                <title>WRTeam - Digital Marketing Service Provider Agency | IT Company</title>
+                <meta name="description" content="Wrteam internet marketing service provider across global. We help to grow your business to the next level. Learn more about us." />
+            </Head>
             <Breadcrum title='Digital Marketing' blueText={'Services'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Digital Marketing Services'} />
 
             <section className='development container'>
@@ -254,7 +260,7 @@ const Index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="800">
                             <div className="commonBorderDiv">
-                                <img src={digitalMarketingServImg.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={digitalMarketingServImg} alt="" />
                             </div>
                         </div>
                     </div>
@@ -279,12 +285,12 @@ const Index = () => {
 
                         <div className="col-sm-12 col-md-12 col-lg-12 sliderContainer">
                             <div className="leftDivshapes">
-                                <img src={crossShape.src} alt="" className='crossShape' />
-                                <img src={dottsShape.src} alt="" className='dottsShape' />
+                                <Image height={0} width={0} loading="lazy" src={crossShape} alt="" className='crossShape' />
+                                <Image height={0} width={0} loading="lazy" src={dottsShape} alt="" className='dottsShape' />
                             </div>
                             <div className="rightDivshapes">
-                                <img src={circle.src} alt="" className='circleShape' />
-                                <img src={triangle.src} alt="" className='triangleShape' />
+                                <Image height={0} width={0} loading="lazy" src={circle} alt="" className='circleShape' />
+                                <Image height={0} width={0} loading="lazy" src={triangle} alt="" className='triangleShape' />
                             </div>
                             <NewSlider newSwiperData={newSwiperData} />
                         </div>
@@ -321,7 +327,7 @@ const Index = () => {
                             return <div className="col-sm-6 col-md-6 col-lg-3" key={e.id}>
                                 <Card>
                                     {/* <Card.Img variant="top" src="..." /> */}
-                                    <span className='card-img-top'><img src={e.icon.src} style={{ filter: e.icon === eliteAuthor ? 'none' : '' }} alt="" /></span>
+                                    <span className='card-img-top'><Image height={0} width={0} loading="lazy" src={e.icon} style={{ filter: e.icon === eliteAuthor ? 'none' : '' }} alt="" /></span>
                                     <Card.Body>
                                         <Card.Title>{e.title}</Card.Title>
                                     </Card.Body>
@@ -338,7 +344,7 @@ const Index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
                             <div className="commonBorderDiv">
-                                <img src={processImg.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={processImg} alt="" />
                             </div>
                         </div>
                     </div>
@@ -358,7 +364,7 @@ const Index = () => {
                                     processCard1Data.map((e) => {
                                         return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                                             <span className='cardIcon'>
-                                                <img src={e.icon.src} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={e.icon} alt="" />
                                             </span>
                                             <span className='cardContent'>
                                                 <span className='title'>{e.title}</span>
@@ -378,7 +384,7 @@ const Index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="upperDivRightContent">
                             <div className="arrowImg">
-                                <img src={arrowImg.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={arrowImg} alt="" />
                             </div>
 
                             <div className="processCardWrapper">
@@ -386,7 +392,7 @@ const Index = () => {
                                     processCard2Data.map((e) => {
                                         return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                                             <span className='cardIcon'>
-                                                <img src={e.icon.src} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={e.icon} alt="" />
                                             </span>
                                             <span className='cardContent'>
                                                 <span className='title'>{e.title}</span>
@@ -403,7 +409,7 @@ const Index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-6">
                         <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
                             <div className="commonBorderDiv">
-                                <img src={processImg2.src} alt="" />
+                                <Image height={0} width={0} loading="lazy" src={processImg2} alt="" />
                             </div>
                         </div>
                     </div>
@@ -426,10 +432,10 @@ const Index = () => {
                                     <span>We</span> Build
                                 </span>
                                 <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
-                                Leveraging Industry- <span>Leading Technology</span> in Our Services
+                                    Leveraging Industry- <span>Leading Technology</span> in Our Services
                                 </h3>
                                 <p className="comman_para firstP">
-                                Experience excellence with our services, powered by top-notch platforms for unmatched performance and innovation.
+                                    Experience excellence with our services, powered by top-notch platforms for unmatched performance and innovation.
                                 </p>
                             </div>
                         </div>
@@ -440,8 +446,8 @@ const Index = () => {
                                         return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="800">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
-                                                    <img src={e.icon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' />
+                                                    <Image height={0} width={0} loading="lazy" src={e.icon} alt="" className='buildIcon1' />
+                                                    <Image height={0} width={0} loading="lazy" src={e.hoverIcon} alt="" className='buildIcon2' />
                                                 </span>
                                                 <span>{e.title}</span>
                                             </div>
@@ -506,11 +512,11 @@ const Index = () => {
                                     return <div className="col-sm-12 col-md-6 col-lg-4 recentBlogsCards" key={ele.id}>
                                         <div className="card text-white">
                                             <span className='cateBadge'>{ele.badge}</span>
-                                            <img src={ele.img.src} className="card-img-top" alt="teamImg" />
+                                            <Image height={0} width={0} loading="lazy" src={ele.img} className="card-img-top" alt="teamImg" />
                                             <div className="card-img-top">
                                                 <div className="cateDetails">
                                                     <span className="cateDate">
-                                                        <span> <img src={dateIcon.src} alt="" /></span>
+                                                        <span> <Image height={0} width={0} loading="lazy" src={dateIcon} alt="" /></span>
                                                         <span> {ele.date}</span>
                                                     </span>
                                                     <p className="card-title">

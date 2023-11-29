@@ -50,6 +50,8 @@ import frontendImg from '../../../src/Asset/Images/web-development/10-19- Front_
 import backendImg from '../../../src/Asset/Images/web-development/10-19- Back_end_Devlopment Service.jpg'
 import fullStactImg from '../../../src/Asset/Images/web-development/10-19- full_stak_Devlopment Service.jpg'
 import completeSolution from '../../../src/Asset/Images/web-development/10-19-Complete Solution Service.jpg'
+import Head from 'next/head'
+import Image from 'next/image'
 
 
 const Index = () => {
@@ -202,7 +204,7 @@ const Index = () => {
     {
       id: 0,
       title: 'Front-end web development',
-      desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages ​​such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.',
+      desc: 'Our backend web development experts focus to developing powerful, scalable server-side applications which support website functionality. We use various programming languages such as JavaScript, PHP, Ruby and frameworks such as Django, Laravel and Ruby on Rails to build secure and efficient backend solutions for your business requirements.',
       img: frontendImg,
     },
     {
@@ -227,6 +229,10 @@ const Index = () => {
 
   return (
     <div className='webDevelopmentPage'>
+      <Head>
+        <title>WRTeam - Web App Development Service Provider IT Company</title>
+        <meta name="description" content="Need a high speed website for business growth? Our expert web development team creates customised, responsive sites that engage users and boost roi." />
+      </Head>
       <Breadcrum title='Web' blueText={'Development'} contentOne={'Home'} contentTwo={'Services'} contentThree={'Web Development'} />
 
       <section className='development container'>
@@ -238,7 +244,7 @@ const Index = () => {
                   Web <span>Development</span>
                 </span>
                 <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
-                Build <span>Future-Ready Websites</span> for Your Brand: Drive Traffic, Capture Success
+                  Build <span>Future-Ready Websites</span> for Your Brand: Drive Traffic, Capture Success
                 </h1>
 
                 <p className="comman_para"> Our web development service is ready to meet your unique business needs and deliver high-quality, responsive websites that are visually appealing and fully functional.</p>
@@ -250,7 +256,7 @@ const Index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
-                <img src={webDeveImg.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={webDeveImg} alt="" />
               </div>
             </div>
           </div>
@@ -275,12 +281,12 @@ const Index = () => {
 
             <div className="col-sm-12 col-md-12 col-lg-12 sliderContainer">
               <div className="leftDivshapes">
-                <img src={crossShape.src} alt="" className='crossShape' />
-                <img src={dottsShape.src} alt="" className='dottsShape' />
+                <Image height={0} width={0} loading="lazy" src={crossShape} alt="" className='crossShape' />
+                <Image height={0} width={0} loading="lazy" src={dottsShape} alt="" className='dottsShape' />
               </div>
               <div className="rightDivshapes">
-                <img src={circle.src} alt="" className='circleShape' />
-                <img src={triangle.src} alt="" className='triangleShape' />
+                <Image height={0} width={0} loading="lazy" src={circle} alt="" className='circleShape' />
+                <Image height={0} width={0} loading="lazy" src={triangle} alt="" className='triangleShape' />
               </div>
               <NewSlider newSwiperData={newSwiperData} />
             </div>
@@ -317,7 +323,7 @@ const Index = () => {
               return <div className="col-sm-6 col-md-6 col-lg-3" key={e.id}>
                 <Card>
                   {/* <Card.Img variant="top" src="..." /> */}
-                  <span className='card-img-top'><img src={e.icon.src} style={{ filter: e.icon === eliteAuthor ? 'none' : '' }} alt="" /></span>
+                  <span className='card-img-top'><Image height={0} width={0} loading="lazy" src={e.icon} style={{ filter: e.icon === eliteAuthor ? 'none' : '' }} alt="" /></span>
                   <Card.Body>
                     <Card.Title>{e.title}</Card.Title>
                   </Card.Body>
@@ -334,7 +340,7 @@ const Index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
-                <img src={processImg.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={processImg} alt="" />
               </div>
             </div>
           </div>
@@ -345,7 +351,7 @@ const Index = () => {
                   Our <span>Work Process</span>
                 </span>
                 <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="800">
-                How Our <span>Web Development </span> Transforms Businesses?
+                  How Our <span>Web Development </span> Transforms Businesses?
                 </h3>
               </div>
 
@@ -354,7 +360,7 @@ const Index = () => {
                   processCard1Data.map((e) => {
                     return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                       <span className='cardIcon'>
-                        <img src={e.icon.src} alt="" />
+                        <Image height={0} width={0} loading="lazy" src={e.icon} alt="" />
                       </span>
                       <span className='cardContent'>
                         <span className='title'>{e.title}</span>
@@ -374,7 +380,7 @@ const Index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="upperDivRightContent">
               <div className="arrowImg">
-                <img src={arrowImg.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={arrowImg} alt="" />
               </div>
 
               <div className="processCardWrapper">
@@ -382,7 +388,7 @@ const Index = () => {
                   processCard2Data.map((e) => {
                     return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
                       <span className='cardIcon'>
-                        <img src={e.icon.src} alt="" />
+                        <Image height={0} width={0} loading="lazy" src={e.icon} alt="" />
                       </span>
                       <span className='cardContent'>
                         <span className='title'>{e.title}</span>
@@ -399,7 +405,7 @@ const Index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
             <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
               <div className="commonBorderDiv">
-                <img src={processImg2.src} alt="" />
+                <Image height={0} width={0} loading="lazy" src={processImg2} alt="" />
               </div>
             </div>
           </div>
@@ -411,50 +417,50 @@ const Index = () => {
       {/* process ends  */}
 
       <section className='build'>
-                <div className="bgDiv">
-                    <div className="blueBg"></div>
-                </div>
-                <div className="container">
-                    <div className="row buildWrapper">
-                        <div className="col-sm-12 col-md-12 col-lg-5 leftDiv" >
-                            <div className="buildHeadings">
-                                <span className="common_span">
-                                    <span>We</span> Build
-                                </span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
-                                We <span>Build</span> Dynamic Solutions with Leading <span> Web Development</span> Platforms
+        <div className="bgDiv">
+          <div className="blueBg"></div>
+        </div>
+        <div className="container">
+          <div className="row buildWrapper">
+            <div className="col-sm-12 col-md-12 col-lg-5 leftDiv" >
+              <div className="buildHeadings">
+                <span className="common_span">
+                  <span>We</span> Build
+                </span>
+                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                  We <span>Build</span> Dynamic Solutions with Leading <span> Web Development</span> Platforms
 
-                                </h3>
-                                <p className="comman_para firstP">
-                                Harness the power of advanced technology and next-level web development for an online presence that captivates attention!
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-sm-12 col-md-12 col-lg-6 rightDiv">
-                            <div className="row buildCardsWrapper">
-                                {
-                                    buildCardData.map((e) => {
-                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="800">
-                                            <div className="card">
-                                                <span className='buildCardIcon'>
-                                                    {/* <img src={e.icon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon2' /> */}
-                                                    <img src={e.hoverIcon.src} alt="" className='buildIcon1' />
-                                                    <img src={e.icon.src} alt="" className='buildIcon2' />
-                                                </span>
-                                                <span>{e.title}</span>
-                                            </div>
-                                        </div>
-
-                                    })
-                                }
-
-                            </div>
-                        </div>
+                </h3>
+                <p className="comman_para firstP">
+                  Harness the power of advanced technology and next-level web development for an online presence that captivates attention!
+                </p>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-6 rightDiv">
+              <div className="row buildCardsWrapper">
+                {
+                  buildCardData.map((e) => {
+                    return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="800">
+                      <div className="card">
+                        <span className='buildCardIcon'>
+                          {/* <Image height={0} width={0} loading="lazy" src={e.icon} alt="" className='buildIcon1' />
+                                                    <Image height={0} width={0} loading="lazy" src={e.hoverIcon} alt="" className='buildIcon2' /> */}
+                          <Image height={0} width={0} loading="lazy" src={e.hoverIcon} alt="" className='buildIcon1' />
+                          <Image height={0} width={0} loading="lazy" src={e.icon} alt="" className='buildIcon2' />
+                        </span>
+                        <span>{e.title}</span>
+                      </div>
                     </div>
-                </div>
-            </section>
-            {/* build ends  */}
+
+                  })
+                }
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* build ends  */}
 
       <section className='webDevContact'>
         <div className="getInTouch container" style={{
@@ -505,11 +511,11 @@ const Index = () => {
                   return <div className="col-sm-12 col-md-6 col-lg-4 recentBlogsCards" key={ele.id}>
                     <div className="card text-white">
                       <span className='cateBadge'>{ele.badge}</span>
-                      <img src={ele.img.src} className="card-img-top" alt="teamImg" />
+                      <Image height={0} width={0} loading="lazy" src={ele.img} className="card-img-top" alt="teamImg" />
                       <div className="card-img-top">
                         <div className="cateDetails">
                           <span className="cateDate">
-                            <span> <img src={dateIcon.src} alt="" /></span>
+                            <span> <Image height={0} width={0} loading="lazy" src={dateIcon} alt="" /></span>
                             <span> {ele.date}</span>
                           </span>
                           <p className="card-title">
