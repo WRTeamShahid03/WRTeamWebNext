@@ -6,6 +6,7 @@ import rbImg2 from '../Asset/Images/recent_blog_2.png'
 import rbImg3 from '../Asset/Images/recent_blog_3.png'
 import rbImg4 from '../Asset/Images/recent_blog_4.png'
 import rbImg5 from '../Asset/Images/recent_blog_5.png'
+import Image from 'next/image'
 
 const BlogsSideBoxes = () => {
 
