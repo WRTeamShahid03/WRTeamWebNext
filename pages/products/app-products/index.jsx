@@ -343,7 +343,7 @@ const Index = () => {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                         <Card>
-                                            <Image height={0} width={0} loading="lazy" className='webProImg card-img-top' alt='product_img' src={e.img} />
+                                            <Image height={0} width={0}  className='webProImg card-img-top' alt='product_img' src={e.img} />
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>

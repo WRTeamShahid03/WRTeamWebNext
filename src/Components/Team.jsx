@@ -242,7 +242,7 @@ const Team = () => {
                                 {visibleTeamData.map(ele => (
                                     <div className="col-sm-12 col-md-6 col-lg-3" key={ele.id}>
                                         <div className="card text-white">
-                                            <Image height={0} width={0} loading="lazy"
+                                            <Image height={0} width={0} 
                                                 src={ele.img || teamDefaultImg}
                                                 className="card-img-top"
                                                 alt="teamImg"

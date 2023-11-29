@@ -217,15 +217,15 @@ const index = () => {
 
                                 <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy" src={ourValues} alt="" />
+                                    <Image height={0} width={0}  src={ourValues} alt="" />
 
                                 </div>
 
                                 <div data-aos="fade-left" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
+                                    <Image height={0} width={0}  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
-                                <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
+                                <Image height={0} width={0}  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
                             </div>
                         </div>
                     </div>
@@ -322,7 +322,7 @@ const index = () => {
                                                         <div className="image-upload">
                                                             {selectedFile ? (
                                                                 <div className="img-uploaded">
-                                                                    <Image height={0} width={0} loading="lazy" src={fileDataUrl} alt="" />
+                                                                    <Image height={0} width={0}  src={fileDataUrl} alt="" />
                                                                 </div>
                                                             ) : (
                                                                 <label style={{ cursor: "pointer" }} htmlFor="file_upload">

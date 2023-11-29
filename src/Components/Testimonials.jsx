@@ -148,7 +148,7 @@ const Testimonials = () => {
                                     <div className="card swiperCard">
                                         <div className="card-header">
                                             <span className="testiImg">
-                                                <Image height={0} width={0} loading="lazy" src={dobleQuotes} alt="" />
+                                                <Image height={0} width={0}  src={dobleQuotes} alt="" />
                                             </span>
                                         </div>
                                         <div className="card-body">

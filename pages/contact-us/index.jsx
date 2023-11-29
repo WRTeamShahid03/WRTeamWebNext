@@ -90,7 +90,7 @@ const index = () => {
                             return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
 
                                 <div className="card">
-                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
+                                    <span className='contactCardSpan'> <Image height={0} width={0}  className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
                                     <div className="card-body ">
                                         <h5 className="card-title contactCardTitle">{e.title}</h5>
                                         <p className="card-text contactCardText1">{e.desc1}</p>
@@ -124,7 +124,7 @@ const index = () => {
                                 <div className="blueBg">
 
                                     <div className="logo">
-                                        <Image height={0} width={0} loading="lazy" src={companyLogo} alt="" />
+                                        <Image height={0} width={0}  src={companyLogo} alt="" />
                                     </div>
                                     <div className="socialContent">
                                         <span className='text'>Stay connected with us on social media for the latest updates, content, and more. Follow us today!</span>
@@ -190,7 +190,7 @@ const index = () => {
             </section >
 
             <section id="map" className='container'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6879.666659015773!2d69.63730994896257!3d23.23263359742167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511e5b00000001%3A0x99eb1d2a09bf7685!2sWRTeam!5e0!3m2!1sen!2sin!4v1694243415170!5m2!1sen!2sin" width="100%" height="450" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6879.666659015773!2d69.63730994896257!3d23.23263359742167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511e5b00000001%3A0x99eb1d2a09bf7685!2sWRTeam!5e0!3m2!1sen!2sin!4v1694243415170!5m2!1sen!2sin" width="100%" height="450" style={{ border: "0" }} allowFullScreen=""  referrerPolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </>
     )

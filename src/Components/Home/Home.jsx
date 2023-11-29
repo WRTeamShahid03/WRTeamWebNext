@@ -168,11 +168,11 @@ const Home = () => {
                                 <div className="col-sm-12 col-md-12 col-lg-6">
                                     <div className="heroCont-rightDiv" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
                                         <div className="rightDivImg">
-                                            <Image height={0} width={0} loading="lazy" src={rightDivImg} alt="" />
+                                            <Image height={0} width={0}  src={rightDivImg} alt="" />
                                         </div>
                                         <div className="floatingCard1">
                                             <div className="fcardImg">
-                                                <Image height={0} width={0} loading="lazy" src={likeIcon} alt="" />
+                                                <Image height={0} width={0}  src={likeIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>
@@ -188,7 +188,7 @@ const Home = () => {
 
                                         <div className="floatingCard2">
                                             <div className="fcardImg">
-                                                <Image height={0} width={0} loading="lazy" src={checkIcon} alt="" />
+                                                <Image height={0} width={0}  src={checkIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>Sales Count</span>
@@ -200,10 +200,10 @@ const Home = () => {
                                             <div className="floCard3Content">
                                                 <span>Our Creative Team</span>
                                                 <span className='teamIcons'>
-                                                    <Image height={0} width={0} loading="lazy" src={team1} alt="" />
-                                                    <Image height={0} width={0} loading="lazy" src={team2} alt="" />
-                                                    <Image height={0} width={0} loading="lazy" src={team3} alt="" />
-                                                    <Image height={0} width={0} loading="lazy" src={team4} alt="" />
+                                                    <Image height={0} width={0}  src={team1} alt="" />
+                                                    <Image height={0} width={0}  src={team2} alt="" />
+                                                    <Image height={0} width={0}  src={team3} alt="" />
+                                                    <Image height={0} width={0}  src={team4} alt="" />
                                                     <span className='teamMem'>40+</span>
                                                 </span>
                                             </div>
@@ -214,7 +214,7 @@ const Home = () => {
                             </div>
 
                             <div className="arrow" data-aos="fade-down" data-aos-duration="800">
-                                <Image height={0} width={0} loading="lazy" src={arrow} alt="" />
+                                <Image height={0} width={0}  src={arrow} alt="" />
                             </div>
 
                         </div>
@@ -236,7 +236,7 @@ const Home = () => {
                             <div className="aboutLeftDiv">
                                 <div className="aboutImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy" src={aboutImg1} alt="" />
+                                    <Image height={0} width={0}  src={aboutImg1} alt="" />
                                     <div className="aboutSmImg" style={{
                                         background: `url(${aboutImg2.src})`,
                                         backgroundSize: 'cover'
@@ -315,9 +315,9 @@ const Home = () => {
 
                                 <div className="winnerLeftImg">
 
-                                    <Image height={0} width={0} loading="lazy" src={winnerImg1} alt="" className='winnerTeamImg' />
+                                    <Image height={0} width={0}  src={winnerImg1} alt="" className='winnerTeamImg' />
                                     <div className="winnerSmImg" >
-                                        <Image height={0} width={0} loading="lazy" src={trophy} alt="" />
+                                        <Image height={0} width={0}  src={trophy} alt="" />
 
                                     </div>
 
@@ -356,10 +356,10 @@ const Home = () => {
                                     background: `url(${appProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <Image height={0} width={0} loading="lazy" src={appProduct} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0}  src={appProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={appProIcon} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0}  src={appProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Mobile App Products</h4>
                                     <Link href='/products/app-products'><span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
@@ -374,10 +374,10 @@ const Home = () => {
                                     background: `url(${webProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <Image height={0} width={0} loading="lazy" src={webProduct} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0}  src={webProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={webProIcon} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0}  src={webProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Web App Products</h4>
                                     <Link href='/products/web-products'> <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
                                 </div>
@@ -402,8 +402,8 @@ const Home = () => {
 
                                 <div className="servCard" id='lightGrnCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg lightgrnServ">
-                                        <Image height={0} width={0} loading="lazy" src={servWebIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy" src={servwebHover} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0}  src={servWebIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0}  src={servwebHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[0].title}</h4>
@@ -414,8 +414,8 @@ const Home = () => {
 
                                 <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg orangeServ">
-                                        <Image height={0} width={0} loading="lazy" src={servAppIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy" src={appHover} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0}  src={servAppIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0}  src={appHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[1].title}</h4>
@@ -426,8 +426,8 @@ const Home = () => {
 
                                 <div className="servCard" id='crimsonCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg crimsonServ">
-                                        <Image height={0} width={0} loading="lazy" src={uiIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy" src={uiHover} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0}  src={uiIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0}  src={uiHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[2].title}</h4>
@@ -438,8 +438,8 @@ const Home = () => {
 
                                 <div className="servCard servCardDown" id='greenCard' data-aos="fade-down" data-aos-duration="800">
                                     <span className="servImg greenServ">
-                                        <Image height={0} width={0} loading="lazy" src={digitalIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy" src={digitalHover} alt="" className='servHoverImg' />
+                                        <Image height={0} width={0}  src={digitalIcon} alt="" className='servNorImg' />
+                                        <Image height={0} width={0}  src={digitalHover} alt="" className='servHoverImg' />
                                     </span>
                                     <div className="servContent">
                                         <h4 className='servHeadline'>{servCardData[3].title}</h4>
@@ -507,7 +507,7 @@ const Home = () => {
                                                     <div className="col-sm-6 col-md-6 col-lg-1" key={index}>
                                                         <div className="techMainCard" data-aos="slide-left" data-aos-duration="800" key={ele.icon}>
                                                             <div className="techCard">
-                                                                <Image height={0} width={0} loading="lazy" src={ele.icon} alt="" className='techIcons' />
+                                                                <Image height={0} width={0}  src={ele.icon} alt="" className='techIcons' />
                                                             </div>
                                                             <span className="colorDot">
                                                                 <span className='darkDot'></span>

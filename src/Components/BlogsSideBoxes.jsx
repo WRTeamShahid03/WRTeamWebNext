@@ -136,9 +136,9 @@ const BlogsSideBoxes = () => {
         {
           recentBlogs.map((e) => {
             return <div className="boxDetails" key={e.id}>
-              <span><Image height={0} width={0} loading="lazy" src={e.img} alt="" className='rbImg' /></span>
+              <span><Image height={0} width={0}  src={e.img} alt="" className='rbImg' /></span>
               <span className='recentBoxContent'>
-                <span className='rbDate'><Image height={0} width={0} loading="lazy" src={dateIcon} alt="" /> {e.date}</span>
+                <span className='rbDate'><Image height={0} width={0}  src={dateIcon} alt="" /> {e.date}</span>
                 <span>{e.desc}</span>
               </span>
             </div>
