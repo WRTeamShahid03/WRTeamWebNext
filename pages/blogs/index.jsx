@@ -25,6 +25,7 @@ import blog6 from '../../src/Asset/Images/Blog_6.png'
 import dateIcon from '../../src/Asset/Icons/ic_date.png'
 import BlogsSideBoxes from '@/Components/BlogsSideBoxes';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const index = () => {
 

@@ -16,6 +16,7 @@ import user3 from '../../src/Asset/Images/user_pic_3.png'
 import user4 from '../../src/Asset/Images/user_pic_4.png'
 import GetInTouch from '@/Components/GetInTouch'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const index = () => {
@@ -376,7 +377,7 @@ const index = () => {
                                                         <span className="rbDate">
                                                             <span className="blogDate">
                                                                 {' '}
-                                                                <Image height={0} width={0} loading="lazy" src={dateIcon} alt="" />
+                                                                <image height={0} width={0} loading="lazy" src={dateIcon} alt="" />
                                                                 {reply.date}{' '}
                                                             </span>
                                                         </span>
