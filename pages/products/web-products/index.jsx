@@ -132,18 +132,22 @@ const index = () => {
         },
     ]
 
-    const sortProducts = (option) => {
-        if (option === 'lowToHigh') {
-            return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
-        } else if (option === 'highToLow') {
-            return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
-        }
-    };
+    
+  // Function to handle sorting based on the selected option
+  const sortProducts = (option) => {
+    if (option === 'lowToHigh') {
+      return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
+    } else if (option === 'highToLow') {
+      return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
+    } else if (option === 'popularity') {
+      return cardData.slice().sort((a, b) => parseInt(b.sales, 10) - parseInt(a.sales, 10));
+    }
+  };
 
-    // Function to handle select change event
-    const handleSortChange = (e) => {
-        setSortOption(e.target.value);
-    };
+  // Function to handle select change event
+  const handleSortChange = (e) => {
+    setSortOption(e.target.value);
+  };
     return (
         <>
 
@@ -164,6 +168,7 @@ const index = () => {
                                 >
                                     <option value="lowToHigh">Price: Low to High</option>
                                     <option value="highToLow">Price: High to Low</option>
+                                    <option value="popularity">Popularity</option>
                                 </select>
                             </div>
                         </div>
@@ -175,7 +180,7 @@ const index = () => {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                         <Card>
-                                            <Image height={0} width={0}  alt='product_img' className='webProImg card-img-top' src={e.img} />
+                                            <Image height={0} width={0} loading="lazy"  alt='product_img' className='webProImg card-img-top' src={e.img} />
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>

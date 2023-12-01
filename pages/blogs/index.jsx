@@ -255,11 +255,11 @@ const index = () => {
                        
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
-                          <Image height={0} width={0}  src={ele.img} className="card-img-top" alt="teamImg" />
+                          <Image height={0} width={0} loading="lazy"  src={ele.img} className="card-img-top" alt="teamImg" />
                           <div className="card-img-top">
                             <div className="cateDetails">
                               <span className="cateDate">
-                                <span> <Image height={0} width={0}  src={dateIcon} alt="" /></span>
+                                <span> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /></span>
                                 <span> {ele.date}</span>
                               </span>
                               <p className="card-title"> 
@@ -275,11 +275,11 @@ const index = () => {
 
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
-                          <Image height={0} width={0}  src={ele.img} className="card-img-top" alt="teamImg" />
+                          <Image height={0} width={0} loading="lazy"  src={ele.img} className="card-img-top" alt="teamImg" />
                           <div className="card-img-top">
                             <div className="cateDetails">
                               <span className="cateDate">
-                                <span> <Image height={0} width={0}  src={dateIcon} alt="" /></span>
+                                <span> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /></span>
                                 <span> {ele.date}</span>
                               </span>
                               <p className="card-title">
@@ -293,11 +293,11 @@ const index = () => {
 
                         <div className="card text-white">
                           <span className='cateBadge'>{ele.badge}</span>
-                          <Image height={0} width={0}  src={ele.img} className="card-img-top" alt="teamImg" />
+                          <Image height={0} width={0} loading="lazy"  src={ele.img} className="card-img-top" alt="teamImg" />
                           <div className="card-img-top">
                             <div className="cateDetails">
                               <span className="cateDate">
-                                <span> <Image height={0} width={0}  src={dateIcon} alt="" /></span>
+                                <span> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /></span>
                                 <span> {ele.date}</span>
                               </span>
                               <p className="card-title"> 

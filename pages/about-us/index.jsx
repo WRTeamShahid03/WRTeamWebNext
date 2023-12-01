@@ -38,16 +38,16 @@ const index = () => {
             <div className="knowMoreLeftDiv">
               <div className="knowMoreImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                <Image height={0} width={0}  src={knowMoreImg} alt="" />
+                <Image height={0} width={0} loading="lazy"  src={knowMoreImg} alt="" />
                 <div className="business">
-                  <span className='likeSpan'><Image height={0} width={0}  src={likeIcon} alt="likeIcon" /></span>
+                  <span className='likeSpan'><Image height={0} width={0} loading="lazy"  src={likeIcon} alt="likeIcon" /></span>
                   <span className='businessNum'>25+</span>
                   <span className='businessText'>Business Solution</span>
                 </div>
               </div>
 
-              <Image height={0} width={0}  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
-              <Image height={0} width={0}  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
+              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
 
@@ -100,16 +100,16 @@ const index = () => {
 
                 <div className="visionLeftImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                  <Image height={0} width={0}  src={ourVision} alt="" className='winnerTeamImg' />
+                  <Image height={0} width={0} loading="lazy"  src={ourVision} alt="" className='winnerTeamImg' />
 
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="800">
 
-                  <Image height={0} width={0}  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
+                  <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
 
-                <Image height={0} width={0}  src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
+                <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
 
               </div>
             </div>
@@ -126,11 +126,11 @@ const index = () => {
             <div className="missionLeftDiv">
               <div className="missionImg" data-aos="fade-down-right" data-aos-duration="800">
 
-                <Image height={0} width={0}  src={ourMission} alt="" />
+                <Image height={0} width={0} loading="lazy"  src={ourMission} alt="" />
               </div>
 
-              <Image height={0} width={0}  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
-              <Image height={0} width={0}  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
+              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
 
@@ -188,14 +188,14 @@ const index = () => {
 
                 <div className="valuesLeftImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                  <Image height={0} width={0}  src={ourValues} alt="" className='winnerTeamImg' />
+                  <Image height={0} width={0} loading="lazy"  src={ourValues} alt="" className='winnerTeamImg' />
 
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="800">
-                  <Image height={0} width={0}  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
+                  <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
-                <Image height={0} width={0}  src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
+                <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />
               </div>
             </div>
           </div>

@@ -83,7 +83,7 @@ const WorkChain = () => {
                                             <div className="col-sm-12 col-md-6 col-lg-3">
                                                 <div className="workCard" id='wCard1' data-aos="fade-down" data-aos-duration="800">
                                                     <span className='workNumb num1'>1</span>
-                                                    <Image height={0} width={0}  src={workImg1} alt="" className='workImg' onMouseEnter={num1} onMouseLeave={num1Back} />
+                                                    <Image height={0} width={0} loading="lazy"  src={workImg1} alt="" className='workImg' onMouseEnter={num1} onMouseLeave={num1Back} />
 
                                                     <h5 className='workTitle'>Choose a service</h5>
 
@@ -97,7 +97,7 @@ const WorkChain = () => {
                                                     <span className='workNumb workRevNumb num2'>2</span>
                                                     <div className="workImgDiv">
 
-                                                        <Image height={0} width={0}  src={workImg2} alt="" className='workImg' onMouseEnter={num2} onMouseLeave={num2Back} />
+                                                        <Image height={0} width={0} loading="lazy"  src={workImg2} alt="" className='workImg' onMouseEnter={num2} onMouseLeave={num2Back} />
                                                     </div>
 
 
@@ -111,7 +111,7 @@ const WorkChain = () => {
                                             <div className="col-sm-12 col-md-6 col-lg-3">
                                                 <div className="workCard" id='wCard3' data-aos="fade-down" data-aos-duration="800">
                                                     <span className='workNumb num3'>3</span>
-                                                    <Image height={0} width={0}  src={workImg3} alt="" className='workImg' onMouseEnter={num3} onMouseLeave={num3Back} />
+                                                    <Image height={0} width={0} loading="lazy"  src={workImg3} alt="" className='workImg' onMouseEnter={num3} onMouseLeave={num3Back} />
 
                                                     <h5 className='workTitle'>Start planning</h5>
 
@@ -123,7 +123,7 @@ const WorkChain = () => {
                                             <div className="col-sm-12 col-md-6 col-lg-3">
                                                 <div className="workCard workCardReverse" id='wCard4' data-aos="fade-up" data-aos-duration="800">
                                                     <span className='workNumb workRevNumb num4'>4</span>
-                                                    <Image height={0} width={0}  src={workImg4} alt="" className='workImg' onMouseEnter={num4} onMouseLeave={num4Back} />
+                                                    <Image height={0} width={0} loading="lazy"  src={workImg4} alt="" className='workImg' onMouseEnter={num4} onMouseLeave={num4Back} />
 
 
                                                     <span className='workDesc'>Time to build real solutions that work for you.</span>

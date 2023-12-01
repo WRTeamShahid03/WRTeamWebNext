@@ -90,7 +90,7 @@ const index = () => {
                             return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
 
                                 <div className="card">
-                                    <span className='contactCardSpan'> <Image height={0} width={0}  className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
+                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy"  className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
                                     <div className="card-body ">
                                         <h5 className="card-title contactCardTitle">{e.title}</h5>
                                         <p className="card-text contactCardText1">{e.desc1}</p>
@@ -124,7 +124,7 @@ const index = () => {
                                 <div className="blueBg">
 
                                     <div className="logo">
-                                        <Image height={0} width={0}  src={companyLogo} alt="" />
+                                        <Image height={0} width={0} loading="lazy"  src={companyLogo} alt="" />
                                     </div>
                                     <div className="socialContent">
                                         <span className='text'>Stay connected with us on social media for the latest updates, content, and more. Follow us today!</span>

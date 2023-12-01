@@ -101,14 +101,14 @@ const index = () => {
                         <div className="upperDiv">
                             <div className="blogDetailCard">
                                 <span className="blogDate">
-                                    <span> <Image height={0} width={0}  src={dateIcon} alt="" /></span>
+                                    <span> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /></span>
                                     <span> August 25, 2023</span>
                                 </span>
 
                                 <h1 className='blogHeadline'>Flying Cars: Navigating the Path to Urban Air Mobility</h1>
                                 <div className="blogImg">
                                     <span className='cateBadge'>Future of Mobility</span>
-                                    <Image height={0} width={0}  src={blog5} alt="" />
+                                    <Image height={0} width={0} loading="lazy"  src={blog5} alt="" />
                                 </div>
                                 <div className="blogDetailContent">
                                     <span className='blogContentWrapper'>
@@ -142,11 +142,11 @@ const index = () => {
 
                             <div className="row">
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <Image height={0} width={0}  src={blog} alt="" className='middleDivImg' />
+                                    <Image height={0} width={0} loading="lazy"  src={blog} alt="" className='middleDivImg' />
                                 </div>
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <Image height={0} width={0}  src={blog1} alt="" className='middleDivImg' />
+                                    <Image height={0} width={0} loading="lazy"  src={blog1} alt="" className='middleDivImg' />
                                 </div>
 
                             </div>
@@ -215,19 +215,19 @@ const index = () => {
                                 <div className="boxWrapper">
                                     <div className="boxDetails">
 
-                                        <span><Image height={0} width={0}  src={previousBlog} alt="" className='rbImg' /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={previousBlog} alt="" className='rbImg' /></span>
                                         <span className='recentBoxContent'>
-                                            <span className='rbDate'><Image height={0} width={0}  src={dateIcon} alt="" /> May 25, 2024</span>
+                                            <span className='rbDate'><Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /> May 25, 2024</span>
                                             <span>Blockchain Beyond Cryptocurrency: Real-World Applications and Implications</span>
                                         </span>
                                     </div>
                                     <div className="boxDetails" >
 
                                         <span className='recentBoxContent'>
-                                            <span className='rbDate'><Image height={0} width={0}  src={dateIcon} alt="" /> June 8, 2024</span>
+                                            <span className='rbDate'><Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" /> June 8, 2024</span>
                                             <span>Ethics in AI: Navigating the Complex Landscape of Artificial Intelligence</span>
                                         </span>
-                                        <span><Image height={0} width={0}  src={nextBlog} alt="" className='rbImg' /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={nextBlog} alt="" className='rbImg' /></span>
                                     </div>
                                 </div>
 
@@ -239,12 +239,12 @@ const index = () => {
                                 <div className="commentWrapper">
 
                                     <div className="commentCard">
-                                        <span><Image height={0} width={0}  src={commentsData[0].img} alt="userPic" /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={commentsData[0].img} alt="userPic" /></span>
                                         <span className='userContent'>
                                             <span className='userName'>{commentsData[0].name}</span>
                                             <span className='userComment'>{commentsData[0].comment}</span>
                                             <span className='rbDate'>
-                                                <span className='blogDate'> <Image height={0} width={0}  src={dateIcon} alt="" />{commentsData[0].date} </span>
+                                                <span className='blogDate'> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />{commentsData[0].date} </span>
                                                 <span className='replyBtn' onClick={() => setReplyInput(true)}> <BsReplyAll size={22} /> Reply </span>
                                             </span>
 
@@ -269,12 +269,12 @@ const index = () => {
                                 <div className="commentWrapper">
 
                                     <div className="commentCard">
-                                        <span><Image height={0} width={0}  src={commentsData[1].img} alt="userPic" /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={commentsData[1].img} alt="userPic" /></span>
                                         <span className='userContent'>
                                             <span className='userName'>{commentsData[1].name}</span>
                                             <span className='userComment'>{commentsData[1].comment}</span>
                                             <span className='rbDate'>
-                                                <span className='blogDate'> <Image height={0} width={0}  src={dateIcon} alt="" />{commentsData[1].date} </span>
+                                                <span className='blogDate'> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />{commentsData[1].date} </span>
                                                 <span className='replyBtn' onClick={() => setReplyInput(true)}> <BsReplyAll size={22} /> Reply </span>
                                             </span>
 
@@ -282,12 +282,12 @@ const index = () => {
                                     </div>
 
                                     <div className="commentCard subCommentCard">
-                                        <span><Image height={0} width={0}  src={commentsData[2].img} alt="userPic" /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={commentsData[2].img} alt="userPic" /></span>
                                         <span className='userContent'>
                                             <span className='userName'>{commentsData[2].name}</span>
                                             <span className='userComment'>{commentsData[2].comment}</span>
                                             <span className='rbDate'>
-                                                <span className='blogDate'> <Image height={0} width={0}  src={dateIcon} alt="" />{commentsData[2].date} </span>
+                                                <span className='blogDate'> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />{commentsData[2].date} </span>
                                                 <span className='replyBtn' onClick={() => setReplyInput(true)}> <BsReplyAll size={22} /> Reply </span>
                                             </span>
 
@@ -299,12 +299,12 @@ const index = () => {
                                 <div className="commentWrapper">
 
                                     <div className="commentCard">
-                                        <span><Image height={0} width={0}  src={commentsData[3].img} alt="userPic" /></span>
+                                        <span><Image height={0} width={0} loading="lazy"  src={commentsData[3].img} alt="userPic" /></span>
                                         <span className='userContent'>
                                             <span className='userName'>{commentsData[3].name}</span>
                                             <span className='userComment'>{commentsData[3].comment}</span>
                                             <span className='rbDate'>
-                                                <span className='blogDate'> <Image height={0} width={0}  src={dateIcon} alt="" />{commentsData[3].date} </span>
+                                                <span className='blogDate'> <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />{commentsData[3].date} </span>
                                                 <span className='replyBtn' onClick={() => setReplyInput(true)}> <BsReplyAll size={22} /> Reply </span>
                                             </span>
 
@@ -333,7 +333,7 @@ const index = () => {
                                     <div className="commentWrapper" key={comment.id}>
                                         <div className="commentCard">
                                             <span>
-                                                <Image height={0} width={0}  src={comment.img} alt="userPic" />
+                                                <Image height={0} width={0} loading="lazy"  src={comment.img} alt="userPic" />
                                             </span>
                                             <span className="userContent">
                                                 <span className="userName">{comment.name}</span>
@@ -341,7 +341,7 @@ const index = () => {
                                                 <span className="rbDate">
                                                     <span className="blogDate">
                                                         {' '}
-                                                        <Image height={0} width={0}  src={dateIcon} alt="" />
+                                                        <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />
                                                         {comment.date}{' '}
                                                     </span>
                                                     <span className="replyBtn" onClick={() => handleReply(comment.id)}>
@@ -369,7 +369,7 @@ const index = () => {
                                             comment.replies.map((reply) => (
                                                 <div className="commentCard subCommentCard" key={reply.id}>
                                                     <span>
-                                                        <Image height={0} width={0}  src={reply.img} alt="userPic" />
+                                                        <Image height={0} width={0} loading="lazy"  src={reply.img} alt="userPic" />
                                                     </span>
                                                     <span className="userContent">
                                                         <span className="userName">{reply.name}</span>
@@ -377,7 +377,7 @@ const index = () => {
                                                         <span className="rbDate">
                                                             <span className="blogDate">
                                                                 {' '}
-                                                                <image height={0} width={0}  src={dateIcon} alt="" />
+                                                                <Image height={0} width={0} loading="lazy"  src={dateIcon} alt="" />
                                                                 {reply.date}{' '}
                                                             </span>
                                                         </span>
