@@ -139,7 +139,7 @@ const index = () => {
       return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
     } else if (option === 'highToLow') {
       return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
-    } else if (option === 'popularity') {
+    } else if (option === 'mostpopular') {
       return cardData.slice().sort((a, b) => parseInt(b.sales, 10) - parseInt(a.sales, 10));
     }
   };
@@ -168,7 +168,7 @@ const index = () => {
                                 >
                                     <option value="lowToHigh">Price: Low to High</option>
                                     <option value="highToLow">Price: High to Low</option>
-                                    <option value="popularity">Popularity</option>
+                                    <option value="mostpopular">Most Popular</option>
                                 </select>
                             </div>
                         </div>

@@ -126,7 +126,7 @@ const Index = () => {
             img: eshop,
             sales: '921',
             rating: '(4.9)',
-            title: 'eShop - Multi Vendor eCommerce App & eCommerce Vendor Marketplace Flutter App',
+            title: 'eShop-Multi Vendor eCommerce App & eCommerce Vendor Marketplace Flutter App',
             text: 'Flutter,CodeIgniter',
             price: '$69',
             salePrice: '$34',
@@ -301,7 +301,7 @@ const Index = () => {
       return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
     } else if (option === 'highToLow') {
       return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
-    } else if (option === 'popularity') {
+    } else if (option === 'mostpopular') {
       return cardData.slice().sort((a, b) => parseInt(b.sales, 10) - parseInt(a.sales, 10));
     }
   };
@@ -335,7 +335,7 @@ const Index = () => {
                                 >
                                     <option value="lowToHigh">Price: Low to High</option>
                                     <option value="highToLow">Price: High to Low</option>
-                                    <option value="popularity">Popularity</option>
+                                    <option value="mostpopular">Most Popular</option>
                                 </select>
                             </div>
                         </div>
@@ -360,7 +360,7 @@ const Index = () => {
                                                     </span>{e.rating}</span>
                                                 </div>
                                                 {
-                                                    e.title.length > 60 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
+                                                    e.title.length >= 40 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
                                                 }
 
                                                 <Card.Text>
