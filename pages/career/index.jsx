@@ -92,36 +92,6 @@ const index = () => {
             text: 'Experience: Freshers , 1+ years',
             link: '#applyNow'
         },
-        // {
-        //     id: 1,
-        //     title: 'Network Administrator',
-        //     text: 'Experience: 3+ years',
-        //     link: ''
-        // },
-        // {
-        //     id: 2,
-        //     title: 'Data Scientist',
-        //     text: 'Experience: 2+ years',
-        //     link: ''
-        // },
-        // {
-        //     id: 3,
-        //     title: 'Cybersecurity Analyst',
-        //     text: 'Experience: 3+ years',
-        //     link: ''
-        // },
-        // {
-        //     id: 4,
-        //     title: 'Front-End Developer',
-        //     text: 'Experience: 2+ years',
-        //     link: ''
-        // },
-        // {
-        //     id: 5,
-        //     title: 'DevOps Engineer',
-        //     text: 'Experience: 4+ years',
-        //     link: ''
-        // },
     ]
 
     const handleNumber =(e)=>{
@@ -238,7 +208,7 @@ const index = () => {
                         <div className="jobHeadlines">
                             <span className='common_span'><span>Career</span> Opportunities</span>
                             <h3 className='commonHeadlines' >Current <span> Job Openings</span> At WRTeam</h3>
-                            <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
+                            <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.in</span></span>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-12">
@@ -269,7 +239,7 @@ const index = () => {
                             <div className="applyHeadlines">
                                 <h3 className='comman_Headlines'>Apply<span> Now</span></h3>
 
-                                <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
+                                <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.in</span></span>
                             </div>
                         </div>
 

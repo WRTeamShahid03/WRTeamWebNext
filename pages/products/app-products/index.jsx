@@ -34,7 +34,7 @@ import Image from 'next/image';
 
 const Index = () => {
 
-    const [sortOption, setSortOption] = useState('lowToHigh');
+    const [sortOption, setSortOption] = useState('mostpopular');
 
     const cardData = [
         {

@@ -1673,7 +1673,7 @@ img{
     position: absolute !important;
     top: 28px !important;
     left: 14px !important;
-    transition: all 0.3s !important;
+    transition: all 0.1s !important;
 }
 
 .dropdownItem:hover::after {
