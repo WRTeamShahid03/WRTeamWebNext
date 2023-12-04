@@ -4812,6 +4812,23 @@
         margin-top: -90px;
     }
 
+    #tech .techBottDiv .row .col-sm-6{
+        width: 50%;
+    }
+    /* #tech .techBottDiv .techMainCard {
+        width: 12px;
+    } */
+    #tech .techBottDiv .techMainCard .techCard {
+        width: 90px;
+    }
+    #tech .techBottDiv .techMainCard .techCard img{
+        width: 50px;
+    }
+
+    #tech .techBottDiv .techMainCard .techCard::after {
+        top: 107px;
+    }
+
     /* Home Page ends  */
 
     #knowMore .knowMoreLeftDiv .knowMoreImg img,
