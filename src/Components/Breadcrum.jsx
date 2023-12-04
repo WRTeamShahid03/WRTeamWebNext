@@ -12,8 +12,12 @@ const Breadcrum = ({ title, blueText, contentOne, contentTwo, contentThree }) =>
                 <span className='line5'></span>
             </div>
             <div className="container breadcrumContent">
-                <h1 data-aos="fade-down" data-aos-duration="800">{title} <span>{blueText}</span></h1>
-                <div className='pageName' data-aos="fade-left" data-aos-duration="800">
+                <h1 
+                // data-aos="fade-down" data-aos-duration="800"
+                >{title} <span>{blueText}</span></h1>
+                <div className='pageName'
+                //  data-aos="fade-left" data-aos-duration="800"
+                 >
                     <span>{contentOne} </span>
                     <span> <AiOutlineDoubleRight size={20} /> </span>
                     <span>{contentTwo}</span>

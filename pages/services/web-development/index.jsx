@@ -243,7 +243,7 @@ const Index = () => {
                 <span className="common_span">
                   Web <span>Development</span>
                 </span>
-                <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                <h1 className='comman_Headlines'>
                   Build <span>Future-Ready Websites</span> for Your Brand: Drive Traffic, Capture Success
                 </h1>
 
@@ -273,7 +273,7 @@ const Index = () => {
                 <span className="common_span">
                   <span>What</span> We Can Do <span>For You</span>
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                <h3 className='comman_Headlines'>
                   Services <span>We Can Help </span>You With
                 </h3>
               </div>
@@ -305,7 +305,7 @@ const Index = () => {
               <span className="common_span">
                 Extensive <span>Benefits</span>
               </span>
-              <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">Unleashing the Potential of the Best <span>Web Development</span> company</h3>
+              <h3 className='comman_Headlines'>Unleashing the Potential of the Best <span>Web Development</span> company</h3>
             </div>
           </div>
 
@@ -350,7 +350,7 @@ const Index = () => {
                 <span className="common_span">
                   Our <span>Work Process</span>
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="800">
+                <h3 className='comman_Headlines' >
                   How Our <span>Web Development </span> Transforms Businesses?
                 </h3>
               </div>
@@ -427,7 +427,7 @@ const Index = () => {
                 <span className="common_span">
                   <span>We</span> Build
                 </span>
-                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                <h3 className='comman_Headlines' >
                   We <span>Build</span> Dynamic Solutions with Leading <span> Web Development</span> Platforms
 
                 </h3>
@@ -499,7 +499,7 @@ const Index = () => {
               <span className="common_span">
                 Our <span>Blogs</span>
               </span>
-              <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="800">
+              <h3 className="comman_Headlines">
                 Recent <span>Blogs</span>
               </h3>
             </div>

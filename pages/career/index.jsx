@@ -173,7 +173,7 @@ const index = () => {
                             <span className="common_span">
                                 Work <span> With Us</span>
                             </span>
-                            <h1 className="commonHeadlines" data-aos="fade-right" data-aos-duration="800" >
+                            <h1 className="commonHeadlines" >
                                 Join Our <span>Empire</span>
                             </h1>
 
@@ -193,7 +193,7 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamLeftDiv">
                                 <span className='common_span'>Career <span>Growth</span> </span>
-                                <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Headlines'>Why Work With <span>WRTeam </span></h3>
+                                <h3 className='comman_Headlines'>Why Work With <span>WRTeam </span></h3>
 
                                 <p className='firstP comman_para'>We value creativity, collaboration, and continuous learning</p>
 
@@ -237,7 +237,7 @@ const index = () => {
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="jobHeadlines">
                             <span className='common_span'><span>Career</span> Opportunities</span>
-                            <h3 className='commonHeadlines' data-aos="fade-right" data-aos-duration="800" >Current <span> Job Openings</span> At WRTeam</h3>
+                            <h3 className='commonHeadlines' >Current <span> Job Openings</span> At WRTeam</h3>
                             <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ const index = () => {
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="applyHeadlines">
-                                <h3 data-aos="fade-down" data-aos-duration="800" className='comman_Headlines'>Apply<span> Now</span></h3>
+                                <h3 className='comman_Headlines'>Apply<span> Now</span></h3>
 
                                 <span className='commonPara'>Explore our current opportunities and fill in the necessary details to apply for the desired profile. We'll be in touch with you very soon. If you don't hear from us within 7 days, you can reach us at <span className='mailHR'>hr@wrteam.com</span></span>
                             </div>

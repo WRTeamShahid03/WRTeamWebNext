@@ -57,7 +57,7 @@ const index = () => {
 
             <div className="knowMoreRightDiv">
               <span className="common_span">Get to <span>know more</span></span>
-              <h3 data-aos="fade-left" data-aos-duration="800" className='comman_Headlines'>Where Ideas Blossom into <span> Techno-Creative </span> Marvels.</h3>
+              <h3  className='comman_Headlines'>Where Ideas Blossom into <span> Techno-Creative </span> Marvels.</h3>
 
               <p className='firstP comman_para'>WRTeam IT company located in Bhuj - India, working with the goal of putting the customer first. </p>
 
@@ -83,7 +83,7 @@ const index = () => {
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="visionLeftDiv">
                 <span className='common_span'>Our <span>Vision</span> </span>
-                <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Headlines'>Inspiring <span>Growth</span> Through Innovative  <span> Mobile and Web </span> Solutions</h3>
+                <h3  className='comman_Headlines'>Inspiring <span>Growth</span> Through Innovative  <span> Mobile and Web </span> Solutions</h3>
 
                 <p className='firstP comman_para'>At WRTeam, we envision becoming a top provider of exceptional mobile and web solutions that inspire businesses and people to achieve their goals and enhance their lives.</p>
 
@@ -140,7 +140,7 @@ const index = () => {
 
             <div className="missionRightDiv">
               <span className="common_span">Our  <span>Mission</span></span>
-              <h3 data-aos="fade-left" data-aos-duration="800" className='comman_Headlines'>Fueling <span>Business Success</span> with Innovative <span> IT and Digital </span> Solutions </h3>
+              <h3  className='comman_Headlines'>Fueling <span>Business Success</span> with Innovative <span> IT and Digital </span> Solutions </h3>
 
               <p className='firstP comman_para'>Our primary mission is to help our clients grow their businesses by providing modern technology and expertise in Mobile Application Development, Website Development, UX/UI Design, IT consulting, and Digital Marketing solutions . </p>
 
@@ -160,7 +160,7 @@ const index = () => {
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="valuesLeftDiv">
                 <span className='common_span'>Our <span>Values</span> </span>
-                <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Headlines'>Where Integrity  Meets <span> Innovation, and Diversity </span> Shapes Success</h3>
+                <h3  className='comman_Headlines'>Where Integrity  Meets <span> Innovation, and Diversity </span> Shapes Success</h3>
 
                 <div className="valuesList">
 

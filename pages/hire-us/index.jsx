@@ -132,7 +132,7 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="hireUpperDiv">
                                 <h4 className='common_span'> Why Hire<span> Us</span></h4>
-                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="800">We Are <span>Experts</span> Dedicated to Making Your Concept  <span>Come True!</span></span>
+                                <span className='hireHeadlines'>We Are <span>Experts</span> Dedicated to Making Your Concept  <span>Come True!</span></span>
                             </div>
                         </div>
 
@@ -168,7 +168,7 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-12">
                             <div className="hireUpperDiv">
                                 <h4 className='common_span'>Hire<span> Us</span></h4>
-                                <span className='hireHeadlines' data-aos="fade-right" data-aos-duration="800">Need <span>Assistance</span> With Your Project?</span>
+                                <span className='hireHeadlines'>Need <span>Assistance</span> With Your Project?</span>
                             </div>
                         </div>
 
@@ -264,7 +264,7 @@ const index = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-12">
-                            <div className="hireUpperDiv" data-aos="fade-right" data-aos-duration="800">
+                            <div className="hireUpperDiv">
                                 <span className='commonHeadlines' >4 Steps to <span>Success</span> With <span>WRTeam</span></span>
                             </div>
                         </div>

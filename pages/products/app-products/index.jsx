@@ -324,7 +324,7 @@ const Index = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="webProHeadingDiv">
-                            <span className='commonHeadlines' data-aos="fade-right" data-aos-duration="800">We found <span>{cardData.length}</span> Products</span>
+                            <span className='commonHeadlines'>We found <span>{cardData.length}</span> Products</span>
                             <div className="sortBy">
                                 <span>Sort By :</span>
                                 <select

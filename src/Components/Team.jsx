@@ -228,8 +228,6 @@ const Team = () => {
                             </h4>
                             <span
                                 className="comman_Headlines"
-                                data-aos="fade-right"
-                                data-aos-duration="800"
                             >
                                 Catalyzing Global Reach The
                                 <span> Expert Team Powering IT Solutions Worldwide</span>

@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps, data }) {
             </Head>
 
 
-            <TopHeader />
+            {/* <TopHeader /> */}
             <Header />
 
             <Component {...pageProps} data={data} />

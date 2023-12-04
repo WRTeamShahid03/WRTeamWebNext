@@ -221,7 +221,7 @@ const Index = () => {
                                 <span className="common_span">
                                     App <span>Development</span>
                                 </span>
-                                <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h1 className='comman_Headlines'>
                                     Make Mobile App  With the Best <span>App Development</span> Company
                                 </h1>
 
@@ -252,7 +252,7 @@ const Index = () => {
                                 <span className="common_span">
                                     <span>What</span> We Can Do <span>For You</span>
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h3 className='comman_Headlines'>
                                     Services <span>We Can Help </span>You With
                                 </h3>
                             </div>
@@ -284,7 +284,7 @@ const Index = () => {
                             <span className="common_span">
                                 Extensive <span>Benefits</span>
                             </span>
-                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">Explore the Extensive Benefits of Our <span>App Development </span> Excellence</h3>
+                            <h3 className='comman_Headlines'>Explore the Extensive Benefits of Our <span>App Development </span> Excellence</h3>
                         </div>
                     </div>
 
@@ -329,7 +329,7 @@ const Index = () => {
                                 <span className="common_span">
                                     Our <span>Work Process</span>
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="800">
+                                <h3 className='comman_Headlines'>
                                 How Our <span>App Development </span> Redefines Business Potential?</h3>
                             </div>
 
@@ -405,7 +405,7 @@ const Index = () => {
                                 <span className="common_span">
                                     <span>We</span> Build
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h3 className='comman_Headlines' >
                                 App <span>Development</span> Services Tailored for <span>Latest Platforms</span>
                                 </h3>
                                 <p className="comman_para firstP">
@@ -475,7 +475,7 @@ const Index = () => {
                             <span className="common_span">
                                 Our <span>Blogs</span>
                             </span>
-                            <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="800">
+                            <h3 className="comman_Headlines" >
                                 Recent <span>Blogs</span>
                             </h3>
                         </div>

@@ -141,7 +141,7 @@ const Home = () => {
                             <div className="row">
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <div className="heroCont-leftDiv" data-aos="fade-up" data-aos-duration="800">
+                                    <div className="heroCont-leftDiv">
                                         <span className='mcWinner'>Most Creative Winner!</span>
                                         <h1 id='herocont_headline' className='comman_Headlines'>Unlock Your <span>Business</span> Potential with Expert <span>IT Company</span></h1>
 
@@ -267,7 +267,7 @@ const Home = () => {
 
                             <div className="aboutRightDiv">
                                 <span className="common_span">About <span>WRTeam</span></span>
-                                <h2 data-aos="fade-left" data-aos-duration="800" className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
+                                <h2  className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
 
                                 <p className='firstP common_para'>WRTeam is an Award-Winning Web - App Development & IT Consulting Company serving clients across the Globe.</p>
 
@@ -298,7 +298,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="winnLeftDiv">
                                 <span className='common_span'>Achievement <span>on Envato</span> </span>
-                                <h2 data-aos="fade-right" data-aos-duration="800" className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
+                                <h2  className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
 
                                 <p className='firstP comman_para'>Meet the winner of 'Most Creative' competition on codecanyon! WRTeam are proud of our team members who came out on top with their outstanding creativity and innovative ideas.</p>
 
@@ -341,7 +341,7 @@ const Home = () => {
 
                 <div className="soluHeadlines">
                     <h2 className='common_span'>Our <span>Solutions</span></h2>
-                    <h3 data-aos="fade-right" data-aos-duration="800" className='comman_Healines'>Empowering Business <span>Growth </span>  with <span>Personalized </span>  Products</h3>
+                    <h3 className='comman_Healines'>Empowering Business <span>Growth </span>  with <span>Personalized </span>  Products</h3>
                     <p >Here our wide variety of digital products or solutions for your businesses such as categories of ecommerce apps and websites, educational apps and websites, gaming apps and websites and many more business digital products.</p>
                 </div>
 
@@ -453,7 +453,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="servrightDiv">
                                 <h2 className='common_span'>Best <span>  IT Services</span> </h2>
-                                <h3 data-aos="fade-left" data-aos-duration="800" className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
+                                <h3  className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
 
                                 <p className='firstP common_para'>For skyrocket business growth, the right IT service is more important from building engaging websites and user-friendly apps to crafting stunning designs and boosting your online presence. </p>
 
@@ -484,7 +484,7 @@ const Home = () => {
                                 <div className="col-sm-12 col-md-12 col-lg-6">
                                     <div className="techHeadlines">
                                         <h3 className='common_span'>Technology <span> We Use</span></h3>
-                                        <h4 data-aos="fade-right" data-aos-duration="800" className='common_Headlines'>We Embrace Advanced & Latest <span>Technologies</span> to Enhance Your Projects</h4>
+                                        <h4 className='common_Headlines'>We Embrace Advanced & Latest <span>Technologies</span> to Enhance Your Projects</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-12 col-md-12 col-lg-6">

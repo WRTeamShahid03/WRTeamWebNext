@@ -247,7 +247,7 @@ const Index = () => {
                                 <span className="common_span">
                                     Digital Marketing <span>Services</span>
                                 </span>
-                                <h1 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h1 className='comman_Headlines' >
                                     Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h1>
 
@@ -277,7 +277,7 @@ const Index = () => {
                                 <span className="common_span">
                                     {/* <span> What We</span> Offer</span> */}
                                     <span> What </span>We Offer</span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h3 className='comman_Headlines'>
                                     Services <span>We Can Help </span>You With
                                 </h3>
                             </div>
@@ -309,7 +309,7 @@ const Index = () => {
                             <span className="common_span">
                                 Extensive <span>Benefits</span>
                             </span>
-                            <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800"> Leverage the Power of <span>Digital Marketing</span> for Precise and Targeted Results.</h3>
+                            <h3 className='comman_Headlines'> Leverage the Power of <span>Digital Marketing</span> for Precise and Targeted Results.</h3>
                         </div>
                     </div>
 
@@ -354,7 +354,7 @@ const Index = () => {
                                 <span className="common_span">
                                     Our <span>Work Process</span>
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-left" data-aos-duration="800">
+                                <h3 className='comman_Headlines'>
                                     Grow your business with the Best <span> Digital Marketing </span> Services
                                 </h3>
                             </div>
@@ -431,7 +431,7 @@ const Index = () => {
                                 <span className="common_span">
                                     <span>We</span> Build
                                 </span>
-                                <h3 className='comman_Headlines' data-aos="fade-right" data-aos-duration="800">
+                                <h3 className='comman_Headlines'>
                                     Leveraging Industry- <span>Leading Technology</span> in Our Services
                                 </h3>
                                 <p className="comman_para firstP">
@@ -500,7 +500,7 @@ const Index = () => {
                             <span className="common_span">
                                 Our <span>Blogs</span>
                             </span>
-                            <h3 className="comman_Headlines" data-aos="fade-right" data-aos-duration="800">
+                            <h3 className="comman_Headlines">
                                 Recent <span>Blogs</span>
                             </h3>
                         </div>
