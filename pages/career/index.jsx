@@ -10,6 +10,8 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
 import Head from 'next/head'
 import Image from 'next/image'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 
 const index = () => {
@@ -22,7 +24,7 @@ const index = () => {
     const [qualification, setQualification] = useState('')
     const [applyFor, setApplyFor] = useState('')
     const [fileDataUrl, setFileDataUrl] = useState(null);
-    const form = useRef();    
+    const form = useRef();
 
 
     const handleFileChange = (event) => {
@@ -94,17 +96,17 @@ const index = () => {
         },
     ]
 
-    const handleNumber =(e)=>{
+    const handleNumber = (e) => {
         const inputNumber = e.target.value.replace(/\D/g, '');
         const limitedNumber = inputNumber.slice(0, 16);
         setNumber(limitedNumber);
     }
-    
+
 
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if(number.length>16){
+        if (number.length > 16) {
             toast.error('Enter a valid number')
         }
         if (!name || !number || !email || !qualification || !applyFor || !experience) {
@@ -130,7 +132,7 @@ const index = () => {
     };
     return (
         <div className='careerPage'>
-             <Head>
+            <Head>
                 <title> Join WRTeam's Highly Skilled & Experienced Team & Build Career</title>
                 <meta name="description" content="Apply Now! Ready to take your career to the next level? We are looking for talented candidates to join our team of flutter, react, laravel, dart, vue js champ." />
             </Head>
@@ -187,15 +189,15 @@ const index = () => {
 
                                 <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy"  src={ourValues} alt="" />
+                                    <Image height={0} width={0} loading="lazy" src={ourValues} alt="" />
 
                                 </div>
 
                                 <div data-aos="fade-left" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
+                                    <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
-                                <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
+                                <Image height={0} width={0} loading="lazy" src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
                             </div>
                         </div>
                     </div>
@@ -260,7 +262,16 @@ const index = () => {
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
                                             <label htmlFor="name">Contact Number</label>
-                                            <input type="number" className="no-spinner form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={handleNumber} value={number} />
+                                            {/* <input type="number" className="no-spinner form-control" name='contact_number' id="exampleFormControlInput1" placeholder="Enter Your Phone Number" onChange={handleNumber} value={number} /> */}
+                                            <PhoneInput
+                                                country={'in'} // You can set the default country
+                                                value={number}
+                                                onChange={(value) => setNumber(value)}
+                                                inputProps={{
+                                                    name: 'contact_number',
+                                                    placeholder: 'Enter Your Phone Number',
+                                                    className: 'form-control reactPhoneInput'
+                                                }}/>
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">

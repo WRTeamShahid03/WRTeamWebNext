@@ -4670,3 +4670,7 @@ footer .footerContainer .flinks {
 .topHeader button svg {
     margin-left: 8px;
 }
+
+.reactPhoneInput{
+    width: 100% !important;
+}

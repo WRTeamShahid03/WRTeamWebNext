@@ -23,6 +23,8 @@ import quality from '../../src/Asset/Images/Quality.png'
 import teamWork from '../../src/Asset/Images/Team Work.png'
 import Head from 'next/head';
 import Image from 'next/image';
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const index = () => {
 
@@ -145,7 +147,7 @@ const index = () => {
                                     CardData.map((e) => {
                                         return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                             <div className="card">
-                                                <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy"  className="card-img-top card1Img" src={e.img} alt="Card image cap" /> </span>
+                                                <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top card1Img" src={e.img} alt="Card image cap" /> </span>
                                                 <div className="card-body ">
                                                     <h5 className="card-title card1Title">{e.title}</h5>
                                                     <p className="card-text card1Text">{e.desc}</p>
@@ -184,31 +186,31 @@ const index = () => {
                                         <div className="hireUsCardWrapper">
 
                                             <div className="hireUsCard">
-                                                <span className='flutter'> <Image height={0} width={0} loading="lazy"  src={flutter} alt="" /> </span>
+                                                <span className='flutter'> <Image height={0} width={0} loading="lazy" src={flutter} alt="" /> </span>
                                                 <span className='title'>Flutter</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='react'> <Image height={0} width={0} loading="lazy"  src={react} alt="" /> </span>
+                                                <span className='react'> <Image height={0} width={0} loading="lazy" src={react} alt="" /> </span>
                                                 <span className='title'>React Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='vue'> <Image height={0} width={0} loading="lazy"  src={vue} alt="" /> </span>
+                                                <span className='vue'> <Image height={0} width={0} loading="lazy" src={vue} alt="" /> </span>
                                                 <span className='title'>Vue Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='node'> <Image height={0} width={0} loading="lazy"  src={node} alt="" /> </span>
+                                                <span className='node'> <Image height={0} width={0} loading="lazy" src={node} alt="" /> </span>
                                                 <span className='title'>Node Js</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='laravel'> <Image height={0} width={0} loading="lazy"  src={laravel} alt="" /> </span>
+                                                <span className='laravel'> <Image height={0} width={0} loading="lazy" src={laravel} alt="" /> </span>
                                                 <span className='title'>Laravel</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='android'> <Image height={0} width={0} loading="lazy"  src={android} alt="" /> </span>
+                                                <span className='android'> <Image height={0} width={0} loading="lazy" src={android} alt="" /> </span>
                                                 <span className='title'>Android</span>
                                             </div>
                                             <div className="hireUsCard">
-                                                <span className='ios'> <Image height={0} width={0} loading="lazy"  src={ios} alt="" /> </span>
+                                                <span className='ios'> <Image height={0} width={0} loading="lazy" src={ios} alt="" /> </span>
                                                 <span className='title'>iOS</span>
                                             </div>
 
@@ -229,7 +231,16 @@ const index = () => {
                                                         <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email} />
                                                     </div>
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
-                                                        <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} />
+                                                        {/* <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} /> */}
+                                                        <PhoneInput
+                                                            country={'in'} // You can set the default country
+                                                            value={number}
+                                                            onChange={(value) => setNumber(value)}
+                                                            inputProps={{
+                                                                name: 'contact_number',
+                                                                placeholder: 'Enter Your Phone Number',
+                                                                className: 'form-control reactPhoneInput'
+                                                            }} />
                                                     </div>
 
                                                     <div className="col-sm-12 col-md-12 col-lg-12 mt-4">
@@ -277,7 +288,7 @@ const index = () => {
                                     Card2Data.map((e) => {
                                         return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                             <div className="card">
-                                                <span className=''> <Image height={0} width={0} loading="lazy"  className="card-img-top" src={e.img} alt="Card image cap" /> </span>
+                                                <span className=''> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" /> </span>
                                                 <div className="card-body ">
                                                     <h5 className="card-title">{e.title}</h5>
                                                     <p className="card-text">{e.desc}</p>

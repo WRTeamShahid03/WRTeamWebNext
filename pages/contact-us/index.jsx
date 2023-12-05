@@ -13,6 +13,8 @@ import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
 import Head from 'next/head'
 import Image from 'next/image'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 
 const index = () => {
 
@@ -165,7 +167,16 @@ const index = () => {
                                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Your Email" name='email' onChange={(e) => setEmail(e.target.value)} value={email} />
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
-                                            <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} />
+                                            {/* <input type="number" className="no-spinner form-control" id="exampleFormControlInput1" placeholder="Your Phone" name='contact_number' onChange={handleNumber} value={number} /> */}
+                                            <PhoneInput
+                                                country={'in'} // You can set the default country
+                                                value={number}
+                                                onChange={(value) => setNumber(value)}
+                                                inputProps={{
+                                                    name: 'contact_number',
+                                                    placeholder: 'Enter Your Phone Number',
+                                                    className: 'form-control reactPhoneInput'
+                                                }}/>
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
