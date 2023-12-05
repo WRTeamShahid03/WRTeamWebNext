@@ -108,7 +108,6 @@ const Testimonials = () => {
     const sliderRef = useRef(null);
 
     const handlePrev = useCallback(() => {
-        console.log("test")
         if (!sliderRef.current) return;
 
         sliderRef.current.swiper.slidePrev();
