@@ -66,6 +66,12 @@ img {
 
 }
 
+@media only screen and (min-width: 1400px) {
+    #homeHeroSect .heroContainer .heroCont-rightDiv .rightDivImg img {
+        width: 112%;
+    }
+}
+
 .common_span {
     padding: 10px;
     background: #2E71FE14 0% 0% no-repeat padding-box;
@@ -327,7 +333,7 @@ img {
 
 #homeHeroSect .heroContainer .arrow {
     position: absolute;
-    left: 40%;
+    left: 38%;
     top: 32%;
     animation: arrowMove 3s ease-in-out 1s infinite alternate-reverse forwards;
     transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
