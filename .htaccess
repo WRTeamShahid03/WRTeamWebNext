@@ -1,4 +1,27 @@
-Options -MultiViews
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^about-us$ /about-us.html [L]
+    RewriteRule ^contact-us$ /contact-us.html [L]
+    RewriteRule ^hire-us$ /hire-us.html [L]
+    RewriteRule ^career$ /career.html [L]
+    RewriteRule ^products/web-products$ /products/web-products.html [L]
+    RewriteRule ^products/app-products$ /products/app-products.html [L]
+    RewriteRule ^services/web-development$ /services/web-development.html [L]
+    RewriteRule ^services/app-development$ /services/app-development.html [L]
+    RewriteRule ^services/ui-ux-design-development$ /services/ui-ux-design-development.html [L]
+    RewriteRule ^services/digital-marketing-development$ /services/digital-marketing-development.html [L]
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /404.html [L]
+</IfModule>
+
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@ a {
     text-decoration: none !important;
 }
 
-img{
+img {
     height: auto;
 }
 
@@ -819,6 +819,7 @@ img{
         width: 390px;
     }
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
 
     #solutions .productsCardsWrapper .mobilePro .mobProImg,
@@ -834,6 +835,7 @@ img{
         width: auto;
     }
 }
+
 @media screen and (min-width:576px) and (max-width: 767px) {
 
     #solutions .productsCardsWrapper .mobilePro .mobProImg,
@@ -4671,6 +4673,45 @@ footer .footerContainer .flinks {
     margin-left: 8px;
 }
 
-.reactPhoneInput{
+.reactPhoneInput {
     width: 100% !important;
+}
+
+.err404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.err404 img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+}
+
+@media only screen and (max-width: 479px) {
+    .err404 img {
+        height: auto;
+    }
+}
+
+.err404 .btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.err404 .btn:hover {
+    background-color: #283042;
+    color: white;
+}
+
+.err404 .btn svg {
+    margin-top: -2px;
 }
