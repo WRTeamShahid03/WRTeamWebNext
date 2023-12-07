@@ -31,7 +31,8 @@ const index = () => {
             text: 'PHP,React JS',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/DK0gQn'
+            link: 'https://1.envato.market/DK0gQn',
+            popularity: '9'
 
         },
         {
@@ -43,7 +44,8 @@ const index = () => {
             text: 'Codeigniter, React JS',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/LXaGzo'
+            link: 'https://1.envato.market/LXaGzo',
+            popularity: '1'
 
         },
         {
@@ -55,7 +57,8 @@ const index = () => {
             text: 'PHP, Laravel',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/VyNrvR'
+            link: 'https://1.envato.market/VyNrvR',
+            popularity: '5'
 
         },
         {
@@ -67,7 +70,8 @@ const index = () => {
             text: 'React JS',
             price: '$39',
             salePrice: '$19',
-            link: 'https://1.envato.market/rQ4323'
+            link: 'https://1.envato.market/rQ4323',
+            popularity: '3'
 
         },
         {
@@ -79,7 +83,8 @@ const index = () => {
             text: 'PHP, Codeigniter',
             price: '$39',
             salePrice: '$19',
-            link: 'https://1.envato.market/QyPrb3'
+            link: 'https://1.envato.market/QyPrb3',
+            popularity: '6'
 
         },
         {
@@ -91,7 +96,8 @@ const index = () => {
             text: 'PHP, Laravel',
             price: '$39',
             salePrice: '$19',
-            link: 'https://1.envato.market/9gGPz5'
+            link: 'https://1.envato.market/9gGPz5',
+            popularity: '4'
 
         },
         {
@@ -103,7 +109,8 @@ const index = () => {
             text: 'PHP, CodeIgniter',
             price: '$49',
             salePrice: '$24',
-            link: 'https://1.envato.market/LXEb9L'
+            link: 'https://1.envato.market/LXEb9L',
+            popularity: '7'
 
         },
         {
@@ -115,7 +122,8 @@ const index = () => {
             text: 'React JS',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/0ZB6XE'
+            link: 'https://1.envato.market/0ZB6XE',
+            popularity: '2'
 
         },
         {
@@ -127,27 +135,28 @@ const index = () => {
             text: 'PHP, CodeIgniter',
             price: '$29',
             salePrice: '$14',
-            link: 'https://1.envato.market/B0Y3kx'
+            link: 'https://1.envato.market/B0Y3kx',
+            popularity: '8'
 
         },
     ]
 
-    
-  // Function to handle sorting based on the selected option
-  const sortProducts = (option) => {
-    if (option === 'lowToHigh') {
-      return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
-    } else if (option === 'highToLow') {
-      return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
-    } else if (option === 'mostpopular') {
-      return cardData.slice().sort((a, b) => parseInt(b.sales, 10) - parseInt(a.sales, 10));
-    }
-  };
 
-  // Function to handle select change event
-  const handleSortChange = (e) => {
-    setSortOption(e.target.value);
-  };
+    // Function to handle sorting based on the selected option
+    const sortProducts = (option) => {
+        if (option === 'lowToHigh') {
+            return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
+        } else if (option === 'highToLow') {
+            return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
+        } else if (option === 'mostpopular') {
+            return cardData.slice().sort((a, b) => parseInt(a.popularity, 10) - parseInt(b.popularity, 10));
+        }
+    };
+
+    // Function to handle select change event
+    const handleSortChange = (e) => {
+        setSortOption(e.target.value);
+    };
     return (
         <>
 
@@ -180,7 +189,7 @@ const index = () => {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
                                         <Card>
-                                            <Image height={0} width={0} loading="lazy"  alt='product_img' className='webProImg card-img-top' src={e.img} />
+                                            <Image height={0} width={0} loading="lazy" alt='product_img' className='webProImg card-img-top' src={e.img} />
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>

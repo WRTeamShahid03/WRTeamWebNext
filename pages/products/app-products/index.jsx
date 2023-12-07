@@ -46,7 +46,8 @@ const Index = () => {
             text: 'Flutter,Laravel,Codeigniter',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/oqe11O'
+            link: 'https://1.envato.market/oqe11O',
+            popularity: '1'
 
         },
         {
@@ -58,7 +59,8 @@ const Index = () => {
             text: 'Codeigniter,Flutter',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/KjKLxn'
+            link: 'https://1.envato.market/KjKLxn',
+            popularity: '5'
 
         },
         {
@@ -70,7 +72,8 @@ const Index = () => {
             text: 'Flutter,Codeigniter',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/DK0gQn'
+            link: 'https://1.envato.market/DK0gQn',
+            popularity: '3'
 
         },
         {
@@ -82,7 +85,8 @@ const Index = () => {
             text: 'Flutter,Laravel',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/babzGx'
+            link: 'https://1.envato.market/babzGx',
+            popularity: '2'
 
         },
         {
@@ -94,7 +98,8 @@ const Index = () => {
             text: 'Flutter,Codeigniter',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/QyPrNA'
+            link: 'https://1.envato.market/QyPrNA',
+            popularity: '4'
 
         },
         {
@@ -106,7 +111,8 @@ const Index = () => {
             text: 'Flutter,Codeigniter',
             price: '$29',
             salePrice: '$14',
-            link: 'https://1.envato.market/R5PjOg'
+            link: 'https://1.envato.market/R5PjOg',
+            popularity: '10'
 
         },
         {
@@ -118,7 +124,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/y2g3m2'
+            link: 'https://1.envato.market/y2g3m2',
+            popularity: '7'
 
         },
         {
@@ -130,7 +137,8 @@ const Index = () => {
             text: 'Flutter,CodeIgniter',
             price: '$69',
             salePrice: '$34',
-            link: 'https://1.envato.market/R5PjZN'
+            link: 'https://1.envato.market/R5PjZN',
+            popularity: '9'
 
         },
         {
@@ -142,7 +150,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$29',
             salePrice: '$14',
-            link: 'https://1.envato.market/KjKLZx'
+            link: 'https://1.envato.market/KjKLZx',
+            popularity: '8'
 
         },
         {
@@ -154,7 +163,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/vNzrJA'
+            link: 'https://1.envato.market/vNzrJA',
+            popularity: '6'
 
         },
         {
@@ -166,7 +176,8 @@ const Index = () => {
             text: 'Flutter,CodeIgniter',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/6eWKYN'
+            link: 'https://1.envato.market/6eWKYN',
+            popularity: '11'
 
         },
         {
@@ -178,7 +189,8 @@ const Index = () => {
             text: 'Php',
             price: '$39',
             salePrice: '$19',
-            link: 'https://1.envato.market/6eWKNG'
+            link: 'https://1.envato.market/6eWKNG',
+            popularity: '14'
 
         },
         {
@@ -190,7 +202,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/1re3vg'
+            link: 'https://1.envato.market/1re3vg',
+            popularity: '15'
 
         },
         {
@@ -202,7 +215,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$39',
             salePrice: '$19',
-            link: 'https://1.envato.market/rQ4323'
+            link: 'https://1.envato.market/rQ4323',
+            popularity: '12'
 
         },
         {
@@ -214,7 +228,8 @@ const Index = () => {
             text: 'Php',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/zNg326'
+            link: 'https://1.envato.market/zNg326',
+            popularity: '13'
         },
         {
             id: 15,
@@ -225,7 +240,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/21kqdQ'
+            link: 'https://1.envato.market/21kqdQ',
+            popularity: '20'
         },
         {
             id: 16,
@@ -236,7 +252,8 @@ const Index = () => {
             text: 'Flutter,CodeIgniter',
             price: '$49',
             salePrice: '$24',
-            link: 'https://1.envato.market/VmaeNE'
+            link: 'https://1.envato.market/VmaeNE',
+            popularity: '18'
         },
         {
             id: 17,
@@ -247,7 +264,8 @@ const Index = () => {
             text: 'Flutter,CodeIgniter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/eKvGzO'
+            link: 'https://1.envato.market/eKvGzO',
+            popularity: '16'
         },
         {
             id: 18,
@@ -258,7 +276,8 @@ const Index = () => {
             text: 'Php',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/75e7Pg'
+            link: 'https://1.envato.market/75e7Pg',
+            popularity: '17'
         },
         {
             id: 19,
@@ -269,7 +288,8 @@ const Index = () => {
             text: 'Php',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/NkBVLV'
+            link: 'https://1.envato.market/NkBVLV',
+            popularity: '19'
         },
         {
             id: 20,
@@ -280,7 +300,8 @@ const Index = () => {
             text: 'Php,Laravel',
             price: '$59',
             salePrice: '$29',
-            link: 'https://1.envato.market/ZQb1BX'
+            link: 'https://1.envato.market/ZQb1BX',
+            popularity: '22'
         },
         {
             id: 21,
@@ -291,7 +312,8 @@ const Index = () => {
             text: 'Flutter',
             price: '$19',
             salePrice: '$9',
-            link: 'https://1.envato.market/QyPg1o'
+            link: 'https://1.envato.market/QyPg1o',
+            popularity: '21'
         },
     ]
 
@@ -302,7 +324,7 @@ const Index = () => {
     } else if (option === 'highToLow') {
       return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
     } else if (option === 'mostpopular') {
-      return cardData.slice().sort((a, b) => parseInt(b.sales, 10) - parseInt(a.sales, 10));
+        return cardData.slice().sort((a, b) => parseInt(a.popularity, 10) - parseInt(b.popularity, 10));
     }
   };
 
