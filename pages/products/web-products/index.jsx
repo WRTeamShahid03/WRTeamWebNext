@@ -30,7 +30,7 @@ const index = () => {
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace...',
             text: 'PHP,React JS',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/DK0gQn',
             popularity: '9'
 
@@ -43,7 +43,7 @@ const index = () => {
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Web Version',
             text: 'Codeigniter, React JS',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/LXaGzo',
             popularity: '1'
 
@@ -56,7 +56,7 @@ const index = () => {
             title: 'eCart Web - Multi Vendor eCommerce Marketplace',
             text: 'PHP, Laravel',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/VyNrvR',
             popularity: '5'
 
@@ -69,7 +69,7 @@ const index = () => {
             title: 'News Web - News Website with Admin panel',
             text: 'React JS',
             price: '$39',
-            salePrice: '$19',
+            salePrice: '',
             link: 'https://1.envato.market/rQ4323',
             popularity: '3'
 
@@ -82,7 +82,7 @@ const index = () => {
             title: 'eShop Web- eCommerce Single Vendor Website | eCommerce...',
             text: 'PHP, Codeigniter',
             price: '$39',
-            salePrice: '$19',
+            salePrice: '',
             link: 'https://1.envato.market/QyPrb3',
             popularity: '6'
 
@@ -95,7 +95,7 @@ const index = () => {
             title: 'eCart Web- eCommerce Store Website with Laravel',
             text: 'PHP, Laravel',
             price: '$39',
-            salePrice: '$19',
+            salePrice: '',
             link: 'https://1.envato.market/9gGPz5',
             popularity: '4'
 
@@ -108,7 +108,7 @@ const index = () => {
             title: 'eShop Web - Multi Vendor eCommerce Marketplace / CMS',
             text: 'PHP, CodeIgniter',
             price: '$49',
-            salePrice: '$24',
+            salePrice: '',
             link: 'https://1.envato.market/LXEb9L',
             popularity: '7'
 
@@ -121,7 +121,7 @@ const index = () => {
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
             text: 'React JS',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/0ZB6XE',
             popularity: '2'
 
@@ -134,7 +134,7 @@ const index = () => {
             title: 'eSpeech - AI Text to Speech Marketplace with SaaS',
             text: 'PHP, CodeIgniter',
             price: '$29',
-            salePrice: '$14',
+            salePrice: '',
             link: 'https://1.envato.market/B0Y3kx',
             popularity: '8'
 

@@ -28,6 +28,9 @@ import quiz from '../../../src/Asset/Images/app-products/20_Quiz Online (iOS).jp
 import quizAndroid from '../../../src/Asset/Images/app-products/21_Quiz Online (Android).jpg'
 import ecartApp from '../../../src/Asset/Images/app-products/22_eCart App Single.jpg'
 import quotes from '../../../src/Asset/Images/app-products/23_Quotes app.jpg'
+import eschoolSas from '../../../src/Asset/Images/eSchoolSaas.jpg'
+import erestroSingleVendr from '../../../src/Asset/Images/erestroSingleVendr.jpg'
+
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -45,7 +48,7 @@ const Index = () => {
             title: 'eBroker - Real Estate Property Buy-Rent-Sell Flutter app with Laravel Admin Panel',
             text: 'Flutter,Laravel,Codeigniter',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/oqe11O',
             popularity: '1'
 
@@ -58,7 +61,7 @@ const Index = () => {
             title: 'eDemand-Multi Vendor On Demand Handy Services, Handyman with Flutter App | Admin panel',
             text: 'Codeigniter,Flutter',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/KjKLxn',
             popularity: '5'
 
@@ -71,7 +74,7 @@ const Index = () => {
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace Flutter Full App with Admin Panel',
             text: 'Flutter,Codeigniter',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/DK0gQn',
             popularity: '3'
 
@@ -84,7 +87,7 @@ const Index = () => {
             title: 'eSchool - School Management System with Student | Parents | Teacher Flutter App | Laravel Admin',
             text: 'Flutter,Laravel',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/babzGx',
             popularity: '2'
 
@@ -97,7 +100,7 @@ const Index = () => {
             title: 'eRestro - Multi Restaurant Flutter App | Food Ordering App with Admin Panel & Restaurant Panel',
             text: 'Flutter,Codeigniter',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/QyPrNA',
             popularity: '4'
 
@@ -110,7 +113,7 @@ const Index = () => {
             title: 'eSpeech - AI Text to Speech Flutter Full App',
             text: 'Flutter,Codeigniter',
             price: '$29',
-            salePrice: '$14',
+            salePrice: '',
             link: 'https://1.envato.market/R5PjOg',
             popularity: '10'
 
@@ -123,7 +126,7 @@ const Index = () => {
             title: 'Prime Web - Convert Website to a Flutter App | Web View App | Web to App',
             text: 'Flutter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/y2g3m2',
             popularity: '7'
 
@@ -136,7 +139,7 @@ const Index = () => {
             title: 'eShop-Multi Vendor eCommerce App & eCommerce Vendor Marketplace Flutter App',
             text: 'Flutter,CodeIgniter',
             price: '$69',
-            salePrice: '$34',
+            salePrice: '',
             link: 'https://1.envato.market/R5PjZN',
             popularity: '9'
 
@@ -149,7 +152,7 @@ const Index = () => {
             title: 'SmartKit Pro - Flutter Biggest UI Kit | Flutter 3.0 UI kit | Ready to Use',
             text: 'Flutter',
             price: '$29',
-            salePrice: '$14',
+            salePrice: '',
             link: 'https://1.envato.market/KjKLZx',
             popularity: '8'
 
@@ -162,7 +165,7 @@ const Index = () => {
             title: 'Tic Tac Toe - The Classic Flutter Tic Tac Toe Game',
             text: 'Flutter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/vNzrJA',
             popularity: '6'
 
@@ -175,7 +178,7 @@ const Index = () => {
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Flutter Full App + Admin Panel',
             text: 'Flutter,CodeIgniter',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/6eWKYN',
             popularity: '11'
 
@@ -188,7 +191,7 @@ const Index = () => {
             title: 'Qearner - Quiz App | Android Quiz game with Earning System + Admin panel',
             text: 'Php',
             price: '$39',
-            salePrice: '$19',
+            salePrice: '',
             link: 'https://1.envato.market/6eWKNG',
             popularity: '14'
 
@@ -201,7 +204,7 @@ const Index = () => {
             title: 'Flutter Offline eBook App',
             text: 'Flutter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/1re3vg',
             popularity: '15'
 
@@ -214,7 +217,7 @@ const Index = () => {
             title: 'News App and Web -Flutter News App for Android and IOS App | News Website with Admin panel',
             text: 'Flutter',
             price: '$39',
-            salePrice: '$19',
+            salePrice: '',
             link: 'https://1.envato.market/rQ4323',
             popularity: '12'
 
@@ -227,7 +230,7 @@ const Index = () => {
             title: 'eCart - Multi Vendor eCommerce System',
             text: 'Php',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/zNg326',
             popularity: '13'
         },
@@ -239,7 +242,7 @@ const Index = () => {
             title: 'eShop - Ecommerce Admin / Store Manager app',
             text: 'Flutter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/21kqdQ',
             popularity: '20'
         },
@@ -251,7 +254,7 @@ const Index = () => {
             title: 'eShop- eCommerce Single Vendor App | Shopping eCommerce App with Flutter',
             text: 'Flutter,CodeIgniter',
             price: '$49',
-            salePrice: '$24',
+            salePrice: '',
             link: 'https://1.envato.market/VmaeNE',
             popularity: '18'
         },
@@ -263,7 +266,7 @@ const Index = () => {
             title: 'Radio Online - Flutter Full App',
             text: 'Flutter,CodeIgniter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/eKvGzO',
             popularity: '16'
         },
@@ -275,7 +278,7 @@ const Index = () => {
             title: 'Quiz Online - Full IOS Quiz App + Admin panel',
             text: 'Php',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/75e7Pg',
             popularity: '17'
         },
@@ -287,7 +290,7 @@ const Index = () => {
             title: 'Quiz Online | Trivia Quiz | Android Quiz Game + Admin Panel',
             text: 'Php',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/NkBVLV',
             popularity: '19'
         },
@@ -299,7 +302,7 @@ const Index = () => {
             title: 'eCart - Grocery, Food Delivery, Fruits & Vegetable store, Full Android Ecommerce App',
             text: 'Php,Laravel',
             price: '$59',
-            salePrice: '$29',
+            salePrice: '',
             link: 'https://1.envato.market/ZQb1BX',
             popularity: '22'
         },
@@ -311,9 +314,33 @@ const Index = () => {
             title: 'Quotes - Flutter App',
             text: 'Flutter',
             price: '$19',
-            salePrice: '$9',
+            salePrice: '',
             link: 'https://1.envato.market/QyPg1o',
             popularity: '21'
+        },
+        {
+            id: 22,
+            img: eschoolSas,
+            sales: '16',
+            rating: '(0)',
+            title: 'eSchool SaaS - School Management System with Stu',
+            text: 'Flutter',
+            price: '$49',
+            salePrice: '',
+            link: 'https://1.envato.market/9gqdRe',
+            popularity: '22'
+        },
+        {
+            id: 23,
+            img: erestroSingleVendr,
+            sales: '39',
+            rating: '(5.0)',
+            title: 'eRestro - Single Vendor Restaurant Flutter App | Food Ordering App with Admin Panel',
+            text: 'Flutter',
+            price: '$59',
+            salePrice: '',
+            link: 'https://1.envato.market/3eRoDA',
+            popularity: '23'
         },
     ]
 
@@ -373,6 +400,7 @@ const Index = () => {
                                             <Card.Body>
                                                 <div className="ratingDiv">
                                                     <span className='sales'>{e.sales} Sales</span>
+                                                    {e.rating=== '(0)'?'':
                                                     <span className='rating'> <span>
                                                         <LiaStarSolid size={20} color='#FFA800' />
                                                         <LiaStarSolid size={20} color='#FFA800' />
@@ -380,6 +408,8 @@ const Index = () => {
                                                         <LiaStarSolid size={20} color='#FFA800' />
                                                         <BsStarHalf size={18} color='#FFA800' />
                                                     </span>{e.rating}</span>
+                                }
+
                                                 </div>
                                                 {
                                                     e.title.length >= 40 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>

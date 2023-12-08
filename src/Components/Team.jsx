@@ -11,25 +11,25 @@ const Team = () => {
         {
             id: 0,
             name: "Harish Vekariya",
-            work: "Co-founder",
+            work: "Team Lead",
             img: teamDefaultImg
         },
         {
             id: 1,
             name: "Jaydeep Goswami",
-            work: "Co-founder",
+            work: "Team Lead",
             img: teamDefaultImg
         },
         {
             id: 2,
             name: "Ketan Thakkar",
-            work: "Co-founder",
+            work: "Team Lead",
             img: teamDefaultImg
         },
         {
             id: 3,
             name: "Hemal Gondalia",
-            work: "Co-founder",
+            work: "Team Lead",
             img: teamDefaultImg
         },
         {

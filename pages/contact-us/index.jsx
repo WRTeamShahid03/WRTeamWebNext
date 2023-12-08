@@ -7,7 +7,7 @@ import contactBg from '../../src/Asset/Images/contactFormBg.png'
 import socialBg from '../../src/Asset/Images/Social_BG.png'
 import companyLogo from '../../src/Asset/navLogo.svg'
 import { BsFacebook, BsLinkedin, BsPinterest } from 'react-icons/bs'
-import { AiFillTwitterCircle } from 'react-icons/ai'
+import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
@@ -15,6 +15,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { FaInstagram, FaYoutube } from 'react-icons/fa6'
+import { PiYoutubeLogoFill } from 'react-icons/pi'
 
 const index = () => {
 
@@ -92,7 +94,7 @@ const index = () => {
                             return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
 
                                 <div className="card">
-                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy"  className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
+                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
                                     <div className="card-body ">
                                         <h5 className="card-title contactCardTitle">{e.title}</h5>
                                         <p className="card-text contactCardText1">{e.desc1}</p>
@@ -126,24 +128,24 @@ const index = () => {
                                 <div className="blueBg">
 
                                     <div className="logo">
-                                        <Image height={0} width={0} loading="lazy"  src={companyLogo} alt="" />
+                                        <Image height={0} width={0} loading="lazy" src={companyLogo} alt="" />
                                     </div>
                                     <div className="socialContent">
                                         <span className='text'>Stay connected with us on social media for the latest updates, content, and more. Follow us today!</span>
                                         <span className='icons'>
-                                            <Link href="">
+                                            <Link target='_blank' href="https://www.facebook.com/wrteam.in">
                                                 <span>  <BsFacebook color='white' size={30} /> </span>
                                             </Link>
 
-                                            <Link href="">
-                                                <span>  <AiFillTwitterCircle color='white' size={34} /> </span>
+                                            <Link target='_blank' href="https://www.instagram.com/wrteam.in/">
+                                              <span>  <AiFillInstagram color='white' size={30}/></span>
                                             </Link>
 
-                                            <Link href="">
-                                                <span>  <BsPinterest color='white' size={30} /> </span>
+                                            <Link target='_blank' href="https://www.youtube.com/channel/UCLt9XRUuiWsqKng4681_6cQ">
+                                                <span> <FaYoutube color='white' size={30}/> </span>
                                             </Link>
 
-                                            <Link href="">
+                                            <Link target='_blank' href="https://www.linkedin.com/company/wrteam/">
                                                 <span style={{ borderRadius: "100%" }}>  <BsLinkedin color='white' size={30} /> </span>
                                             </Link>
                                         </span>
@@ -176,7 +178,7 @@ const index = () => {
                                                     name: 'contact_number',
                                                     placeholder: 'Enter Your Phone Number',
                                                     className: 'form-control reactPhoneInput'
-                                                }}/>
+                                                }} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
@@ -201,7 +203,7 @@ const index = () => {
             </section >
 
             <section id="map" className='container'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6879.666659015773!2d69.63730994896257!3d23.23263359742167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511e5b00000001%3A0x99eb1d2a09bf7685!2sWRTeam!5e0!3m2!1sen!2sin!4v1694243415170!5m2!1sen!2sin" width="100%" height="450" style={{ border: "0" }} allowFullScreen=""  referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6879.666659015773!2d69.63730994896257!3d23.23263359742167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39511e5b00000001%3A0x99eb1d2a09bf7685!2sWRTeam!5e0!3m2!1sen!2sin!4v1694243415170!5m2!1sen!2sin" width="100%" height="450" style={{ border: "0" }} allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </>
     )

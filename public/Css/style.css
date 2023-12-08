@@ -1688,6 +1688,10 @@ img {
     width: 85% !important;
 }
 
+.dropdownItem.navActive:hover::after{
+    width: 0% !important;
+}
+
 .ant-dropdown-menu .ant-dropdown-menu-item {
     padding: 6px 12px !important;
 }
@@ -3981,9 +3985,8 @@ footer .footerContainer .flinks {
 }
 
 .webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:first-child {
-    font: normal normal bold 22px/29px Montserrat;
+    font: normal normal bold 24px/29px Montserrat;
     color: #22A869;
-    text-decoration: line-through;
 }
 
 .webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:last-child {
