@@ -17,6 +17,9 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { FaInstagram, FaYoutube } from 'react-icons/fa6'
 import { PiYoutubeLogoFill } from 'react-icons/pi'
+import { GrLocation } from "react-icons/gr";
+import { FiMail } from "react-icons/fi";
+import { RiCustomerService2Fill } from "react-icons/ri";
 
 const index = () => {
 
@@ -58,24 +61,30 @@ const index = () => {
     const cardData = [
         {
             id: 0,
-            img: location,
+            img: <GrLocation />,
             title: "Our Address",
             desc1: "#262-263, Time Square Empire, SH 42 Mirjapar highway, ",
-            desc2: "Bhuj - Kutch 370001 Gujarat India."
+            desc2: "Bhuj - Kutch 370001 Gujarat India.",
+            link1: '#map',
+            link2: '#map'
         },
         {
             id: 1,
-            img: mail,
+            img: <FiMail />,
             title: "Email Address",
             desc1: "support@wrteam.in",
-            desc2: "sales@wrteam.in"
+            desc2: "sales@wrteam.in",
+            link1: 'mailto:support@wrteam.in',
+            link2: 'mailto:sales@wrteam.in'
         },
         {
             id: 2,
-            img: call,
+            img: <RiCustomerService2Fill />,
             title: "Phone Number",
             desc1: "+91 97979 45459",
-            desc2: "+91 97124 45459"
+            desc2: "+91 97124 45459",
+            link1: 'tel:+91 97979 45459',
+            link2: 'tel:+91 97124 45459'
         },
     ]
 
@@ -94,11 +103,21 @@ const index = () => {
                             return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
 
                                 <div className="card">
-                                    <span className='contactCardSpan'> <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' /> </span>
+                                    <span className='contactCardSpan'>
+                                        {/* <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' />  */}
+                                        <span id='contactCardIcon' > {e.img}</span>
+                                    </span>
                                     <div className="card-body ">
                                         <h5 className="card-title contactCardTitle">{e.title}</h5>
-                                        <p className="card-text contactCardText1">{e.desc1}</p>
-                                        <p className="card-text contactCardText2">{e.desc2}</p>
+                                        {
+                                            e.link1 && e.link2 === '' ? <>
+                                                <p className="card-text contactCardText1">{e.desc1}</p>
+                                                <p className="card-text contactCardText2">{e.desc2}</p>
+                                            </> :
+                                                <>
+                                                    <p className="card-text contactCardText1"><Link href={e.link1} className='cardLink'>{e.desc1}</Link></p>
+                                                    <p className="card-text contactCardText2"><Link href={e.link2} className='cardLink'>{e.desc2}</Link></p>
+                                                </>}
                                     </div>
                                 </div>
                             </div>
@@ -138,11 +157,11 @@ const index = () => {
                                             </Link>
 
                                             <Link target='_blank' href="https://www.instagram.com/wrteam.in/">
-                                              <span>  <AiFillInstagram color='white' size={30}/></span>
+                                                <span>  <AiFillInstagram color='white' size={30} /></span>
                                             </Link>
 
                                             <Link target='_blank' href="https://www.youtube.com/channel/UCLt9XRUuiWsqKng4681_6cQ">
-                                                <span> <FaYoutube color='white' size={30}/> </span>
+                                                <span> <FaYoutube color='white' size={30} /> </span>
                                             </Link>
 
                                             <Link target='_blank' href="https://www.linkedin.com/company/wrteam/">

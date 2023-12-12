@@ -9,7 +9,12 @@ import Footer from '@/Components/Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Toaster } from 'react-hot-toast'
-import TopHeader from '@/Components/TopHeader'
+// import TopHeader from '@/Components/TopHeader'
+// import { settingsData, settingsLoaded } from "@/store/reducer/settingsSlice";
+// import { Provider } from 'react-redux'
+// import { persistor, store } from '@/store/store'
+// import { PersistGate } from 'redux-persist/integration/react'
+
 
 
 function MyApp({ Component, pageProps, data }) {
@@ -36,7 +41,7 @@ function MyApp({ Component, pageProps, data }) {
                     widget-id="lBIawK"
                 >
                 </script>
-               
+
             </Head>
 
 
@@ -46,6 +51,7 @@ function MyApp({ Component, pageProps, data }) {
             <Component {...pageProps} data={data} />
 
             <Footer />
+
         </>
     );
 }

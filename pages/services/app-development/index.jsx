@@ -233,7 +233,7 @@ const Index = () => {
                     </div>
 
                     <div className="col-sm-12 col-md-12 col-lg-6">
-                        <div className="deveRightDiv" data-aos="zoom-in" data-aos-duration="800">
+                        <div className="deveRightDiv" data-aos="zoom-in"  data-aos-once="true" data-aos-duration="800">
                             <div className="commonBorderDiv">
                                <Image height={0} width={0} loading="lazy"  src={appDeveImg} alt="" />
                             </div>
@@ -317,7 +317,7 @@ const Index = () => {
             <section className='process container'>
                 <div className="row upperDivWrapper">
                     <div className="col-sm-12 col-md-12 col-lg-6">
-                        <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
+                        <div className="upperDivLeftContent" data-aos="zoom-in"  data-aos-once="true" data-aos-duration="800">
                             <div className="commonBorderDiv">
                                <Image height={0} width={0} loading="lazy"  src={processImg} alt="" />
                             </div>
@@ -336,7 +336,7 @@ const Index = () => {
                             <div className="processCardWrapper">
                                 {
                                     processCard1Data.map((e) => {
-                                        return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
+                                        return <div className="processCard" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800" key={e.id}>
                                             <span className='cardIcon'>
                                                <Image height={0} width={0} loading="lazy"  src={e.icon} alt="" />
                                             </span>
@@ -364,7 +364,7 @@ const Index = () => {
                             <div className="processCardWrapper">
                                 {
                                     processCard2Data.map((e) => {
-                                        return <div className="processCard" data-aos="fade-up" data-aos-duration="800" key={e.id}>
+                                        return <div className="processCard" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800" key={e.id}>
                                             <span className='cardIcon'>
                                                <Image height={0} width={0} loading="lazy"  src={e.icon} alt="" />
                                             </span>
@@ -381,7 +381,7 @@ const Index = () => {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6">
-                        <div className="upperDivLeftContent" data-aos="zoom-in" data-aos-duration="800">
+                        <div className="upperDivLeftContent" data-aos="zoom-in"  data-aos-once="true" data-aos-duration="800">
                             <div className="commonBorderDiv">
                                <Image height={0} width={0} loading="lazy"  src={processImg2} alt="" />
                             </div>
@@ -418,7 +418,7 @@ const Index = () => {
                             <div className="row buildCardsWrapper">
                                 {
                                     buildCardData.map((e) => {
-                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left" data-aos-duration="800">
+                                        return <div className="col-6 col-sm-6 col-md-3 col-lg-4" key={e.id} data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
                                             <div className="card">
                                                 <span className='buildCardIcon'>
                                                    <Image height={0} width={0} loading="lazy"  src={e.icon} alt="" className='buildIcon1' />

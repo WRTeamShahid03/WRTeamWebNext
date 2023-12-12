@@ -166,13 +166,13 @@ const Home = () => {
                                 </div>
 
                                 <div className="col-sm-12 col-md-12 col-lg-6">
-                                    <div className="heroCont-rightDiv" data-aos="fade-right" data-aos-duration="800" data-aos-delay="50">
+                                    <div className="heroCont-rightDiv" data-aos="fade-right"  data-aos-once="true" data-aos-duration="800" data-aos-delay="50">
                                         <div className="rightDivImg">
-                                            <Image height={0} width={0} loading="lazy"  src={rightDivImg} alt="" />
+                                            <Image height={0} width={0} loading="lazy" src={rightDivImg} alt="" />
                                         </div>
                                         <div className="floatingCard1">
                                             <div className="fcardImg">
-                                                <Image height={0} width={0} loading="lazy"  src={likeIcon} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={likeIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>
@@ -188,7 +188,7 @@ const Home = () => {
 
                                         <div className="floatingCard2">
                                             <div className="fcardImg">
-                                                <Image height={0} width={0} loading="lazy"  src={checkIcon} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={checkIcon} alt="" />
                                             </div>
                                             <div className="floatCardContent">
                                                 <span className='heroStars'>Sales Count</span>
@@ -200,10 +200,10 @@ const Home = () => {
                                             <div className="floCard3Content">
                                                 <span>Our Creative Team</span>
                                                 <span className='teamIcons'>
-                                                    <Image height={0} width={0} loading="lazy"  src={team1} alt="" />
-                                                    <Image height={0} width={0} loading="lazy"  src={team2} alt="" />
-                                                    <Image height={0} width={0} loading="lazy"  src={team3} alt="" />
-                                                    <Image height={0} width={0} loading="lazy"  src={team4} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team1} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team2} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team3} alt="" />
+                                                    <Image height={0} width={0} loading="lazy" src={team4} alt="" />
                                                     <span className='teamMem'>40+</span>
                                                 </span>
                                             </div>
@@ -213,8 +213,8 @@ const Home = () => {
 
                             </div>
 
-                            <div className="arrow" data-aos="fade-down" data-aos-duration="800">
-                                <Image height={0} width={0} loading="lazy"  src={arrow} alt="" />
+                            <div className="arrow" data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
+                                <Image height={0} width={0} loading="lazy" src={arrow} alt="" />
                             </div>
 
                         </div>
@@ -234,9 +234,9 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
 
                             <div className="aboutLeftDiv">
-                                <div className="aboutImg" data-aos="fade-down-right" data-aos-duration="800">
+                                <div className="aboutImg" data-aos="fade-down-right"  data-aos-once="true" data-aos-duration="800">
 
-                                    <Image height={0} width={0} loading="lazy"  src={aboutImg1} alt="" />
+                                    <Image height={0} width={0} loading="lazy" src={aboutImg1} alt="" />
                                     <div className="aboutSmImg" style={{
                                         background: `url(${aboutImg2.src})`,
                                         backgroundSize: 'cover'
@@ -267,7 +267,7 @@ const Home = () => {
 
                             <div className="aboutRightDiv">
                                 <span className="common_span">About <span>WRTeam</span></span>
-                                <h2  className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
+                                <h2 className='comman_Healines'>Deliver <span>Business Solution </span>  With The Goal Of <span>Long-Term </span> Relationships</h2>
 
                                 <p className='firstP common_para'>WRTeam is an Award-Winning Web - App Development & IT Consulting Company serving clients across the Globe.</p>
 
@@ -275,7 +275,7 @@ const Home = () => {
 
                                 <p className='common_para'>WRTeam is a creative and dedicated group of developers who are mastered in Mobile & Web Development with expertise in delivering quality solutions to customers across the globe.</p>
 
-                                <div className="discover" data-aos="fade-up" data-aos-duration="800">
+                                <div className="discover" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
                                     <Link href='about-us'>  <button className='homeCommon_btn'>Discover More</button></Link>
                                     {/* <span className='hoverArrSpan'>Let's Talk About Idea < BsArrowRightCircle className='discRightArr' /></span> */}
                                 </div>
@@ -298,7 +298,7 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="winnLeftDiv">
                                 <span className='common_span'>Achievement <span>on Envato</span> </span>
-                                <h2  className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
+                                <h2 className='comman_Healines'><span>Meet the Most Creative Team </span> Award-Winning Web & App Development</h2>
 
                                 <p className='firstP comman_para'>Meet the winner of 'Most Creative' competition on codecanyon! WRTeam are proud of our team members who came out on top with their outstanding creativity and innovative ideas.</p>
 
@@ -306,18 +306,18 @@ const Home = () => {
 
                                 <p className='common_para'>As we continue to evolve and innovate, we look forward to inspiring others in the industry with our ingenuity.</p>
 
-                                <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="800">Read More</button></Link>
+                                <Link href='https://1.envato.market/R5YR7b' target='_blank'> <button className="homeCommon_btn" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">Read More</button></Link>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
-                            <div className="winnRightDiv" data-aos="fade-down-left" data-aos-duration="800">
+                            <div className="winnRightDiv" data-aos="fade-down-left"  data-aos-once="true" data-aos-duration="800">
 
                                 <div className="winnerLeftImg">
 
-                                    <Image height={0} width={0} loading="lazy"  src={winnerImg1} alt="" className='winnerTeamImg' />
+                                    <Image height={0} width={0} loading="lazy" src={winnerImg1} alt="" className='winnerTeamImg' />
                                     <div className="winnerSmImg" >
-                                        <Image height={0} width={0} loading="lazy"  src={trophy} alt="" />
+                                        <Image height={0} width={0} loading="lazy" src={trophy} alt="" />
 
                                     </div>
 
@@ -350,36 +350,36 @@ const Home = () => {
                     <div className="row">
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
-                            <div className="mobilePro" data-aos="fade-up" data-aos-duration="800">
+                            <div className="mobilePro" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
 
                                 <div className="mobProImg" style={{
                                     background: `url(${appProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <Image height={0} width={0} loading="lazy"  src={appProduct} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0} loading="lazy" src={appProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy"  src={appProIcon} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={appProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Mobile App Products</h4>
-                                    <Link href='/products/app-products'><span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                    <Link href='/products/app-products'><button className='hoverArrSpan homeCommon_btn'>Explore Service < BsArrowRightCircle className='discRightArr' /></button></Link>
                                 </div>
 
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6 mobCards2">
-                            <div className="mobilePro" data-aos="fade-down" data-aos-duration="800">
+                            <div className="mobilePro" data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
 
                                 <div className="mobProImg webProImg" style={{
                                     background: `url(${webProduct.src})`,
                                     backgroundRepeat: "no-repeat"
                                 }}>
-                                    <Image height={0} width={0} loading="lazy"  src={webProduct} alt="" className='solu_product_img' />
+                                    <Image height={0} width={0} loading="lazy" src={webProduct} alt="" className='solu_product_img' />
                                 </div>
                                 <div className="mobProContent">
-                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy"  src={webProIcon} alt="" /></span>
+                                    <span className='mobProIcon'><Image height={0} width={0} loading="lazy" src={webProIcon} alt="" /></span>
                                     <h4 className='mobProText'>Web App Products</h4>
-                                    <Link href='/products/web-products'> <span className='hoverArrSpan'>Explore Service < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                    <Link href='/products/web-products'> <button className='hoverArrSpan homeCommon_btn'>Explore Service < BsArrowRightCircle className='discRightArr' /></button></Link>
                                 </div>
 
                             </div>
@@ -400,60 +400,68 @@ const Home = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="servleftDiv">
 
-                                <div className="servCard" id='lightGrnCard' data-aos="fade-down" data-aos-duration="800">
-                                    <span className="servImg lightgrnServ">
-                                        <Image height={0} width={0} loading="lazy"  src={servWebIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy"  src={servwebHover} alt="" className='servHoverImg' />
-                                    </span>
-                                    <div className="servContent">
-                                        <h4 className='servHeadline'>{servCardData[0].title}</h4>
-                                        <span className='servText'>{servCardData[0].desc}</span>
-                                        <Link href='/services/web-development'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                <Link href='/services/web-development'>
+                                    <div className="servCard" id='lightGrnCard' data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
+                                        <span className="servImg lightgrnServ">
+                                            <Image height={0} width={0} loading="lazy" src={servWebIcon} alt="" className='servNorImg' />
+                                            <Image height={0} width={0} loading="lazy" src={servwebHover} alt="" className='servHoverImg' />
+                                        </span>
+                                        <div className="servContent">
+                                            <h4 className='servHeadline'>{servCardData[0].title}</h4>
+                                            <span className='servText'>{servCardData[0].desc}</span>
+                                            <Link href='/services/web-development'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down" data-aos-duration="800">
-                                    <span className="servImg orangeServ">
-                                        <Image height={0} width={0} loading="lazy"  src={servAppIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy"  src={appHover} alt="" className='servHoverImg' />
-                                    </span>
-                                    <div className="servContent">
-                                        <h4 className='servHeadline'>{servCardData[1].title}</h4>
-                                        <span className='servText'>{servCardData[1].desc}</span>
-                                        <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                <Link href='/services/app-development'>
+                                    <div className="servCard servCardDown" id='orangeCard' data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
+                                        <span className="servImg orangeServ">
+                                            <Image height={0} width={0} loading="lazy" src={servAppIcon} alt="" className='servNorImg' />
+                                            <Image height={0} width={0} loading="lazy" src={appHover} alt="" className='servHoverImg' />
+                                        </span>
+                                        <div className="servContent">
+                                            <h4 className='servHeadline'>{servCardData[1].title}</h4>
+                                            <span className='servText'>{servCardData[1].desc}</span>
+                                            <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className="servCard" id='crimsonCard' data-aos="fade-down" data-aos-duration="800">
-                                    <span className="servImg crimsonServ">
-                                        <Image height={0} width={0} loading="lazy"  src={uiIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy"  src={uiHover} alt="" className='servHoverImg' />
-                                    </span>
-                                    <div className="servContent">
-                                        <h4 className='servHeadline'>{servCardData[2].title}</h4>
-                                        <span className='servText'>{servCardData[2].desc}</span>
-                                        <Link href='/services/ui-ux-design'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                <Link href='/services/ui-ux-design'>
+                                    <div className="servCard" id='crimsonCard' data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
+                                        <span className="servImg crimsonServ">
+                                            <Image height={0} width={0} loading="lazy" src={uiIcon} alt="" className='servNorImg' />
+                                            <Image height={0} width={0} loading="lazy" src={uiHover} alt="" className='servHoverImg' />
+                                        </span>
+                                        <div className="servContent">
+                                            <h4 className='servHeadline'>{servCardData[2].title}</h4>
+                                            <span className='servText'>{servCardData[2].desc}</span>
+                                            <Link href='/services/ui-ux-design'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
-                                <div className="servCard servCardDown" id='greenCard' data-aos="fade-down" data-aos-duration="800">
-                                    <span className="servImg greenServ">
-                                        <Image height={0} width={0} loading="lazy"  src={digitalIcon} alt="" className='servNorImg' />
-                                        <Image height={0} width={0} loading="lazy"  src={digitalHover} alt="" className='servHoverImg' />
-                                    </span>
-                                    <div className="servContent">
-                                        <h4 className='servHeadline'>{servCardData[3].title}</h4>
-                                        <span className='servText'>{servCardData[3].desc}</span>
-                                        <Link href='/services/digital-marketing'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                <Link href='/services/digital-marketing'>
+                                    <div className="servCard servCardDown" id='greenCard' data-aos="fade-down"  data-aos-once="true" data-aos-duration="800">
+                                        <span className="servImg greenServ">
+                                            <Image height={0} width={0} loading="lazy" src={digitalIcon} alt="" className='servNorImg' />
+                                            <Image height={0} width={0} loading="lazy" src={digitalHover} alt="" className='servHoverImg' />
+                                        </span>
+                                        <div className="servContent">
+                                            <h4 className='servHeadline'>{servCardData[3].title}</h4>
+                                            <span className='servText'>{servCardData[3].desc}</span>
+                                            <Link href='/services/digital-marketing'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="servrightDiv">
                                 <h2 className='common_span'>Best <span>  IT Services</span> </h2>
-                                <h3  className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
+                                <h3 className='common_Headlines'> <span>Innovate, Implement, Succeed:</span> Leverage Our IT Services to <span>Turn Ideas</span> into Reality</h3>
 
                                 <p className='firstP common_para'>For skyrocket business growth, the right IT service is more important from building engaging websites and user-friendly apps to crafting stunning designs and boosting your online presence. </p>
 
@@ -505,9 +513,9 @@ const Home = () => {
                                             techCardData.map((ele, index) => {
                                                 return (
                                                     <div className="col-sm-6 col-md-6 col-lg-1" key={index}>
-                                                        <div className="techMainCard" data-aos="slide-left" data-aos-duration="800" key={ele.icon}>
+                                                        <div className="techMainCard" data-aos="slide-left"  data-aos-once="true" data-aos-duration="800" key={ele.icon}>
                                                             <div className="techCard">
-                                                                <Image height={0} width={0} loading="lazy"  src={ele.icon} alt="" className='techIcons' />
+                                                                <Image height={0} width={0} loading="lazy" src={ele.icon} alt="" className='techIcons' />
                                                             </div>
                                                             <span className="colorDot">
                                                                 <span className='darkDot'></span>

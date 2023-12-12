@@ -791,6 +791,18 @@ img {
     gap: 30px;
 }
 
+#solutions .productsCardsWrapper .mobilePro .mobProContent .hoverArrSpan{
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+@media screen and (max-width: 470px) {
+    #solutions .productsCardsWrapper .mobilePro .mobProContent .hoverArrSpan{
+        padding: 3px 10px;
+        }
+}
+
 #solutions .productsCardsWrapper .mobilePro .mobProContent .mobProIcon {
     padding: 16px;
     background: var(--primary-color);
@@ -936,6 +948,10 @@ img {
 #services .serviesWrapper .servleftDiv .servContent {
     display: flex;
     flex-direction: column;
+}
+
+#services .serviesWrapper .servleftDiv .servContent .hoverArrSpan{
+    color: var(--primary-color);
 }
 
 #services .serviesWrapper .servleftDiv .servImg {
@@ -2302,6 +2318,7 @@ footer .footerContainer .flinks {
     position: absolute;
     bottom: -58px;
     left: 210px;
+    width: 164px;
 }
 
 #knowMore .knowMoreLeftDiv .dotsPattern,
@@ -2361,6 +2378,7 @@ footer .footerContainer .flinks {
     left: 122px;
     bottom: -50px;
     transform: rotate(180deg);
+    width: 164px;
 }
 
 #vision .visionRightDiv .dotsPattern2,
@@ -2670,14 +2688,16 @@ footer .footerContainer .flinks {
 
 #knowMore .knowMoreLeftDiv .dotsPattern,
 #mission .missionLeftDiv .dotsPattern {
-    animation: knowMoreDotts 3s ease-in-out 1s infinite alternate-reverse forwards;
+    animation: knowMoreDotts 5s ease-in-out 1s infinite alternate-reverse forwards;
     transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 28px;
 }
 
 #vision .visionRightDiv .dotsPattern2,
 #values .valuesRightDiv .dotsPattern2 {
-    animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
-    transition: top 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation: visionDotts 5s ease-in-out 1s infinite alternate-reverse forwards;
+    transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 28px;
 }
 
 @keyframes knowMoreDotts {
@@ -2690,7 +2710,7 @@ footer .footerContainer .flinks {
     }
 
     100% {
-        top: 16%;
+        top: 12%;
     }
 
 
@@ -2698,7 +2718,7 @@ footer .footerContainer .flinks {
 
 @keyframes visionDotts {
     0% {
-        top: 34%;
+        top: 24%;
     }
 
     50% {
@@ -2706,7 +2726,7 @@ footer .footerContainer .flinks {
     }
 
     100% {
-        top: 38%;
+        top: 24%;
     }
 
 }
@@ -3220,6 +3240,7 @@ footer .footerContainer .flinks {
     padding-top: 55px;
     cursor: pointer;
     transition: all 0.3s;
+    cursor: default;
 }
 
 #contactUs .contactCards .card:hover {
@@ -3236,9 +3257,14 @@ footer .footerContainer .flinks {
 #contactUs .contactCards .contactCardSpan {
     background-color: var(--primary-color);
     width: 70px;
-    line-height: 70px;
+    line-height: 64px;
     border-radius: 100%;
     text-align: center;
+}
+
+#contactUs .contactCards .card #contactCardIcon {
+    font-size: 40px;
+    color: white;
 }
 
 #contactUs .contactCards .card:hover #contactCardIcon {
@@ -3263,6 +3289,16 @@ footer .footerContainer .flinks {
     font: normal normal 100 16px/28px Montserrat;
     color: #545A68;
     text-align: center;
+}
+
+#contactUs .contactCards .card .card-text a{
+    color: #545A68;
+}
+#contactUs .contactCards .card .card-text a:hover{
+    text-decoration: underline !important;
+}
+#contactUs .contactCards .card:hover .cardLink{
+    color: white;
 }
 
 #contactUs .contactCards .card:hover .contactCardTitle,
@@ -3351,6 +3387,8 @@ footer .footerContainer .flinks {
     margin-top: 100px;
     border: 1px solid #707070b3;
     border-radius: 16px;
+    padding: 0px;
+    overflow: hidden;
 }
 
 /* .contactUs ends  */
@@ -3650,13 +3688,15 @@ footer .footerContainer .flinks {
 }
 
 #wrTeamWork .wrTeamRightDiv .dotsPattern {
+    width: 28px;
     position: absolute;
     top: 30%;
-    left: -70px;
-    animation: visionDotts 6s ease-in-out 1s infinite alternate-reverse forwards;
+    left: -52px;
+    animation: visionDotts 5s ease-in-out 1s infinite alternate-reverse forwards;
 }
 
 #wrTeamWork .trianglePattern2 {
+    width: 164px;
     position: absolute;
     left: 122px;
     bottom: -50px;
@@ -4212,8 +4252,8 @@ footer .footerContainer .flinks {
 }
 
 .benefits .benefitsCards .card .card-img-top {
-    width: 80px;
-    line-height: 80px;
+    width: 74px;
+    line-height: 74px;
     background: #176BF1 0% 0% no-repeat padding-box;
     box-shadow: 0px 8px 26px #176BF15C;
     border-radius: 8px;
@@ -4226,9 +4266,9 @@ footer .footerContainer .flinks {
 }
 
 .benefits .benefitsCards .card .card-title {
-    font: normal normal bold 24px/34px Montserrat;
+    font: normal normal bold 18px/26px Montserrat;
     color: #212121;
-    height: 66px;
+    height: 32px;
 }
 
 .process {

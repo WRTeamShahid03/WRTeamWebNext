@@ -36,7 +36,7 @@ const index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
 
             <div className="knowMoreLeftDiv">
-              <div className="knowMoreImg" data-aos="fade-down-right" data-aos-duration="800">
+              <div className="knowMoreImg" data-aos="fade-down-right"  data-aos-once="true" data-aos-duration="800">
 
                 <Image height={0} width={0} loading="lazy"  src={knowMoreImg} alt="" />
                 <div className="business">
@@ -46,7 +46,7 @@ const index = () => {
                 </div>
               </div>
 
-              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right"  data-aos-once="true" data-aos-duration="800" data-aos-delay="50" />
               <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -98,13 +98,13 @@ const index = () => {
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="visionRightDiv">
 
-                <div className="visionLeftImg" data-aos="fade-down-left" data-aos-duration="800">
+                <div className="visionLeftImg" data-aos="fade-down-left"  data-aos-once="true" data-aos-duration="800">
 
                   <Image height={0} width={0} loading="lazy"  src={ourVision} alt="" className='winnerTeamImg' />
 
                 </div>
 
-                <div data-aos="fade-left" data-aos-duration="800">
+                <div data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
 
                   <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
@@ -124,12 +124,12 @@ const index = () => {
           <div className="col-sm-12 col-md-12 col-lg-6">
 
             <div className="missionLeftDiv">
-              <div className="missionImg" data-aos="fade-down-right" data-aos-duration="800">
+              <div className="missionImg" data-aos="fade-down-right"  data-aos-once="true" data-aos-duration="800">
 
                 <Image height={0} width={0} loading="lazy"  src={ourMission} alt="" />
               </div>
 
-              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right" data-aos-duration="800" data-aos-delay="50" />
+              <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern' data-aos="fade-right"  data-aos-once="true" data-aos-duration="800" data-aos-delay="50" />
               <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern' />
             </div>
 
@@ -178,7 +178,7 @@ const index = () => {
 
 
                 </div>
-                <Link href='/hire-us'><button className="homeCommon_btn" data-aos="fade-up" data-aos-duration="800">Hire Us</button></Link>
+                <Link href='/hire-us'><button className="homeCommon_btn" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">Hire Us</button></Link>
 
               </div>
             </div>
@@ -186,13 +186,13 @@ const index = () => {
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className="valuesRightDiv" >
 
-                <div className="valuesLeftImg" data-aos="fade-down-left" data-aos-duration="800">
+                <div className="valuesLeftImg" data-aos="fade-down-left"  data-aos-once="true" data-aos-duration="800">
 
                   <Image height={0} width={0} loading="lazy"  src={ourValues} alt="" className='winnerTeamImg' />
 
                 </div>
 
-                <div data-aos="fade-left" data-aos-duration="800">
+                <div data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
                   <Image height={0} width={0} loading="lazy"  src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                 </div>
                 <Image height={0} width={0} loading="lazy"  src={dotsPattern} alt="dotsPattern" className='dotsPattern2' />

@@ -179,38 +179,40 @@ const index = () => {
                             {
                                 sortProducts(sortOption).map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-3" key={e.id}>
-                                        <Card>
-                                            <Image height={0} width={0} loading="lazy" alt='product_img' className='webProImg card-img-top' src={e.img} />
-                                            <Card.Body>
-                                                <div className="ratingDiv">
-                                                    <span className='sales'>{e.sales} Sales</span>
-                                                    <span className='rating'> <span>
-                                                        <LiaStarSolid size={20} color='#FFA800' />
-                                                        <LiaStarSolid size={20} color='#FFA800' />
-                                                        <LiaStarSolid size={20} color='#FFA800' />
-                                                        <LiaStarSolid size={20} color='#FFA800' />
-                                                        <BsStarHalf size={18} color='#FFA800' />
-                                                    </span>{e.rating}</span>
-                                                </div>
-                                                {
-                                                    e.title.length > 60 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
-                                                }
-                                                <Card.Text>
-                                                    {e.text}
-                                                </Card.Text>
-                                            </Card.Body>
-                                            <hr />
-                                            <div className="cardFooter">
-                                                <span className='priceDiv'>
-                                                    <span>Price</span>
-                                                    <div className='productPriceWrapper'>
-                                                        <span>{e.price}</span>
-                                                        <span>{e.salePrice}</span>
+                                        <Link href={e.link} target='_blank'>
+                                            <Card>
+                                                <Image height={0} width={0} loading="lazy" alt='product_img' className='webProImg card-img-top' src={e.img} />
+                                                <Card.Body>
+                                                    <div className="ratingDiv">
+                                                        <span className='sales'>{e.sales} Sales</span>
+                                                        <span className='rating'> <span>
+                                                            <LiaStarSolid size={20} color='#FFA800' />
+                                                            <LiaStarSolid size={20} color='#FFA800' />
+                                                            <LiaStarSolid size={20} color='#FFA800' />
+                                                            <LiaStarSolid size={20} color='#FFA800' />
+                                                            <BsStarHalf size={18} color='#FFA800' />
+                                                        </span>{e.rating}</span>
                                                     </div>
-                                                </span>
-                                                <Link href={e.link} target='_blank'> <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span></Link>
-                                            </div>
-                                        </Card>
+                                                    {
+                                                        e.title.length > 60 ? <Card.Title>{e.title.slice(0, 50)}...</Card.Title> : <Card.Title>{e.title}</Card.Title>
+                                                    }
+                                                    <Card.Text>
+                                                        {e.text}
+                                                    </Card.Text>
+                                                </Card.Body>
+                                                <hr />
+                                                <div className="cardFooter">
+                                                    <span className='priceDiv'>
+                                                        <span>Price</span>
+                                                        <div className='productPriceWrapper'>
+                                                            <span>{e.price}</span>
+                                                            <span>{e.salePrice}</span>
+                                                        </div>
+                                                    </span>
+                                                    <span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span>
+                                                </div>
+                                            </Card>
+                                        </Link>
                                     </div>
                                 })
                             }

@@ -172,7 +172,7 @@ const index = () => {
                                 <div className="workList">
                                     {
                                         workListData.map((e) => {
-                                            return <div className="list" key={e.id} data-aos="fade-left" data-aos-duration="800">
+                                            return <div className="list" key={e.id} data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
                                                 <span>{e.srn}</span>
                                                 <span>{e.text}</span>
                                             </div>
@@ -187,13 +187,13 @@ const index = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamRightDiv" >
 
-                                <div className="rightDivImg" data-aos="fade-down-left" data-aos-duration="800">
+                                <div className="rightDivImg" data-aos="fade-down-left"  data-aos-once="true" data-aos-duration="800">
 
                                     <Image height={0} width={0} loading="lazy" src={ourValues} alt="" />
 
                                 </div>
 
-                                <div data-aos="fade-left" data-aos-duration="800">
+                                <div data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
 
                                     <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
@@ -218,7 +218,7 @@ const index = () => {
                             {
                                 jobCardData.map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-4" key={e.id}>
-                                        <div className="card" data-aos="fade-up" data-aos-duration="800">
+                                        <div className="card" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
                                             <div className="cardBody">
                                                 <span className='card-title'>{e.title}</span>
                                                 <span className='card-text'>{e.text}</span>
