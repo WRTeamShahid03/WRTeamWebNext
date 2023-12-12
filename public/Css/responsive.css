@@ -621,6 +621,13 @@
     #contactForm .formDiv {
         padding: 26px 55px;
     }
+    #contactUs .contactCards{
+        gap: 20px 0px;
+    }
+
+    #contactUs .contactCards .col-lg-3{
+        width: 33%;
+    }
 
     #success .hireUpperDiv {
         display: flex;
@@ -1170,6 +1177,17 @@
 
     #contactForm .formDiv {
         padding: 26px 55px;
+    }
+
+    #contactUs .contactCards{
+        gap: 20px 0px;
+    }
+
+    #contactUs .contactCards .col-lg-3{
+        width: 33%;
+    }
+    #contactUs .contactCards .card .card-text {
+        font: normal normal 100 14px/28px Montserrat;
     }
 
     #success .commonHeadlines,
@@ -1889,7 +1907,7 @@
     }
 
     #contactUs .contactCards {
-        gap: 30px;
+        gap: 30px 0px;
     }
 
     #contactForm .blueBg,
@@ -2785,7 +2803,7 @@
     }
 
     #contactUs .contactCards {
-        gap: 30px;
+        gap: 30px 0px;
     }
 
     #contactForm .blueBg,

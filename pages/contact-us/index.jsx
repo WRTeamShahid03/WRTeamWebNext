@@ -6,8 +6,8 @@ import call from '../../src/Asset/Icons/phone.svg'
 import contactBg from '../../src/Asset/Images/contactFormBg.png'
 import socialBg from '../../src/Asset/Images/Social_BG.png'
 import companyLogo from '../../src/Asset/navLogo.svg'
-import { BsFacebook, BsLinkedin, BsPinterest } from 'react-icons/bs'
-import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
+import { BsFacebook, BsLinkedin } from 'react-icons/bs'
+import { AiFillInstagram } from 'react-icons/ai'
 import Link from 'next/link'
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast'
@@ -15,11 +15,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
-import { FaInstagram, FaYoutube } from 'react-icons/fa6'
-import { PiYoutubeLogoFill } from 'react-icons/pi'
+import { FaYoutube } from 'react-icons/fa6'
 import { GrLocation } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import whatsappQR from '../../src/Asset/Images/whatsappQR.png'
 
 const index = () => {
 
@@ -100,11 +100,10 @@ const index = () => {
                 <div className="row contactCards">
                     {
                         cardData.map((e) => {
-                            return <div className="col-sm-12 col-md-12 col-lg-4" key={e.id}>
+                            return <div className="col-sm-6 col-md-6 col-lg-3" key={e.id}>
 
                                 <div className="card">
                                     <span className='contactCardSpan'>
-                                        {/* <Image height={0} width={0} loading="lazy" className="card-img-top" src={e.img} alt="Card image cap" id='contactCardIcon' />  */}
                                         <span id='contactCardIcon' > {e.img}</span>
                                     </span>
                                     <div className="card-body ">
@@ -123,7 +122,17 @@ const index = () => {
                             </div>
                         })
                     }
-
+                    <div className="col-sm-6 col-md-6 col-lg-3">
+                        <div className="card">
+                            <span className='contactQR'>
+                                <Image height={0} width={0} loading="lazy" className="card-img-top" src={whatsappQR} alt="Card image cap" id='whatsAppQR' />
+                                {/* <span id='contactCardIcon' > {cardData[2].img}</span> */}
+                            </span>
+                            <div className="card-body ">
+                                <h5 className="card-title contactCardTitle">Quick Scan To Whatsapp</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 

@@ -19,6 +19,10 @@ img {
     height: auto;
 }
 
+.df-content-topbar .df-brand-img img{
+    height: 100% !important;
+}
+
 @media only screen and (min-width: 1660px) {
     .container {
         /* max-width: 1638px !important; */
@@ -3272,7 +3276,7 @@ footer .footerContainer .flinks {
 }
 
 #contactUs .contactCards .card .card-img-top {
-    width: 35px;
+    width: 150px;
 }
 
 #contactUs .contactCards .card .card-title {
