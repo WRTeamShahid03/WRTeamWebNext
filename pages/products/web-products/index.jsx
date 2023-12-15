@@ -2,14 +2,23 @@ import Breadcrum from '@/Components/Breadcrum'
 import React, { useState } from 'react'
 import Card from 'react-bootstrap/Card';
 import egrocer from '../../../src/Asset/Images/web-products/eGrocer_web.png'
+import egrocerSale from '../../../src/Asset/Images/Web/eGrocerSaleImg.jpg'
 import elite from '../../../src/Asset/Images/web-products/eLite_Quiz_web.png'
+import eliteSale from '../../../src/Asset/Images/Web/EliteQuizwebSaleImg.jpg'
 import ecart from '../../../src/Asset/Images/web-products/eCart_Web.png'
 import news from '../../../src/Asset/Images/web-products/News-Web.png'
 import eshop from '../../../src/Asset/Images/web-products/eShop_web.png'
+import eshopSale from '../../../src/Asset/Images/Web/eShopWebMultiSaleImg.jpg'
 import ecartSingle from '../../../src/Asset/Images/web-products/eCart_Web_Single.png'
 import eshopMulti from '../../../src/Asset/Images/web-products/eShop_Multi_Web.png'
 import erestro from '../../../src/Asset/Images/web-products/eRestro_Web.png'
 import espeech from '../../../src/Asset/Images/web-products/eSpeech_web.png'
+import ebrokerWeb from '../../../src/Asset/Images/eBroker_Web.png'
+import eDemandWeb from '../../../src/Asset/Images/eDemand_Web.png'
+
+
+
+
 import { LiaStarSolid } from 'react-icons/lia';
 import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
@@ -30,7 +39,7 @@ const index = () => {
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace...',
             text: 'PHP,React JS',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/DK0gQn',
             popularity: '3'
         },
@@ -42,7 +51,7 @@ const index = () => {
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Web Version',
             text: 'Codeigniter, React JS',
             price: '$19',
-            salePrice: '',
+            salePrice: '$9',
             link: 'https://1.envato.market/LXaGzo',
             popularity: '4'
         },
@@ -54,7 +63,7 @@ const index = () => {
             title: 'eCart Web - Multi Vendor eCommerce Marketplace',
             text: 'PHP, Laravel',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/VyNrvR',
             popularity: '7'
         },
@@ -66,7 +75,7 @@ const index = () => {
             title: 'News Web - News Website with Admin panel',
             text: 'React JS',
             price: '$39',
-            salePrice: '',
+            salePrice: '$19',
             link: 'https://1.envato.market/rQ4323',
             popularity: '5'
         },
@@ -78,7 +87,7 @@ const index = () => {
             title: 'eShop Web- eCommerce Single Vendor Website | eCommerce...',
             text: 'PHP, Codeigniter',
             price: '$39',
-            salePrice: '',
+            salePrice: '$19',
             link: 'https://1.envato.market/QyPrb3',
             popularity: '6'
         },
@@ -102,7 +111,7 @@ const index = () => {
             title: 'eShop Web - Multi Vendor eCommerce Marketplace / CMS',
             text: 'PHP, CodeIgniter',
             price: '$49',
-            salePrice: '',
+            salePrice: '$24',
             link: 'https://1.envato.market/LXEb9L',
             popularity: '9'
         },
@@ -114,7 +123,7 @@ const index = () => {
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
             text: 'React JS',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/0ZB6XE',
             popularity: '10'
         },
@@ -128,6 +137,30 @@ const index = () => {
             price: '$29',
             salePrice: '',
             link: 'https://1.envato.market/B0Y3kx',
+            popularity: '11'
+        },
+        {
+            id: 9,
+            img: ebrokerWeb,
+            sales: '274',
+            rating: '(4.7)',
+            title: 'eBroker - Real Estate Property Buy-Rent-Sell Web Version',
+            text: 'NextJs, Laravel',
+            price: '$59',
+            salePrice: '$29',
+            link: 'https://1.envato.market/oqe11O',
+            popularity: '11'
+        },
+        {
+            id: 10,
+            img: eDemandWeb,
+            sales: '198',
+            rating: '(4.8)',
+            title: 'eDemand-Multi Vendor Web Version',
+            text: 'PHP, CodeIgniter',
+            price: '$59',
+            salePrice: '$29',
+            link: 'https://1.envato.market/KjKLxn',
             popularity: '11'
         },
     ]

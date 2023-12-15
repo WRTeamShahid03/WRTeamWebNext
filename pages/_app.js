@@ -9,7 +9,7 @@ import Footer from '@/Components/Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Toaster } from 'react-hot-toast'
-// import TopHeader from '@/Components/TopHeader'
+import TopHeader from '@/Components/TopHeader'
 // import { settingsData, settingsLoaded } from "@/store/reducer/settingsSlice";
 // import { Provider } from 'react-redux'
 // import { persistor, store } from '@/store/store'
@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps, data }) {
             </Head>
 
 
-            {/* <TopHeader /> */}
+            <TopHeader />
             <Header />
 
             <Component {...pageProps} data={data} />

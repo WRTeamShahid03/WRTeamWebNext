@@ -28,7 +28,7 @@ import quiz from '../../../src/Asset/Images/app-products/20_Quiz Online (iOS).jp
 import quizAndroid from '../../../src/Asset/Images/app-products/21_Quiz Online (Android).jpg'
 import ecartApp from '../../../src/Asset/Images/app-products/22_eCart App Single.jpg'
 import quotes from '../../../src/Asset/Images/app-products/23_Quotes app.jpg'
-import eschoolSas from '../../../src/Asset/Images/eSchoolSaasDiscount.jpg'
+import eschoolSas from '../../../src/Asset/Images/eSchoolSaas.jpg'
 import erestroSingleVendr from '../../../src/Asset/Images/erestroSingleVendr.jpg'
 
 import Head from 'next/head';
@@ -308,12 +308,12 @@ const Index = () => {
         {
             id: 22,
             img: eschoolSas,
-            sales: '16',
+            sales: '21',
             rating: '(0)',
             title: 'eSchool SaaS - School Management System with Stu',
             text: 'Flutter',
             price: '$99',
-            salePrice: '$49',
+            salePrice: '',
             link: 'https://1.envato.market/9gqdRe',
             popularity: '3'
         },
@@ -412,12 +412,7 @@ const Index = () => {
                                                     <span className='priceDiv'>
                                                         <span>Price</span>
                                                         <div className='productPriceWrapper'>
-                                                            {
-                                                                e.id === 22 ?
-                                                                    <span style={{ textDecoration: 'line-through !important' }}>{e.price}</span> :
-                                                                    <span>{e.price}</span>
-                                                            }
-                                                            {/* <span>{e.price}</span> */}
+                                                            <span>{e.price}</span>
                                                             <span>{e.salePrice}</span>
                                                         </div>
                                                     </span><span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span>
