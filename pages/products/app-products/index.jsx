@@ -6,23 +6,36 @@ import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
 import Link from 'next/link';
 import ebroker from '../../../src/Asset/Images/app-products/01_eBroker app.jpg'
+import ebrokerSale from '../../../src/Asset/Images/App/ebrokerSale.jpg'
 import edemand from '../../../src/Asset/Images/app-products/02_eDemand app.jpg'
+import edemandSale from '../../../src/Asset/Images/App/eDemandSale.jpg'
 import egrocer from '../../../src/Asset/Images/app-products/03_eGrocer app.jpg'
+import egrocerSale from '../../../src/Asset/Images/App/egrocerSale.jpg'
 import eschool from '../../../src/Asset/Images/app-products/04_eSchool app.jpg'
+import eschoolSale from '../../../src/Asset/Images/App/eSchoolSale.jpg'
 import erestro from '../../../src/Asset/Images/app-products/05-eRestro App.jpg'
+import erestroSale from '../../../src/Asset/Images/App/eRestroSale.jpg'
 import espeech from '../../../src/Asset/Images/app-products/06_eSpeech App.jpg'
 import primeWeb from '../../../src/Asset/Images/app-products/07-Prime Web.jpg'
+import primeWebSale from '../../../src/Asset/Images/App/primewebSale.jpg'
 import eshop from '../../../src/Asset/Images/app-products/08_eShop multi app.jpg'
+import eshopSale from '../../../src/Asset/Images/App/eShop MultivendorSale.jpg'
 import smartKit from '../../../src/Asset/Images/app-products/09_SmartKit Pro App.jpg'
+import smartKitSale from '../../../src/Asset/Images/App/smartKitSale.jpg'
 import ticTac from '../../../src/Asset/Images/app-products/10_Tic Tac Toe app.jpg'
 import elite from '../../../src/Asset/Images/app-products/11_Elite Quiz App.jpg'
+import eliteSale from '../../../src/Asset/Images/App/eliteQuizSale.jpg'
 import qearner from '../../../src/Asset/Images/app-products/12_Qearner app.jpg'
 import ebook from '../../../src/Asset/Images/app-products/13_eBook app.jpg'
 import news from '../../../src/Asset/Images/app-products/14_News App.jpg'
+import newsSale from '../../../src/Asset/Images/App/newsSale.jpg'
 import ecart from '../../../src/Asset/Images/app-products/15_eCart App Multi.jpg'
 import eshopSingle from '../../../src/Asset/Images/app-products/16_eShop_Single-admin_Store.jpg'
+import eShopSingleSale from '../../../src/Asset/Images/App/eShopManagerSale.jpg'
+
 import ecartSingle from '../../../src/Asset/Images/app-products/17_eCart admin(single).jpg'
 import eshopSingleApp from '../../../src/Asset/Images/app-products/18_eShop App single.jpg'
+import eshopSingleAppSale from '../../../src/Asset/Images/App/eShopAppSale.jpg'
 import radioApp from '../../../src/Asset/Images/app-products/19_Radio Online app.jpg'
 import quiz from '../../../src/Asset/Images/app-products/20_Quiz Online (iOS).jpg'
 import quizAndroid from '../../../src/Asset/Images/app-products/21_Quiz Online (Android).jpg'
@@ -30,6 +43,7 @@ import ecartApp from '../../../src/Asset/Images/app-products/22_eCart App Single
 import quotes from '../../../src/Asset/Images/app-products/23_Quotes app.jpg'
 import eschoolSas from '../../../src/Asset/Images/eSchoolSaas.jpg'
 import erestroSingleVendr from '../../../src/Asset/Images/erestroSingleVendr.jpg'
+import erestroSingleVendrSale from '../../../src/Asset/Images/App/eRestroSingleSale.jpg'
 
 import Head from 'next/head';
 import Image from 'next/image';
@@ -42,62 +56,67 @@ const Index = () => {
     const cardData = [
         {
             id: 0,
-            img: ebroker,
+            // img: ebroker,
+            img: ebrokerSale,
             sales: '267',
             rating: '(4.9)',
             title: 'eBroker - Real Estate Property Buy-Rent-Sell Flutter app with Laravel Admin Panel',
             text: 'Flutter,Laravel,Codeigniter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/oqe11O',
             popularity: '2'
         },
         {
             id: 1,
-            img: edemand,
+            // img: edemand,
+            img: edemandSale,
             sales: '195',
             rating: '(4.8)',
             title: 'eDemand-Multi Vendor On Demand Handy Services, Handyman with Flutter App | Admin panel',
             text: 'Codeigniter,Flutter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
 
             link: 'https://1.envato.market/KjKLxn',
             popularity: '5'
         },
         {
             id: 2,
-            img: egrocer,
+            // img: egrocer,
+            img: egrocerSale,
             sales: '212',
             rating: '(4.9)',
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace Flutter Full App with Admin Panel',
             text: 'Flutter,Codeigniter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/DK0gQn',
             popularity: '4'
         },
         {
             id: 3,
-            img: eschool,
+            // img: eschool,
+            img: eschoolSale,
             sales: '277',
             rating: '(4.9)',
             title: 'eSchool - School Management System with Student | Parents | Teacher Flutter App | Laravel Admin',
             text: 'Flutter,Laravel',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/babzGx',
             popularity: '7'
         },
         {
             id: 4,
-            img: erestro,
+            // img: erestro,
+            img: erestroSale,
             sales: '158',
             rating: '(4.6)',
             title: 'eRestro - Multi Restaurant Flutter App | Food Ordering App with Admin Panel & Restaurant Panel',
             text: 'Flutter,Codeigniter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/QyPrNA',
             popularity: '11'
         },
@@ -115,37 +134,40 @@ const Index = () => {
         },
         {
             id: 6,
-            img: primeWeb,
+            // img: primeWeb,
+            img: primeWebSale,
             sales: '1053',
             rating: '(4.6)',
             title: 'Prime Web - Convert Website to a Flutter App | Web View App | Web to App',
             text: 'Flutter',
             price: '$19',
-            salePrice: '',
+            salePrice: '$9',
             link: 'https://1.envato.market/y2g3m2',
             popularity: '8'
         },
         {
             id: 7,
-            img: eshop,
+            // img: eshop,
+            img: eshopSale,
             sales: '936',
             rating: '(4.9)',
             title: 'eShop-Multi Vendor eCommerce App & eCommerce Vendor Marketplace Flutter App',
             text: 'Flutter,CodeIgniter',
             price: '$69',
-            salePrice: '',
+            salePrice: '$34',
             link: 'https://1.envato.market/R5PjZN',
             popularity: '7'
         },
         {
             id: 8,
-            img: smartKit,
+            // img: smartKit,
+            img: smartKitSale,
             sales: '402',
             rating: '(4.2)',
             title: 'SmartKit Pro - Flutter Biggest UI Kit | Flutter 3.0 UI kit | Ready to Use',
             text: 'Flutter',
             price: '$29',
-            salePrice: '',
+            salePrice: '$14',
             link: 'https://1.envato.market/KjKLZx',
             popularity: '21'
         },
@@ -163,13 +185,14 @@ const Index = () => {
         },
         {
             id: 10,
-            img: elite,
+            // img: elite,
+            img: eliteSale,
             sales: '1259',
             rating: '(4.7)',
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Flutter Full App + Admin Panel',
             text: 'Flutter,CodeIgniter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/6eWKYN',
             popularity: '1'
         },
@@ -199,13 +222,14 @@ const Index = () => {
         },
         {
             id: 13,
-            img: news,
+            // img: news,
+            img: newsSale,
             sales: '633',
             rating: '(4.9)',
             title: 'News App and Web -Flutter News App for Android and IOS App | News Website with Admin panel',
             text: 'Flutter',
             price: '$39',
-            salePrice: '',
+            salePrice: '$19',
             link: 'https://1.envato.market/rQ4323',
             popularity: '9'
         },
@@ -223,25 +247,27 @@ const Index = () => {
         },
         {
             id: 15,
-            img: eshopSingle,
+            // img: eshopSingle,
+            img: eShopSingleSale,
             sales: '146',
             rating: '(5.0)',
             title: 'eShop - Ecommerce Admin / Store Manager app',
             text: 'Flutter',
             price: '$19',
-            salePrice: '',
+            salePrice: '$9',
             link: 'https://1.envato.market/21kqdQ',
             popularity: '13'
         },
         {
             id: 16,
-            img: eshopSingleApp,
+            // img: eshopSingleApp,
+            img: eshopSingleAppSale,
             sales: '716',
             rating: '(4.9)',
             title: 'eShop- eCommerce Single Vendor App | Shopping eCommerce App with Flutter',
             text: 'Flutter,CodeIgniter',
             price: '$49',
-            salePrice: '',
+            salePrice: '$24',
             link: 'https://1.envato.market/VmaeNE',
             popularity: '12'
         },
@@ -319,13 +345,14 @@ const Index = () => {
         },
         {
             id: 23,
-            img: erestroSingleVendr,
+            // img: erestroSingleVendr,
+            img: erestroSingleVendrSale,
             sales: '39',
             rating: '(5.0)',
             title: 'eRestro - Single Vendor Restaurant Flutter App | Food Ordering App with Admin Panel',
             text: 'Flutter',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/3eRoDA',
             popularity: '6'
         },

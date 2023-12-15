@@ -7,17 +7,17 @@ import elite from '../../../src/Asset/Images/web-products/eLite_Quiz_web.png'
 import eliteSale from '../../../src/Asset/Images/Web/EliteQuizwebSaleImg.jpg'
 import ecart from '../../../src/Asset/Images/web-products/eCart_Web.png'
 import news from '../../../src/Asset/Images/web-products/News-Web.png'
+import newsSale from '../../../src/Asset/Images/Web/NewsWebSaleImg.jpg'
 import eshop from '../../../src/Asset/Images/web-products/eShop_web.png'
-import eshopSale from '../../../src/Asset/Images/Web/eShopWebMultiSaleImg.jpg'
+import eshopSale from '../../../src/Asset/Images/Web/eShopWebSingleSaleImg.jpg'
 import ecartSingle from '../../../src/Asset/Images/web-products/eCart_Web_Single.png'
 import eshopMulti from '../../../src/Asset/Images/web-products/eShop_Multi_Web.png'
+import eshopMultiSale from '../../../src/Asset/Images/Web/eShopWebMultiSaleImg.jpg'
 import erestro from '../../../src/Asset/Images/web-products/eRestro_Web.png'
+import erestroSale from '../../../src/Asset/Images/Web/eRestroWebSaleImg.jpg'
 import espeech from '../../../src/Asset/Images/web-products/eSpeech_web.png'
 import ebrokerWeb from '../../../src/Asset/Images/eBroker_Web.png'
 import eDemandWeb from '../../../src/Asset/Images/eDemand_Web.png'
-
-
-
 
 import { LiaStarSolid } from 'react-icons/lia';
 import { BsStarHalf } from 'react-icons/bs';
@@ -33,7 +33,8 @@ const index = () => {
     const cardData = [
         {
             id: 0,
-            img: egrocer,
+            // img: egrocer,
+            img: egrocerSale,
             sales: '212',
             rating: '(4.8)',
             title: 'eGrocer - Online Multi Vendor Grocery Store, eCommerce Marketplace...',
@@ -45,7 +46,8 @@ const index = () => {
         },
         {
             id: 1,
-            img: elite,
+            // img: elite,
+            img: eliteSale,
             sales: '460',
             rating: '(4.8)',
             title: 'Elite Quiz - Trivia Quiz | Quiz Game - Web Version',
@@ -69,7 +71,8 @@ const index = () => {
         },
         {
             id: 3,
-            img: news,
+            // img: news,
+            img: newsSale,
             sales: '633',
             rating: '(4.9)',
             title: 'News Web - News Website with Admin panel',
@@ -81,7 +84,8 @@ const index = () => {
         },
         {
             id: 4,
-            img: eshop,
+            // img: eshop,
+            img: eshopSale,
             sales: '590',
             rating: '(4.8)',
             title: 'eShop Web- eCommerce Single Vendor Website | eCommerce...',
@@ -105,7 +109,8 @@ const index = () => {
         },
         {
             id: 6,
-            img: eshopMulti,
+            // img: eshopMulti,
+            img: eshopMultiSale,
             sales: '524',
             rating: '(4.8)',
             title: 'eShop Web - Multi Vendor eCommerce Marketplace / CMS',
@@ -117,7 +122,8 @@ const index = () => {
         },
         {
             id: 7,
-            img: erestro,
+            // img: erestro,
+            img: erestroSale,
             sales: '53',
             rating: '(4.6)',
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
