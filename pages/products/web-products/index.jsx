@@ -244,7 +244,12 @@ const index = () => {
                                                     <span className='priceDiv'>
                                                         <span>Price</span>
                                                         <div className='productPriceWrapper'>
-                                                            <span>{e.price}</span>
+                                                            {
+                                                                e.salePrice === ''?
+                                                                <span>{e.price}</span>:
+                                                                <span style={{ textDecorationLine: 'line-through' }}>{e.price}</span>
+                                                            }
+                                                            {/* <span>{e.price}</span> */}
                                                             <span>{e.salePrice}</span>
                                                         </div>
                                                     </span>

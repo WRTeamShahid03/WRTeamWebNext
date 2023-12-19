@@ -10,7 +10,7 @@ import ebrokerSale from '../../../src/Asset/Images/App/ebrokerSale.jpg'
 import edemand from '../../../src/Asset/Images/app-products/02_eDemand app.jpg'
 import edemandSale from '../../../src/Asset/Images/App/eDemandSale.jpg'
 import egrocer from '../../../src/Asset/Images/app-products/03_eGrocer app.jpg'
-import egrocerSale from '../../../src/Asset/Images/App/egrocerSale.jpg'
+import egrocerSale from '../../../src/Asset/Images/App/eGrocerSale.jpg'
 import eschool from '../../../src/Asset/Images/app-products/04_eSchool app.jpg'
 import eschoolSale from '../../../src/Asset/Images/App/eSchoolSale.jpg'
 import erestro from '../../../src/Asset/Images/app-products/05-eRestro App.jpg'
@@ -303,7 +303,7 @@ const Index = () => {
             title: 'Quiz Online | Trivia Quiz | Android Quiz Game + Admin Panel',
             text: 'Php',
             price: '$59',
-            salePrice: '',
+            salePrice: '$29',
             link: 'https://1.envato.market/NkBVLV',
             popularity: '16'
         },
@@ -439,7 +439,11 @@ const Index = () => {
                                                     <span className='priceDiv'>
                                                         <span>Price</span>
                                                         <div className='productPriceWrapper'>
-                                                            <span>{e.price}</span>
+                                                            {
+                                                                e.salePrice === '' ?
+                                                                    <span>{e.price}</span> :
+                                                                    <span style={{ textDecorationLine: 'line-through' }}>{e.price}</span>
+                                                            }
                                                             <span>{e.salePrice}</span>
                                                         </div>
                                                     </span><span className='buyBtn'> <span><RiShoppingCartFill /></span>Buy</span>
