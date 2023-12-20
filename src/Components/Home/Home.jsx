@@ -409,7 +409,7 @@ const Home = () => {
                                         <div className="servContent">
                                             <h4 className='servHeadline'>{servCardData[0].title}</h4>
                                             <span className='servText'>{servCardData[0].desc}</span>
-                                            <Link href='/services/web-development'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                            <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
                                         </div>
                                     </div>
                                 </Link>
@@ -423,7 +423,7 @@ const Home = () => {
                                         <div className="servContent">
                                             <h4 className='servHeadline'>{servCardData[1].title}</h4>
                                             <span className='servText'>{servCardData[1].desc}</span>
-                                            <Link href='/services/app-development'> <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                             <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
                                         </div>
                                     </div>
                                 </Link>
@@ -437,7 +437,7 @@ const Home = () => {
                                         <div className="servContent">
                                             <h4 className='servHeadline'>{servCardData[2].title}</h4>
                                             <span className='servText'>{servCardData[2].desc}</span>
-                                            <Link href='/services/ui-ux-design'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                            <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
                                         </div>
                                     </div>
                                 </Link>
@@ -451,7 +451,7 @@ const Home = () => {
                                         <div className="servContent">
                                             <h4 className='servHeadline'>{servCardData[3].title}</h4>
                                             <span className='servText'>{servCardData[3].desc}</span>
-                                            <Link href='/services/digital-marketing'><span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span></Link>
+                                            <span className='hoverArrSpan'>Discover More < BsArrowRightCircle className='discRightArr' /></span>
                                         </div>
                                     </div>
                                 </Link>
