@@ -73,7 +73,7 @@ const ContactUs = () => {
             img: <FiMail />,
             title: "Email Address",
             desc1: "support@wrteam.in",
-            desc2: "sales@wrteam.in",
+            desc2: "",
             link1: 'mailto:support@wrteam.in',
             link2: 'mailto:sales@wrteam.in'
         },
@@ -82,7 +82,7 @@ const ContactUs = () => {
             img: <RiCustomerService2Fill />,
             title: "Phone Number",
             desc1: "+91 97979 45459",
-            desc2: "+91 97124 45459",
+            desc2: "",
             link1: 'tel:+91 97979 45459',
             link2: 'tel:+91 97124 45459'
         },

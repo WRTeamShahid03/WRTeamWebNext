@@ -106,7 +106,7 @@ const Footer = () => {
 
                         <div className="flinks">
                            <span className="footerArrow"> < BsArrowRightCircle size={18} /></span>
-                           <Link href='/servicesdigital-marketing'> <span className="footerLinks"> Digital Marketing Service</span></Link>
+                           <Link href='/services/digital-marketing'> <span className="footerLinks"> Digital Marketing Service</span></Link>
                         </div>
                      </div>
 

@@ -1,5 +1,5 @@
 import Breadcrum from '@/Components/Breadcrum'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from 'react-bootstrap/Card';
 import egrocer from '../../../src/Asset/Images/web-products/eGrocer_web.png'
 import egrocerSale from '../../../src/Asset/Images/Web/eGrocerSaleImg.jpg'
@@ -24,9 +24,29 @@ import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/image';
+import { GetProductsApi } from '@/redux/actions/campaign';
+import { toast } from 'react-hot-toast';
+import { error } from 'jquery';
+
 
 
 const WebProducts = () => {
+
+    // const [productsData, setProductsData] = useState([])
+
+    useEffect(() => {
+
+        GetProductsApi(
+            (response) => {
+                console.log(response.data.data, "ProductsResponse")
+            },
+            (error)=>{
+                console.log(error)
+            }
+
+        )
+
+    }, [])
 
     const [sortOption, setSortOption] = useState('mostpopular');
 
@@ -173,14 +193,40 @@ const WebProducts = () => {
 
 
     // Function to handle sorting based on the selected option
+    // const sortProducts = (option) => {
+    //     if (option === 'lowToHigh') {
+    //         return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
+    //     } else if (option === 'highToLow') {
+    //         return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
+    //     } else if (option === 'mostpopular') {
+    //         return cardData.slice().sort((a, b) => parseInt(a.popularity, 10) - parseInt(b.popularity, 10));
+    //     }
+    // };
+
     const sortProducts = (option) => {
-        if (option === 'lowToHigh') {
-            return cardData.slice().sort((a, b) => parseFloat(a.price.slice(1)) - parseFloat(b.price.slice(1)));
-        } else if (option === 'highToLow') {
-            return cardData.slice().sort((a, b) => parseFloat(b.price.slice(1)) - parseFloat(a.price.slice(1)));
-        } else if (option === 'mostpopular') {
-            return cardData.slice().sort((a, b) => parseInt(a.popularity, 10) - parseInt(b.popularity, 10));
-        }
+        const sortedData = cardData.slice().sort((a, b) => {
+            const aPrice = parseFloat(a.price.slice(1));
+            const bPrice = parseFloat(b.price.slice(1));
+            const aSalePrice = parseFloat(a.salePrice.slice(1));
+            const bSalePrice = parseFloat(b.salePrice.slice(1));
+
+            switch (option) {
+                case 'lowToHigh':
+                    return (a.salePrice !== '' ? aSalePrice : aPrice) - (b.salePrice !== '' ? bSalePrice : bPrice);
+                case 'highToLow':
+                    return (b.salePrice !== '' ? bSalePrice : bPrice) - (a.salePrice !== '' ? aSalePrice : aPrice);
+                case 'mostpopular':
+                    return parseInt(a.popularity, 10) - parseInt(b.popularity, 10);
+                default:
+                    return 0;
+            }
+        });
+
+        // Move items with salePrice to the beginning
+        const itemsWithSalePrice = sortedData.filter((item) => item.salePrice !== '');
+        const itemsWithoutSalePrice = sortedData.filter((item) => item.salePrice === '');
+
+        return [...itemsWithSalePrice, ...itemsWithoutSalePrice];
     };
 
     // Function to handle select change event
@@ -245,9 +291,9 @@ const WebProducts = () => {
                                                         <span>Price</span>
                                                         <div className='productPriceWrapper'>
                                                             {
-                                                                e.salePrice === ''?
-                                                                <span>{e.price}</span>:
-                                                                <span style={{ textDecorationLine: 'line-through' }}>{e.price}</span>
+                                                                e.salePrice === '' ?
+                                                                    <span>{e.price}</span> :
+                                                                    <span style={{ textDecorationLine: 'line-through' }}>{e.price}</span>
                                                             }
                                                             {/* <span>{e.price}</span> */}
                                                             <span>{e.salePrice}</span>

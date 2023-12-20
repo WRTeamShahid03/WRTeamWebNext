@@ -25,6 +25,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { hireUsApi } from '@/redux/actions/campaign';
 
 const HireUs = () => {
 
@@ -102,13 +103,21 @@ const HireUs = () => {
             toast.error('Fill out the form first')
         }
         else {
-            console.log(form.current);
-            emailjs.sendForm('service_f0zhqhh', 'template_zxke4jz', form.current, 'RITTN3aEr8VNyLQdN')
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });
+            hireUsApi({
+                name: name,
+                email: email,
+                budget: budget,
+                phone: number,
+                message: message,
+                onSuccess: (res) => {
+                    console.log(res)
+                },
+                onError: (error) => {
+                    console.log(error)
+                }
+            }
+
+            )
             toast.success('Submited Successfully !')
             setName('')
             setNumber('')
@@ -118,6 +127,28 @@ const HireUs = () => {
         }
 
     };
+    // const sendEmail = (e) => {
+
+    //     e.preventDefault();
+    //     if (!name || !number || !email || !budget || !message) {
+    //         toast.error('Fill out the form first')
+    //     }
+    //     else {
+    //         emailjs.sendForm('service_f0zhqhh', 'template_zxke4jz', form.current, 'RITTN3aEr8VNyLQdN')
+    //             .then((result) => {
+    //                 console.log(result.text);
+    //             }, (error) => {
+    //                 console.log(error.text);
+    //             });
+    //         toast.success('Submited Successfully !')
+    //         setName('')
+    //         setNumber('')
+    //         setEmail('')
+    //         setBudget('')
+    //         setMessage('')
+    //     }
+
+    // };
 
 
     return (
