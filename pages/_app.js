@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useEffect, useState } from 'react'
 import "../public/Css/style.css"
 import "../public/Css/responsive.css"
@@ -10,12 +11,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Toaster } from 'react-hot-toast'
 import TopHeader from '@/Components/TopHeader'
-// import { settingsData, settingsLoaded } from "@/store/reducer/settingsSlice";
-// import { Provider } from 'react-redux'
-// import { persistor, store } from '@/store/store'
-// import { PersistGate } from 'redux-persist/integration/react'
-
-
 
 function MyApp({ Component, pageProps, data }) {
 
@@ -52,6 +47,7 @@ function MyApp({ Component, pageProps, data }) {
             <Header />
 
             <Component {...pageProps} data={data} />
+
 
             <Footer />
 
