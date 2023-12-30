@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { BiRightArrowAlt, BiLeftArrowAlt } from 'react-icons/bi';
 import { LiaStarSolid } from 'react-icons/lia';
 
@@ -16,6 +16,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
 import dobleQuotes from '../../src/Asset/Icons/double-quotes-l.svg'
 import Image from 'next/image';
+
 
 const Testimonials = () => {
 
@@ -147,7 +148,7 @@ const Testimonials = () => {
                                     <div className="card swiperCard">
                                         <div className="card-header">
                                             <span className="testiImg">
-                                                <Image height={0} width={0} loading="lazy"  src={dobleQuotes} alt="" />
+                                                <Image height={0} width={0} loading="lazy" src={dobleQuotes} alt="" />
                                             </span>
                                         </div>
                                         <div className="card-body">

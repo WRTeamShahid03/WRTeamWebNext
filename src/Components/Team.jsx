@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import ReactPaginate from 'react-paginate';
 import teamDefaultImg from '../Asset/Images/teamDefaultImg.png';
 import Image from 'next/image';
 
+
 const Team = () => {
     const [currentPage, setCurrentPage] = useState(0); // Start from the first page
+
 
     const teamData = [
         {

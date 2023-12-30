@@ -3182,6 +3182,9 @@ footer .footerContainer .flinks {
     background-color: #283042;
     margin-top: 20px;
 }
+.homeCommon_btn:hover:after {
+    transform: skewY(-89.5deg) scale(1, 2000);
+}
 
 #blogDetails .bottomDiv .homeCommon_btn::after,
 #contactForm .homeCommon_btn::after,
@@ -3822,9 +3825,27 @@ footer .footerContainer .flinks {
     margin-bottom: 5px;
 }
 
+#applyNow .formDiv label .supportedImgSpan {
+    color: #545A6880;
+    margin-top: 6px;
+    display: block;
+    margin-bottom: 10px;
+}
+
 #applyNow .item .item-content {
     padding: 30px 0px;
+    position: relative;
 }
+
+#applyNow .item .item-content .removeFileBtn{
+    position: absolute;
+    right: 2px;
+    top: 24px;
+    z-index: 99;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
 #applyNow .image-upload {
     width: 100%;
@@ -3865,7 +3886,7 @@ footer .footerContainer .flinks {
 
 #applyNow .image-upload img {
     height: 100% !important;
-    width: auto !important;
+    width: 100% !important;
     border-radius: 0px;
     margin: 0 auto;
 }

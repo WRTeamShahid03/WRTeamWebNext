@@ -24,29 +24,11 @@ import { BsStarHalf } from 'react-icons/bs';
 import { RiShoppingCartFill } from 'react-icons/ri';
 import Link from 'next/link';
 import Image from 'next/image';
-import { GetProductsApi } from '@/redux/actions/campaign';
 import { toast } from 'react-hot-toast';
-import { error } from 'jquery';
 
 
 
 const WebProducts = () => {
-
-    // const [productsData, setProductsData] = useState([])
-
-    useEffect(() => {
-
-        GetProductsApi(
-            (response) => {
-                console.log(response.data.data, "ProductsResponse")
-            },
-            (error)=>{
-                console.log(error)
-            }
-
-        )
-
-    }, [])
 
     const [sortOption, setSortOption] = useState('mostpopular');
 
@@ -295,7 +277,6 @@ const WebProducts = () => {
                                                                     <span>{e.price}</span> :
                                                                     <span style={{ textDecorationLine: 'line-through' }}>{e.price}</span>
                                                             }
-                                                            {/* <span>{e.price}</span> */}
                                                             <span>{e.salePrice}</span>
                                                         </div>
                                                     </span>

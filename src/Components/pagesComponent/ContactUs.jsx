@@ -20,6 +20,8 @@ import { GrLocation } from "react-icons/gr";
 import { FiMail } from "react-icons/fi";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import whatsappQR from '../../Asset/Images/whatsappQR.png'
+import { contactUsApi } from '@/redux/actions/campaign';
+
 
 const ContactUs = () => {
 
@@ -36,24 +38,55 @@ const ContactUs = () => {
         setNumber(limitedNumber);
     }
 
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     if (!name || !number || !email || !subject || !message) {
+    //         toast.error('Fill out the form first')
+    //     }
+    //     else {
+    //         emailjs.sendForm('service_f0zhqhh', 'template_zxke4jz', form.current, 'RITTN3aEr8VNyLQdN')
+    //             .then((result) => {
+    //                 console.log(result.text);
+    //             }, (error) => {
+    //                 console.log(error.text);
+    //             });
+    //         toast.success('Submited Successfully !')
+    //         setEmail('')
+    //         setMessage('')
+    //         setName('')
+    //         setSubject('')
+    //         setNumber('')
+    //     }
+
+    // };
+
     const sendEmail = (e) => {
         e.preventDefault();
         if (!name || !number || !email || !subject || !message) {
             toast.error('Fill out the form first')
         }
         else {
-            emailjs.sendForm('service_f0zhqhh', 'template_zxke4jz', form.current, 'RITTN3aEr8VNyLQdN')
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });
-            toast.success('Submited Successfully !')
-            setEmail('')
-            setMessage('')
-            setName('')
-            setSubject('')
-            setNumber('')
+            contactUsApi({
+                name: name,
+                email: email,
+                subject: subject,
+                phone: number,
+                message: message,
+                onSuccess: (res) => {
+                    // console.log(res)
+                    toast.success(res.message)
+                    setName('')
+                    setNumber('')
+                    setEmail('')
+                    setSubject('')
+                    setMessage('')
+                },
+                onError: (error) => {
+                    console.log(error)
+                }
+            }
+
+            )           
         }
 
     };

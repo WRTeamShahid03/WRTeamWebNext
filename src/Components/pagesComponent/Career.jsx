@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { use, useEffect, useRef, useState } from 'react'
 import Breadcrum from '@/Components/Breadcrum'
 import trianglePattern from '../../Asset/Icons/Triangle Pattern.png'
 import dotsPattern from '../../Asset/Icons/Dots Pattern.png'
@@ -12,6 +12,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { careerMailApi } from '@/redux/actions/campaign'
+import { IoIosCloseCircle } from "react-icons/io";
+// import { Viewer } from '@react-pdf-viewer/core'
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import { pdfjs } from 'react-pdf';
+
 
 
 const Career = () => {
@@ -25,15 +31,21 @@ const Career = () => {
     const [applyFor, setApplyFor] = useState('')
     const [fileDataUrl, setFileDataUrl] = useState(null);
     const form = useRef();
+    const [pdfFileUrl, setPdfFileUrl] = useState(null)
+    const [inputKey, setInputKey] = useState(Date.now()); 
+
+
 
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
+        const pdfFile = event.target.files;
+        pdfFile.length > 0 && setPdfFileUrl(URL.createObjectURL(pdfFile[0]));
 
         // Check if a file is selected
         if (file) {
             const reader = new FileReader();
-
+            // console.log(file)
             reader.onloadend = () => {
                 // After reading the file, set it in the state
                 setSelectedFile(file);
@@ -45,7 +57,7 @@ const Career = () => {
         } else {
             // No file selected, reset the state
             setSelectedFile(null);
-            setFileDataUrl(null);
+            setFileDataUrl('');
         }
     };
 
@@ -102,34 +114,53 @@ const Career = () => {
         setNumber(limitedNumber);
     }
 
-
-
     const sendEmail = (e) => {
         e.preventDefault();
         if (number.length > 16) {
             toast.error('Enter a valid number')
         }
-        if (!name || !number || !email || !qualification || !applyFor || !experience) {
+        if (!name || !number || !email || !qualification || !applyFor || !experience || !selectedFile) {
             toast.error('Fill out the form first')
         }
         else {
-            emailjs.sendForm('service_f0zhqhh', 'template_4gxxd1i', form.current, 'RITTN3aEr8VNyLQdN')
-                .then((result) => {
-                    console.log(result.text);
-                }, (error) => {
-                    console.log(error.text);
-                });
-            toast.success('Submited Successfully !')
-            setName('')
-            setEmail('')
-            setNumber('')
-            setExperience('')
-            setQualification('')
-            setApplyFor('')
-            setFileDataUrl('')
+            // console.log(selectedFile, 'selectedFile')
+            careerMailApi({
+                full_name: name,
+                email: email,
+                qualification: qualification,
+                contact: number,
+                apply_for: applyFor,
+                experience: experience,
+                file: selectedFile,
+                onSuccess: (res) => {
+                    // console.log(res)
+                    toast.success(res.message)
+                    setName('')
+                    setEmail('')
+                    setNumber('')
+                    setExperience('')
+                    setQualification('')
+                    setApplyFor('')
+                    handleFileRemove()
+                },
+                onError: (error) => {
+                    console.log(error)
+                }
+            })
+
         }
 
     };
+
+    const handleFileRemove = () => {
+        setSelectedFile(null);
+        setFileDataUrl(null);
+        setPdfFileUrl(null)
+        setInputKey(Date.now()); 
+        // console.log(selectedFile.type)
+    }
+
+
     return (
         <div className='careerPage'>
             <Head>
@@ -172,7 +203,7 @@ const Career = () => {
                                 <div className="workList">
                                     {
                                         workListData.map((e) => {
-                                            return <div className="list" key={e.id} data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
+                                            return <div className="list" key={e.id} data-aos="fade-left" data-aos-once="true" data-aos-duration="800">
                                                 <span>{e.srn}</span>
                                                 <span>{e.text}</span>
                                             </div>
@@ -187,13 +218,13 @@ const Career = () => {
                         <div className="col-sm-12 col-md-12 col-lg-6">
                             <div className="wrTeamRightDiv" >
 
-                                <div className="rightDivImg" data-aos="fade-down-left"  data-aos-once="true" data-aos-duration="800">
+                                <div className="rightDivImg" data-aos="fade-down-left" data-aos-once="true" data-aos-duration="800">
 
                                     <Image height={0} width={0} loading="lazy" src={ourValues} alt="" />
 
                                 </div>
 
-                                <div data-aos="fade-left"  data-aos-once="true" data-aos-duration="800">
+                                <div data-aos="fade-left" data-aos-once="true" data-aos-duration="800">
 
                                     <Image height={0} width={0} loading="lazy" src={trianglePattern} alt="trianglePattern" className='trianglePattern2' />
                                 </div>
@@ -218,7 +249,7 @@ const Career = () => {
                             {
                                 jobCardData.map((e) => {
                                     return <div className="col-sm-12 col-md-6 col-lg-4" key={e.id}>
-                                        <div className="card" data-aos="fade-up"  data-aos-once="true" data-aos-duration="800">
+                                        <div className="card" data-aos="fade-up" data-aos-once="true" data-aos-duration="800">
                                             <div className="cardBody">
                                                 <span className='card-title'>{e.title}</span>
                                                 <span className='card-text'>{e.text}</span>
@@ -271,7 +302,7 @@ const Career = () => {
                                                     name: 'contact_number',
                                                     placeholder: 'Enter Your Phone Number',
                                                     className: 'form-control reactPhoneInput'
-                                                }}/>
+                                                }} />
                                         </div>
 
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
@@ -296,14 +327,28 @@ const Career = () => {
                                             </select>
                                         </div>
                                         <div className="item-wrapper one col-sm-12 col-md-12 col-lg-12">
-                                            {/* <div className="item">
+                                            <div className="item">
                                                 {selectedFile ? <p className='fileName'>Uploaded File: {selectedFile.name}</p> : <p className='fileName'>Upload File</p>}
                                                 <div className="item-inner">
                                                     <div className="item-content">
+                                                        {
+                                                            selectedFile !== null ? <span className='removeFileBtn' onClick={handleFileRemove}><IoIosCloseCircle /></span> : ''
+                                                        }
+
                                                         <div className="image-upload">
                                                             {selectedFile ? (
                                                                 <div className="img-uploaded">
-                                                                    <Image height={0} width={0} loading="lazy"  src={fileDataUrl} alt="" />
+                                                                    {
+                                                                        selectedFile.type === "application/pdf"
+                                                                            ? <>
+                                                                                <Worker workerUrl={`https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`}>
+                                                                                    <Viewer fileUrl={pdfFileUrl} />
+                                                                                </Worker>
+                                                                            </>
+                                                                            :
+                                                                            <Image height={0} width={0} loading="lazy" src={fileDataUrl} alt="" />
+                                                                    }
+
                                                                 </div>
                                                             ) : (
                                                                 <label style={{ cursor: "pointer" }} htmlFor="file_upload">
@@ -312,6 +357,7 @@ const Career = () => {
                                                                             <div className="dplay-tbl-cell">
                                                                                 <FiUploadCloud size={30} color='#545A6880' />
                                                                                 <h6 className="mt-10 mb-70 filePlaceholder">Choose A File Or Drag It Here.</h6>
+                                                                                <span className='supportedImgSpan'>(Only PNG , JPG and PDF Files are supported)</span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -319,18 +365,23 @@ const Career = () => {
                                                             )}
 
                                                             <input
+                                                                key={inputKey} // Add this line
                                                                 data-required="image"
                                                                 type="file"
+                                                                accept='image/*,.pdf,.doc,.docx,jpg,png'
                                                                 name="file_uploaded"
                                                                 id="file_upload"
                                                                 className="image-input"
                                                                 onChange={handleFileChange}
                                                             />
+
                                                         </div>
+
                                                     </div>
+
                                                 </div>
 
-                                            </div> */}
+                                            </div>
                                             <button type='submit' className='homeCommon_btn'>Submit</button>
                                         </div>
 

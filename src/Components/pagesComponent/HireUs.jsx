@@ -110,7 +110,13 @@ const HireUs = () => {
                 phone: number,
                 message: message,
                 onSuccess: (res) => {
-                    console.log(res)
+                    // console.log(res)
+                    toast.success(res.message)
+                    setName('')
+                    setNumber('')
+                    setEmail('')
+                    setBudget('')
+                    setMessage('')
                 },
                 onError: (error) => {
                     console.log(error)
@@ -118,12 +124,7 @@ const HireUs = () => {
             }
 
             )
-            toast.success('Submited Successfully !')
-            setName('')
-            setNumber('')
-            setEmail('')
-            setBudget('')
-            setMessage('')
+
         }
 
     };
