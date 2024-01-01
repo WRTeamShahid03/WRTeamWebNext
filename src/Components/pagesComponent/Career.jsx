@@ -34,9 +34,6 @@ const Career = () => {
     const [pdfFileUrl, setPdfFileUrl] = useState(null)
     const [inputKey, setInputKey] = useState(Date.now()); 
 
-
-
-
     const handleFileChange = (event) => {
         const file = event.target.files[0];
         const pdfFile = event.target.files;
@@ -103,9 +100,22 @@ const Career = () => {
         {
             id: 0,
             title: 'Flutter Developer',
-            text: 'Experience: Freshers , 1+ years',
+            text: 'Experience: Freshers , 1+ Years',
             link: '#applyNow'
         },
+        {
+            id: 1,
+            title: 'Laravel Developer',
+            text: 'Experience: 1+ Years',
+            link: '#applyNow'
+        },
+        {
+            id: 2,
+            title: 'SEO Expert',
+            text: 'Experience: 1+ Years',
+            link: '#applyNow'
+        },
+        
     ]
 
     const handleNumber = (e) => {
@@ -315,6 +325,8 @@ const Career = () => {
                                             <select className="form-select form-select-md mb-3" name='apply_for' aria-label=".form-select-lg example" onChange={(e) => setApplyFor(e.target.value)} value={applyFor} >
                                                 <option defaultValue>Select Apply For</option>
                                                 <option value="Flutter Developer">Flutter Developer</option>
+                                                <option value="Laravel Developer">Laravel Developer</option>
+                                                <option value="SEO Expert">SEO Expert</option>
                                             </select>
                                         </div>
                                         <div className="col-sm-12 col-md-6 col-lg-6 mt-4">
@@ -332,7 +344,7 @@ const Career = () => {
                                                 <div className="item-inner">
                                                     <div className="item-content">
                                                         {
-                                                            selectedFile !== null ? <span className='removeFileBtn' onClick={handleFileRemove}><IoIosCloseCircle /></span> : ''
+                                                            selectedFile !== null ? <span className='removeFileBtn' onClick={handleFileRemove}> Remove Selected File <IoIosCloseCircle /></span> : ''
                                                         }
 
                                                         <div className="image-upload">

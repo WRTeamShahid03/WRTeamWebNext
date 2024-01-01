@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps, data }) {
           ></script>
         </Head>
 
-        <TopHeader />
+        {/* <TopHeader /> */}
         <Header />
 
         <Component {...pageProps} data={data} />

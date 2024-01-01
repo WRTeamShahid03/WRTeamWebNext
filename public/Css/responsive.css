@@ -313,6 +313,11 @@
         margin-top: 66px;
     }
 
+    .common_span{
+        display: inline-block;
+        margin-top: 4px;
+    }
+
     #aboutUs .aboutWrapper .aboutRightDiv {
         padding-right: 90px;
         /* margin-left: 100px; */
