@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
 
@@ -12,13 +13,13 @@ const Breadcrum = ({ title, blueText, contentOne, contentTwo, contentThree }) =>
                 <span className='line5'></span>
             </div>
             <div className="container breadcrumContent">
-                <h1 
+                <h1
                 // data-aos="fade-down"  data-aos-once="true" data-aos-duration="800"
                 >{title} <span>{blueText}</span></h1>
                 <div className='pageName'
                 //  data-aos="fade-left"  data-aos-once="true" data-aos-duration="800"
-                 >
-                    <span>{contentOne} </span>
+                >
+                    <Link href={'/'}><span>{contentOne} </span></Link>
                     <span> <AiOutlineDoubleRight size={20} /> </span>
                     <span>{contentTwo}</span>
                     {

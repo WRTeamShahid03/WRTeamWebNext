@@ -130,7 +130,7 @@ const WebProducts = () => {
             rating: '(4.6)',
             title: 'eRestro Multi Restaurant Web - Online Multi-Vendor & Restaurant...',
             text: 'React JS',
-            price: '$59',
+            price: '$19',
             salePrice: '',
             link: 'https://1.envato.market/0ZB6XE',
             popularity: '10'

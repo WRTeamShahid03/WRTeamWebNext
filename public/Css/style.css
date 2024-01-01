@@ -1585,8 +1585,6 @@ img {
 
 
 
-
-
 /* Header css  */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&display=swap');
@@ -1599,6 +1597,7 @@ img {
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     position: relative;
+    z-index: 99;
 }
 
 .sticky {
@@ -2215,7 +2214,7 @@ footer .footerContainer .flinks {
     background-color: #2E71FE14;
     height: 270px;
     margin-top: -95px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .breadcrum .breadcrumContent {
@@ -2235,6 +2234,10 @@ footer .footerContainer .flinks {
 
 .breadcrum .pageName {
     font: normal normal 200 18px/64px Montserrat;
+    color: #2D3745;
+}
+
+.breadcrum .pageName a{
     color: #2D3745;
 }
 
