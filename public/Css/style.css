@@ -4908,7 +4908,7 @@ footer .footerContainer .flinks {
 
 @media only screen and (min-width: 1400px) and (max-width: 1850px) {
     .envantoTextWrapper span {
-        right: 20px;
+        right: 28px;
     }
 }
 
@@ -4927,7 +4927,7 @@ footer .footerContainer .flinks {
     .envantoTextWrapper span {
         font-size: 260px;
         bottom: 172px;
-        right: -2px;
+        right: 10px;
     }
 }
 
@@ -4939,7 +4939,7 @@ footer .footerContainer .flinks {
     .envantoTextWrapper span {
         font-size: 216px;
         bottom: 92px;
-        right: -10px;
+        right: 0px;
     }
 
     .envantoSect .enavantoImgWrapper img {
@@ -4990,7 +4990,7 @@ footer .footerContainer .flinks {
     .envantoTextWrapper span {
         font-size: 80px;
         bottom: 34px;
-        right: -16px;
+        right: -8px;
     }
 
     .envantoSect .enavantoImgWrapper img {
