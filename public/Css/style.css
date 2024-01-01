@@ -4889,12 +4889,12 @@ footer .footerContainer .flinks {
 }
 
 .envantoTextWrapper span {
-    font-family: Poppins;
+    font-family: Montserrat;
     font-size: 316px;
     font-weight: 900;
     position: relative;
     bottom: 210px;
-    right: -20px;
+    right: 0px;
     z-index: 0;
     color: #699C28;
 }
