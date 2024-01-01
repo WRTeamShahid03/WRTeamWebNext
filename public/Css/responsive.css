@@ -4524,7 +4524,8 @@
     #workChain .workUpperDiv .workHealines,
     #tech .techWrapper .techContent h4,
     #testimonials .testiUpperDiv .testiHeadline,
-    .comman_Headlines {
+    .comman_Headlines ,
+    .envantoSect .comman_Headlines {
         font: normal normal 800 26px/40px Montserrat;
     }
 

@@ -4062,7 +4062,7 @@ footer .footerContainer .flinks {
 }
 
 .webPro .cardsWrapper .card .cardFooter .productPriceWrapper span:first-child {
-    font: normal normal bold 24px/29px Montserrat;
+    font: normal normal bold 26px/29px Montserrat;
     color: #22A869;
     /* text-decoration: line-through; */
 }
@@ -4914,7 +4914,7 @@ footer .footerContainer .flinks {
 
 @media only screen and (max-width: 1399px) {
     .envantoProfile {
-        margin-top: 0px;
+        margin-top: -60px;
         margin-bottom: 50px;
     }
 }
